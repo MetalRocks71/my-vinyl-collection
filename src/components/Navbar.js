@@ -1,27 +1,29 @@
+
 import logo from '../images/logo.svg'
 import { pageLinks, socialLinks } from '../data'
 
 const Navbar = () => {
   return (
-     <nav className="navbar">
+    <nav className="navbar">
       <div className="nav-center">
         <div className="nav-header">
-          <img src={logo} className="nav-logo" alt="backroads" />
+          <img src={logo} className="nav-logo" alt="LOGO HERE" />
           <button type="button" className="nav-toggle" id="nav-toggle">
             <i className="fas fa-bars"></i>
           </button>
         </div>
-   {/* new code starts here */}
+        {/* new code starts here */}
         <ul className="nav-links" id="nav-links">
-            {pageLinks.map((link) => {
-              return (
-                <il key={link.id} className="nav-links" id="nav-links">
-                  <a href={link.href} className="nav-link">
-                    {link.text}
-                  </a>
-                </il>
-              )
-            })},
+          {pageLinks.map((link) => {
+            return (
+              <li key={link.id} className="nav-links" id="nav-links">
+                <a href={link.href} className="nav-link">
+                  {link.text}
+                </a>
+              </li>
+            )
+          })}
+          ,
         </ul>
 
         <ul className="nav-icons">
@@ -37,8 +39,8 @@ const Navbar = () => {
                   <i className={icon}></i>
                 </a>
               </li>
-            ) })
-          }
+            )
+          })}
         </ul>
       </div>
     </nav>
