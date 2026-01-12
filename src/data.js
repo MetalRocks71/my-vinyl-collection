@@ -1,15 +1,13 @@
 import tour1 from './images/tour-1.jpeg'
 import tour2 from './images/tour-2.jpeg'
 import tour3 from './images/tour-3.jpeg'
-import tour4 from './images/tour-4.jpeg'  
+import tour4 from './images/tour-4.jpeg'
 
 export const pageLinks = [
   { id: 1, href: '#home', text: 'home' },
-  { id: 2, href: '#about', text: 'about' },
-  { id: 3, href: '#services', text: 'services' },
+  { id: 2, href: '#about', text: 'about the music' },
+  { id: 3, href: '#services', text: 'Top 10 Albums' },
   { id: 4, href: '#tours', text: 'tours' },
-  { id: 5, href: '#featured', text: 'featured' },
-
 ]
 export const socialLinks = [
   { id: 1, href: 'https://www.facebook.com', icon: 'fab fa-facebook' },
@@ -21,19 +19,19 @@ export const services = [
   {
     id: 1,
     icon: 'fas fa-wallet fa-fw',
-    title: 'saving money',
+    title: 'Album#1',
     text: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores, officia.',
   },
   {
     id: 2,
-    icon: 'fas fa-tree fa-fw',    
-    title: 'endless hiking',
+    icon: 'fas fa-tree fa-fw',
+    title: 'Album#2',
     text: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores, officia.',
   },
   {
     id: 3,
     icon: 'fas fa-socks fa-fw',
-    title: 'amazing comfort',
+    title: 'Album#3',
     text: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores, officia.',
   },
 ]
