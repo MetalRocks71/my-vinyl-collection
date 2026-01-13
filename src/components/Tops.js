@@ -1,12 +1,12 @@
 import Title from './Title'
-import { services } from '../data'
-const Services = () => {
+import { top } from '../data'
+const Tops = () => {
   return (
-    <section className="section services" id="services">
+    <section className="section services" id="top">
       <Title title="Top" subtitle="10 Albums" />
       <div className="section-center services-center">
-        {services.map((service) => {
-          const { id, icon, title, text } = service
+        {top.map((top) => {
+          const { id, icon, title, text } = top
           return (
             <article className="service" key={id}>
               <span className="service-icon">
@@ -24,4 +24,4 @@ const Services = () => {
   )
 }
 
-export default Services
+export default Tops

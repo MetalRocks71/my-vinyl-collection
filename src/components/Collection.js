@@ -1,15 +1,15 @@
 import Title from './Title'
-import { tours } from '../data'
+import { collection } from '../data'
 
-const Tours = () => {
+const Collection = () => {
   return (
-    <section className="section" id="tours">
+    <section className="section" id="collection">
       <Title title="The " subtitle="Collection" />
 
       <div className="section-center featured-center">
-        {tours.map((tour) => {
+        {collection.map((collection) => {
           const { id, image, title, date, info, location, duration, cost } =
-            tour
+            collection
           return (
             <article className="tour-card" key={id}>
               <div className="tour-img-container">
@@ -39,4 +39,4 @@ const Tours = () => {
     </section>
   )
 }
-export default Tours
+export default Collection

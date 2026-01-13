@@ -6,8 +6,8 @@ import tour4 from './images/tour-4.jpeg'
 export const pageLinks = [
   { id: 1, href: '#home', text: 'home' },
   { id: 2, href: '#about', text: 'about the music' },
-  { id: 3, href: '#services', text: 'Top 10 Albums' },
-  { id: 4, href: '#tours', text: 'tours' },
+  { id: 3, href: '#top', text: 'Top 10 Albums' },
+  { id: 4, href: '#collection', text: 'The collection' },
 ]
 export const socialLinks = [
   { id: 1, href: 'https://www.facebook.com', icon: 'fab fa-facebook' },
@@ -15,7 +15,7 @@ export const socialLinks = [
   { id: 3, href: 'https://www.squarespace.com', icon: 'fab fa-squarespace' },
 ]
 
-export const services = [
+export const top = [
   {
     id: 1,
     icon: 'fas fa-wallet fa-fw',
@@ -36,7 +36,7 @@ export const services = [
   },
 ]
 
-export const tours = [
+export const collection = [
   {
     id: 1,
     image: tour1,
