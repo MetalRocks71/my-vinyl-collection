@@ -4,15 +4,16 @@ const Hero = () => {
       <div className="hero-banner">
         <h1>My Vinyls Collection</h1>
         <p>
-          Discover a curated selection of vinyl records spanning various genres and
-          eras. Whether you're a seasoned collector or just starting out, this
-          collection offers something for every music enthusiast.
+          This is more than just a collection—it's years of crate-digging,
+          late-night listening sessions, and the thrill of finding that perfect
+          pressing. I've curated these vinyl records from across genres and eras
+          because each one moved me in some way.
         </p>
         <a href="#tours" className="btn hero-btn">
           Explore The Collection
         </a>
       </div>
     </section>
-  );
+  )
 };
 export default Hero;
