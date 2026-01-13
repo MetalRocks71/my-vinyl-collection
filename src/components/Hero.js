@@ -9,7 +9,7 @@ const Hero = () => {
           pressing. I've curated these vinyl records from across genres and eras
           because each one moved me in some way.
         </p>
-        <a href="#tours" className="btn hero-btn">
+        <a href="#collection" className="btn hero-btn">
           Explore The Collection
         </a>
       </div>
