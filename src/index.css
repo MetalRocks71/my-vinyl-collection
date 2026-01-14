@@ -261,17 +261,17 @@ About
 }
 /*
 =============== 
-Services
+tops
 ===============
 */
-.services {
+.tops {
   background: var(--clr-grey-10);
 }
-.service {
+.top {
   text-align: center;
   margin-bottom: 3rem;
 }
-.service-icon {
+.top-icon {
   background: var(--clr-primary-5);
   color: var(--clr-primary-1);
   padding: 0.5rem;
@@ -279,67 +279,67 @@ Services
   font-size: 2rem;
   margin-bottom: 1.5rem;
 }
-.service-text {
+.top-text {
   max-width: 20rem;
   margin-left: auto;
   margin-right: auto;
 }
 
 @media screen and (min-width: 576px) {
-  .services-center {
+  .tops-center {
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 2rem;
   }
-  .service {
+  .top {
     margin-bottom: 0rem;
   }
 }
 @media screen and (min-width: 992px) {
-  .services-center {
+  .tops-center {
     grid-template-columns: 1fr 1fr 1fr;
   }
 }
 @media screen and (min-width: 1170px) {
-  .service {
+  .top {
     display: flex;
     text-align: left;
   }
-  .service-icon {
+  .top-icon {
     align-self: start;
   }
-  .service-info {
+  .top-info {
     padding-left: 1rem;
   }
-  .service-title {
+  .top-title {
     margin-bottom: 0.5rem;
   }
 }
 
 /*
 =============== 
-Featured Tours
+Featured collections
 ===============
 */
 
-.tour-card {
+.collection-card {
   transition: var(--transition);
   background: var(--clr-grey-10);
   box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
   margin-bottom: 2rem;
 }
-.tour-card:hover {
+.collection-card:hover {
   box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
   transform: scale(1.02);
 }
-.tour-img-container {
+.collection-img-container {
   position: relative;
 }
-.tour-img {
+.collection-img {
   height: 15rem;
   object-fit: cover;
 }
-.tour-date {
+.collection-date {
   position: absolute;
   right: 0;
   bottom: 0;
@@ -349,40 +349,40 @@ Featured Tours
   padding: 0.25rem 0.5rem;
   margin-bottom: 0;
 }
-.tour-info {
+.collection-info {
   padding: 1.25rem 1.5rem;
 }
 /* additional css for different layout*/
-.tour-title {
+.collection-title {
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
 }
-.tour-title p,
-.tour-title h4 {
+.collection-title p,
+.collection-title h4 {
   margin-bottom: 0.75rem;
   line-height: 1.25;
 }
-.tour-title p {
+.collection-title p {
   color: var(--clr-grey-7);
 }
 /* end of additional css for different layout*/
-.tour-footer {
+.collection-footer {
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
   align-items: center;
 }
-.tour-footer p {
+.collection-footer p {
   line-height: 0;
   margin-bottom: 0;
   text-transform: capitalize;
   color: var(--clr-primary-5);
 }
-.tour-footer p span {
+.collection-footer p span {
   margin-right: 0.25rem;
 }
-.tour-btn {
+.collection-btn {
   text-align: center;
 }
 @media screen and (min-width: 768px) {

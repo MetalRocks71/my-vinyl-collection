@@ -11,17 +11,17 @@ const Collection = () => {
           const { id, image, title, date, info, location, duration, cost } =
             collection
           return (
-            <article className="tour-card" key={id}>
-              <div className="tour-img-container">
-                <img src={image} className="tour-img" alt="" />
-                <p className="tour-date">{date}</p>
+            <article className="collection-card" key={id}>
+              <div className="collection-img-container">
+                <img src={image} className="collection-img" alt="" />
+                <p className="collection-date">{date}</p>
               </div>
-              <div className="tour-info">
-                <div className="tour-title">
+              <div className="collection-info">
+                <div className="collection-title">
                   <h4>{title}</h4>
                 </div>
                 <p>{info}</p>
-                <div className="tour-footer">
+                <div className="collection-footer">
                   <p>
                     <span>
                       <i className="fas fa-map"></i>

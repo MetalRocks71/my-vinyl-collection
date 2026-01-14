@@ -42,9 +42,6 @@ const About = () => {
             rebellious spirit resonates deeply with me. It's music that refuses
             to compromise, and that's exactly why I love it so much.
           </p>
-          <a href="#about the music" className="btn">
-            read more
-          </a>
         </article>
       </div>
     </section>
