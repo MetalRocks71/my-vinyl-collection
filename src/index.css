@@ -561,3 +561,22 @@ Navbar
   }
 }
 
+/*
+=============== 
+category button
+===============
+*/
+.category-btn {
+  margin: 2rem auto;
+  margin-bottom: 1.5rem;
+  display: block;
+  padding: 0.75rem 2rem;
+  font-size: 1rem;
+  cursor: pointer;
+  background: var(--clr-primary-5);
+  color: var(--clr-white);
+  border: none;
+  text-transform: uppercase;
+  letter-spacing: var(--spacing);
+  transition: var(--transition);
+}
