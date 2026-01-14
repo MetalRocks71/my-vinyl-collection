@@ -8,7 +8,7 @@ const Collection = () => {
 
       <div className="section-center featured-center">
         {collection.map((collection) => {
-          const { id, image, title, date, info, location, duration, cost } =
+          const { id, image, title, date, info, band, length, genre } =
             collection
           return (
             <article className="collection-card" key={id}>
@@ -26,10 +26,10 @@ const Collection = () => {
                     <span>
                       <i className="fas fa-map"></i>
                     </span>{' '}
-                    {location}
+                    {band}
                   </p>
-                  <p> {duration}</p>
-                  <p>{cost}</p>
+                  <p> {length}</p>
+                  <p>{genre}</p>
                 </div>
               </div>
             </article>
