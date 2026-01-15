@@ -6,6 +6,8 @@ import Footer from './components/Footer'
 import Collection from './components/Collection'
 import Collectionrock from './components/Collectionrock'
 
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" />
+
 function App() {
   return (
     <>
