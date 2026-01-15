@@ -301,9 +301,13 @@ tops
   }
 }
 @media screen and (min-width: 1170px) {
+  .tops-center {
+    grid-template-columns: repeat(5, 1fr);
+  }
   .top {
     display: flex;
     text-align: left;
+    flex-direction: column;
   }
   .top-icon {
     align-self: start;
@@ -394,7 +398,7 @@ Featured collections
 }
 @media screen and (min-width: 1170px) {
   .featured-center {
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: repeat(5, 1fr)
   }
 }
 
