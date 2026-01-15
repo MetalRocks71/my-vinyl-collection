@@ -621,12 +621,12 @@ Navbar
 
   /* show links */
   .nav-links {
-    height: auto;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
-    margin-top: 1.5rem;
+   height: auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+ margin-top: 1.5rem;
   }
 
   .nav-center {
@@ -681,12 +681,13 @@ Navbar
 
   /* show links */
   .nav-links {
-    height: auto;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
-    margin-top: 1.5rem;
+  height: auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  margin-top: 2.33rem;
+
   }
 
   .nav-center {
