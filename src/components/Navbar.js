@@ -1,16 +1,23 @@
 import { pageLinks, socialLinks } from '../data'
+import { useState } from 'react'
 
 const Navbar = () => {
+  const [showLinks, setShowLinks] = useState(false)
   return (
     <nav className="navbar">
       <div className="nav-center">
         <div className="nav-header">
-          <button type="button" className="nav-toggle" id="nav-toggle">
+          <button
+            type="button"
+            className="nav-toggle"
+            id="nav-toggle"
+            onClick={() => setShowLinks(!showLinks)}>
             <i className="fas fa-bars"></i>
           </button>
         </div>
         {/* new code starts here */}
         <ul className="nav-links" id="nav-links">
+          <ul className={showLinks ? 'nav-links show-links' : 'nav-links'}></ul>
           {pageLinks.map((link) => {
             return (
               <li key={link.id} className="nav-links" id="nav-links">
@@ -20,7 +27,6 @@ const Navbar = () => {
               </li>
             )
           })}
-          
         </ul>
 
         <ul className="nav-icons">
