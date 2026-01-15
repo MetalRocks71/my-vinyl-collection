@@ -9,9 +9,6 @@ const Tops = () => {
   return (
     <section className="section tops" id="top">
       <Title title="Top" subtitle="10 Albums" />
-      <button className="category-btn" onClick={() => setShowAll(!showAll)}>
-        {showAll ? 'Show Less' : 'Show More'}
-      </button>
       <div className="section-center tops-center">
         {displayedTops.map((top) => {
           const { id, icon, title, text, image } = top
@@ -29,6 +26,9 @@ const Tops = () => {
           )
         })}
       </div>
+      <button className="category-btn" onClick={() => setShowAll(!showAll)}>
+        {showAll ? 'Show Less' : 'Show More'}
+      </button>
     </section>
   )
 }
