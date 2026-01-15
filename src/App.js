@@ -4,6 +4,7 @@ import About from './components/About'
 import Tops from './components/Tops'
 import Footer from './components/Footer'
 import Collection from './components/Collection'
+import Collectionrock from './components/Collectionrock'
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
       <About />
       <Tops />
       <Collection />
+      <Collectionrock />
       <Footer />
     </>
   )
