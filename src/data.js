@@ -1,6 +1,4 @@
 
-
-
 import powerslave from './images/powerslave.jpg'
 export const pageLinks = [
   { id: 1, href: '#home', text: 'home' },
@@ -104,7 +102,7 @@ export const collection = [
     title: 'powerslave',
     date: 'July 23rd, 1984',
     info: 'Powerslave is the fifth studio album by the English heavy metal band Iron Maiden, released on 3 September 1984 through EMI Records in Europe, and on 14 September 1984, through its sister label Capitol Records, in the US.',
-    band: 'Iron Maiden',
+    band: 'ACDC',
     Lenght: '51:12',
     genre: 'Heavy Metal',
   },
@@ -157,9 +155,9 @@ export const collectionrock = [
     title: 'powerslave',
     date: 'July 23rd, 1984',
     info: 'Powerslave is the fifth studio album by the English heavy metal band Iron Maiden, released on 3 September 1984 through EMI Records in Europe, and on 14 September 1984, through its sister label Capitol Records, in the US.',
-    band: 'Iron Maiden',
+    band: 'ACDC',
     Lenght: '51:12',
-    genre: 'Heavy Metal',
+    genre: 'Rock',
   },
   {
     id: 3,

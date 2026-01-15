@@ -7,7 +7,10 @@ const Collectionrock = () => {
   const toggle = () => {
     setOpen(!open)
   }
-
+  // Sort collection alphabetically by band name
+  const sortedCollection = [...collectionrock].sort((a, b) =>
+    a.band.localeCompare(b.band)
+  )
   return (
     <section className="section" id="collectionrock">
       <div>
@@ -17,7 +20,7 @@ const Collectionrock = () => {
         {open && (
           <div>
             <div className="section-center featured-center">
-              {collectionrock.map((collectionrock) => {
+              {sortedCollection.map((collectionrock) => {
                 const { id, image, title, date, info, band, length, genre } =
                   collectionrock
                 return (
