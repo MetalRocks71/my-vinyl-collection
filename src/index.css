@@ -558,12 +558,14 @@ Navbar
   width: 90vw;
   max-width: 1170px;
   margin: 0 auto;
+  padding-bottom: 1.5rem;
 }
 
 .nav-header {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  
 }
 
 .nav-toggle {
@@ -589,8 +591,6 @@ Navbar
   color: var(--clr-grey-1);
   cursor: pointer;
   font-size: 1rem;
-
-
 
 }
 
