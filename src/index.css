@@ -11,7 +11,7 @@ Variables
   --clr-primary-3: hsl(185, 81%, 29%);
   --clr-primary-4: hsl(184, 77%, 34%);
   /* primary/main color */
-  --clr-primary-5: hsl(0, 2%, 51%);
+  --clr-primary-5: hsl(0, 91%, 31%);
   /* lighter shades of primary color */
   --clr-primary-6: hsl(185, 57%, 50%);
   --clr-primary-7: hsl(184, 65%, 59%);
@@ -31,6 +31,7 @@ Variables
   --clr-grey-9: hsl(212, 33%, 89%);
   --clr-grey-10: hsl(210, 36%, 96%);
   --clr-white: #fff;
+  --clr-red-dark: hsl(360, 67%, 44%);
   --ff-primary: 'Lato', sans-serif;
   --transition: all 0.3s linear;
   --spacing: 0.25rem;
@@ -201,6 +202,8 @@ Hero
 .hero {
   min-height: 100vh;
   background: var(--clr-primary-5);
+  background: linear-gradient(rgb(44, 174, 186, 0.7), rgba(0, 0, 0, 0.7)),
+    url('./images/main.jpeg') center/cover no-repeat;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -210,6 +213,7 @@ Hero
   text-align: center;
   color: var(--clr-white);
   padding: 0 3rem;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
 .hero-banner h1 {
@@ -238,10 +242,7 @@ Hero
 }
 
 @media screen and (min-width: 768px) {
-  .hero {
-    background: linear-gradient(rgb(44, 174, 186, 0.7), rgba(0, 0, 0, 0.7)),
-      url('./images/main.jpeg') center/cover no-repeat;
-  }
+
 
   .hero-banner {
     padding: 0;
@@ -540,6 +541,7 @@ Navbar
   align-items: center;
   transition: transform 0.3s ease-in-out;
 }
+
 .navbar-visible {
   transform: translateY(0);
 }
@@ -547,6 +549,7 @@ Navbar
 .navbar-hidden {
   transform: translateY(-100%);
 }
+
 .nav-icons {
   display: none;
 }
@@ -616,14 +619,14 @@ Navbar
     display: none;
   }
 
-/* show links */
+  /* show links */
   .nav-links {
     height: auto;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
-   margin-top: 1.5rem;
+    margin-top: 1.5rem;
   }
 
   .nav-center {
@@ -667,6 +670,7 @@ Navbar
     color: var(--clr-primary-8);
   }
 }
+
 /* nav at bigger screen size */
 @media screen and (max-width: 767px) {
 
@@ -675,14 +679,14 @@ Navbar
     display: none;
   }
 
-/* show links */
+  /* show links */
   .nav-links {
     height: auto;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
-   margin-top: 1.5rem;
+    margin-top: 1.5rem;
   }
 
   .nav-center {
