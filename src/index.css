@@ -383,7 +383,7 @@ Featured collections
 
 .collection-img-container {
   position: relative;
- 
+
 }
 
 .collection-img {
@@ -403,7 +403,12 @@ Featured collections
 }
 
 .collection-info {
-  padding: 1rem 1.25rem;
+  padding: 2rem 1.25rem;
+  display: grid;
+  grid-template-rows: auto 1fr;
+  /* Title takes what it needs, footer fills rest */
+  min-height: 110px;
+  /* Adjust based on your design */
 }
 
 /* additional css for different layout*/
@@ -411,29 +416,52 @@ Featured collections
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
+  width: 100%;
 }
 
 .collection-title p,
 .collection-title h4 {
   margin-bottom: 0.75rem;
   line-height: 1.25;
+  width: 100%;
+  word-wrap: break-word;
+  overflow-wrap: break-word;
+}
+
+.collection-title {
+  margin-bottom: 0.5rem;
 }
 
 .collection-title p {
   color: var(--clr-grey-8);
-  padding: 1rem;
+  padding: 0;
+  /* No padding */
+  margin: 0;
+  /* No margin */
+}
+
+.collection-title h4 {
+  margin-bottom: 1rem;
+  /* Reduced from 0.75rem */
+  line-height: 1.25;
+  word-wrap: break-word;
+  overflow-wrap: break-word;
 }
 
 /* end of additional css for different layout*/
 .collection-footer {
   display: flex;
-  flex-direction: column; /* Stack items vertically */
-  align-items: flex-start; /* Align to the left */
+  flex-direction: column;
+  align-items: flex-start;
+  align-self: end;
+  /* Align to bottom of grid cell */
 }
 
 .collection-footer p {
-  line-height: 1.25; /* Changed from 0 for better readability */
-  margin-bottom: 0.5rem; /* Add space between band/genre and length */
+  line-height: 1.25;
+  /* Changed from 0 for better readability */
+  margin-bottom: 0.5rem;
+  /* Add space between band/genre and length */
   text-transform: capitalize;
   color: var(--clr-primary-5);
 }
@@ -443,10 +471,12 @@ Featured collections
 }
 
 .collection-length {
-  color: var(--clr-grey-6);
+  color: var(--clr-grey-1);
   text-transform: capitalize;
-  margin-bottom: 0; /* No margin on the last item */
+  margin-left: 9rem;
+  /* No margin on the last item */
 }
+
 .collection-btn {
   text-align: center;
 }
