@@ -14,7 +14,7 @@ const Footer = () => {
                   </a>
                 </il>
               )
-            })},
+            })}
          </ul>
       <ul className="footer-icons">
         <ul className="footer-icons">
