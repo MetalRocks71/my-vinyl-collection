@@ -15,7 +15,7 @@ const Collectionrock = () => {
     <section className="section" id="collectionrock">
       <div>
         <button className="category-btn" onClick={toggle}>
-          Rock
+          Rock'n Roll
         </button>
         {open && (
           <div>

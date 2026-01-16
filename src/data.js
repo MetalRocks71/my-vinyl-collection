@@ -1,5 +1,8 @@
 
 import powerslave from './images/powerslave.jpg'
+import gretavanfleet1 from './images/gretavanfleet-1.jpg'
+import gretavanfleet2 from './images/gretavanfleet-2.jpg'
+
 export const pageLinks = [
   { id: 1, href: '#home', text: 'home' },
   { id: 2, href: '#about', text: 'about the music' },
@@ -141,22 +144,22 @@ export const collection = [
 export const collectionrock = [
   {
     id: 1,
-    image: powerslave,
-    title: 'powerslave',
-    date: 'July 23rd, 1984',
-    info: 'Powerslave is the fifth studio album by the English heavy metal band Iron Maiden, released on 3 September 1984 through EMI Records in Europe, and on 14 September 1984, through its sister label Capitol Records, in the US.',
-    band: 'Iron Maiden',
-    Lenght: '51:12',
-    genre: 'Heavy Metal',
+    image: gretavanfleet1,
+    title: "The Battle at Garden's Gate special edition",
+    date: 'June 9th, 2023',
+    info: "The Battle at Garden's Gate is the second studio album by American rock band Greta Van Fleet",
+    band: 'Greta Van Fleet',
+    Lenght: '63:32',
+    genre: 'Rock',
   },
   {
     id: 2,
-    image: powerslave,
-    title: 'powerslave',
-    date: 'July 23rd, 1984',
-    info: 'Powerslave is the fifth studio album by the English heavy metal band Iron Maiden, released on 3 September 1984 through EMI Records in Europe, and on 14 September 1984, through its sister label Capitol Records, in the US.',
-    band: 'ACDC',
-    Lenght: '51:12',
+    image: gretavanfleet2,
+    title: 'From the Fires',
+    date: 'November 10, 2017',
+    info: 'From the Fires is the second EP by American rock band Greta Van Fleet.It was released on November 10, 2017 through Lava and Republic Records. From the Fires won the Grammy Award for Best Rock Album at the 61st Grammy Awards.',
+    band: 'Greta Van Fleet',
+    Lenght: '32:11',
     genre: 'Rock',
   },
   {
