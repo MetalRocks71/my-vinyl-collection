@@ -494,6 +494,17 @@ Collections
     grid-template-columns: repeat(5, 1fr)
   }
 }
+@media screen and (min-width: 768px) {
+  .collection-footer {
+    align-items: center;
+  }
+  
+  .collection-footer p,
+  .collection-length {
+    text-align: center;
+  }
+}
+  
 
 /*
 =============== 
