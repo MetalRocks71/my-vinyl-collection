@@ -233,6 +233,7 @@ Hero
   font-size: 1.25rem;
   background: var(--clr-white);
   color: var(--clr-primary-5);
+  border-radius: 0.313rem;
 }
 
 .hero-btn:hover {
@@ -313,7 +314,7 @@ tops
   text-align: center;
   margin-bottom: 3rem;
 }
-
+/*
 .top-icon {
   background: var(--clr-primary-5);
   color: var(--clr-primary-1);
@@ -321,7 +322,7 @@ tops
   display: inline-block;
   font-size: 2rem;
   margin-bottom: 1.5rem;
-}
+}*/
 
 .top-text {
   max-width: 20rem;
@@ -565,7 +566,7 @@ Navbar
   display: flex;
   justify-content: space-between;
   align-items: center;
-  
+
 }
 
 .nav-toggle {
@@ -621,12 +622,12 @@ Navbar
 
   /* show links */
   .nav-links {
-   height: auto;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  align-items: center;
- margin-top: 1.5rem;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1.5rem;
   }
 
   .nav-center {
@@ -681,12 +682,12 @@ Navbar
 
   /* show links */
   .nav-links {
-  height: auto;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  align-items: center;
-  margin-top: 2.33rem;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2.33rem;
 
   }
 
@@ -750,4 +751,6 @@ category button
   text-transform: uppercase;
   letter-spacing: var(--spacing);
   transition: var(--transition);
+  border-radius: 0.313rem;
+
 }

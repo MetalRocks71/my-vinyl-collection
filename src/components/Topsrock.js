@@ -1,14 +1,13 @@
 import { useState } from 'react'
 import Title from './Title'
-import { top } from '../data'
+import { toprocks } from '../data'
 
-const Tops = () => {
+const Topsrock = () => {
   const [showAll, setShowAll] = useState(false)
-  const displayedTops = showAll ? top : top.slice(0, 5)
-
+  const displayedTops = showAll ? toprocks : toprocks.slice(0, 5)
   return (
     <section className="section tops" id="top">
-      <Title title="My Top" subtitle="10 Metal Albums" />
+      <Title title="My Top" subtitle="10 Rock Albums" />
       <div className="section-center tops-center">
         {displayedTops.map((top) => {
           const { id, icon, title, text, image } = top
@@ -33,4 +32,4 @@ const Tops = () => {
   )
 }
 
-export default Tops
+export default Topsrock
