@@ -495,13 +495,11 @@ Collections
   }
 }
 @media screen and (min-width: 768px) {
-  .collection-footer {
-    align-items: center;
-  }
-  
-  .collection-footer p,
   .collection-length {
+    color: var(--clr-grey-5);
+    text-transform: capitalize;
     text-align: center;
+    margin: 0 auto; /* Center horizontally */
   }
 }
   
