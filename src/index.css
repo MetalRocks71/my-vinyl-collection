@@ -383,6 +383,7 @@ Featured collections
 
 .collection-img-container {
   position: relative;
+ 
 }
 
 .collection-img {
@@ -402,7 +403,7 @@ Featured collections
 }
 
 .collection-info {
-  padding: 1.25rem 1.5rem;
+  padding: 1rem 1.25rem;
 }
 
 /* additional css for different layout*/
