@@ -575,7 +575,7 @@ Navbar
   background: var(--clr-white);
   box-shadow: var(--dark-shadow);
   z-index: 2;
-  height: 4rem;
+  height: 5rem;
   display: flex;
   align-items: center;
   transition: transform 0.3s ease-in-out;
@@ -665,7 +665,7 @@ Navbar
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
-    margin-top: 1.5rem;
+    margin-top: 1.7rem;
   }
 
   .nav-center {
@@ -725,7 +725,7 @@ Navbar
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
-    margin-top: 2.33rem;
+    margin-top: 1.7rem;
 
   }
 
