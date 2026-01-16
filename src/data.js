@@ -170,7 +170,7 @@ export const collection = [
     title: 'powerslave',
     date: 'July 23rd, 1984',
     band: 'Iron Maiden',
-    Lenght: '51:12',
+    length: '51:12',
     genre: 'Heavy Metal',
   },
   {
@@ -179,7 +179,7 @@ export const collection = [
     title: 'Death above life',
     date: 'October 3rd, 2025',
     band: 'Orbit Culture',
-    Lenght: '51:12',
+    length: '51:12',
     genre: 'Death Metal',
   },
   {
@@ -188,7 +188,7 @@ export const collection = [
     title: 'powerslave',
     date: 'July 23rd, 1984',
     band: 'Iron Maiden',
-    Lenght: '51:12',
+    length: '51:12',
     genre: 'Heavy Metal',
   },
   {
@@ -197,7 +197,7 @@ export const collection = [
     title: 'powerslave',
     date: 'July 23rd, 1984',
     band: 'Iron Maiden',
-    Lenght: '51:12',
+    length: '51:12',
     genre: 'Heavy Metal',
   },
   {
@@ -206,7 +206,7 @@ export const collection = [
     title: 'powerslave',
     date: 'July 23rd, 1984',
     band: 'Iron Maiden',
-    Lenght: '51:12',
+    length: '51:12',
     genre: 'Heavy Metal',
   },
 ]
@@ -218,7 +218,7 @@ export const collectionrock = [
     title: "The Battle at Garden's Gate",
     date: 'June 9th, 2023',
     band: 'Greta Van Fleet',
-    Lenght: '63:32',
+    length: '63:32',
     genre: 'Rock',
   },
   {
@@ -227,7 +227,7 @@ export const collectionrock = [
     title: 'From the Fires',
     date: 'November 10, 2017',
     band: 'Greta Van Fleet',
-    Lenght: '32:11',
+    length: '32:11',
     genre: 'Rock',
   },
   {
@@ -236,7 +236,7 @@ export const collectionrock = [
     title: 'powerslave',
     date: 'July 23rd, 1984',
     band: 'Iron Maiden',
-    Lenght: '51:12',
+    length: '51:12',
     genre: 'Heavy Metal',
   },
   {
@@ -245,7 +245,7 @@ export const collectionrock = [
     title: 'powerslave',
     date: 'July 23rd, 1984',
     band: 'Iron Maiden',
-    Lenght: '51:12',
+    length: '51:12',
     genre: 'Heavy Metal',
   },
   {
@@ -254,7 +254,7 @@ export const collectionrock = [
     title: 'powerslave',
     date: 'July 23rd, 1984',
     band: 'Iron Maiden',
-    Lenght: '51:12',
+    length: '51:12',
     genre: 'Heavy Metal',
   },
 ]

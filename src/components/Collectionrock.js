@@ -38,11 +38,10 @@ const Collectionrock = () => {
                           <span>
                             <i className="fas fa-map"></i>
                           </span>{' '}
-                          {band}
+                          {band} - {genre}
                         </p>
-                        <p>{length}</p>
-                        <p>{genre}</p>
                       </div>
+                      <p className="collection-length">{length}</p>
                     </div>
                   </article>
                 )

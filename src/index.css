@@ -420,20 +420,20 @@ Featured collections
 }
 
 .collection-title p {
-  color: var(--clr-grey-7);
+  color: var(--clr-grey-8);
+  padding: 1rem;
 }
 
 /* end of additional css for different layout*/
 .collection-footer {
   display: flex;
-  justify-content: space-between;
-  flex-wrap: wrap;
-  align-items: center;
+  flex-direction: column; /* Stack items vertically */
+  align-items: flex-start; /* Align to the left */
 }
 
 .collection-footer p {
-  line-height: 0;
-  margin-bottom: 0;
+  line-height: 1.25; /* Changed from 0 for better readability */
+  margin-bottom: 0.5rem; /* Add space between band/genre and length */
   text-transform: capitalize;
   color: var(--clr-primary-5);
 }
@@ -442,6 +442,11 @@ Featured collections
   margin-right: 0.25rem;
 }
 
+.collection-length {
+  color: var(--clr-grey-6);
+  text-transform: capitalize;
+  margin-bottom: 0; /* No margin on the last item */
+}
 .collection-btn {
   text-align: center;
 }

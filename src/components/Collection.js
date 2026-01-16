@@ -23,7 +23,7 @@ const Collection = () => {
           <div>
             <div className="section-center featured-center">
               {sortedCollection.map((collection) => {
-                const { id, image, title, band, date,length, genre } =
+                const { id, image, title, band, date, length, genre } =
                   collection
                 return (
                   <article className="collection-card" key={id}>
@@ -40,11 +40,10 @@ const Collection = () => {
                           <span>
                             <i className="fas fa-map"></i>
                           </span>{' '}
-                          {band}
+                          {band} - {genre}
                         </p>
-                        <p>{genre}-{length}</p>
-                        
                       </div>
+                      <p className='collection-length'>{length}</p>
                     </div>
                   </article>
                 )
