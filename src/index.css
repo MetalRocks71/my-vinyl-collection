@@ -500,7 +500,7 @@ Collections
     color: var(--clr-grey-5);
     text-transform: capitalize;
     text-align: left;
-    margin: 0;
+    margin-left: 0;
     /* Center horizontally */
   }
 }
