@@ -8,8 +8,7 @@ import orbitculture1 from './images/orbitculture1.jpeg'
 export const pageLinks = [
   { id: 1, href: '#home', text: 'home' },
   { id: 2, href: '#about', text: 'about the music' },
-  { id: 3, href: '#top', text: 'Top 10 Metal Albums' },
-  { id: 4, href: '#top', text: 'Top 10 Rock Albums' },
+  { id: 3, href: '#top', text: 'Top 10 Albums' },
   { id: 5, href: '#collection', text: 'The collection' },
 ]
 export const socialLinks = [
