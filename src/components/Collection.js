@@ -36,14 +36,16 @@ const Collection = () => {
                         <h4>{title}</h4>
                       </div>
                       <div className="collection-footer">
-                        <p>
-                          <span>
-                            <i className="fas fa-map"></i>
-                          </span>{' '}
-                          {band} - {genre}
-                        </p>
+                        <div>
+                          <p>
+                            <span>
+                              <i className="fas fa-map"></i>
+                            </span>{' '}
+                            {band} - {genre}
+                          </p>
+                          <p className="collection-length">{length}</p>
+                        </div>
                       </div>
-                      <p className='collection-length'>{length}</p>
                     </div>
                   </article>
                 )

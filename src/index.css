@@ -365,7 +365,7 @@ tops
 
 /*
 =============== 
-Featured collections
+Collections
 ===============
 */
 
@@ -407,7 +407,7 @@ Featured collections
   display: grid;
   grid-template-rows: auto 1fr;
   /* Title takes what it needs, footer fills rest */
-  min-height: 110px;
+  min-height: 50px;
   /* Adjust based on your design */
 }
 
@@ -471,7 +471,7 @@ Featured collections
 }
 
 .collection-length {
-  color: var(--clr-grey-1);
+  color: var(--clr-grey-5);
   text-transform: capitalize;
   margin-left: 9rem;
   /* No margin on the last item */
