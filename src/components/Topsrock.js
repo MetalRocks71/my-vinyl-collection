@@ -10,12 +10,9 @@ const Topsrock = () => {
       <Title title="My Top" subtitle="10 Rock Albums" />
       <div className="section-center tops-center">
         {displayedTops.map((top) => {
-          const { id, icon, title, text, image } = top
+          const { id, title, text, image } = top
           return (
             <article className="top" key={id}>
-              <span className="top-icon">
-                <i className={icon}></i>
-              </span>
               <div className="top-info">
                 <h4 className="top-title">{title}</h4>
                 <p className="top-text">{text}</p>

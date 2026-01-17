@@ -30,6 +30,7 @@ Variables
   --clr-grey-8: hsl(210, 31%, 80%);
   --clr-grey-9: hsl(212, 33%, 89%);
   --clr-grey-10: hsl(210, 36%, 96%);
+  --clr-grey-11: hsl(210, 2%, 53%);
   --clr-white: #fff;
   --clr-red-dark: hsl(360, 67%, 44%);
   --ff-primary: 'Lato', sans-serif;
@@ -307,18 +308,63 @@ tops
 ===============
 */
 .tops {
-  background: var(--clr-grey-10);
+  background: var(--clr-grey-11);
+  position: relative;
+  overflow: hidden;
+}
+
+.tops::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 200px;
+  background: var(--clr-white);
+  z-index: 0;
+}
+
+.tops > * {
+  position: relative;
+  z-index: 1;
 }
 
 .top {
   text-align: center;
   margin-bottom: 3rem;
+  padding: 2rem 1.5rem;
+  background: var(--clr-white);
+  -webkit-backdrop-filter: blur(10px);
+  backdrop-filter: blur(10px);
+  border-radius: 16px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  transition: all 0.3s ease;
+}
+
+.top:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 8px 30px rgba(99, 102, 241, 0.15);
+  background: var(--clr-white);
+}
+
+
+
+.top-title {
+  background: linear-gradient(135deg, #1e293b 0%, #334155 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  font-weight: 700;
+  margin-bottom: 0.75rem;
 }
 
 .top-text {
   max-width: 20rem;
   margin-left: auto;
   margin-right: auto;
+  color: var(--clr-grey-6);
+  line-height: 1.6;
 }
 
 @media screen and (min-width: 576px) {
@@ -371,44 +417,82 @@ Collections
 
 .collection-card {
   transition: var(--transition);
-  background: var(--clr-grey-10);
-  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+  background: var(--clr-white);
+  -webkit-backdrop-filter: blur(10px);
+  backdrop-filter: blur(10px);
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.1);
   margin-bottom: 2rem;
+  border-radius: 16px;
+  overflow: hidden;
+  border: 1px solid rgba(255, 255, 255, 0.2);
 }
 
 .collection-card:hover {
-  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
-  transform: scale(1.02);
+  box-shadow: 0 12px 40px rgba(0, 0, 0, 0.15);
+  transform: translateY(-8px) scale(1.02);
 }
 
 .collection-img-container {
   position: relative;
+  overflow: hidden;
+}
 
+.collection-img-container::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: linear-gradient(180deg, 
+    rgba(74, 74, 77, 0.3) 0%, 
+    rgba(103, 100, 105, 0.2) 50%, 
+    transparent 100%);
+  z-index: 1;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+
+.collection-card:hover .collection-img-container::before {
+  opacity: 1;
 }
 
 .collection-img {
   height: 15rem;
   object-fit: cover;
+  transition: transform 0.4s ease;
+  filter: brightness(0.95);
+}
+
+.collection-card:hover .collection-img {
+  transform: scale(1.08);
+  filter: brightness(1);
 }
 
 .collection-date {
   position: absolute;
-  right: 0;
-  bottom: 0;
-  background: var(--clr-primary-8);
-  color: var(--clr-primary-1);
+  right: 12px;
+  bottom: 12px;
+  background: linear-gradient(135deg, rgba(228, 12, 12, 0.95) 0%, rgba(211, 14, 14, 0.95) 100%);
+  color: white;
   text-transform: capitalize;
-  padding: 0.25rem 0.5rem;
+  padding: 0.5rem 1rem;
   margin-bottom: 0;
+  border-radius: 20px;
+  font-weight: 600;
+  font-size: 0.85rem;
+  box-shadow: 0 4px 12px rgba(99, 102, 241, 0.3);
+  z-index: 2;
+  -webkit-backdrop-filter: blur(10px);
+  backdrop-filter: blur(10px);
 }
 
 .collection-info {
   padding: 2rem 1.25rem;
   display: grid;
   grid-template-rows: auto 1fr;
-  /* Title takes what it needs, footer fills rest */
   min-height: 50px;
-  /* Adjust based on your design */
+  background: linear-gradient(180deg, rgba(255, 255, 255, 0.6) 0%, rgba(249, 250, 251, 0.8) 100%);
 }
 
 /* additional css for different layout*/
@@ -435,17 +519,19 @@ Collections
 .collection-title p {
   color: var(--clr-grey-8);
   padding: 0;
-  /* No padding */
   margin: 0;
-  /* No margin */
 }
 
 .collection-title h4 {
   margin-bottom: 1rem;
-  /* Reduced from 0.75rem */
   line-height: 1.25;
   word-wrap: break-word;
   overflow-wrap: break-word;
+  background: linear-gradient(135deg, #1e293b 0%, #334155 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  font-weight: 700;
 }
 
 /* end of additional css for different layout*/
@@ -454,16 +540,14 @@ Collections
   flex-direction: column;
   align-items: flex-start;
   align-self: end;
-  /* Align to bottom of grid cell */
 }
 
 .collection-footer p {
   line-height: 1.25;
-  /* Changed from 0 for better readability */
   margin-bottom: 0.5rem;
-  /* Add space between band/genre and length */
   text-transform: capitalize;
   color: var(--clr-primary-5);
+  font-weight: 500;
 }
 
 .collection-footer p span {
@@ -474,7 +558,6 @@ Collections
   color: var(--clr-grey-5);
   text-transform: capitalize;
   margin-left: 9rem;
-  /* No margin on the last item */
 }
 
 .collection-btn {
@@ -501,10 +584,8 @@ Collections
     text-transform: capitalize;
     text-align: left;
     margin-left: 0;
-    /* Center horizontally */
   }
 }
-
 
 /*
 =============== 
