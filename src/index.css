@@ -31,6 +31,8 @@ Variables
   --clr-grey-9: hsl(212, 33%, 89%);
   --clr-grey-10: hsl(210, 36%, 96%);
   --clr-grey-11: hsl(210, 2%, 53%);
+  /*blacck */
+  --clr-black: #222;
   --clr-white: #fff;
   --clr-red-dark: hsl(360, 67%, 44%);
   --ff-primary: 'Lato', sans-serif;
@@ -494,6 +496,8 @@ Collections
   grid-template-rows: auto 1fr;
   min-height: 50px;
   background: linear-gradient(180deg, rgba(255, 255, 255, 0.6) 0%, rgba(249, 250, 251, 0.8) 100%);
+
+
 }
 
 /* additional css for different layout*/
@@ -502,6 +506,8 @@ Collections
   justify-content: space-between;
   flex-wrap: wrap;
   width: 100%;
+
+ 
 }
 
 .collection-title p,
@@ -511,10 +517,12 @@ Collections
   width: 100%;
   word-wrap: break-word;
   overflow-wrap: break-word;
+ 
 }
 
 .collection-title {
   margin-bottom: 0.5rem;
+  
 }
 
 .collection-title p {
