@@ -57,6 +57,7 @@ Global Styles
 
 html {
   scroll-behavior: smooth;
+  overflow-x: hidden;
   /* for smooth scrolling */
 }
 
@@ -67,6 +68,7 @@ body {
   color: var(--clr-grey-1);
   line-height: 1.5;
   font-size: 0.875rem;
+  overflow-x: hidden;
 }
 
 ul {
@@ -88,6 +90,7 @@ h3,
 h4 {
   letter-spacing: var(--spacing);
   text-transform: capitalize;
+  
   line-height: 1.25;
   margin-bottom: 0.75rem;
 }
@@ -106,6 +109,7 @@ h3 {
 
 h4 {
   font-size: 0.875rem;
+  
 }
 
 p {
@@ -128,6 +132,7 @@ p {
 
   h4 {
     font-size: 1rem;
+    
   }
 
   body {
@@ -342,6 +347,7 @@ tops
   box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
   border: 1px solid rgba(255, 255, 255, 0.3);
   transition: all 0.3s ease;
+  
 }
 
 .top:hover {
@@ -350,7 +356,9 @@ tops
   background: var(--clr-white);
 }
 
-
+.top img {
+  border-radius: 16%;
+}
 
 .top-title {
   background: linear-gradient(135deg, #1e293b 0%, #334155 100%);
@@ -359,13 +367,14 @@ tops
   background-clip: text;
   font-weight: 700;
   margin-bottom: 0.75rem;
+   color: var(--clr-white);
 }
 
 .top-text {
   max-width: 20rem;
   margin-left: auto;
   margin-right: auto;
-  color: var(--clr-grey-6);
+  color: var(--clr-black);
   line-height: 1.6;
 }
 
@@ -374,10 +383,12 @@ tops
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 2rem;
+    color: var(--clr-white);
   }
 
   .top {
     margin-bottom: 0rem;
+    
   }
 }
 
@@ -396,6 +407,7 @@ tops
     display: flex;
     text-align: left;
     flex-direction: column;
+     color: var(--clr-white);
   }
 
   .top-icon {
@@ -404,10 +416,12 @@ tops
 
   .top-info {
     padding-left: 1rem;
+   
   }
 
   .top-title {
     margin-bottom: 0.5rem;
+     color: var(--clr-white);
   }
 }
 
