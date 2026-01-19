@@ -3,6 +3,13 @@ import powerslave from './images/powerslave.jpg'
 import gretavanfleet1 from './images/gretavanfleet-1.jpg'
 import gretavanfleet2 from './images/gretavanfleet-2.jpg'
 import orbitculture1 from './images/orbitculture1.jpeg'
+import thewhitestripes1 from './images/thewhitestripes-1.jpg'
+import thecure1 from './images/thecure-1.jpg'
+import pinkfloyd1 from './images/pinkfloyd-1.jpg'
+import whitechapel1 from './images/whitechapel-1.jpg'
+import blacksabbath1 from './images/blacksabbath-1.jpg'
+import nineinchnails1 from './images/nineinchnails-1.jpg'
+import neckbreakker1 from './images/neckbreakker-1.jpg'
 
 
 export const pageLinks = [
@@ -184,30 +191,30 @@ export const collection = [
   },
   {
     id: 3,
-    image: powerslave,
-    title: 'powerslave',
-    date: 'July 23rd, 1984',
-    band: 'Iron Maiden',
-    length: '(51:12)',
-    genre: 'Heavy Metal',
+    image: whitechapel1,
+    title: 'Hymmns in Dissonance',
+    date: 'March 07th, 2025',
+    band: 'Whitechapel',
+    length: '(43:17)',
+    genre: 'Hardcore,Grindcore',
   },
   {
     id: 4,
-    image: powerslave,
-    title: 'powerslave',
-    date: 'July 23rd, 1984',
-    band: 'Iron Maiden',
-    length: '(51:12)',
+    image: blacksabbath1,
+    title: 'Heaven and Hell',
+    date: 'April 25th, 1980',
+    band: 'Black Sabbath',
+    length: '(39:48)',
     genre: 'Heavy Metal',
   },
   {
     id: 5,
-    image: powerslave,
-    title: 'powerslave',
-    date: 'July 23rd, 1984',
-    band: 'Iron Maiden',
-    length: '(51:12)',
-    genre: 'Heavy Metal',
+    image: neckbreakker1,
+    title: 'Within The viscera',
+    date: 'December 06th, 2024',
+    band: 'Neckbreakker',
+    length: '(46:09)',
+    genre: 'Death Metal',
   },
 ]
 
@@ -232,29 +239,38 @@ export const collectionrock = [
   },
   {
     id: 3,
-    image: powerslave,
-    title: 'powerslave',
-    date: 'July 23rd, 1984',
-    band: 'Iron Maiden',
-    length: '(51:12)',
-    genre: 'Heavy Metal',
+    image: thewhitestripes1,
+    title: 'Elephant',
+    date: 'April 1st 2003',
+    band: 'The White Stripes',
+    length: '(50:54)',
+    genre: 'Rock',
   },
   {
     id: 4,
-    image: powerslave,
-    title: 'powerslave',
-    date: 'July 23rd, 1984',
-    band: 'Iron Maiden',
-    length: '(51:12)',
-    genre: 'Heavy Metal',
+    image: thecure1,
+    title: 'Desintegration',
+    date: 'May 02, 1989',
+    band: 'The Cure',
+    length: '(72:03)',
+    genre: 'Rock',
   },
   {
     id: 5,
-    image: powerslave,
-    title: 'powerslave',
+    image: pinkfloyd1,
+    title: 'Meddle',
+    date: 'November 11, 1971',
+    band: 'Pink Floyd',
+    length: '(46:46)',
+    genre: 'Progressive Rock',
+  },
+  {
+    id: 6,
+    image: nineinchnails1,
+    title: 'The Downward Spiral',
     date: 'July 23rd, 1984',
-    band: 'Iron Maiden',
-    length: '(51:12)',
-    genre: 'Heavy Metal',
+    band: 'Nine Inch Nails',
+    length: '(65:07)',
+    genre: 'Industrial Rock',
   },
 ]
