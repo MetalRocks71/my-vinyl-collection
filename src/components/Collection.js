@@ -9,7 +9,7 @@ const Collection = () => {
     setOpen(!open)
   }
 
-  // Sort collection alphabetically by band name
+  // Sort collection alphabetically by band name before rendering with operator
   const sortedCollection = [...collection].sort((a, b) =>
     a.band.localeCompare(b.band)
   )

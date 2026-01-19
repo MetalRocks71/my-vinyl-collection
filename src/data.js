@@ -1,4 +1,3 @@
-
 import powerslave from './images/powerslave.jpg'
 import gretavanfleet1 from './images/gretavanfleet-1.jpg'
 import gretavanfleet2 from './images/gretavanfleet-2.jpg'
@@ -11,7 +10,6 @@ import blacksabbath1 from './images/blacksabbath-1.jpg'
 import nineinchnails1 from './images/nineinchnails-1.jpg'
 import neckbreakker1 from './images/neckbreakker-1.jpg'
 import lornashore1 from './images/lornashore-1.jpg'
-
 
 export const pageLinks = [
   { id: 1, href: '#home', text: 'home' },
