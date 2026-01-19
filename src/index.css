@@ -41,6 +41,8 @@ Variables
   --radius: 0.5rem;
   --light-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
   --dark-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+  --text-color:var(--clr-black);
+  --bg-color:var(--clr-white);
 }
 
 /*
@@ -60,7 +62,12 @@ html {
   overflow-x: hidden;
   /* for smooth scrolling */
 }
-
+@media (prefers-color-scheme: dark) {
+  :root {
+    --text-color: var(--clr-white);  /* Changed to white */
+    --bg-color: var(--clr-black);
+  }
+}
 body {
   font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto,
     Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;

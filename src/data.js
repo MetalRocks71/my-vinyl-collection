@@ -10,6 +10,7 @@ import whitechapel1 from './images/whitechapel-1.jpg'
 import blacksabbath1 from './images/blacksabbath-1.jpg'
 import nineinchnails1 from './images/nineinchnails-1.jpg'
 import neckbreakker1 from './images/neckbreakker-1.jpg'
+import lornashore1 from './images/lornashore-1.jpg'
 
 
 export const pageLinks = [
@@ -216,6 +217,15 @@ export const collection = [
     length: '(46:09)',
     genre: 'Death Metal',
   },
+  {
+    id: 5,
+    image: lornashore1,
+    title: 'I feel the everblack festering within me',
+    date: 'September 29th, 2025',
+    band: 'Lorna Shore',
+    length: '(66:31)',
+    genre: 'Deathcore',
+  },
 ]
 
 export const collectionrock = [
@@ -232,7 +242,7 @@ export const collectionrock = [
     id: 2,
     image: gretavanfleet2,
     title: 'From the Fires',
-    date: 'November 10, 2017',
+    date: 'November 10th, 2017',
     band: 'Greta Van Fleet',
     length: '(32:11)',
     genre: 'Rock',
@@ -250,7 +260,7 @@ export const collectionrock = [
     id: 4,
     image: thecure1,
     title: 'Desintegration',
-    date: 'May 02, 1989',
+    date: 'May 02nd, 1989',
     band: 'The Cure',
     length: '(72:03)',
     genre: 'Rock',
@@ -259,7 +269,7 @@ export const collectionrock = [
     id: 5,
     image: pinkfloyd1,
     title: 'Meddle',
-    date: 'November 11, 1971',
+    date: 'November 11th, 1971',
     band: 'Pink Floyd',
     length: '(46:46)',
     genre: 'Progressive Rock',
