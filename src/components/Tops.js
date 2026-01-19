@@ -3,14 +3,20 @@ import Title from './Title'
 import { top } from '../data'
 
 const Tops = () => {
-  const [showAll, setShowAll] = useState(false)
-  const displayedTops = showAll ? top : top.slice(0, 5)
+const [open, setOpen] = useState(false)
+ const toggle = () => {
+   setOpen(!open)
+ }  
 
   return (
     <section className="section tops" id="top">
       <Title title="My Top" subtitle="10 Metal Albums" />
+      <button className="category-btn" onClick={toggle}>
+        The Top 10 Metal Albums
+      </button>
+      {open && (
       <div className="section-center tops-center">
-        {displayedTops.map((top) => {
+        {top.map((top) => {
           const { id, title, text, image } = top
           return (
             <article className="top" key={id}>
@@ -23,9 +29,7 @@ const Tops = () => {
           )
         })}
       </div>
-      <button className="category-btn" onClick={() => setShowAll(!showAll)}>
-        {showAll ? 'Show Less' : 'Show More'}
-      </button>
+      )}  
     </section>
   )
 }
