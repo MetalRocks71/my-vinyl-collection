@@ -16,7 +16,7 @@ const Collection = () => {
 
   return (
     <section className="section collection" id="collection">
-      <Title title="The " subtitle="Collection" />
+      <Title title="The " subtitle="Metal Collection" />
       <div>
         <button className="category-btn" onClick={toggle}>
           Metal and Subgenres

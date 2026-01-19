@@ -1,5 +1,6 @@
 import { useState } from 'react'
 import { collectionrock } from '../data'
+import Title from './Title'
 
 const Collectionrock = () => {
   const [open, setOpen] = useState(false)
@@ -13,6 +14,7 @@ const Collectionrock = () => {
   )
   return (
     <section className="section" id="collectionrock">
+      <Title title="The " subtitle="Rock Collection" />
       <div>
         <button className="category-btn" onClick={toggle}>
           Rock and Subgenres
