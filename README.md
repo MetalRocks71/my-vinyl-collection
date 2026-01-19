@@ -1,20 +1,12 @@
 # Backroads App
 
-[Working Application - Deployed](https://backroads-app.netlify.app/)
+[Working Application - Deployed](https://my-vinyls-collection.netlify.app/)
 
-- backroads-html - working html/css/javascript project (contains assets)
-- final(complete source code) - working react application
+- my vinyl - working html/css/javascript project (contains assets)
   - navigate to the folder
   - run 'npm install'
   - once the dependencies are installed run 'npm start'
 
-#### React Course
-
-[My React Course](https://www.udemy.com/course/react-tutorial-and-projects-course/?referralCode=FEE6A921AF07E2563CEF)
-
-#### Support
-
-Find the Content Useful? [You can always buy me a coffee](https://www.buymeacoffee.com/johnsmilga)
 
 #### Create New React App
 
@@ -75,7 +67,7 @@ App.js
 
 ```js
 function App() {
-  return <h1>backroads app</h1>
+  return <h1>my vinyls collection</h1>
 }
 
 export default App
@@ -125,8 +117,10 @@ export default App
   - Navbar.js
   - Hero.js
   - About.js
-  - Services.js
-  - Tours.j
+  - Collection.js
+  - Collectionrock.js
+  - Tops.j
+  - Topsrock.js
   - Footer.js
 - setup components with default export (snippet - rafce)
 - carefully move the code from App.js into components (files)
@@ -143,11 +137,6 @@ export default App
   - setup import from images and update source
 
 ```js
-// import
-import logo from '../images/logo.svg'
-
-// JSX
-;<img src={logo} className='nav-logo' alt='backroads' />
 ```
 
 #### Smooth Scroll
@@ -156,9 +145,9 @@ import logo from '../images/logo.svg'
 
 ```html
 <!-- link -->
-<a href="#services"> services </a>
+<a href="#services"> collections </a>
 <!-- element -->
-<section id="services"></section>
+<section id="collection"></section>
 ```
 
 ```css
@@ -191,9 +180,14 @@ html {
 ```js
 export const pageLinks = [
   { id: 1, href: '#home', text: 'home' },
-  { id: 2, href: '#about', text: 'about' },
-  { id: 3, href: '#services', text: 'services' },
-  { id: 4, href: '#tours', text: 'tours' },
+  { id: 2, href: '#about', text: 'about the music' },
+  { id: 3, href: '#top', text: 'Top 10 Albums' },
+  { id: 5, href: '#collection', text: 'The collection' },
+]
+export const socialLinks = [
+  { id: 1, href: 'https://www.facebook.com', icon: 'fab fa-facebook' },
+  { id: 2, href: 'https://x.com/', icon: 'fa-brands fa-twitter' },
+  { id: 3, href: 'https://www.squarespace.com', icon: 'fab fa-squarespace' },
 ]
 ```
 
@@ -291,39 +285,77 @@ export const services = [
 ]
 ```
 
-Services.js
+Collection.js
 
 ```js
+import { useState } from 'react'
 import Title from './Title'
-import { services } from '../data'
-const Services = () => {
-  return (
-    <section className='section services' id='services'>
-      <Title title='our' subTitle='services' />
+import { collection } from '../data'
 
-      <div className='section-center services-center'>
-        {services.map((service) => {
-          const { id, icon, title, text } = service
-          return (
-            <article className='service' key={id}>
-              <span className='service-icon'>
-                <i className={icon}></i>
-              </span>
-              <div className='service-info'>
-                <h4 className='service-title'>{title}</h4>
-                <p className='service-text'>{text}</p>
-              </div>
-            </article>
-          )
-        })}
+const Collection = () => {
+  const [open, setOpen] = useState(false)
+
+  const toggle = () => {
+    setOpen(!open)
+  }
+
+  // Sort collection alphabetically by band name before rendering with operator
+  const sortedCollection = [...collection].sort((a, b) =>
+    a.band.localeCompare(b.band)
+  )
+
+  return (
+    <section className="section collection" id="collection">
+      <Title title="The " subtitle="Collection" />
+      <div>
+        <button className="category-btn" onClick={toggle}>
+          Heavy Metal
+        </button>
+        {open && (
+          <div className="section-center featured-center">
+            {sortedCollection.map((collection) => {
+              const { id, image, title, band, date, length, genre } = collection
+              return (
+                <article className="collection-card" key={id}>
+                  <div className="collection-img-container">
+                    <img src={image} className="collection-img" alt="" />
+                    <p className="collection-date">{date}</p>
+                  </div>
+                  <div className="collection-info">
+                    <div className="collection-title">
+                      <h4>{title}</h4>
+                    </div>
+                    <div className="collection-footer">
+                      <div>
+                        <p>
+                          <span>
+                            <i className="fas fa-map"></i>
+                          </span>{' '}
+                          {band}
+                        </p>
+                        <p>
+                          <span>
+                            <i className="fas fa-map"></i>
+                          </span>{' '}
+                          {genre}
+                        </p>
+                        <p className="collection-length">{length}</p>
+                      </div>
+                    </div>
+                  </div>
+                </article>
+              )
+            })}
+          </div>
+        )}
       </div>
     </section>
   )
 }
-export default Services
+export default Collection
 ```
 
-#### Tours
+#### Tops
 
 - refactor repeating code
 
@@ -347,8 +379,8 @@ export default Services
 - create more components (essentially, split up the code more)
 - find all map methods and move elements to separate components
 - By the end of the video you should have four additional components
-  - Tour.js
-  - Service.js
+  - Tops.js
+  - Collection.js
   - SocialLink.js
   - PageLink.js
 
