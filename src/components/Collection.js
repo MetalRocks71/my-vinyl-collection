@@ -41,7 +41,13 @@ const Collection = () => {
                           <span>
                             <i className="fas fa-map"></i>
                           </span>{' '}
-                          {band} - {genre}
+                          {band}
+                        </p>
+                        <p>
+                          <span>
+                            <i className="fas fa-map"></i>
+                          </span>{' '}
+                          {genre}
                         </p>
                         <p className="collection-length">{length}</p>
                       </div>
