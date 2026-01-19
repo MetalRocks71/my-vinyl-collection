@@ -19,7 +19,7 @@ const Collection = () => {
       <Title title="The " subtitle="Collection" />
       <div>
         <button className="category-btn" onClick={toggle}>
-          Heavy Metal
+          Metal and Subgenres
         </button>
         {open && (
           <div className="section-center featured-center">
