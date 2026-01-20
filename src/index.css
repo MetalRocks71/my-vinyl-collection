@@ -645,6 +645,8 @@ footer>div {
   text-align: center;
   margin: 0 auto;
   display: inline-block;
+    max-width: 100%; /* Prevents overflow on small screens */
+  padding: 0 1rem; /* Adds breathing room on mobile */
 
 }
 
@@ -685,13 +687,20 @@ footer>div {
   letter-spacing: var(--spacing);
   color: var(--clr-white);
   text-align: center;
+   word-wrap: break-word; 
 
 }
 
 .copyright span {
   margin-left: 0.5rem;
 }
-
+/* Optional: Adjust font size on mobile for better readability */
+@media screen and (max-width: 768px) {
+  .copyright {
+    font-size: 0.875rem; /* Slightly smaller on mobile */
+    line-height: 1.6; /* Better line spacing */
+  }
+}
 /*
 =============== 
 Navbar

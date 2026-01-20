@@ -36,7 +36,8 @@ const Footer = () => {
       </ul>
       <div className="text-center">
         <p className="copyright">
-          all rights reserved © The band name, images
+          all rights reserved ©
+          <br /> band name, images, audio recordings, logos,
           <br />
           and all associated intellectual property belong to the bands cited in
           <br />
