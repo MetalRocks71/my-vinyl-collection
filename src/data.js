@@ -1,7 +1,9 @@
-import powerslave from './images/powerslave.jpg'
+import ironmaiden1 from './images/ironmaiden-1.jpg'
+import ironmaiden2 from './images/ironmaiden-2.jpg'
 import gretavanfleet1 from './images/gretavanfleet-1.jpg'
 import gretavanfleet2 from './images/gretavanfleet-2.jpg'
-import orbitculture1 from './images/orbitculture1.jpeg'
+import orbitculture1 from './images/orbitculture-1.jpg'
+import orbitculture2 from './images/orbitculture-2.jpg'
 import thewhitestripes1 from './images/thewhitestripes-1.jpg'
 import thecure1 from './images/thecure-1.jpg'
 import pinkfloyd1 from './images/pinkfloyd-1.jpg'
@@ -10,6 +12,9 @@ import blacksabbath1 from './images/blacksabbath-1.jpg'
 import nineinchnails1 from './images/nineinchnails-1.jpg'
 import neckbreakker1 from './images/neckbreakker-1.jpg'
 import lornashore1 from './images/lornashore-1.jpg'
+import motorhead1 from './images/motorhead-1.jpg'
+import brucespringsteen1 from './images/brucespringsteen-1.jpg'
+import sacredreich1 from './images/sacredreich-1.jpg'
 
 export const pageLinks = [
   { id: 1, href: '#home', text: 'home' },
@@ -29,70 +34,70 @@ export const top = [
     icon: 'fas fa-wallet fa-fw',
     title: 'Album#1',
     text: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores, officia.',
-    image: powerslave,
+    image: ironmaiden1,
   },
   {
     id: 2,
     icon: 'fas fa-tree fa-fw',
     title: 'Album#2',
     text: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores, officia.',
-    image: powerslave,
+    image: ironmaiden1,
   },
   {
     id: 3,
     icon: 'fas fa-socks fa-fw',
     title: 'Album#3',
     text: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores, officia.',
-    image: powerslave,
+    image: ironmaiden1,
   },
   {
     id: 4,
     icon: 'fas fa-socks fa-fw',
     title: 'Album#4',
     text: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores, officia.',
-    image: powerslave,
+    image: ironmaiden1,
   },
   {
     id: 5,
     icon: 'fas fa-socks fa-fw',
     title: 'Album#5',
     text: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores, officia.',
-    image: powerslave,
+    image: ironmaiden1,
   },
   {
     id: 6,
     icon: 'fas fa-socks fa-fw',
     title: 'Album#6',
     text: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores, officia.',
-    image: powerslave,
+    image: ironmaiden1,
   },
   {
     id: 7,
     icon: 'fas fa-socks fa-fw',
     title: 'Album#6',
     text: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores, officia.',
-    image: powerslave,
+    image: ironmaiden1,
   },
   {
     id: 8,
     icon: 'fas fa-socks fa-fw',
     title: 'Album#8',
     text: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores, officia.',
-    image: powerslave,
+    image: ironmaiden1,
   },
   {
     id: 9,
     icon: 'fas fa-socks fa-fw',
     title: 'Album#9',
     text: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores, officia.',
-    image: powerslave,
+    image: ironmaiden1,
   },
   {
     id: 10,
     icon: 'fas fa-socks fa-fw',
     title: 'Album#10',
     text: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores, officia.',
-    image: powerslave,
+    image: ironmaiden1,
   },
 ]
 
@@ -102,78 +107,78 @@ export const toprocks = [
     icon: 'fas fa-wallet fa-fw',
     title: 'Album#1',
     text: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores, officia.',
-    image: powerslave,
+    image: ironmaiden1,
   },
   {
     id: 2,
     icon: 'fas fa-tree fa-fw',
     title: 'Album#2',
     text: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores, officia.',
-    image: powerslave,
+    image: ironmaiden1,
   },
   {
     id: 3,
     icon: 'fas fa-socks fa-fw',
     title: 'Album#3',
     text: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores, officia.',
-    image: powerslave,
+    image: ironmaiden1,
   },
   {
     id: 4,
     icon: 'fas fa-socks fa-fw',
     title: 'Album#4',
     text: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores, officia.',
-    image: powerslave,
+    image: ironmaiden1,
   },
   {
     id: 5,
     icon: 'fas fa-socks fa-fw',
     title: 'Album#5',
     text: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores, officia.',
-    image: powerslave,
+    image: ironmaiden1,
   },
   {
     id: 6,
     icon: 'fas fa-socks fa-fw',
     title: 'Album#6',
     text: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores, officia.',
-    image: powerslave,
+    image: ironmaiden1,
   },
   {
     id: 7,
     icon: 'fas fa-socks fa-fw',
     title: 'Album#6',
     text: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores, officia.',
-    image: powerslave,
+    image: ironmaiden1,
   },
   {
     id: 8,
     icon: 'fas fa-socks fa-fw',
     title: 'Album#8',
     text: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores, officia.',
-    image: powerslave,
+    image: ironmaiden1,
   },
   {
     id: 9,
     icon: 'fas fa-socks fa-fw',
     title: 'Album#9',
     text: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores, officia.',
-    image: powerslave,
+    image: ironmaiden1,
   },
   {
     id: 10,
     icon: 'fas fa-socks fa-fw',
     title: 'Album#10',
     text: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores, officia.',
-    image: powerslave,
+    image: ironmaiden1,
   },
 ]
 
 export const collection = [
   {
     id: 1,
-    image: powerslave,
-    title: 'powerslave',
+    image: ironmaiden1,
+    title: 'Powerslave',
     date: 'July 23rd, 1984',
     band: 'Iron Maiden',
     length: '(51:12)',
@@ -185,11 +190,20 @@ export const collection = [
     title: 'Death above life',
     date: 'October 3rd, 2025',
     band: 'Orbit Culture',
-    length: '(51:12)',
+    length: '(48:34)',
     genre: 'Death Metal',
   },
   {
     id: 3,
+    image: orbitculture2,
+    title: 'Descent',
+    date: 'August 18th, 2023',
+    band: 'Orbit Culture',
+    length: '(51:12)',
+    genre: 'Death Metal',
+  },
+  {
+    id: 4,
     image: whitechapel1,
     title: 'Hymmns in Dissonance',
     date: 'March 07th, 2025',
@@ -198,7 +212,7 @@ export const collection = [
     genre: 'Hardcore,Grindcore',
   },
   {
-    id: 4,
+    id: 5,
     image: blacksabbath1,
     title: 'Heaven and Hell',
     date: 'April 25th, 1980',
@@ -207,7 +221,7 @@ export const collection = [
     genre: 'Heavy Metal',
   },
   {
-    id: 5,
+    id: 6,
     image: neckbreakker1,
     title: 'Within The viscera',
     date: 'December 06th, 2024',
@@ -216,13 +230,41 @@ export const collection = [
     genre: 'Death Metal',
   },
   {
-    id: 5,
+    id: 7,
     image: lornashore1,
     title: 'I feel the everblack festering within me',
     date: 'September 29th, 2025',
     band: 'Lorna Shore',
     length: '(66:31)',
     genre: 'Deathcore',
+  },
+  {
+    id: 7,
+    image: motorhead1,
+    title: 'Overnight session',
+    date: 'October 15th 1996',
+    band: 'Motorhead',
+    length: '(41:19)',
+    genre: 'Heavy Rock',
+  },
+  {
+    id: 8,
+    image: sacredreich1,
+    title: 'awakening',
+    date: 'August 23rd, 2019',
+    band: 'Sacred Reich',
+    length: '(31:28)',
+    genre: 'Trash Metal',
+  },
+
+  {
+    id: 9,
+    image: ironmaiden2,
+    title: 'Made in England',
+    date: 'March 25th, 2013',
+    band: 'Iron Maiden',
+    length: '(100:22)',
+    genre: 'Heavy Metal',
   },
 ]
 
@@ -280,5 +322,14 @@ export const collectionrock = [
     band: 'Nine Inch Nails',
     length: '(65:07)',
     genre: 'Industrial Rock',
+  },
+  {
+    id: 7,
+    image: brucespringsteen1,
+    title: 'Born in the USA',
+    date: 'June 04, 1984',
+    band: 'Bruce Springsteen',
+    length: '(46:53)',
+    genre: 'Rock',
   },
 ]
