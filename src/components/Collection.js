@@ -54,16 +54,10 @@ const Collection = ({ searchQuery }) => {
                       <div className="collection-footer">
                         <div>
                           <p>
-                            <span>
-                              <i className="fas fa-map"></i>
-                            </span>{' '}
-                            {band}
+                            <span></span> {band}
                           </p>
                           <p>
-                            <span>
-                              <i className="fas fa-map"></i>
-                            </span>{' '}
-                            {genre}
+                            <span></span> {genre}
                           </p>
                           <p className="collection-length">{length}</p>
                         </div>

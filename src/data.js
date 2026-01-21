@@ -242,7 +242,7 @@ export const collection = [
     genre: 'Deathcore',
   },
   {
-    id: 7,
+    id: 8,
     image: motorhead1,
     title: 'Overnight session',
     date: 'October 15th 1996',
@@ -251,7 +251,7 @@ export const collection = [
     genre: 'Heavy Rock',
   },
   {
-    id: 8,
+    id: 9,
     image: sacredreich1,
     title: 'awakening',
     date: 'August 23rd, 2019',
@@ -261,7 +261,7 @@ export const collection = [
   },
 
   {
-    id: 9,
+    id: 10,
     image: ironmaiden2,
     title: 'Made in England',
     date: 'March 25th, 2013',

@@ -56,13 +56,13 @@ const Collectionrock = ({ searchQuery }) => {
                           <div>
                             <p>
                               <span>
-                                <i className="fas fa-map"></i>
+                               
                               </span>{' '}
                               {band}
                             </p>
                             <p>
                               <span>
-                                <i className="fas fa-map"></i>
+                             
                               </span>{' '}
                               {genre}
                             </p>
