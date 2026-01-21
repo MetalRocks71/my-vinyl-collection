@@ -1,4 +1,4 @@
-import { pageLinks, socialLinks } from '../data'
+import { pageLinks} from '../data'
 import { useState, useEffect } from 'react'
 
 const Navbar = ({ onSearch }) => {
@@ -98,23 +98,6 @@ const Navbar = ({ onSearch }) => {
             <i className="fas fa-search"></i>
           </button>
         </div>
-
-        <ul className="nav-icons">
-          {socialLinks.map((link) => {
-            const { id, href, icon } = link
-            return (
-              <li key={id}>
-                <a
-                  href={href}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="nav-icon">
-                  <i className={icon}></i>
-                </a>
-              </li>
-            )
-          })}
-        </ul>
       </div>
     </nav>
   )
