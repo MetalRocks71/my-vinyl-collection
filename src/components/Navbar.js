@@ -1,4 +1,4 @@
-import { pageLinks} from '../data'
+import { pageLinks } from '../data'
 import { useState, useEffect } from 'react'
 
 const Navbar = ({ onSearch }) => {
@@ -29,7 +29,7 @@ const Navbar = ({ onSearch }) => {
       }
     }
   }, [lastScrollY])
-
+// Search Handlers bar
   const handleSearch = (e) => {
     e.preventDefault()
     if (onSearch) {
@@ -41,13 +41,11 @@ const Navbar = ({ onSearch }) => {
       collectionSection.scrollIntoView({ behavior: 'smooth' })
     }
   }
-
   const handleKeyPress = (e) => {
     if (e.key === 'Enter') {
       handleSearch(e)
     }
   }
-
   const handleInputChange = (e) => {
     const value = e.target.value
     setSearchQuery(value)
@@ -70,7 +68,7 @@ const Navbar = ({ onSearch }) => {
             <i className="fas fa-bars"></i>
           </button>
         </div>
-        {/* new code starts here */}
+        {/* nav links here */}
         <ul className="nav-links" id="nav-links">
           <ul className={showLinks ? 'nav-links show-links' : 'nav-links'}></ul>
           {pageLinks.map((link) => {
