@@ -15,6 +15,9 @@ import lornashore1 from './images/lornashore-1.jpg'
 import motorhead1 from './images/motorhead-1.jpg'
 import brucespringsteen1 from './images/brucespringsteen-1.jpg'
 import sacredreich1 from './images/sacredreich-1.jpg'
+import thirteenthghost from './images/thirteenthghost.jpg'
+
+export const logo = [{ id: 1, image: thirteenthghost }]
 
 export const pageLinks = [
   { id: 1, href: '#home', text: 'home' },
