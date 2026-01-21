@@ -91,7 +91,7 @@ const Navbar = ({ onSearch }) => {
             value={searchQuery}
             onChange={handleInputChange}
             onKeyUp={handleKeyPress}
-            placeholder="Search artists..."
+            placeholder="Search Artists..."
             className="search-input"
           />
           <button onClick={handleSearch} className="search-button">
