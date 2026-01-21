@@ -1,10 +1,11 @@
 import { pageLinks, socialLinks } from '../data'
 import { useState, useEffect } from 'react'
 
-const Navbar = () => {
+const Navbar = ({ onSearch }) => {
   const [showLinks, setShowLinks] = useState(false)
   const [showNavbar, setShowNavbar] = useState(true)
   const [lastScrollY, setLastScrollY] = useState(0)
+  const [searchQuery, setSearchQuery] = useState('')
 
   useEffect(() => {
     const controlNavbar = () => {
@@ -28,6 +29,33 @@ const Navbar = () => {
       }
     }
   }, [lastScrollY])
+
+  const handleSearch = (e) => {
+    e.preventDefault()
+    if (onSearch) {
+      onSearch(searchQuery)
+    }
+    // Scroll to collection section
+    const collectionSection = document.getElementById('collection')
+    if (collectionSection) {
+      collectionSection.scrollIntoView({ behavior: 'smooth' })
+    }
+  }
+
+  const handleKeyPress = (e) => {
+    if (e.key === 'Enter') {
+      handleSearch(e)
+    }
+  }
+
+  const handleInputChange = (e) => {
+    const value = e.target.value
+    setSearchQuery(value)
+    // Real-time search as user types
+    if (onSearch) {
+      onSearch(value)
+    }
+  }
 
   return (
     <nav
@@ -55,6 +83,21 @@ const Navbar = () => {
             )
           })}
         </ul>
+
+        {/* Search Bar */}
+        <div className="nav-search">
+          <input
+            type="text"
+            value={searchQuery}
+            onChange={handleInputChange}
+            onKeyUp={handleKeyPress}
+            placeholder="Search artists..."
+            className="search-input"
+          />
+          <button onClick={handleSearch} className="search-button">
+            <i className="fas fa-search"></i>
+          </button>
+        </div>
 
         <ul className="nav-icons">
           {socialLinks.map((link) => {

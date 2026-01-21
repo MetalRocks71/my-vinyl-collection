@@ -28,7 +28,7 @@ export const pageLinks = [
 export const socialLinks = [
   { id: 1, href: 'https://www.facebook.com', icon: 'fab fa-facebook' },
   { id: 2, href: 'https://x.com/', icon: 'fa-brands fa-twitter' },
-  { id: 3, href: 'https://www.squarespace.com', icon: 'fab fa-squarespace' },
+  { id: 3, href: 'https://www.instagram.com', icon: 'fab fa-instagram' },
 ]
 
 export const top = [
