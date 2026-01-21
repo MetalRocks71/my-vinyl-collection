@@ -29,7 +29,7 @@ const Navbar = ({ onSearch }) => {
       }
     }
   }, [lastScrollY])
-// Search Handlers bar
+  // Search Handlers bar
   const handleSearch = (e) => {
     e.preventDefault()
     if (onSearch) {
