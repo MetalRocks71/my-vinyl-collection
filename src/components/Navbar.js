@@ -11,10 +11,8 @@ const Navbar = ({ onSearch }) => {
     const controlNavbar = () => {
       if (typeof window !== 'undefined') {
         if (window.scrollY > lastScrollY && window.scrollY > 100) {
-          // scrolling down and past 100px
           setShowNavbar(false)
         } else {
-          // scrolling up
           setShowNavbar(true)
         }
         setLastScrollY(window.scrollY)
@@ -23,33 +21,32 @@ const Navbar = ({ onSearch }) => {
 
     if (typeof window !== 'undefined') {
       window.addEventListener('scroll', controlNavbar)
-
       return () => {
         window.removeEventListener('scroll', controlNavbar)
       }
     }
   }, [lastScrollY])
-  // Search Handlers bar
+
   const handleSearch = (e) => {
     e.preventDefault()
     if (onSearch) {
       onSearch(searchQuery)
     }
-    // Scroll to collection section
     const collectionSection = document.getElementById('collection')
     if (collectionSection) {
       collectionSection.scrollIntoView({ behavior: 'smooth' })
     }
   }
+
   const handleKeyPress = (e) => {
     if (e.key === 'Enter') {
       handleSearch(e)
     }
   }
+
   const handleInputChange = (e) => {
     const value = e.target.value
     setSearchQuery(value)
-    // Real-time search as user types
     if (onSearch) {
       onSearch(value)
     }
@@ -63,17 +60,16 @@ const Navbar = ({ onSearch }) => {
           <button
             type="button"
             className="nav-toggle"
-            id="nav-toggle"
             onClick={() => setShowLinks(!showLinks)}>
             <i className="fas fa-bars"></i>
           </button>
         </div>
-        {/* nav links here */}
-        <ul className="nav-links" id="nav-links">
-          <ul className={showLinks ? 'nav-links show-links' : 'nav-links'}></ul>
+
+        {/* Fixed: removed nested ul and applied showLinks correctly */}
+        <ul className={showLinks ? 'nav-links show-links' : 'nav-links'}>
           {pageLinks.map((link) => {
             return (
-              <li key={link.id} id="nav-links">
+              <li key={link.id}>
                 <a href={link.href} className="nav-link">
                   {link.text}
                 </a>
@@ -100,4 +96,5 @@ const Navbar = ({ onSearch }) => {
     </nav>
   )
 }
+
 export default Navbar
