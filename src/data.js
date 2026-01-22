@@ -1,21 +1,27 @@
-import ironmaiden1 from './images/ironmaiden-1.jpg'
-import ironmaiden2 from './images/ironmaiden-2.jpg'
+import blacksabbath1 from './images/blacksabbath-1.jpg'
+import brucespringsteen1 from './images/brucespringsteen-1.jpg'
 import gretavanfleet1 from './images/gretavanfleet-1.jpg'
 import gretavanfleet2 from './images/gretavanfleet-2.jpg'
-import orbitculture1 from './images/orbitculture-1.jpg'
-import orbitculture2 from './images/orbitculture-2.jpg'
-import thewhitestripes1 from './images/thewhitestripes-1.jpg'
-import thecure1 from './images/thecure-1.jpg'
-import pinkfloyd1 from './images/pinkfloyd-1.jpg'
-import whitechapel1 from './images/whitechapel-1.jpg'
-import blacksabbath1 from './images/blacksabbath-1.jpg'
-import nineinchnails1 from './images/nineinchnails-1.jpg'
-import neckbreakker1 from './images/neckbreakker-1.jpg'
+import ironmaiden1 from './images/ironmaiden-1.jpg'
+import ironmaiden2 from './images/ironmaiden-2.jpg'
+import johnnycash1 from './images/johnnycash-1.jpg'
+import lennykravitz1 from './images/lennykravitz-1.jpg'
+import linkinpark1 from './images/linkinpark-1.jpg'
 import lornashore1 from './images/lornashore-1.jpg'
 import motorhead1 from './images/motorhead-1.jpg'
-import brucespringsteen1 from './images/brucespringsteen-1.jpg'
+import neckbreakker1 from './images/neckbreakker-1.jpg'
+import nineinchnails1 from './images/nineinchnails-1.jpg'
+import orbitculture1 from './images/orbitculture-1.jpg'
+import orbitculture2 from './images/orbitculture-2.jpg'
+import pinkfloyd1 from './images/pinkfloyd-1.jpg'
+import pinkfloyd2 from './images/pinkfloyd-2.jpg'
+import polyphia1 from './images/polyphia-1.jpg'
+import rem1 from './images/rem-1.jpg'
 import sacredreich1 from './images/sacredreich-1.jpg'
+import thecure1 from './images/thecure-1.jpg'
+import thewhitestripes1 from './images/thewhitestripes-1.jpg'
 import thirteenthghost from './images/thirteenthghost.jpg'
+import whitechapel1 from './images/whitechapel-1.jpg'
 
 export const logo = [{ id: 1, image: thirteenthghost }]
 
@@ -269,6 +275,8 @@ export const collection = [
     length: '(100:22)',
     genre: 'Heavy Metal',
   },
+  
+
 ]
 
 export const collectionrock = [
@@ -315,7 +323,7 @@ export const collectionrock = [
     date: 'November 11th, 1971',
     band: 'Pink Floyd',
     length: '(46:46)',
-    genre: 'Progressive Rock',
+    genre: 'Rock progressive',
   },
   {
     id: 6,
@@ -333,6 +341,63 @@ export const collectionrock = [
     date: 'June 04, 1984',
     band: 'Bruce Springsteen',
     length: '(46:53)',
+    genre: 'Rock',
+  },
+  {
+    id: 8,
+    image: pinkfloyd2,
+    title: 'Wish you were here',
+    date: 'September 02nd, 1975',
+    band: 'Pink Floyd',
+    length: '(44:13)',
+    genre: 'Rock progressive',
+  },
+
+  {
+    id: 9,
+    image: linkinpark1,
+    title: 'From zero',
+    date: 'November 15th, 2024',
+    band: 'Linkin Park',
+    length: '(31:54)',
+    genre: 'Rock, Nu Metal',
+  },
+
+  {
+    id: 10,
+    image: johnnycash1,
+    title: 'American IV: The Man Comes Around',
+    date: 'November 5th, 2002',
+    band: 'Johnny Cash',
+    length: '(51:45)',
+    genre: 'County Rock',
+  },
+  {
+    id: 11,
+    image: rem1,
+    title: 'New Adventures in Hi-Fi',
+    date: 'September 10th, 1996',
+    band: 'R.E.M.',
+    length: '(65:31)',
+    genre: 'Rock',
+  },
+  {
+    id: 12,
+    image: polyphia1,
+    title: 'Remember that you will die',
+    date: 'October 28th 2022',
+    band: 'Polyphia',
+    length: '(39:08)',
+    genre: 'Rock progressive',
+  },
+
+  {
+    id: 13,
+    image: lennykravitz1,
+    title: '5',
+    date: 'May 12th, 1998',
+    band: 'Lenny Kravitz',
+    length: '(75:50)',
     genre: 'Rock',
   },
 ]
