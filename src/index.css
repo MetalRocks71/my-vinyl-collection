@@ -31,7 +31,7 @@ Variables
   --clr-grey-9: hsl(212, 33%, 89%);
   --clr-grey-10: hsl(210, 36%, 96%);
   --clr-grey-11: hsl(210, 2%, 53%);
-   --clr-grey-12: hsl(60, 6%, 84%);
+  --clr-grey-12: hsl(60, 6%, 84%);
   /*blacck */
   --clr-black: #222;
   --clr-white: #fff;
@@ -74,11 +74,13 @@ body {
   font-size: 0.875rem;
   overflow-x: hidden;
 }
+
 @media screen and (min-width: 992px) {
   body {
-     background: var(--clr-grey-12);
+    background: var(--clr-grey-12);
   }
 }
+
 ul {
   list-style-type: none;
 }
@@ -810,8 +812,9 @@ Collections
 .collection-img-container {
   position: relative;
   overflow: hidden;
-  
+
 }
+
 .collection-img-container::before {
   content: '';
   position: absolute;
@@ -862,7 +865,7 @@ Collections
 }
 
 .collection-info {
-  padding: 2rem 1.25rem ;
+  padding: 2rem 1.25rem;
   display: grid;
   grid-template-rows: auto 1fr;
   min-height: 50px;
@@ -961,6 +964,7 @@ Collections
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 2rem;
+
   }
 }
 
