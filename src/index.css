@@ -795,6 +795,7 @@ Collections
   backdrop-filter: blur(10px);
   box-shadow: 0 8px 32px rgba(0, 0, 0, 0.1);
   margin-bottom: 2rem;
+  margin-right: 0.6rem;
   border-radius: 16px;
   overflow: hidden;
   background-color: var(--clr-white);
@@ -809,8 +810,8 @@ Collections
 .collection-img-container {
   position: relative;
   overflow: hidden;
+  
 }
-
 .collection-img-container::before {
   content: '';
   position: absolute;
