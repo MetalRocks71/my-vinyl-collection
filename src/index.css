@@ -203,6 +203,7 @@ p {
     width: 95vw;
   }
 }
+
 /*=============== 
 Search bar
 /*=============== 
@@ -221,7 +222,7 @@ Search bar
   border: 2px solid transparent;
   border-radius: 25px;
   outline: none;
-  font-size: 0.9rem;
+  font-size: 2rem;
   min-width: 200px;
   background: var(--clr-white);
   color: #222;
@@ -251,14 +252,14 @@ Search bar
   display: flex;
   align-items: center;
   justify-content: center;
-   margin-top: 20px;
+  margin-top: 20px;
 }
 
 .search-button:hover {
   background: var(--clr-primary-7);
   transform: translateY(-2px);
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
- 
+
 }
 
 .search-button:active {
@@ -292,13 +293,15 @@ Search bar
     margin: 0 0.5rem;
     max-height: 5rem;
   }
-  
+
   .search-input {
     min-width: 150px;
     font-size: 0.85rem;
-    padding: 0.7rem 1rem; /* Increased vertical padding */
+    padding: 0.7rem 1rem;
+    /* Increased vertical padding */
     margin: 0 0.5rem;
     height: 3rem;
+    font-size: 1.2rem;
   }
 }
 
@@ -307,32 +310,37 @@ Search bar
     width: 100%;
     margin: 1rem 0;
     padding: 0 1rem;
-    
+
   }
-  
+
   .search-input {
     flex: 1;
     min-width: auto;
-    padding: 0.8rem 1rem; 
-    height: 3rem;/* Increased vertical padding */
+    padding: 0.8rem 1rem;
+    height: 3rem;
+    /* Increased vertical padding */
+    font-size: 1.2rem;
   }
 }
 
 @media screen and (max-width: 576px) {
   .search-input {
-    padding: 0.6rem 0.8rem; /* Increased from 0.4rem */
+    padding: 0.6rem 0.8rem;
+    /* Increased from 0.4rem */
     font-size: 0.8rem;
     height: 3rem;
+    font-size: 1.2rem;
   }
-  
+
   .search-button {
     padding: 0.4rem 0.8rem;
   }
-  
+
   .search-button i {
     font-size: 0.9rem;
   }
 }
+
 /*
 =============== 
 Hero
@@ -774,8 +782,10 @@ footer>div {
   text-align: center;
   margin: 0 auto;
   display: inline-block;
-    max-width: 100%; /* Prevents overflow on small screens */
-  padding: 0 1rem; /* Adds breathing room on mobile */
+  max-width: 100%;
+  /* Prevents overflow on small screens */
+  padding: 0 1rem;
+  /* Adds breathing room on mobile */
 
 }
 
@@ -816,18 +826,21 @@ footer>div {
   letter-spacing: var(--spacing);
   color: var(--clr-white);
   text-align: center;
-   word-wrap: break-word; 
+  word-wrap: break-word;
 
 }
 
 .copyright span {
   margin-left: 0.5rem;
 }
+
 /* Optional: Adjust font size on mobile for better readability */
 @media screen and (max-width: 768px) {
   .copyright {
-    font-size: 0.875rem; /* Slightly smaller on mobile */
-    line-height: 1.6; /* Better line spacing */
+    font-size: 0.875rem;
+    /* Slightly smaller on mobile */
+    line-height: 1.6;
+    /* Better line spacing */
   }
 }
 
