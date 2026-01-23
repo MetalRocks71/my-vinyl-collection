@@ -29,6 +29,8 @@ import rageagainstthemachine1 from './images/rageagainstthemachine-1.jpg'
 import tool1 from './images/tool-1.jpg'
 import ironmaiden3 from './images/ironmaiden-3.jpg'
 import theblackdahlia1 from './images/theblackdahlia-1.jpg'
+import killswitch1 from './images/killswitch-1.jpg'
+
 
 
 
@@ -339,6 +341,16 @@ export const collection = [
     date: 'September 27th, 2024',
     band: 'The Black Dahlia Murder',
     length: '(32:49)',
+    genre: 'Death Metal',
+  },
+
+  {
+    id: 17,
+    image: killswitch1,
+    title: 'Atonement',
+    date: 'August 16th, 2019',
+    band: 'Killswitch Engage',
+    length: '(39:02)',
     genre: 'Death Metal',
   },
 ]
