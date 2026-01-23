@@ -30,6 +30,7 @@ import tool1 from './images/tool-1.jpg'
 import ironmaiden3 from './images/ironmaiden-3.jpg'
 import theblackdahlia1 from './images/theblackdahlia-1.jpg'
 import killswitch1 from './images/killswitch-1.jpg'
+import opeth1 from './images/opeth-1.jpg'
 
 
 
@@ -352,6 +353,15 @@ export const collection = [
     band: 'Killswitch Engage',
     length: '(39:02)',
     genre: 'Death Metal',
+  },
+  {
+    id: 18,
+    image: opeth1,
+    title: 'Ghost reveries',
+    date: 'August 30th, 2005',
+    band: 'Opeth',
+    length: '(66:46)',
+    genre: 'Doom death Metal, progressive Metal',
   },
 ]
 
