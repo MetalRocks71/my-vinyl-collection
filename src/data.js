@@ -22,6 +22,18 @@ import thecure1 from './images/thecure-1.jpg'
 import thewhitestripes1 from './images/thewhitestripes-1.jpg'
 import thirteenthghost from './images/thirteenthghost.jpg'
 import whitechapel1 from './images/whitechapel-1.jpg'
+import neaera1 from './images/neaera-1.jpg'
+import motorhead2 from './images/motorhead-2.jpg'
+import typeofnegative1 from './images/typeofnegative-1.jpg'
+import rageagainstthemachine1 from './images/rageagainstthemachine-1.jpg'
+import tool1 from './images/tool-1.jpg'
+import ironmaiden3 from './images/ironmaiden-3.jpg'
+import theblackdahlia1 from './images/theblackdahlia-1.jpg'
+
+
+
+
+
 
 export const logo = [{ id: 1, image: thirteenthghost }]
 
@@ -252,7 +264,7 @@ export const collection = [
     image: motorhead1,
     title: 'Overnight session',
     date: 'October 15th 1996',
-    band: 'Motorhead',
+    band: 'Mötorhead',
     length: '(41:19)',
     genre: 'Heavy Rock',
   },
@@ -275,8 +287,60 @@ export const collection = [
     length: '(100:22)',
     genre: 'Heavy Metal',
   },
-  
-
+  {
+    id: 11,
+    image: neaera1,
+    title: 'All is dust',
+    date: 'June 28th, 2024',
+    band: 'Neaera',
+    length: '(47:40)',
+    genre: 'Death Metal',
+  },
+  {
+    id: 12,
+    image: motorhead2,
+    title: 'The Löst Tapes, Vol. 2 (Live in Norwich, 1998)',
+    date: 'December 24th, 2021',
+    band: 'Mötorhead',
+    length: '(47:40)',
+    genre: 'Death Metal',
+  },
+  {
+    id: 13,
+    image: typeofnegative1,
+    title: 'Life is killing me',
+    date: 'April 19th, 2024',
+    band: 'Type of Negative',
+    length: '(74:33)',
+    genre: 'Goth Metal',
+  },
+  {
+    id: 14,
+    image: tool1,
+    title: 'Undertow',
+    date: 'January 1st, 1993',
+    band: 'Tool',
+    length: '(68:13)',
+    genre: 'Underground Metal',
+  },
+  {
+    id: 15,
+    image: ironmaiden3,
+    title: 'The Number of the Beast',
+    date: 'March 22nd, 1982',
+    band: 'Iron Maiden',
+    length: '(40:22)',
+    genre: 'Heavy Metal',
+  },
+  {
+    id: 16,
+    image: theblackdahlia1,
+    title: 'Servitude',
+    date: 'September 27th, 2024',
+    band: 'The Black Dahlia Murder',
+    length: '(32:49)',
+    genre: 'Death Metal',
+  },
 ]
 
 export const collectionrock = [
@@ -399,5 +463,15 @@ export const collectionrock = [
     band: 'Lenny Kravitz',
     length: '(75:50)',
     genre: 'Rock',
+  },
+
+  {
+    id: 14,
+    image: rageagainstthemachine1,
+    title: 'Rage Against the Machine',
+    date: 'May 12th, 1998',
+    band: 'Rage Against the Machine',
+    length: '(52:53)',
+    genre: 'Hardcore Punk',
   },
 ]
