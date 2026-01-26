@@ -2,7 +2,7 @@ import augustburnsred1 from './images/augustburnsred-1.jpg'
 import blacksabbath1 from './images/blacksabbath-1.jpg'
 import borknagar1 from './images/borknagar-1.jpg'
 import brucespringsteen1 from './images/brucespringsteen-1.jpg'
-import dio1 from './images/dio-1.jpg' 
+import dio1 from './images/dio-1.jpg'
 import dio2 from './images/dio-2.jpg'
 import gretavanfleet1 from './images/gretavanfleet-1.jpg'
 import gretavanfleet2 from './images/gretavanfleet-2.jpg'
@@ -17,7 +17,7 @@ import johnnycash1 from './images/johnnycash-1.jpg'
 import killswitch1 from './images/killswitch-1.jpg'
 import lennykravitz1 from './images/lennykravitz-1.jpg'
 import linkinpark1 from './images/linkinpark-1.jpg'
-import linkinpark2 from './images/linkinpark-2.jpg'  
+import linkinpark2 from './images/linkinpark-2.jpg'
 import lornashore1 from './images/lornashore-1.jpg'
 import motorhead1 from './images/motorhead-1.jpg'
 import motorhead2 from './images/motorhead-2.jpg'
@@ -45,12 +45,6 @@ import typeofnegative1 from './images/typeofnegative-1.jpg'
 import whileshesleeps1 from './images/whileshesleeps-1.jpg'
 import whitechapel1 from './images/whitechapel-1.jpg'
 
-
-
-
-
-
-
 export const logo = [{ id: 1, image: thirteenthghost }]
 
 export const pageLinks = [
@@ -68,70 +62,60 @@ export const socialLinks = [
 export const top = [
   {
     id: 1,
-    icon: 'fas fa-wallet fa-fw',
     title: 'Album#1',
     text: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores, officia.',
     image: ironmaiden1,
   },
   {
     id: 2,
-    icon: 'fas fa-tree fa-fw',
-    title: 'Album#2',
+      title: 'Album#2',
     text: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores, officia.',
     image: ironmaiden1,
   },
   {
     id: 3,
-    icon: 'fas fa-socks fa-fw',
-    title: 'Album#3',
+     title: 'Album#3',
     text: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores, officia.',
     image: ironmaiden1,
   },
   {
     id: 4,
-    icon: 'fas fa-socks fa-fw',
     title: 'Album#4',
     text: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores, officia.',
     image: ironmaiden1,
   },
   {
     id: 5,
-    icon: 'fas fa-socks fa-fw',
     title: 'Album#5',
     text: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores, officia.',
     image: ironmaiden1,
   },
   {
     id: 6,
-    icon: 'fas fa-socks fa-fw',
-    title: 'Album#6',
+     title: 'Album#6',
     text: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores, officia.',
     image: ironmaiden1,
   },
   {
     id: 7,
-    icon: 'fas fa-socks fa-fw',
     title: 'Album#6',
     text: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores, officia.',
     image: ironmaiden1,
   },
   {
     id: 8,
-    icon: 'fas fa-socks fa-fw',
-    title: 'Album#8',
+     title: 'Album#8',
     text: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores, officia.',
     image: ironmaiden1,
   },
   {
     id: 9,
-    icon: 'fas fa-socks fa-fw',
     title: 'Album#9',
     text: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores, officia.',
     image: ironmaiden1,
   },
   {
     id: 10,
-    icon: 'fas fa-socks fa-fw',
     title: 'Album#10',
     text: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores, officia.',
     image: ironmaiden1,
@@ -141,70 +125,60 @@ export const top = [
 export const toprocks = [
   {
     id: 1,
-    icon: 'fas fa-wallet fa-fw',
     title: 'Album#1',
     text: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores, officia.',
     image: ironmaiden1,
   },
   {
     id: 2,
-    icon: 'fas fa-tree fa-fw',
     title: 'Album#2',
     text: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores, officia.',
     image: ironmaiden1,
   },
   {
     id: 3,
-    icon: 'fas fa-socks fa-fw',
     title: 'Album#3',
     text: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores, officia.',
     image: ironmaiden1,
   },
   {
     id: 4,
-    icon: 'fas fa-socks fa-fw',
     title: 'Album#4',
     text: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores, officia.',
     image: ironmaiden1,
   },
   {
     id: 5,
-    icon: 'fas fa-socks fa-fw',
     title: 'Album#5',
     text: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores, officia.',
     image: ironmaiden1,
   },
   {
     id: 6,
-    icon: 'fas fa-socks fa-fw',
     title: 'Album#6',
     text: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores, officia.',
     image: ironmaiden1,
   },
   {
     id: 7,
-    icon: 'fas fa-socks fa-fw',
     title: 'Album#6',
     text: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores, officia.',
     image: ironmaiden1,
   },
   {
     id: 8,
-    icon: 'fas fa-socks fa-fw',
     title: 'Album#8',
     text: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores, officia.',
     image: ironmaiden1,
   },
   {
     id: 9,
-    icon: 'fas fa-socks fa-fw',
     title: 'Album#9',
     text: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores, officia.',
     image: ironmaiden1,
   },
   {
     id: 10,
-    icon: 'fas fa-socks fa-fw',
     title: 'Album#10',
     text: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores, officia.',
     image: ironmaiden1,
@@ -571,7 +545,6 @@ export const collectionrock = [
     genre: 'Rock progressive',
   },
 
-
   {
     id: 9,
     image: johnnycash1,
@@ -624,7 +597,7 @@ export const collectionrock = [
     image: gunsandroses1,
     title: 'Greatest Hits',
     date: 'March 23rd, 2004',
-    band: 'Guns N\' Roses',
+    band: "Guns N' Roses",
     length: '(72:14)',
     genre: 'Hard Rock',
   },
