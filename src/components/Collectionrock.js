@@ -30,7 +30,7 @@ const Collectionrock = ({ searchQuery }) => {
       <Title title="The " subtitle="Rock Collection" />
       <div>
         <button className="category-btn" onClick={toggle}>
-          Rock and Subgenres
+          Rock and Subgenres({sortedCollection.length})
           {searchQuery && ` (${sortedCollection.length} results)`}
         </button>
         {shouldOpen && (
