@@ -626,6 +626,6 @@ export const collectionrock = [
     date: 'March 23rd, 2004',
     band: 'Guns N\' Roses',
     length: '(72:14)',
-    genre: 'Hardcore Punk',
+    genre: 'Hard Rock',
   },
 ]
