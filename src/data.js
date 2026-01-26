@@ -1,36 +1,49 @@
+import augustburnsred1 from './images/augustburnsred-1.jpg'
 import blacksabbath1 from './images/blacksabbath-1.jpg'
+import borknagar1 from './images/borknagar-1.jpg'
 import brucespringsteen1 from './images/brucespringsteen-1.jpg'
+import dio1 from './images/dio-1.jpg' 
+import dio2 from './images/dio-2.jpg'
 import gretavanfleet1 from './images/gretavanfleet-1.jpg'
 import gretavanfleet2 from './images/gretavanfleet-2.jpg'
+import gunsandroses1 from './images/gunsandroses-1.jpg'
 import ironmaiden1 from './images/ironmaiden-1.jpg'
 import ironmaiden2 from './images/ironmaiden-2.jpg'
+import ironmaiden3 from './images/ironmaiden-3.jpg'
+import ironmaiden4 from './images/ironmaiden-4.jpg'
+import ironmaiden5 from './images/ironmaiden-5.jpg'
+import ironmaiden6 from './images/ironmaiden-6.jpg'
 import johnnycash1 from './images/johnnycash-1.jpg'
+import killswitch1 from './images/killswitch-1.jpg'
 import lennykravitz1 from './images/lennykravitz-1.jpg'
 import linkinpark1 from './images/linkinpark-1.jpg'
+import linkinpark2 from './images/linkinpark-2.jpg'  
 import lornashore1 from './images/lornashore-1.jpg'
 import motorhead1 from './images/motorhead-1.jpg'
+import motorhead2 from './images/motorhead-2.jpg'
+import neaera1 from './images/neaera-1.jpg'
 import neckbreakker1 from './images/neckbreakker-1.jpg'
 import nineinchnails1 from './images/nineinchnails-1.jpg'
+import nineinchnails2 from './images/nineinchnails-2.jpg'
+import opeth1 from './images/opeth-1.jpg'
 import orbitculture1 from './images/orbitculture-1.jpg'
 import orbitculture2 from './images/orbitculture-2.jpg'
 import pinkfloyd1 from './images/pinkfloyd-1.jpg'
 import pinkfloyd2 from './images/pinkfloyd-2.jpg'
 import polyphia1 from './images/polyphia-1.jpg'
+import rageagainstthemachine1 from './images/rageagainstthemachine-1.jpg'
+import rainbow1 from './images/rainbow-1.jpg'
 import rem1 from './images/rem-1.jpg'
 import sacredreich1 from './images/sacredreich-1.jpg'
+import systemofadown1 from './images/systemofadown-1.jpg'
+import theblackdahlia1 from './images/theblackdahlia-1.jpg'
 import thecure1 from './images/thecure-1.jpg'
 import thewhitestripes1 from './images/thewhitestripes-1.jpg'
 import thirteenthghost from './images/thirteenthghost.jpg'
-import whitechapel1 from './images/whitechapel-1.jpg'
-import neaera1 from './images/neaera-1.jpg'
-import motorhead2 from './images/motorhead-2.jpg'
-import typeofnegative1 from './images/typeofnegative-1.jpg'
-import rageagainstthemachine1 from './images/rageagainstthemachine-1.jpg'
 import tool1 from './images/tool-1.jpg'
-import ironmaiden3 from './images/ironmaiden-3.jpg'
-import theblackdahlia1 from './images/theblackdahlia-1.jpg'
-import killswitch1 from './images/killswitch-1.jpg'
-import opeth1 from './images/opeth-1.jpg'
+import typeofnegative1 from './images/typeofnegative-1.jpg'
+import whileshesleeps1 from './images/whileshesleeps-1.jpg'
+import whitechapel1 from './images/whitechapel-1.jpg'
 
 
 
@@ -242,7 +255,7 @@ export const collection = [
     date: 'April 25th, 1980',
     band: 'Black Sabbath',
     length: '(39:48)',
-    genre: 'Heavy Metal',
+    genre: 'Heavy Metal, Doom Metal',
   },
   {
     id: 6,
@@ -361,7 +374,126 @@ export const collection = [
     date: 'August 30th, 2005',
     band: 'Opeth',
     length: '(66:46)',
-    genre: 'Doom death Metal, progressive Metal',
+    genre: 'Doom Death Metal, Progressive Metal',
+  },
+  {
+    id: 19,
+    image: borknagar1,
+    title: 'Fall',
+    date: 'February 23rd, 2024',
+    band: 'Borknagar',
+    length: '(54:30)',
+    genre: 'Progressive Metal',
+  },
+  {
+    id: 20,
+    image: ironmaiden4,
+    title: 'Life after death',
+    date: 'August 1st, 1985',
+    band: 'Iron Maiden',
+    length: '(102:54)',
+    genre: 'Heavy Metal',
+  },
+  {
+    id: 21,
+    image: systemofadown1,
+    title: 'Toxicity',
+    date: 'September 4th, 2001',
+    band: 'System of a Down',
+    length: '(44:02)',
+    genre: 'Trash alternative Metal',
+  },
+  {
+    id: 22,
+    image: augustburnsred1,
+    title: 'Death Below',
+    date: 'March 24th, 2023',
+    band: 'August Burns Red',
+    length: '(44:02)',
+    genre: 'MetalCore',
+  },
+  {
+    id: 24,
+    image: dio1,
+    title: 'Evil or Divine',
+    date: 'February 22nd, 2005',
+    band: 'Dio',
+    length: '(92:39)',
+    genre: 'Heavy Metal',
+  },
+  {
+    id: 25,
+    image: whileshesleeps1,
+    title: 'This is the Six',
+    date: 'August 13th, 2012',
+    band: 'While She Sleeps',
+    length: '(44:39)',
+    genre: 'MetalCore',
+  },
+
+  {
+    id: 26,
+    image: linkinpark1,
+    title: 'From zero',
+    date: 'November 15th, 2024',
+    band: 'Linkin Park',
+    length: '(31:54)',
+    genre: 'Nu Metal',
+  },
+
+  {
+    id: 27,
+    image: linkinpark2,
+    title: 'Hybrid Theory',
+    date: 'October 24th, 2000',
+    band: 'Linkin Park',
+    length: '(37:50)',
+    genre: 'Nu Metal',
+  },
+  {
+    id: 28,
+    image: rainbow1,
+    title: 'The Defginitive Osaka 1978 Final night',
+    date: 'March 31st, 2023',
+    band: 'Rainbow',
+    length: '(111:0)',
+    genre: 'Heavy Metal',
+  },
+  {
+    id: 29,
+    image: ironmaiden5,
+    title: 'Infinite Dreams',
+    date: 'November 6th, 1989',
+    band: 'Iron Maiden',
+    length: '(16:15)',
+    genre: 'Heavy Metal',
+  },
+  {
+    id: 30,
+    image: nineinchnails2,
+    title: 'Pretty Hate Machine',
+    date: 'October 20th, 1989',
+    band: 'Nine Inch Nails',
+    length: '(48:47)',
+    genre: 'Industrial Rock',
+  },
+  {
+    id: 31,
+    image: dio2,
+    title: 'Holy Diver',
+    date: 'May 15th, 1983',
+    band: 'Dio',
+    length: '(75:37)',
+    genre: 'Heavy Metal',
+  },
+  {
+    id: 29,
+    image: ironmaiden6,
+    title: 'Somewhere in time',
+    date: 'January 1st, 1986',
+    band: 'Iron Maiden',
+    length: '(51:41)',
+    genre: 'Heavy Metal',
   },
 ]
 
@@ -439,18 +571,9 @@ export const collectionrock = [
     genre: 'Rock progressive',
   },
 
-  {
-    id: 9,
-    image: linkinpark1,
-    title: 'From zero',
-    date: 'November 15th, 2024',
-    band: 'Linkin Park',
-    length: '(31:54)',
-    genre: 'Rock, Nu Metal',
-  },
 
   {
-    id: 10,
+    id: 9,
     image: johnnycash1,
     title: 'American IV: The Man Comes Around',
     date: 'November 5th, 2002',
@@ -459,7 +582,7 @@ export const collectionrock = [
     genre: 'County Rock',
   },
   {
-    id: 11,
+    id: 10,
     image: rem1,
     title: 'New Adventures in Hi-Fi',
     date: 'September 10th, 1996',
@@ -468,7 +591,7 @@ export const collectionrock = [
     genre: 'Rock',
   },
   {
-    id: 12,
+    id: 11,
     image: polyphia1,
     title: 'Remember that you will die',
     date: 'October 28th 2022',
@@ -478,7 +601,7 @@ export const collectionrock = [
   },
 
   {
-    id: 13,
+    id: 12,
     image: lennykravitz1,
     title: '5',
     date: 'May 12th, 1998',
@@ -488,12 +611,21 @@ export const collectionrock = [
   },
 
   {
-    id: 14,
+    id: 13,
     image: rageagainstthemachine1,
     title: 'Rage Against the Machine',
     date: 'May 12th, 1998',
     band: 'Rage Against the Machine',
     length: '(52:53)',
+    genre: 'Hardcore Punk',
+  },
+  {
+    id: 14,
+    image: gunsandroses1,
+    title: 'Greatest Hits',
+    date: 'March 23rd, 2004',
+    band: 'Guns N\' Roses',
+    length: '(72:14)',
     genre: 'Hardcore Punk',
   },
 ]
