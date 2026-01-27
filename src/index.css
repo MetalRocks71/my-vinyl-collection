@@ -38,7 +38,7 @@ Variables
   --clr-red-dark: hsl(360, 67%, 44%);
   --ff-primary: 'Lato', sans-serif;
   --transition: all 0.3s linear;
-  --spacing: 0.15rem;
+  --spacing: 0.20rem;
   --radius: 0.5rem;
   --light-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
   --dark-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
