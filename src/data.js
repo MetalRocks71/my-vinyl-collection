@@ -59,7 +59,9 @@ export const pageLinks = [
   { id: 1, href: '#home', text: 'home' },
   { id: 2, href: '#about', text: 'about the music' },
   { id: 3, href: '#top', text: 'Top 10 Albums' },
-  { id: 5, href: '#collection', text: 'The Vinyls collection' },
+  { id: 5, href: '#collection', text: 'The Metal collection' },
+  { id: 6, href: '#rockcollection', text: 'The Rock collection' },
+
 ]
 export const socialLinks = [
   { id: 1, href: 'https://www.facebook.com', icon: 'fab fa-facebook' },
