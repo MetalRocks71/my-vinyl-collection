@@ -538,7 +538,7 @@ Search bar
     flex: 1;
     min-width: auto;
     padding: 0.8rem 1rem;
-    height: 2.5rem;
+    height: 3rem;
     /* Increased vertical padding */
     font-size: 1.2rem;
   }
@@ -549,7 +549,7 @@ Search bar
     padding: 0.6rem 0.8rem;
     /* Increased from 0.4rem */
     font-size: 0.8rem;
-    height: 3rem;
+    height: 2.5rem;
     font-size: 1.2rem;
   }
 
