@@ -16,7 +16,7 @@ const Collectionrock = ({ searchQuery }) => {
     const query = searchQuery.toLowerCase()
     // Only search in band name field
     return item.band.toLowerCase().includes(query)
-  })  
+  })
 
   const sortedCollection = [...filteredCollection].sort((a, b) =>
     a.band.localeCompare(b.band),
@@ -52,16 +52,10 @@ const Collectionrock = ({ searchQuery }) => {
                         <div className="collection-footer">
                           <div>
                             <p>
-                              <span>
-                               
-                              </span>{' '}
-                              {band}
+                              <span></span> {band}
                             </p>
                             <p>
-                              <span>
-                             
-                              </span>{' '}
-                              {genre}
+                              <span></span> {genre}
                             </p>
                             <p className="collection-length">{length}</p>
                           </div>

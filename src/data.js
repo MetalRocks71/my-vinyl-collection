@@ -4,6 +4,7 @@ import borknagar1 from './images/borknagar-1.jpg'
 import brucespringsteen1 from './images/brucespringsteen-1.jpg'
 import dio1 from './images/dio-1.jpg'
 import dio2 from './images/dio-2.jpg'
+import genesis1 from './images/genesis-1.jpg'
 import gretavanfleet1 from './images/gretavanfleet-1.jpg'
 import gretavanfleet2 from './images/gretavanfleet-2.jpg'
 import gunsandroses1 from './images/gunsandroses-1.jpg'
@@ -21,6 +22,7 @@ import linkinpark2 from './images/linkinpark-2.jpg'
 import lornashore1 from './images/lornashore-1.jpg'
 import motorhead1 from './images/motorhead-1.jpg'
 import motorhead2 from './images/motorhead-2.jpg'
+import nazareth1 from './images/nazareth-1.jpg'
 import neaera1 from './images/neaera-1.jpg'
 import neckbreakker1 from './images/neckbreakker-1.jpg'
 import nineinchnails1 from './images/nineinchnails-1.jpg'
@@ -35,15 +37,21 @@ import rageagainstthemachine1 from './images/rageagainstthemachine-1.jpg'
 import rainbow1 from './images/rainbow-1.jpg'
 import rem1 from './images/rem-1.jpg'
 import sacredreich1 from './images/sacredreich-1.jpg'
+import simpleminds1 from './images/simpleminds-1.jpg'
+import supertramp1 from './images/supertramp-1.jpg'
+import supertramp2 from './images/supertramp-2.jpg'
+import supertramp3 from './images/supertramp-3.jpg'
 import systemofadown1 from './images/systemofadown-1.jpg'
 import theblackdahlia1 from './images/theblackdahlia-1.jpg'
 import thecure1 from './images/thecure-1.jpg'
+import therollingstones1 from './images/therollingstones-1.jpg'
 import thewhitestripes1 from './images/thewhitestripes-1.jpg'
 import thirteenthghost from './images/thirteenthghost.jpg'
 import tool1 from './images/tool-1.jpg'
 import typeofnegative1 from './images/typeofnegative-1.jpg'
 import whileshesleeps1 from './images/whileshesleeps-1.jpg'
 import whitechapel1 from './images/whitechapel-1.jpg'
+import yes1 from './images/yes-1.jpg'
 
 export const logo = [{ id: 1, image: thirteenthghost }]
 
@@ -51,7 +59,7 @@ export const pageLinks = [
   { id: 1, href: '#home', text: 'home' },
   { id: 2, href: '#about', text: 'about the music' },
   { id: 3, href: '#top', text: 'Top 10 Albums' },
-  { id: 5, href: '#collection', text: 'The collection' },
+  { id: 5, href: '#collection', text: 'The Vinyls collection' },
 ]
 export const socialLinks = [
   { id: 1, href: 'https://www.facebook.com', icon: 'fab fa-facebook' },
@@ -68,13 +76,13 @@ export const top = [
   },
   {
     id: 2,
-      title: 'Album#2',
+    title: 'Album#2',
     text: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores, officia.',
     image: ironmaiden1,
   },
   {
     id: 3,
-     title: 'Album#3',
+    title: 'Album#3',
     text: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores, officia.',
     image: ironmaiden1,
   },
@@ -92,7 +100,7 @@ export const top = [
   },
   {
     id: 6,
-     title: 'Album#6',
+    title: 'Album#6',
     text: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores, officia.',
     image: ironmaiden1,
   },
@@ -104,7 +112,7 @@ export const top = [
   },
   {
     id: 8,
-     title: 'Album#8',
+    title: 'Album#8',
     text: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores, officia.',
     image: ironmaiden1,
   },
@@ -600,5 +608,77 @@ export const collectionrock = [
     band: "Guns N' Roses",
     length: '(72:14)',
     genre: 'Hard Rock',
+  },
+  {
+    id: 15,
+    image: yes1,
+    title: 'Going for the One',
+    date: 'July 07th, 1977',
+    band: 'Yes',
+    length: '(38:55)',
+    genre: 'Rock, Progressive Rock',
+  },
+  {
+    id: 16,
+    image: simpleminds1,
+    title: 'New Gold Dream (81–82–83–84)',
+    date: 'September 1st, 1982',
+    band: 'Simple Minds',
+    length: '(44:59)',
+    genre: 'Rock, Progressive Rock',
+  },
+  {
+    id: 17,
+    image: supertramp1,
+    title: 'Indelibly Stamped',
+    date: 'June 25th, 1971',
+    band: 'Supertramp',
+    length: '(40:06)',
+    genre: 'Rock',
+  },
+  {
+    id: 18,
+    image: genesis1,
+    title: 'A Trick of the Tail',
+    date: 'February 06th, 1976',
+    band: 'Genesis',
+    length: '(51:22)',
+    genre: 'Progressive Rock',
+  },
+  {
+    id: 19,
+    image: therollingstones1,
+    title: 'Their Satanic Majesties Request',
+    date: 'December 8th, 1967',
+    band: 'The Rolling Stones',
+    length: '(44:08)',
+    genre: 'Rock',
+  },
+  {
+    id: 20,
+    image: supertramp2,
+    title: '...Famous Last Words...',
+    date: 'October 6th, 1982',
+    band: 'Supertramp',
+    length: '(47:58)',
+    genre: 'Rock',
+  },
+  {
+    id: 21,
+    image: supertramp3,
+    title: 'Supertramp',
+    date: 'July 14th, 1970',
+    band: 'Supertramp',
+    length: '(47:50)',
+    genre: 'Rock',
+  },
+  {
+    id: 22,
+    image: nazareth1,
+    title: 'Hair of the Dog',
+    date: 'April 3rd, 1975',
+    band: 'Nazareth',
+    length: '(78:21)',
+    genre: 'Rock',
   },
 ]

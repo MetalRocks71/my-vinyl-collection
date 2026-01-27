@@ -16,7 +16,7 @@ const Collection = ({ searchQuery }) => {
     const query = searchQuery.toLowerCase()
     // Only search in band name field
     return item.band.toLowerCase().includes(query)
-  })  
+  })
 
   const sortedCollection = [...filteredCollection].sort((a, b) =>
     a.band.localeCompare(b.band),
