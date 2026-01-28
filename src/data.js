@@ -52,6 +52,15 @@ import typeofnegative1 from './images/typeofnegative-1.jpg'
 import whileshesleeps1 from './images/whileshesleeps-1.jpg'
 import whitechapel1 from './images/whitechapel-1.jpg'
 import yes1 from './images/yes-1.jpg'
+import yes2 from './images/yes-2.jpg'
+import michaeljackson1 from './images/michaeljackson-1.jpg'
+import johnlennon1 from './images/johnlennon-1.jpg'
+import simpleminds2 from './images/simpleminds-2.jpg'
+import eagles1 from './images/eagles-1.jpg'
+import supertramp4 from './images/supertramp-4.jpg'
+import janisjoplin1 from './images/janisjoplin-1.jpg' 
+import pinkfloyd3 from './images/pinkfloyd-3.jpg'
+import deeppurple1 from './images/deeppurple-1.jpg' 
 
 export const logo = [{ id: 1, image: thirteenthghost }]
 
@@ -681,6 +690,87 @@ export const collectionrock = [
     date: 'April 3rd, 1975',
     band: 'Nazareth',
     length: '(78:21)',
+    genre: 'Rock',
+  },
+  {
+    id: 23,
+    image: yes2,
+    title: 'Relayer',
+    date: 'December 05th, 1974',
+    band: 'Yes',
+    length: '(40:29)',
+    genre: 'Rock, Progressive Rock',
+  },
+  {
+    id: 24,
+    image: michaeljackson1,
+    title: 'Ben',
+    date: 'August 04th, 1972',
+    band: 'Michael Jackson',
+    length: '(31:13)',
+    genre: 'R and B, Soul',
+  },
+  {
+    id: 25,
+    image: johnlennon1,
+    title: 'Imagine',
+    date: 'September 09th, 1971',
+    band: 'John Lennon',
+    length: '(39:44)',
+    genre: '	Rock, pop, experimental',
+  },
+  {
+    id: 26,
+    image: simpleminds2,
+    title: 'Sparkle in the Rain',
+    date: 'February 06th, 1984',
+    band: 'Simple Minds',
+    length: '(44:58)',
+    genre: 'Rock, progressive Rock',
+  },
+  {
+    id: 27,
+    image: eagles1,
+    title: 'Hotel California',
+    date: 'December 08th, 1976',
+    band: 'Eagles',
+    length: '(43:25)',
+    genre: 'Rock, progressive Rock',
+  },
+  {
+    id: 28,
+    image: supertramp4,
+    title: 'Breakfast in America',
+    date: 'March 16th, 1979',
+    band: 'Supertramp',
+    length: '(46:14)',
+    genre: 'Rock',
+  },
+  {
+    id: 29,
+    image: janisjoplin1,
+    title: 'Live In Amsterdam 1969, US Radio Shows 1969-70',
+    date: 'November 16th, 2016',
+    band: 'Janis Joplin',
+    length: '(40:25)',
+    genre: 'Rock, Blues',
+  },
+  {
+    id: 30,
+    image: pinkfloyd3,
+    title: 'Dark Side of the Moon',
+    date: 'March 01st, 1973',
+    band: 'Pink Floyd',
+    length: '(40:25)',
+    genre: 'Progressive Rock',
+  },
+  {
+    id: 31,
+    image: deeppurple1,
+    title: 'Machine Head',
+    date: 'March 25th, 1972',
+    band: 'Deep Purple',
+    length: '(41:40)',
     genre: 'Rock',
   },
 ]
