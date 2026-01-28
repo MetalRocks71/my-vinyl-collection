@@ -13,10 +13,11 @@ const Collectionrock = ({ searchQuery }) => {
 
 useEffect(() => {
   if (searchQuery && sectionRef.current) {
-    sectionRef.current.scrollIntoView({
-      behavior: 'smooth',
-      block: 'start'
-    })
+    const yOffset = -80; // Adjust this value based on your header height
+    const element = sectionRef.current;
+    const y = element.getBoundingClientRect().top + window.pageYOffset + yOffset;
+
+    window.scrollTo({ top: y, behavior: 'smooth' });
   }
 }, [searchQuery]) // Add dependency array here
 
