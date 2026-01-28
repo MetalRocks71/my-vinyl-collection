@@ -480,7 +480,7 @@ export const collection = [
     genre: 'Heavy Metal',
   },
   {
-    id: 29,
+    id: 32,
     image: ironmaiden6,
     title: 'Somewhere in time',
     date: 'January 1st, 1986',
