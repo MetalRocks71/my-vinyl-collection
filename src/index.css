@@ -387,18 +387,18 @@ Search bar
   display: flex;
   align-items: center;
 }
-
+/* Search error Message */
 .search-error {
   position: absolute;
   top: 100%;
   left: 0;
   margin-top: 0.25rem;
   font-size: 0.85rem;
-  color: var(--clr-primary-5);
+  color: var(--clr-black);
   white-space: nowrap;
-  background-color: rgba(255, 255, 255, 0.95);
+  background-color: var(--clr-white);
   padding: 0.25rem 0.5rem;
-  border-radius: 4px;
+  border-radius: 4px var(--clr-red-dark);
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   z-index: 1000;
 }
