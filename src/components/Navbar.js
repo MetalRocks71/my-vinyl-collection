@@ -29,12 +29,13 @@ const Navbar = ({ onSearch }) => {
 
   const handleSearch = (e) => {
     e.preventDefault()
-    if (onSearch) {
+    // Only search if query has 3 or more characters
+    if (searchQuery.length >= 3 && onSearch) {
       onSearch(searchQuery)
-    }
-    const collectionSection = document.getElementById('collection')
-    if (collectionSection) {
-      collectionSection.scrollIntoView({ behavior: 'smooth' })
+      const collectionSection = document.getElementById('collection')
+      if (collectionSection) {
+        collectionSection.scrollIntoView({ behavior: 'smooth' })
+      }
     }
   }
 
@@ -51,6 +52,9 @@ const Navbar = ({ onSearch }) => {
       onSearch(value)
     }
   }
+
+  // Check if search query is too short
+  const isSearchTooShort = searchQuery.length > 0 && searchQuery.length < 3
 
   return (
     <nav
@@ -80,17 +84,24 @@ const Navbar = ({ onSearch }) => {
 
         {/* Search Bar */}
         <div className="nav-search">
-          <input
-            type="text"
-            value={searchQuery}
-            onChange={handleInputChange}
-            onKeyUp={handleKeyPress}
-            placeholder="Search Artists..."
-            className="search-input"
-          />
-          <button onClick={handleSearch} className="search-button">
-            <i className="fas fa-search"></i>
-          </button>
+          <div className="search-container">
+            <input
+              type="text"
+              value={searchQuery}
+              onChange={handleInputChange}
+              onKeyUp={handleKeyPress}
+              placeholder="Search Artists..."
+              className="search-input"
+            />
+            <button onClick={handleSearch} className="search-button">
+              <i className="fas fa-search"></i>
+            </button>
+            {isSearchTooShort && (
+              <span className="search-error">
+                Please enter at least 3 characters
+              </span>
+            )}
+          </div>
         </div>
       </div>
     </nav>
