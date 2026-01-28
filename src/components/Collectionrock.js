@@ -1,14 +1,27 @@
-import { useState } from 'react'
+import { useState, useEffect, useRef } from 'react'
 import { collectionrock } from '../data'
 import Title from './Title'
 
 const Collectionrock = ({ searchQuery }) => {
   const [open, setOpen] = useState(false)
+  const sectionRef = useRef(null)
 
   const toggle = () => {
     setOpen(!open)
   }
+// scroll to section when searchQuery changes
 
+  useEffect(() => {
+    if (searchQuery && sectionRef.current) {
+
+      sectionRef.current.scrollIntoView({
+        behavior: 'smooth',
+        block: 'start'
+      })
+    }
+
+  }
+  )
   // Filter and sort collection based on search query
   const filteredCollection = collectionrock.filter((item) => {
     if (!searchQuery) return true
