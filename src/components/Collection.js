@@ -11,18 +11,15 @@ const Collection = ({ searchQuery }) => {
   }
 
   // scroll to section when searchQuery changes
-
-  useEffect(() => {
-    if (searchQuery && sectionRef.current) {
-
-      sectionRef.current.scrollIntoView({
-        behavior: 'smooth',
-        block: 'start'
-      })
-    }
-
+useEffect(() => {
+  if (searchQuery && sectionRef.current) {
+    sectionRef.current.scrollIntoView({
+      behavior: 'smooth',
+      block: 'start'
+    })
   }
-  )
+}, [searchQuery]) // Add dependency array here
+
   // Filter and sort collection based on search query
   const filteredCollection = collection.filter((item) => {
     if (!searchQuery) return true
@@ -40,7 +37,7 @@ const Collection = ({ searchQuery }) => {
   const shouldOpen = open || searchQuery
 
   return (
-    <section className="section collection" id="collection">
+    <section className="section collection" id="collection" ref={sectionRef}>
       <Title title="The " subtitle="Metal Collection" />
       <div>
         <button className="category-btn" onClick={toggle}>
