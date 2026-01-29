@@ -208,7 +208,7 @@ export const toprocks = [
   },
 ]
 
-export const collection = [
+export const metalcollection = [
   {
     id: 1,
     image: ironmaiden1,
@@ -494,7 +494,7 @@ export const collection = [
   },
 ]
 
-export const collectionrock = [
+export const rockcollection = [
   {
     id: 1,
     image: gretavanfleet1,

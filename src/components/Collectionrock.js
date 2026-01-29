@@ -1,5 +1,5 @@
 import { useState, useEffect, useRef } from 'react'
-import { collectionrock } from '../data'
+import { rockcollection} from '../data'
 import Title from './Title'
 
 const Collectionrock = ({ searchQuery }) => {
@@ -9,20 +9,27 @@ const Collectionrock = ({ searchQuery }) => {
   const toggle = () => {
     setOpen(!open)
   }
-// scroll to section when searchQuery changes
-
+  // scroll to section when searchQuery changes
 useEffect(() => {
-  if (searchQuery && sectionRef.current) {
-    const yOffset = -80; // Adjust this value based on your header height
-    const element = sectionRef.current;
-    const y = element.getBoundingClientRect().top + window.pageYOffset + yOffset;
+  if (!searchQuery || !sectionRef.current) return
 
-    window.scrollTo({ top: y, behavior: 'smooth' });
+  // Calculate filtered collection inside useEffect
+  const filtered = rockcollection.filter((item) => {
+    const query = searchQuery.toLowerCase()
+    return item.band.toLowerCase().includes(query)
+  })
+
+  if (filtered.length > 0) {
+    const yOffset = -80
+    const element = sectionRef.current
+    const y = element.getBoundingClientRect().top + window.pageYOffset + yOffset
+
+    window.scrollTo({ top: y, behavior: 'smooth' })
   }
-}, [searchQuery]) // Add dependency array here
+}, [searchQuery]) 
 
   // Filter and sort collection based on search query
-  const filteredCollection = collectionrock.filter((item) => {
+  const filteredCollection = rockcollection.filter((item) => {
     if (!searchQuery) return true
 
     const query = searchQuery.toLowerCase()
@@ -38,7 +45,7 @@ useEffect(() => {
   const shouldOpen = open || searchQuery
 
   return (
-    <section className="section" id="collectionrock" ref={sectionRef}>
+    <section className="section" id="rockcollection" ref={sectionRef}>
       <Title title="The " subtitle="Rock Collection" />
       <div>
         <button className="category-btn" onClick={toggle}>

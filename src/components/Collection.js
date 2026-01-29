@@ -1,6 +1,6 @@
 import { useState, useEffect, useRef } from 'react'
 import Title from './Title'
-import { collection } from '../data'
+import { metalcollection } from '../data'
 
 const Collection = ({ searchQuery }) => {
   const [open, setOpen] = useState(false)
@@ -12,17 +12,25 @@ const Collection = ({ searchQuery }) => {
 
   // scroll to section when searchQuery changes
 useEffect(() => {
-  if (searchQuery && sectionRef.current) {
-    const yOffset = -80; // Adjust this value based on your header height
-    const element = sectionRef.current;
-    const y = element.getBoundingClientRect().top + window.pageYOffset + yOffset;
+  if (!searchQuery || !sectionRef.current) return
 
-    window.scrollTo({ top: y, behavior: 'smooth' });
+  // Calculate filtered collection inside useEffect
+  const filtered = metalcollection.filter((item) => {
+    const query = searchQuery.toLowerCase()
+    return item.band.toLowerCase().includes(query)
+  })
+
+  if (filtered.length > 0) {
+    const yOffset = -80
+    const element = sectionRef.current
+    const y = element.getBoundingClientRect().top + window.pageYOffset + yOffset
+
+    window.scrollTo({ top: y, behavior: 'smooth' })
   }
-}, [searchQuery]) // Add dependency array here
+}, [searchQuery])  // Add dependency array here
 
   // Filter and sort collection based on search query
-  const filteredCollection = collection.filter((item) => {
+  const filteredCollection = metalcollection.filter((item) => {
     if (!searchQuery) return true
 
     const query = searchQuery.toLowerCase()
@@ -38,7 +46,7 @@ useEffect(() => {
   const shouldOpen = open || searchQuery
 
   return (
-    <section className="section collection" id="collection" ref={sectionRef}>
+    <section className="section collection" id="metalcollection" ref={sectionRef}>
       <Title title="The " subtitle="Metal Collection" />
       <div>
         <button className="category-btn" onClick={toggle}>
