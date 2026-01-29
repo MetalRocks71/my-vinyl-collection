@@ -32,10 +32,6 @@ const Navbar = ({ onSearch }) => {
     // Only search if query has 3 or more characters
     if (searchQuery.length >= 3 && onSearch) {
       onSearch(searchQuery)
-      const collectionSection = document.getElementById('collection')
-      if (collectionSection) {
-        collectionSection.scrollIntoView({ behavior: 'smooth' })
-      }
     }
   }
 

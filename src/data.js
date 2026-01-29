@@ -65,6 +65,13 @@ import whileshesleeps1 from './images/whileshesleeps-1.jpg'
 import whitechapel1 from './images/whitechapel-1.jpg'
 import yes1 from './images/yes-1.jpg'
 import yes2 from './images/yes-2.jpg'
+import radiohead1 from './images/radiohead-1.jpg'
+import radiohead2 from './images/radiohead-2.jpg'
+import radiohead3 from './images/radiohead-3.jpg'  
+import téléphone1 from './images/téléphone-1.jpg' 
+import depechemode5 from './images/depechemode-5.jpg' 
+import stereophonics1 from './images/stereophonics-1.jpg' 
+
 
 export const logo = [{ id: 1, image: thirteenthghost }]
 
@@ -72,8 +79,8 @@ export const pageLinks = [
   { id: 1, href: '#home', text: 'home' },
   { id: 2, href: '#about', text: 'about the music' },
   { id: 3, href: '#top', text: 'Top 10 Albums' },
-  { id: 5, href: '#collection', text: 'The Metal collection' },
-  { id: 6, href: '#collection', text: 'The Rock collection' },
+  { id: 5, href: '#metalcollection', text: 'The Metal collection' },
+  { id: 6, href: '#rockcollection', text: 'The Rock collection' },
 
 ]
 export const socialLinks = [
@@ -813,5 +820,60 @@ export const rockcollection = [
     band: 'Depeche Mode',
     length: '(61:58)',
     genre: 'Electronic, New Wave',
+  },
+
+  {
+    id: 36,
+    image: radiohead1,
+    title: 'the bends',
+    date: 'April 04th, 1995',
+    band: 'Radiohead',
+    length: '(48:34)',
+    genre: 'Rock, Alternative Rock',
+  },
+  {
+    id: 37,
+    image: radiohead2,
+    title: 'Ok computer',
+    date: 'July 01st, 1997',
+    band: 'Radiohead',
+    length: '(53:36)',
+    genre: 'Rock, Alternative Rock',
+  },
+  {
+    id: 38,
+    image: radiohead3,
+    title: 'Kid A MNESIA',
+    date: 'November 05th 2021',
+    band: 'Radiohead',
+    length: '(125:05)',
+    genre: 'Rock, Alternative Rock',
+  },
+  {
+    id: 39,
+    image: téléphone1,
+    title: 'Best Of',
+    date: 'November 24th 2000',
+    band: 'Téléphone',
+    length: '(65:34)',
+    genre: 'Rock',
+  },
+  {
+    id: 40,
+    image: depechemode5,
+    title: 'Memento mori Mexico city',
+    date: 'November 14th, 2025',
+    band: 'Depeche Mode',
+    length: '(140:44)',
+    genre: 'Electronic, New Wave',
+  },
+  {
+    id: 41,
+    image: stereophonics1,
+    title: 'Graffiti on the Train',
+    date: 'Maerch 12th, 2013',
+    band: 'Stereophonics',
+    length: '(43:09)',
+    genre: 'Rock',
   },
 ]
