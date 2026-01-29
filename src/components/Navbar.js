@@ -90,10 +90,6 @@ const Navbar = ({ onSearch }) => {
             <button onClick={handleSearch} className="search-button">
               <i className="fas fa-search"></i>
             </button>
-            <p className="search-error">
-              🤘🏼se enter at least 3 characters <br />
-              for better search result 🤘🏼
-            </p>
           </div>
         </div>
       </div>
