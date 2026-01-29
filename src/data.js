@@ -2,17 +2,21 @@ import augustburnsred1 from './images/augustburnsred-1.jpg'
 import blacksabbath1 from './images/blacksabbath-1.jpg'
 import borknagar1 from './images/borknagar-1.jpg'
 import brucespringsteen1 from './images/brucespringsteen-1.jpg'
-import deeppurple1 from './images/deeppurple-1.jpg' 
+import deeppurple1 from './images/deeppurple-1.jpg'
 import depechemode1 from './images/depechemode-1.jpg'
 import depechemode2 from './images/depechemode-2.jpg'
 import depechemode3 from './images/depechemode-3.jpg'
-import depechemode4 from './images/depechemode-4.jpg' 
+import depechemode4 from './images/depechemode-4.jpg'
+import depechemode5 from './images/depechemode-5.jpg'
 import dio1 from './images/dio-1.jpg'
 import dio2 from './images/dio-2.jpg'
 import eagles1 from './images/eagles-1.jpg'
 import genesis1 from './images/genesis-1.jpg'
+import genesis2 from './images/genesis-2.jpg'
 import gretavanfleet1 from './images/gretavanfleet-1.jpg'
 import gretavanfleet2 from './images/gretavanfleet-2.jpg'
+import gretavanfleet3 from './images/gretavanfleet-3.jpg'
+import gretavanfleet4 from './images/gretavanfleet-4.jpg'
 import gunsandroses1 from './images/gunsandroses-1.jpg'
 import ironmaiden1 from './images/ironmaiden-1.jpg'
 import ironmaiden2 from './images/ironmaiden-2.jpg'
@@ -20,7 +24,7 @@ import ironmaiden3 from './images/ironmaiden-3.jpg'
 import ironmaiden4 from './images/ironmaiden-4.jpg'
 import ironmaiden5 from './images/ironmaiden-5.jpg'
 import ironmaiden6 from './images/ironmaiden-6.jpg'
-import janisjoplin1 from './images/janisjoplin-1.jpg' 
+import janisjoplin1 from './images/janisjoplin-1.jpg'
 import johnlennon1 from './images/johnlennon-1.jpg'
 import johnnycash1 from './images/johnnycash-1.jpg'
 import killswitch1 from './images/killswitch-1.jpg'
@@ -34,6 +38,7 @@ import motorhead2 from './images/motorhead-2.jpg'
 import nazareth1 from './images/nazareth-1.jpg'
 import neaera1 from './images/neaera-1.jpg'
 import neckbreakker1 from './images/neckbreakker-1.jpg'
+import neildiamond1 from './images/neildiamond-1.jpg'
 import nineinchnails1 from './images/nineinchnails-1.jpg'
 import nineinchnails2 from './images/nineinchnails-2.jpg'
 import opeth1 from './images/opeth-1.jpg'
@@ -42,18 +47,26 @@ import orbitculture2 from './images/orbitculture-2.jpg'
 import pinkfloyd1 from './images/pinkfloyd-1.jpg'
 import pinkfloyd2 from './images/pinkfloyd-2.jpg'
 import pinkfloyd3 from './images/pinkfloyd-3.jpg'
+import pinkfloyd4 from './images/pinkfloyd-4.jpg'
 import polyphia1 from './images/polyphia-1.jpg'
+import radiohead1 from './images/radiohead-1.jpg'
+import radiohead2 from './images/radiohead-2.jpg'
+import radiohead3 from './images/radiohead-3.jpg'
 import rageagainstthemachine1 from './images/rageagainstthemachine-1.jpg'
 import rainbow1 from './images/rainbow-1.jpg'
 import rem1 from './images/rem-1.jpg'
 import sacredreich1 from './images/sacredreich-1.jpg'
 import simpleminds1 from './images/simpleminds-1.jpg'
 import simpleminds2 from './images/simpleminds-2.jpg'
+import stereophonics1 from './images/stereophonics-1.jpg'
 import supertramp1 from './images/supertramp-1.jpg'
 import supertramp2 from './images/supertramp-2.jpg'
 import supertramp3 from './images/supertramp-3.jpg'
 import supertramp4 from './images/supertramp-4.jpg'
+import supertramp5 from './images/supertramp-5.jpg'
+import supertramp6 from './images/supertramp-6.jpg'
 import systemofadown1 from './images/systemofadown-1.jpg'
+import téléphone1 from './images/téléphone-1.jpg'
 import theblackdahlia1 from './images/theblackdahlia-1.jpg'
 import thecure1 from './images/thecure-1.jpg'
 import therollingstones1 from './images/therollingstones-1.jpg'
@@ -65,13 +78,6 @@ import whileshesleeps1 from './images/whileshesleeps-1.jpg'
 import whitechapel1 from './images/whitechapel-1.jpg'
 import yes1 from './images/yes-1.jpg'
 import yes2 from './images/yes-2.jpg'
-import radiohead1 from './images/radiohead-1.jpg'
-import radiohead2 from './images/radiohead-2.jpg'
-import radiohead3 from './images/radiohead-3.jpg'  
-import téléphone1 from './images/téléphone-1.jpg' 
-import depechemode5 from './images/depechemode-5.jpg' 
-import stereophonics1 from './images/stereophonics-1.jpg' 
-
 
 export const logo = [{ id: 1, image: thirteenthghost }]
 
@@ -81,7 +87,6 @@ export const pageLinks = [
   { id: 3, href: '#top', text: 'Top 10 Albums' },
   { id: 5, href: '#metalcollection', text: 'The Metal collection' },
   { id: 6, href: '#rockcollection', text: 'The Rock collection' },
-
 ]
 export const socialLinks = [
   { id: 1, href: 'https://www.facebook.com', icon: 'fab fa-facebook' },
@@ -871,9 +876,73 @@ export const rockcollection = [
     id: 41,
     image: stereophonics1,
     title: 'Graffiti on the Train',
-    date: 'Maerch 12th, 2013',
+    date: 'March 12th, 2013',
     band: 'Stereophonics',
     length: '(43:09)',
+    genre: 'Rock',
+  },
+  {
+    id: 42,
+    image: neildiamond1,
+    title: 'Jonathan levingston Seagull',
+    date: 'October 1st,1973',
+    band: 'Neil Diamond',
+    length: '(43:28)',
+    genre: 'Rock, pop rock',
+  },
+  {
+    id: 43,
+    image: gretavanfleet3,
+    title: 'Startcatcher',
+    date: 'July 21, 2023',
+    band: 'Greta Van Fleet',
+    length: '(42:49)',
+    genre: 'Rock',
+  },
+  {
+    id: 44,
+    image: gretavanfleet4,
+    title: 'Anthem of a peacfull army',
+    date: 'October 19th, 2018',
+    band: 'Greta Van Fleet',
+    length: '(49:34)',
+    genre: 'Rock',
+  },
+  {
+    id: 45,
+    image: supertramp5,
+    title: 'Crisis? What Crisis?',
+    date: 'January 1st, 1975',
+    band: 'Supertramp',
+    length: '(47:40)',
+    genre: 'Rock',
+  },
+  {
+    id: 46,
+    image: pinkfloyd4,
+    title: 'Relics',
+    date: 'May 14th, 1971',
+    band: 'Pink Floyd',
+    length: '(49:38)',
+    genre: 'Progressive Rock',
+  },
+  {
+    id: 45,
+    image: supertramp6,
+    title: 'Even in quietest moments...',
+    date: 'January 1st, 1977',
+    band: 'Supertramp',
+    length: '(43:37)',
+    genre: 'Rock',
+  },
+
+  {
+    id: 45,
+    image: genesis2,
+    title: 'Trepass',
+    date: 'October 1st, 1970',
+    band: 'Genesis',
+    length: '(42:40)',
     genre: 'Rock',
   },
 ]
