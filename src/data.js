@@ -927,7 +927,7 @@ export const rockcollection = [
     genre: 'Progressive Rock',
   },
   {
-    id: 45,
+    id: 47,
     image: supertramp6,
     title: 'Even in quietest moments...',
     date: 'January 1st, 1977',
@@ -937,7 +937,7 @@ export const rockcollection = [
   },
 
   {
-    id: 45,
+    id: 48,
     image: genesis2,
     title: 'Trepass',
     date: 'October 1st, 1970',
