@@ -669,29 +669,32 @@ Search bar
 /* Mobile/Tablet - adjust breakpoint as needed */
 @media screen and (max-width: 768px) {
   .search-error {
-    top: 100%;
-    left: 0;
-    right: 0;
+    position: fixed;
+    top: 8.2rem;
+    left: 50%;
+    transform: translateX(-50%);
     width: auto;
-    margin-top: 0.5rem;
-    margin-left: 2rem;
-    margin-right: 1rem;
+    max-width: 90%;
+    margin: 0;
     font-size: 0.65rem;
-    padding: 3px 3px;
+    padding: 3px 8px;
+    z-index: 3;
   }
 }
 
 /* Smaller mobile */
 @media screen and (max-width: 480px) {
   .search-error {
-    top: 100%;
-    left: 0;
-    right: 0;
-    width: 100%;
-    margin-top: 0.5rem;
-    margin-left: 0.5rem;
-    margin-right: 0.5rem;
+    position: fixed;
+    top: 8.2rem;
+    left: 50%;
+    transform: translateX(-50%);
+    width: auto;
+    max-width: 90%;
+    margin: 0;
     font-size: 0.6rem;
+    padding: 3px 6px;
+    z-index: 3;
   }
 }
 
