@@ -37,7 +37,7 @@ const Footer = () => {
       </ul>
       <div className="text-center">
         <p className="copyright">
-          all rights reserved ©
+          All rights reserved ©
           <br /> band name, images, audio recordings, logos,
           <br />
           and all associated intellectual property belong to the bands cited in
@@ -45,7 +45,7 @@ const Footer = () => {
           this website and are protected by copyright and trademark laws.
         </p>
         <p className="copyright">
-          copyright &copy; 13thGhost
+          Copyright &copy; 13thGhost
           <span id="date">{new Date().getFullYear()}</span>
         </p>
         <div className="logo-footer">

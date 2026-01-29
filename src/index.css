@@ -1139,7 +1139,7 @@ footer>div {
 }
 
 .copyright {
-  text-transform: capitalize;
+ 
   letter-spacing: var(--spacing);
   color: var(--clr-white);
   text-align: center;
