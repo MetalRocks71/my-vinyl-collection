@@ -669,32 +669,40 @@ Search bar
 /* Mobile/Tablet - adjust breakpoint as needed */
 @media screen and (max-width: 768px) {
   .search-error {
-    position: fixed;
-    top: 8.2rem;
-    left: 50%;
-    transform: translateX(-50%);
+    position: static;
     width: auto;
     max-width: 90%;
-    margin: 0;
+    margin: 0 auto 0.5rem;
     font-size: 0.65rem;
     padding: 3px 8px;
-    z-index: 3;
+    order: -1;
+  }
+  
+  .nav-center {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 1rem;
+  }
+  
+  .search-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
   }
 }
 
 /* Smaller mobile */
 @media screen and (max-width: 480px) {
   .search-error {
-    position: fixed;
-    top: 8.2rem;
-    left: 50%;
-    transform: translateX(-50%);
+    position: static;
     width: auto;
     max-width: 90%;
-    margin: 0;
+    margin: 0 auto 0.5rem;
     font-size: 0.6rem;
     padding: 3px 6px;
-    z-index: 3;
+    order: -1;
   }
 }
 
