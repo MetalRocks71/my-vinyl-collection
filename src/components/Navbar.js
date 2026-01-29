@@ -91,8 +91,8 @@ const Navbar = ({ onSearch }) => {
               <i className="fas fa-search"></i>
             </button>
             <p className="search-error">
-              Please enter at least 3 characters <br />
-              for better search result!!!
+              🤘🏼se enter at least 3 characters <br />
+              for better search result 🤘🏼
             </p>
           </div>
         </div>
