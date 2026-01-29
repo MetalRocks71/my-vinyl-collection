@@ -49,9 +49,6 @@ const Navbar = ({ onSearch }) => {
     }
   }
 
-  // Check if search query is too short
-  const isSearchTooShort = searchQuery.length > 0 && searchQuery.length < 3
-
   return (
     <nav
       className={`navbar ${showNavbar ? 'navbar-visible' : 'navbar-hidden'}`}>
@@ -79,6 +76,7 @@ const Navbar = ({ onSearch }) => {
         </ul>
 
         {/* Search Bar */}
+
         <div className="nav-search">
           <div className="search-container">
             <input
@@ -86,17 +84,16 @@ const Navbar = ({ onSearch }) => {
               value={searchQuery}
               onChange={handleInputChange}
               onKeyUp={handleKeyPress}
-              placeholder="Search Artists..."
+              placeholder="Type 3 characters minimun"
               className="search-input"
             />
             <button onClick={handleSearch} className="search-button">
               <i className="fas fa-search"></i>
             </button>
-            {isSearchTooShort && (
-              <span className="search-error">
-                Please enter at least 3 characters
-              </span>
-            )}
+            <p className="search-error">
+              Please enter at least 3 characters <br />
+              for better search result!!!
+            </p>
           </div>
         </div>
       </div>
