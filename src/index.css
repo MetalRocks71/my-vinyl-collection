@@ -673,7 +673,7 @@ Search bar
     width: auto;
     max-width: 90%;
     margin: 0 auto 0.5rem;
-    font-size: 2rem;
+    font-size: 1em;
     padding: 3px 8px;
     order: -1;
   }
@@ -700,7 +700,7 @@ Search bar
     width: auto;
     max-width: 90%;
     margin: 0 auto 0.5rem;
-    font-size: 2rem;
+    font-size: 1em;
     padding: 3px 6px;
     order: -1;
   }
