@@ -39,8 +39,11 @@ const Collectionrock = ({ searchQuery }) => {
     return item.band.toLowerCase().includes(query)
   })
 
-  const sortedCollection = [...filteredCollection].sort((a, b) =>
-    a.band.localeCompare(b.band),
+  // sort the collection by band and then title album
+  const sortedCollection = [...filteredCollection].sort(
+    (a, b) =>
+      a.band.localeCompare(b.band, undefined, { sensitivity: 'base' }) ||
+      a.title.localeCompare(b.title, undefined, { sensitivity: 'base' }),
   )
 
   // Auto-open when there's a search query
