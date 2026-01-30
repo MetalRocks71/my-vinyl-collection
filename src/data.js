@@ -10,14 +10,17 @@ import depechemode4 from './images/depechemode-4.jpg'
 import depechemode5 from './images/depechemode-5.jpg'
 import dio1 from './images/dio-1.jpg'
 import dio2 from './images/dio-2.jpg'
+import django1 from './images/django-1.jpg'
 import eagles1 from './images/eagles-1.jpg'
 import genesis1 from './images/genesis-1.jpg'
 import genesis2 from './images/genesis-2.jpg'
+import georgemichael1 from './images/georgemichael-1.jpg'
 import gretavanfleet1 from './images/gretavanfleet-1.jpg'
 import gretavanfleet2 from './images/gretavanfleet-2.jpg'
 import gretavanfleet3 from './images/gretavanfleet-3.jpg'
 import gretavanfleet4 from './images/gretavanfleet-4.jpg'
 import gunsandroses1 from './images/gunsandroses-1.jpg'
+import iggypop1 from './images/iggypop-1.jpg'
 import ironmaiden1 from './images/ironmaiden-1.jpg'
 import ironmaiden2 from './images/ironmaiden-2.jpg'
 import ironmaiden3 from './images/ironmaiden-3.jpg'
@@ -39,6 +42,7 @@ import nazareth1 from './images/nazareth-1.jpg'
 import neaera1 from './images/neaera-1.jpg'
 import neckbreakker1 from './images/neckbreakker-1.jpg'
 import neildiamond1 from './images/neildiamond-1.jpg'
+import nickcave1 from './images/nickcave-1.jpg'
 import nineinchnails1 from './images/nineinchnails-1.jpg'
 import nineinchnails2 from './images/nineinchnails-2.jpg'
 import opeth1 from './images/opeth-1.jpg'
@@ -49,12 +53,14 @@ import pinkfloyd2 from './images/pinkfloyd-2.jpg'
 import pinkfloyd3 from './images/pinkfloyd-3.jpg'
 import pinkfloyd4 from './images/pinkfloyd-4.jpg'
 import polyphia1 from './images/polyphia-1.jpg'
+import queen1 from './images/queen-1.jpg'
 import radiohead1 from './images/radiohead-1.jpg'
 import radiohead2 from './images/radiohead-2.jpg'
 import radiohead3 from './images/radiohead-3.jpg'
 import rageagainstthemachine1 from './images/rageagainstthemachine-1.jpg'
 import rainbow1 from './images/rainbow-1.jpg'
 import rem1 from './images/rem-1.jpg'
+import rem2 from './images/rem-2.jpg'
 import sacredreich1 from './images/sacredreich-1.jpg'
 import simpleminds1 from './images/simpleminds-1.jpg'
 import simpleminds2 from './images/simpleminds-2.jpg'
@@ -66,6 +72,7 @@ import supertramp4 from './images/supertramp-4.jpg'
 import supertramp5 from './images/supertramp-5.jpg'
 import supertramp6 from './images/supertramp-6.jpg'
 import systemofadown1 from './images/systemofadown-1.jpg'
+import talkingheads1 from './images/talkingheads-1.jpg'
 import téléphone1 from './images/téléphone-1.jpg'
 import theblackdahlia1 from './images/theblackdahlia-1.jpg'
 import thecure1 from './images/thecure-1.jpg'
@@ -944,5 +951,69 @@ export const rockcollection = [
     band: 'Genesis',
     length: '(42:40)',
     genre: 'Rock',
+  },
+  {
+    id: 49,
+    image: queen1,
+    title: 'Innuendo',
+    date: 'February 1st, 1991',
+    band: 'Queen',
+    length: '(53:55)',
+    genre: 'Rock',
+  },
+  {
+    id: 50,
+    image: rem2,
+    title: 'The best of R.E.M In time 1988-2003',
+    date: 'October 28th, 2003',
+    band: 'R.E.M',
+    length: '(76:07)',
+    genre: 'Rock',
+  },
+  {
+    id: 51,
+    image: django1,
+    title: 'Django unchainded Original Motion Picture Soundtrack',
+    date: 'December 28th, 2012',
+    band: 'Various Artists',
+    length: '(54:28)',
+    genre: 'Various',
+  },
+  {
+    id: 52,
+    image: georgemichael1,
+    title: 'Older',
+    date: 'April 1st, 1996',
+    band: 'George Michael',
+    length: '(58:88)',
+    genre: '¨Pop',
+  },
+  {
+    id: 53,
+    image: talkingheads1,
+    title: 'Stop making sense',
+    date: 'October 23rd, 1984',
+    band: 'Talking heads',
+    length: '(74:24)',
+    genre: 'Punk rock, New wave',
+  },
+  {
+    id: 54,
+    image: nickcave1,
+    title: 'The firtborn is dead',
+    date: 'June 03rd, 1985',
+    band: 'Nick Cave',
+    length: '(40:36)',
+    genre: 'Gothic, post punk',
+  },
+
+  {
+    id: 54,
+    image: iggypop1,
+    title:'Iggy Pop & David Bowie – Live At The Rainbow Theatre March 1977 (Radio Broadcast)',
+    date: 'June 30th, 2023',
+    band: 'Nick Cave',
+    length: '(40:36)',
+    genre: 'Punk',
   },
 ]
