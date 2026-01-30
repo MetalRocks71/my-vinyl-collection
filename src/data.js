@@ -1008,11 +1008,11 @@ export const rockcollection = [
   },
 
   {
-    id: 54,
+    id: 55,
     image: iggypop1,
     title:'Iggy Pop & David Bowie – Live At The Rainbow Theatre March 1977 (Radio Broadcast)',
     date: 'June 30th, 2023',
-    band: 'Nick Cave',
+    band: 'Iggy Pop & David Bowie',
     length: '(40:36)',
     genre: 'Punk',
   },
