@@ -2,6 +2,8 @@ import { useState, useEffect, useRef } from 'react'
 import { rockcollection} from '../data'
 import Title from './Title'
 
+//search query with open collection section
+
 const Collectionrock = ({ searchQuery }) => {
   const [open, setOpen] = useState(false)
   const sectionRef = useRef(null)
