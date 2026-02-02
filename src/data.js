@@ -431,7 +431,7 @@ export const metalcollection = [
     genre: 'MetalCore',
   },
   {
-    id: 24,
+    id: 23,
     image: dio1,
     title: 'Evil or Divine',
     date: 'February 22nd, 2005',
@@ -440,7 +440,7 @@ export const metalcollection = [
     genre: 'Heavy Metal',
   },
   {
-    id: 25,
+    id: 24,
     image: whileshesleeps1,
     title: 'This is the Six',
     date: 'August 13th, 2012',
@@ -450,7 +450,7 @@ export const metalcollection = [
   },
 
   {
-    id: 26,
+    id: 25,
     image: linkinpark1,
     title: 'From zero',
     date: 'November 15th, 2024',
@@ -460,7 +460,7 @@ export const metalcollection = [
   },
 
   {
-    id: 27,
+    id: 26,
     image: linkinpark2,
     title: 'Hybrid Theory',
     date: 'October 24th, 2000',
@@ -469,7 +469,7 @@ export const metalcollection = [
     genre: 'Nu Metal',
   },
   {
-    id: 28,
+    id: 27,
     image: rainbow1,
     title: 'The Defginitive Osaka 1978 Final night',
     date: 'March 31st, 2023',
@@ -478,7 +478,7 @@ export const metalcollection = [
     genre: 'Heavy Metal',
   },
   {
-    id: 29,
+    id: 28,
     image: ironmaiden5,
     title: 'Infinite Dreams',
     date: 'November 6th, 1989',
@@ -487,7 +487,7 @@ export const metalcollection = [
     genre: 'Heavy Metal',
   },
   {
-    id: 30,
+    id: 29,
     image: nineinchnails2,
     title: 'Pretty Hate Machine',
     date: 'October 20th, 1989',
@@ -496,7 +496,7 @@ export const metalcollection = [
     genre: 'Industrial Rock',
   },
   {
-    id: 31,
+    id: 30,
     image: dio2,
     title: 'Holy Diver',
     date: 'May 15th, 1983',
@@ -505,7 +505,7 @@ export const metalcollection = [
     genre: 'Heavy Metal',
   },
   {
-    id: 32,
+    id: 31,
     image: ironmaiden6,
     title: 'Somewhere in time',
     date: 'January 1st, 1986',
@@ -514,7 +514,7 @@ export const metalcollection = [
     genre: 'Heavy Metal',
   },
   {
-    id: 33,
+    id: 32,
     image: death1,
     title: 'The sound of perseverence',
     date: 'February 15th, 2011',
@@ -523,7 +523,7 @@ export const metalcollection = [
     genre: 'Death Metal',
   },
   {
-    id: 34,
+    id: 33,
     image:  palefaceswiss1,
     title: 'Cursed (The complete edition)',
     date: 'January 3rd, 2025',
