@@ -9,11 +9,11 @@ const Footer = () => {
       <ul className="footer-links">
         {pageLinks.map((link) => {
           return (
-            <il key={link.id} className="footer-link" id="footer-link">
+            <li key={link.id} className="footer-link" id="footer-link">
               <a href={link.href} className="footer-link">
                 {link.text}
               </a>
-            </il>
+            </li>
           )
         })}
       </ul>
