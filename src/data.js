@@ -85,6 +85,8 @@ import whileshesleeps1 from './images/whileshesleeps-1.jpg'
 import whitechapel1 from './images/whitechapel-1.jpg'
 import yes1 from './images/yes-1.jpg'
 import yes2 from './images/yes-2.jpg'
+import death1 from './images/death-1.jpg'
+import palefaceswiss1 from './images/palefaceswiss-1.jpg'
 
 export const logo = [{ id: 1, image: thirteenthghost }]
 
@@ -510,6 +512,24 @@ export const metalcollection = [
     band: 'Iron Maiden',
     length: '(51:41)',
     genre: 'Heavy Metal',
+  },
+  {
+    id: 33,
+    image: death1,
+    title: 'The sound of perseverence',
+    date: 'February 15th, 2011',
+    band: 'Death',
+    length: '(117:15)',
+    genre: 'Death Metal',
+  },
+  {
+    id: 34,
+    image:  palefaceswiss1,
+    title: 'Cursed (The complete edition)',
+    date: 'January 3rd, 2025',
+    band: 'Paleface Swiss',
+    length: '(48:11)',
+    genre: 'Death core',
   },
 ]
 
