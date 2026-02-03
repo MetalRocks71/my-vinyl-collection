@@ -2,6 +2,7 @@ import augustburnsred1 from './images/augustburnsred-1.jpg'
 import blacksabbath1 from './images/blacksabbath-1.jpg'
 import borknagar1 from './images/borknagar-1.jpg'
 import brucespringsteen1 from './images/brucespringsteen-1.jpg'
+import death1 from './images/death-1.jpg'
 import deeppurple1 from './images/deeppurple-1.jpg'
 import depechemode1 from './images/depechemode-1.jpg'
 import depechemode2 from './images/depechemode-2.jpg'
@@ -48,6 +49,7 @@ import nineinchnails2 from './images/nineinchnails-2.jpg'
 import opeth1 from './images/opeth-1.jpg'
 import orbitculture1 from './images/orbitculture-1.jpg'
 import orbitculture2 from './images/orbitculture-2.jpg'
+import palefaceswiss1 from './images/palefaceswiss-1.jpg'
 import pinkfloyd1 from './images/pinkfloyd-1.jpg'
 import pinkfloyd2 from './images/pinkfloyd-2.jpg'
 import pinkfloyd3 from './images/pinkfloyd-3.jpg'
@@ -64,6 +66,7 @@ import rem2 from './images/rem-2.jpg'
 import sacredreich1 from './images/sacredreich-1.jpg'
 import simpleminds1 from './images/simpleminds-1.jpg'
 import simpleminds2 from './images/simpleminds-2.jpg'
+import statusquo1 from'./images/statusquo-1.jpg'
 import stereophonics1 from './images/stereophonics-1.jpg'
 import supertramp1 from './images/supertramp-1.jpg'
 import supertramp2 from './images/supertramp-2.jpg'
@@ -75,8 +78,12 @@ import systemofadown1 from './images/systemofadown-1.jpg'
 import talkingheads1 from './images/talkingheads-1.jpg'
 import téléphone1 from './images/téléphone-1.jpg'
 import theblackdahlia1 from './images/theblackdahlia-1.jpg'
+import theclash1 from './images/theclash-1.jpg'
 import thecure1 from './images/thecure-1.jpg'
+import thecure2 from './images/thecure-2.jpg'
+import thepolice1 from './images/thepolice-1.jpg'
 import therollingstones1 from './images/therollingstones-1.jpg'
+import therollingstones2 from './images/therollingstones-2.jpg'
 import thewhitestripes1 from './images/thewhitestripes-1.jpg'
 import thirteenthghost from './images/thirteenthghost.jpg'
 import tool1 from './images/tool-1.jpg'
@@ -85,11 +92,6 @@ import whileshesleeps1 from './images/whileshesleeps-1.jpg'
 import whitechapel1 from './images/whitechapel-1.jpg'
 import yes1 from './images/yes-1.jpg'
 import yes2 from './images/yes-2.jpg'
-import death1 from './images/death-1.jpg'
-import palefaceswiss1 from './images/palefaceswiss-1.jpg'
-import theclash1 from './images/theclash-1.jpg'
-import therollingstones2 from './images/therollingstones-2.jpg'
-import thecure2 from './images/thecure-2.jpg'
 
 export const logo = [{ id: 1, image: thirteenthghost }]
 
@@ -1061,10 +1063,28 @@ export const rockcollection = [
   {
     id: 58,
     image: thecure2,
-    title: "Songs of the lost world",
+    title: 'Songs of the lost world',
     date: 'November  01st, 2024',
     band: 'The cure',
     length: '(49:13)',
     genre: 'Gothic Rock',
+  },
+  {
+    id: 59,
+    image: thepolice1,
+    title: "Come Back Boys, All's Forgiven",
+    date: 'June  15th, 1986',
+    band: 'The police',
+    length: '(49:13)',
+    genre: 'Rock',
+  },
+  {
+    id: 60,
+    image: statusquo1,
+    title: 'The Early Works',
+    date: 'December  15th, 1990',
+    band: 'Status Qup',
+    length: '(140:13)',
+    genre: 'Rock',
   },
 ]

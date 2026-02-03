@@ -41,21 +41,21 @@ const Navbar = ({ onSearch }) => {
     }
   }
 
-const handleInputChange = (e) => {
-  const value = e.target.value
-  setSearchQuery(value)
-  // Only trigger search if 3+ characters OR empty (to reset)
-  if (value.length >= 3 || value.length === 0) {
-    if (onSearch) {
-      onSearch(value)
-    }
-  } else {
-    // Clear search results if less than 3 characters
-    if (onSearch) {
-      onSearch('')
+  const handleInputChange = (e) => {
+    const value = e.target.value
+    setSearchQuery(value)
+    // Only trigger search if 3+ characters OR empty (to reset)
+    if (value.length >= 3 || value.length === 0) {
+      if (onSearch) {
+        onSearch(value)
+      }
+    } else {
+      // Clear search results if less than 3 characters
+      if (onSearch) {
+        onSearch('')
+      }
     }
   }
-}
 
   return (
     <nav
