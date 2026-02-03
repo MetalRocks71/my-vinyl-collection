@@ -1,34 +1,11 @@
 import { useState, useEffect, useRef } from 'react'
 import Title from './Title'
-import { supabase } from '../supabaseClient' // Add this import
+import { metalcollection } from '../data'
 
+//search query with open collection section
 const Collection = ({ searchQuery }) => {
   const [open, setOpen] = useState(false)
-  const [vinyls, setVinyls] = useState([]) // Add state for vinyls
-  const [loading, setLoading] = useState(true) // Add loading state
   const sectionRef = useRef(null)
-
-  // Fetch vinyls from Supabase on component mount
-  useEffect(() => {
-    fetchVinyls()
-  }, [])
-
-  async function fetchVinyls() {
-    try {
-      setLoading(true)
-      const { data, error } = await supabase
-        .from('vinyls')
-        .select('*')
-        .order('band', { ascending: true })
-
-      if (error) throw error
-      setVinyls(data || [])
-    } catch (error) {
-      console.error('Error fetching vinyls:', error)
-    } finally {
-      setLoading(false)
-    }
-  }
 
   const toggle = () => {
     setOpen(!open)
@@ -39,7 +16,7 @@ const Collection = ({ searchQuery }) => {
     if (!searchQuery || !sectionRef.current) return
 
     // Calculate filtered collection inside useEffect
-    const filtered = vinyls.filter((item) => {
+    const filtered = metalcollection.filter((item) => {
       const query = searchQuery.toLowerCase()
       return item.band.toLowerCase().includes(query)
     })
@@ -52,10 +29,10 @@ const Collection = ({ searchQuery }) => {
 
       window.scrollTo({ top: y, behavior: 'smooth' })
     }
-  }, [searchQuery, vinyls]) // Add vinyls to dependency array
+  }, [searchQuery]) // Add dependency array here
 
   // Filter and sort collection based on search query
-  const filteredCollection = vinyls.filter((item) => {
+  const filteredCollection = metalcollection.filter((item) => {
     // Show all items if no search query OR query is less than 3 characters
     if (!searchQuery || searchQuery.length < 3) return true
 
@@ -63,7 +40,6 @@ const Collection = ({ searchQuery }) => {
     // Only search in band name field when query is 3+ characters
     return item.band.toLowerCase().includes(query)
   })
-
   // sort the collection by band and then title album
   const sortedCollection = [...filteredCollection].sort(
     (a, b) =>
@@ -73,19 +49,6 @@ const Collection = ({ searchQuery }) => {
 
   // Auto-open when there's a search query
   const shouldOpen = open || searchQuery
-
-  // Show loading state
-  if (loading) {
-    return (
-      <section
-        className="section collection"
-        id="metalcollection"
-        ref={sectionRef}>
-        <Title title="The " subtitle="Metal Collection" />
-        <div className="loading">Loading your collection...</div>
-      </section>
-    )
-  }
 
   return (
     <section
@@ -106,7 +69,7 @@ const Collection = ({ searchQuery }) => {
                 return (
                   <article className="collection-card" key={id}>
                     <div className="collection-img-container">
-                      <img src={image} className="collection-img" alt={title} />
+                      <img src={image} className="collection-img" alt="" />
                       <p className="collection-date">{date}</p>
                     </div>
                     <div className="collection-info">
