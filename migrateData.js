@@ -1,242 +1,13 @@
-import augustburnsred1 from './images/augustburnsred-1.jpg'
-import blacksabbath1 from './images/blacksabbath-1.jpg'
-import borknagar1 from './images/borknagar-1.jpg'
-import brucespringsteen1 from './images/brucespringsteen-1.jpg'
-import death1 from './images/death-1.jpg'
-import deeppurple1 from './images/deeppurple-1.jpg'
-import depechemode1 from './images/depechemode-1.jpg'
-import depechemode2 from './images/depechemode-2.jpg'
-import depechemode3 from './images/depechemode-3.jpg'
-import depechemode4 from './images/depechemode-4.jpg'
-import depechemode5 from './images/depechemode-5.jpg'
-import dio1 from './images/dio-1.jpg'
-import dio2 from './images/dio-2.jpg'
-import django1 from './images/django-1.jpg'
-import eagles1 from './images/eagles-1.jpg'
-import genesis1 from './images/genesis-1.jpg'
-import genesis2 from './images/genesis-2.jpg'
-import georgemichael1 from './images/georgemichael-1.jpg'
-import gretavanfleet1 from './images/gretavanfleet-1.jpg'
-import gretavanfleet2 from './images/gretavanfleet-2.jpg'
-import gretavanfleet3 from './images/gretavanfleet-3.jpg'
-import gretavanfleet4 from './images/gretavanfleet-4.jpg'
-import gunsandroses1 from './images/gunsandroses-1.jpg'
-import iggypop1 from './images/iggypop-1.jpg'
-import ironmaiden1 from './images/ironmaiden-1.jpg'
-import ironmaiden2 from './images/ironmaiden-2.jpg'
-import ironmaiden3 from './images/ironmaiden-3.jpg'
-import ironmaiden4 from './images/ironmaiden-4.jpg'
-import ironmaiden5 from './images/ironmaiden-5.jpg'
-import ironmaiden6 from './images/ironmaiden-6.jpg'
-import janisjoplin1 from './images/janisjoplin-1.jpg'
-import johnlennon1 from './images/johnlennon-1.jpg'
-import johnnycash1 from './images/johnnycash-1.jpg'
-import killswitch1 from './images/killswitch-1.jpg'
-import lennykravitz1 from './images/lennykravitz-1.jpg'
-import linkinpark1 from './images/linkinpark-1.jpg'
-import linkinpark2 from './images/linkinpark-2.jpg'
-import lornashore1 from './images/lornashore-1.jpg'
-import michaeljackson1 from './images/michaeljackson-1.jpg'
-import motorhead1 from './images/motorhead-1.jpg'
-import motorhead2 from './images/motorhead-2.jpg'
-import nazareth1 from './images/nazareth-1.jpg'
-import neaera1 from './images/neaera-1.jpg'
-import neckbreakker1 from './images/neckbreakker-1.jpg'
-import neildiamond1 from './images/neildiamond-1.jpg'
-import nickcave1 from './images/nickcave-1.jpg'
-import nineinchnails1 from './images/nineinchnails-1.jpg'
-import nineinchnails2 from './images/nineinchnails-2.jpg'
-import opeth1 from './images/opeth-1.jpg'
-import orbitculture1 from './images/orbitculture-1.jpg'
-import orbitculture2 from './images/orbitculture-2.jpg'
-import palefaceswiss1 from './images/palefaceswiss-1.jpg'
-import pinkfloyd1 from './images/pinkfloyd-1.jpg'
-import pinkfloyd2 from './images/pinkfloyd-2.jpg'
-import pinkfloyd3 from './images/pinkfloyd-3.jpg'
-import pinkfloyd4 from './images/pinkfloyd-4.jpg'
-import polyphia1 from './images/polyphia-1.jpg'
-import queen1 from './images/queen-1.jpg'
-import radiohead1 from './images/radiohead-1.jpg'
-import radiohead2 from './images/radiohead-2.jpg'
-import radiohead3 from './images/radiohead-3.jpg'
-import rageagainstthemachine1 from './images/rageagainstthemachine-1.jpg'
-import rainbow1 from './images/rainbow-1.jpg'
-import rem1 from './images/rem-1.jpg'
-import rem2 from './images/rem-2.jpg'
-import sacredreich1 from './images/sacredreich-1.jpg'
-import simpleminds1 from './images/simpleminds-1.jpg'
-import simpleminds2 from './images/simpleminds-2.jpg'
-import statusquo1 from'./images/statusquo-1.jpg'
-import stereophonics1 from './images/stereophonics-1.jpg'
-import supertramp1 from './images/supertramp-1.jpg'
-import supertramp2 from './images/supertramp-2.jpg'
-import supertramp3 from './images/supertramp-3.jpg'
-import supertramp4 from './images/supertramp-4.jpg'
-import supertramp5 from './images/supertramp-5.jpg'
-import supertramp6 from './images/supertramp-6.jpg'
-import systemofadown1 from './images/systemofadown-1.jpg'
-import talkingheads1 from './images/talkingheads-1.jpg'
-import téléphone1 from './images/téléphone-1.jpg'
-import theblackdahlia1 from './images/theblackdahlia-1.jpg'
-import theclash1 from './images/theclash-1.jpg'
-import thecure1 from './images/thecure-1.jpg'
-import thecure2 from './images/thecure-2.jpg'
-import thepolice1 from './images/thepolice-1.jpg'
-import therollingstones1 from './images/therollingstones-1.jpg'
-import therollingstones2 from './images/therollingstones-2.jpg'
-import thewhitestripes1 from './images/thewhitestripes-1.jpg'
-import thirteenthghost from './images/thirteenthghost.jpg'
-import tool1 from './images/tool-1.jpg'
-import typeofnegative1 from './images/typeofnegative-1.jpg'
-import whileshesleeps1 from './images/whileshesleeps-1.jpg'
-import whitechapel1 from './images/whitechapel-1.jpg'
-import yes1 from './images/yes-1.jpg'
-import yes2 from './images/yes-2.jpg'
+const { createClient } = require('@supabase/supabase-js')
 
-export const logo = [{ id: 1, image: thirteenthghost }]
-
-export const pageLinks = [
-  { id: 1, href: '#home', text: 'home' },
-  { id: 2, href: '#about', text: 'about the music' },
-  { id: 3, href: '#top', text: 'Top 10 Albums' },
-  { id: 5, href: '#metalcollection', text: 'The Metal collection' },
-  { id: 6, href: '#rockcollection', text: 'The Rock collection' },
-]
-export const socialLinks = [
-  { id: 1, href: 'https://www.facebook.com', icon: 'fab fa-facebook' },
-  { id: 2, href: 'https://x.com/', icon: 'fa-brands fa-twitter' },
-  { id: 3, href: 'https://www.instagram.com', icon: 'fab fa-instagram' },
-]
-
-export const top = [
-  {
-    id: 1,
-    title: 'Album#1',
-    text: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores, officia.',
-    image: ironmaiden1,
-  },
-  {
-    id: 2,
-    title: 'Album#2',
-    text: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores, officia.',
-    image: ironmaiden1,
-  },
-  {
-    id: 3,
-    title: 'Album#3',
-    text: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores, officia.',
-    image: ironmaiden1,
-  },
-  {
-    id: 4,
-    title: 'Album#4',
-    text: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores, officia.',
-    image: ironmaiden1,
-  },
-  {
-    id: 5,
-    title: 'Album#5',
-    text: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores, officia.',
-    image: ironmaiden1,
-  },
-  {
-    id: 6,
-    title: 'Album#6',
-    text: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores, officia.',
-    image: ironmaiden1,
-  },
-  {
-    id: 7,
-    title: 'Album#6',
-    text: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores, officia.',
-    image: ironmaiden1,
-  },
-  {
-    id: 8,
-    title: 'Album#8',
-    text: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores, officia.',
-    image: ironmaiden1,
-  },
-  {
-    id: 9,
-    title: 'Album#9',
-    text: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores, officia.',
-    image: ironmaiden1,
-  },
-  {
-    id: 10,
-    title: 'Album#10',
-    text: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores, officia.',
-    image: ironmaiden1,
-  },
-]
-
-export const toprocks = [
-  {
-    id: 1,
-    title: 'Album#1',
-    text: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores, officia.',
-    image: ironmaiden1,
-  },
-  {
-    id: 2,
-    title: 'Album#2',
-    text: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores, officia.',
-    image: ironmaiden1,
-  },
-  {
-    id: 3,
-    title: 'Album#3',
-    text: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores, officia.',
-    image: ironmaiden1,
-  },
-  {
-    id: 4,
-    title: 'Album#4',
-    text: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores, officia.',
-    image: ironmaiden1,
-  },
-  {
-    id: 5,
-    title: 'Album#5',
-    text: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores, officia.',
-    image: ironmaiden1,
-  },
-  {
-    id: 6,
-    title: 'Album#6',
-    text: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores, officia.',
-    image: ironmaiden1,
-  },
-  {
-    id: 7,
-    title: 'Album#6',
-    text: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores, officia.',
-    image: ironmaiden1,
-  },
-  {
-    id: 8,
-    title: 'Album#8',
-    text: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores, officia.',
-    image: ironmaiden1,
-  },
-  {
-    id: 9,
-    title: 'Album#9',
-    text: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores, officia.',
-    image: ironmaiden1,
-  },
-  {
-    id: 10,
-    title: 'Album#10',
-    text: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores, officia.',
-    image: ironmaiden1,
-  },
-]
-
-// src/dataForMigration.js
+const supabase = createClient(
+  'https://oujxxenmljyytkkgmagf.supabase.co',
+  'sb_publishable_IbvkFQ-yyDkxEqjwzH27lQ_zwwu2SGP',
+  
+)
 
 const metalcollection = [
+
   {
     band: 'Iron Maiden',
     title: 'Powerslave',
@@ -502,9 +273,10 @@ const metalcollection = [
     genre: 'Death core',
   },
 ]
+  
 
 const rockcollection = [
-  {
+   {
     band: 'Greta Van Fleet',
     title: "The Battle at Garden's Gate",
     image: '/src/images/gretavanfleet-1.jpg',
@@ -986,4 +758,18 @@ const rockcollection = [
   },
 ]
 
-module.exports = { metalcollection, rockcollection }
+async function migrateData() {
+  const allVinyls = [...metalcollection, ...rockcollection]
+
+  console.log(`Migrating ${allVinyls.length} total records...`)
+
+  const { data, error } = await supabase.from('vinyls').insert(allVinyls)
+
+  if (error) {
+    console.error('Error:', error)
+  } else {
+    console.log(`✓ Success! Migrated ${allVinyls.length} records.`)
+  }
+}
+
+migrateData()
