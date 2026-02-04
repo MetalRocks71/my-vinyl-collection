@@ -1,3 +1,5 @@
+
+
 import augustburnsred1 from './images/augustburnsred-1.jpg'
 import blacksabbath1 from './images/blacksabbath-1.jpg'
 import borknagar1 from './images/borknagar-1.jpg'
@@ -92,6 +94,12 @@ import whileshesleeps1 from './images/whileshesleeps-1.jpg'
 import whitechapel1 from './images/whitechapel-1.jpg'
 import yes1 from './images/yes-1.jpg'
 import yes2 from './images/yes-2.jpg'
+import deeppurple2 from './images/deeppurple-2.jpg'
+import catstevens1 from './images/catstevens-1.jpg'
+import beastieboys1 from './images/beastieboys-1.jpg'
+import pulpfiction1 from './images/pulpfiction-1.jpg'
+import jeffbuckley1 from './images/jeffbuckley-1.jpg'
+import portishead1 from './images/portishead-1.jpg'
 
 export const logo = [{ id: 1, image: thirteenthghost }]
 
@@ -1083,8 +1091,64 @@ export const rockcollection = [
     image: statusquo1,
     title: 'The Early Works',
     date: 'December  15th, 1990',
-    band: 'Status Qup',
+    band: 'Status Quo',
     length: '(140:13)',
     genre: 'Rock',
+  },
+  {
+    id: 61,
+    image: deeppurple2,
+    title: 'Deep Purple int the rock',
+    date: 'January 01st, 1970',
+    band: 'Deep Purple',
+    length: '(43:50)',
+    genre: 'Rock',
+  },
+  {
+    id: 62,
+    image: catstevens1,
+    title: 'Tea for the Tillerman',
+    date: 'November 23rd, 1970',
+    band: 'Cat Stevens',
+    length: '(36:46)',
+    genre: 'Folk',
+  },
+
+  {
+    id: 63,
+    image: beastieboys1,
+    title: 'Licensed to Ill',
+    date: 'November 15th, 1986',
+    band: 'Beastie Boys',
+    length: '(36:46)',
+    genre: 'hip-hop',
+  },
+
+  {
+    id: 64,
+    image: pulpfiction1,
+    title: 'Pulp Fiction',
+    date: 'January 01st, 1994',
+    band: 'Various artist',
+    length: '(41:22)',
+    genre: 'Various',
+  },
+  {
+    id: 65,
+    image: jeffbuckley1,
+    title: 'Grace',
+    date: 'August 23rd, 1994',
+    band: 'Jeff Buckley',
+    length: '(57:09)',
+    genre: 'Rock',
+  },
+  {
+    id: 66,
+    image: portishead1,
+    title: 'Dummy',
+    date: 'October 01st, 1994',
+    band: 'Portishead',
+    length: '(49:15)',
+    genre: 'Trip-hop',
   },
 ]
