@@ -2,6 +2,7 @@ import { useState, useEffect, useRef } from 'react'
 import Title from './Title'
 import { metalcollection } from '../data'
 
+
 //search query with open collection section
 const Collection = ({ searchQuery }) => {
   const [open, setOpen] = useState(false)
