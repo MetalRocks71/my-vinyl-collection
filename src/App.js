@@ -9,14 +9,14 @@ import Collectionrock from './components/Collectionrock'
 import Topsrocks from './components/Topsrock'
 
 // filepath: src\app.js (or where you use the data)
-import { MongoClient } from 'mongodb';
+import { MongoClient } from 'mongodb'
 
-const client = new MongoClient(process.env.MONGODB_URI);
+const client = new MongoClient(process.env.MONGODB_URI)
 
 export async function getVinyls() {
-  await client.connect();
-  const db = client.db('vinyl-collection');
-  return await db.collection('albums').find({}).toArray();
+  await client.connect()
+  const db = client.db('vinylsCcollection')
+  return await db.collection('albums').find({}).toArray()
 }
 
 // Use getVinyls() instead of importing from data.js
