@@ -499,7 +499,7 @@ Search bar
 }
 
 /* Small Mobile - Below 576px */
-@media screen and (max-width: 576px) {
+@media screen and (max-width: 600px) {
 
   .nav-toggle {
     left: 0.5rem;
