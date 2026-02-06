@@ -226,7 +226,8 @@ Navbar
   width: 100%;
   background: var(--clr-white);
   box-shadow: var(--dark-shadow);
-  z-index: 1002; /* Update this - was z-index: 2 */
+  z-index: 1002;
+  /* Update this - was z-index: 2 */
   height: 8.2rem;
   display: flex;
   align-items: center;
@@ -284,8 +285,10 @@ Navbar
   font-size: 1.2rem;
   margin-bottom: 0;
   position: relative;
-  z-index: 1001; /* Add this */
-  pointer-events: auto; /* Add this */
+  z-index: 1001;
+  /* Add this */
+  pointer-events: auto;
+  /* Add this */
 }
 
 .nav-link:hover {
@@ -305,7 +308,8 @@ Navbar
   box-shadow: 2px 0 10px rgba(0, 0, 0, 0.3);
   transition: left 0.3s ease-in-out;
   padding-top: 5rem;
-  z-index: 1000; /* Changed from 9 to 1000 */
+  z-index: 1000;
+  /* Changed from 9 to 1000 */
   overflow-y: auto;
   display: block;
 }
@@ -326,7 +330,8 @@ Navbar
   opacity: 0;
   visibility: hidden;
   transition: all 0.3s ease-in-out;
-  z-index: 999; /* Changed from 8 to 999 - MUST be lower than nav-links */
+  z-index: 999;
+  /* Changed from 8 to 999 - MUST be lower than nav-links */
   pointer-events: none;
 }
 
@@ -427,14 +432,14 @@ Search bar
   width: 100%;
   margin-bottom: 3.3rem;
   padding-left: 5rem;
-  
+
 }
 
 /* Responsive Design */
 
 /* Mobile - Below 768px - BURGER MENU */
 @media screen and (max-width: 767px) {
-  
+
   /* Burger Menu Toggle - Left Side */
   .nav-toggle {
     display: block;
@@ -478,7 +483,7 @@ Search bar
   }
 
   .nav-search {
-padding-left: 1rem;
+    padding-left: 1rem;
     width: 90%;
     margin-top: 1.5rem;
   }
@@ -495,7 +500,7 @@ padding-left: 1rem;
 
 /* Small Mobile - Below 576px */
 @media screen and (max-width: 576px) {
-  
+
   .nav-toggle {
     left: 0.5rem;
     font-size: 1.6rem;
@@ -544,7 +549,7 @@ padding-left: 1rem;
 
 /* Tablet - 768px to 991px - BURGER MENU */
 @media screen and (min-width: 768px) and (max-width: 991px) {
-  
+
   /* Burger Menu Toggle - Left Side */
   .nav-toggle {
     display: block;
@@ -554,7 +559,7 @@ padding-left: 1rem;
     transform: translateY(-50%);
     font-size: 2rem;
     z-index: 10;
-    
+
   }
 
   .nav-links {
@@ -592,7 +597,7 @@ padding-left: 1rem;
     margin-top: 8.2rem;
     width: 100%;
     max-width: 500px;
-    margin-top: 2rem;
+    margin-bottom: 3.35rem;
   }
 
   .search-input {
@@ -748,7 +753,8 @@ Hero
 @media screen and (max-width: 452px) {
 
   .nav-search {
-    margin-top: 1.2rem; /* Same as navbar height to appear just below it */
+    margin-top: 1.2rem;
+    /* Same as navbar height to appear just below it */
   }
 
   .hero-banner {
