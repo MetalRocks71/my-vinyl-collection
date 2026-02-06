@@ -57,51 +57,61 @@ const Navbar = ({ onSearch }) => {
     }
   }
 
+  const closeMenu = () => {
+    setShowLinks(false)
+  }
+
   return (
-    <nav
-      className={`navbar ${showNavbar ? 'navbar-visible' : 'navbar-hidden'}`}>
-      <div className="nav-center">
-        <div className="nav-header">
-          <button
-            type="button"
-            className="nav-toggle"
-            onClick={() => setShowLinks(!showLinks)}>
-            <i className="fas fa-bars"></i>
-          </button>
-        </div>
-
-        {/* Fixed: removed nested ul and applied showLinks correctly */}
-        <ul className={showLinks ? 'nav-links show-links' : 'nav-links'}>
-          {pageLinks.map((link) => {
-            return (
-              <li key={link.id}>
-                <a href={link.href} className="nav-link">
-                  {link.text}
-                </a>
-              </li>
-            )
-          })}
-        </ul>
-
-        {/* Search Bar */}
-
-        <div className="nav-search">
-          <div className="search-container">
-            <input
-              type="text"
-              value={searchQuery}
-              onChange={handleInputChange}
-              onKeyUp={handleKeyPress}
-              placeholder="Type 3 characters minimun"
-              className="search-input"
-            />
-            <button onClick={handleSearch} className="search-button">
-              <i className="fas fa-search"></i>
+    <>
+      <nav
+        className={`navbar ${showNavbar ? 'navbar-visible' : 'navbar-hidden'}`}>
+        <div className="nav-center">
+          <div className="nav-header">
+            <button
+              type="button"
+              className="nav-toggle"
+              onClick={() => setShowLinks(!showLinks)}>
+              <i className="fas fa-bars"></i>
             </button>
           </div>
+
+          {/* Burger Menu Links */}
+          <ul className={showLinks ? 'nav-links show-links' : 'nav-links'}>
+            {pageLinks.map((link) => {
+              return (
+                <li key={link.id}>
+                  <a href={link.href} className="nav-link" onClick={closeMenu}>
+                    {link.text}
+                  </a>
+                </li>
+              )
+            })}
+          </ul>
+
+          {/* Search Bar */}
+          <div className="nav-search">
+            <div className="search-container">
+              <input
+                type="text"
+                value={searchQuery}
+                onChange={handleInputChange}
+                onKeyUp={handleKeyPress}
+                placeholder="Type 3 characters minimum"
+                className="search-input"
+              />
+              <button onClick={handleSearch} className="search-button">
+                <i className="fas fa-search"></i>
+              </button>
+            </div>
+          </div>
         </div>
-      </div>
-    </nav>
+      </nav>
+
+      {/* Overlay */}
+      <div
+        className={showLinks ? 'nav-overlay active' : 'nav-overlay'}
+        onClick={closeMenu}></div>
+    </>
   )
 }
 
