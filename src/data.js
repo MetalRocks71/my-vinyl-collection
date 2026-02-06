@@ -1,11 +1,14 @@
 
 
 import augustburnsred1 from './images/augustburnsred-1.jpg'
+import beastieboys1 from './images/beastieboys-1.jpg'
 import blacksabbath1 from './images/blacksabbath-1.jpg'
 import borknagar1 from './images/borknagar-1.jpg'
 import brucespringsteen1 from './images/brucespringsteen-1.jpg'
+import catstevens1 from './images/catstevens-1.jpg'
 import death1 from './images/death-1.jpg'
 import deeppurple1 from './images/deeppurple-1.jpg'
+import deeppurple2 from './images/deeppurple-2.jpg'
 import depechemode1 from './images/depechemode-1.jpg'
 import depechemode2 from './images/depechemode-2.jpg'
 import depechemode3 from './images/depechemode-3.jpg'
@@ -31,6 +34,7 @@ import ironmaiden4 from './images/ironmaiden-4.jpg'
 import ironmaiden5 from './images/ironmaiden-5.jpg'
 import ironmaiden6 from './images/ironmaiden-6.jpg'
 import janisjoplin1 from './images/janisjoplin-1.jpg'
+import jeffbuckley1 from './images/jeffbuckley-1.jpg'
 import johnlennon1 from './images/johnlennon-1.jpg'
 import johnnycash1 from './images/johnnycash-1.jpg'
 import killswitch1 from './images/killswitch-1.jpg'
@@ -57,6 +61,8 @@ import pinkfloyd2 from './images/pinkfloyd-2.jpg'
 import pinkfloyd3 from './images/pinkfloyd-3.jpg'
 import pinkfloyd4 from './images/pinkfloyd-4.jpg'
 import polyphia1 from './images/polyphia-1.jpg'
+import portishead1 from './images/portishead-1.jpg'
+import pulpfiction1 from './images/pulpfiction-1.jpg'
 import queen1 from './images/queen-1.jpg'
 import radiohead1 from './images/radiohead-1.jpg'
 import radiohead2 from './images/radiohead-2.jpg'
@@ -94,12 +100,19 @@ import whileshesleeps1 from './images/whileshesleeps-1.jpg'
 import whitechapel1 from './images/whitechapel-1.jpg'
 import yes1 from './images/yes-1.jpg'
 import yes2 from './images/yes-2.jpg'
-import deeppurple2 from './images/deeppurple-2.jpg'
-import catstevens1 from './images/catstevens-1.jpg'
-import beastieboys1 from './images/beastieboys-1.jpg'
-import pulpfiction1 from './images/pulpfiction-1.jpg'
-import jeffbuckley1 from './images/jeffbuckley-1.jpg'
-import portishead1 from './images/portishead-1.jpg'
+import deeppurple3 from './images/deeppurple-3.jpg'
+import simonandgarfunkel1 from './images/simonandgarfunkel-1.jpg'
+import johnnycash2 from './images/johnnycash-2.jpg'
+import thesmile1 from './images/thesmile-1.jpg'
+import deeppurple4 from './images/deeppurple-4.jpg'
+import johnnycash3 from './images/johnnycash-3.jpg'
+import pinkfloyd5 from './images/pinkfloyd-5.jpg'
+import U21 from './images/u2-1.jpg'
+import chriscornell1 from './images/chriscornell-1'
+import kingcrimson1 from './images/kingcrimson-1.jpg'
+import inxs1 from './images/inxs-1.jpg'
+import aha1  from './images/aha-1.jpg'
+
 
 export const logo = [{ id: 1, image: thirteenthghost }]
 
@@ -683,7 +696,7 @@ export const rockcollection = [
     date: 'July 07th, 1977',
     band: 'Yes',
     length: '(38:55)',
-    genre: 'Rock, Progressive Rock',
+    genre: 'Rock, Rock Progressive',
   },
   {
     id: 16,
@@ -692,7 +705,7 @@ export const rockcollection = [
     date: 'September 01st, 1982',
     band: 'Simple Minds',
     length: '(44:59)',
-    genre: 'Rock, Progressive Rock',
+    genre: 'Rock, Rock Progressive',
   },
   {
     id: 17,
@@ -710,7 +723,7 @@ export const rockcollection = [
     date: 'February 06th, 1976',
     band: 'Genesis',
     length: '(51:22)',
-    genre: 'Progressive Rock',
+    genre: 'Rock Progressive',
   },
   {
     id: 19,
@@ -755,7 +768,7 @@ export const rockcollection = [
     date: 'December 05th, 1974',
     band: 'Yes',
     length: '(40:29)',
-    genre: 'Rock, Progressive Rock',
+    genre: 'Rock, Rock Progressive',
   },
   {
     id: 24,
@@ -782,7 +795,7 @@ export const rockcollection = [
     date: 'February 06th, 1984',
     band: 'Simple Minds',
     length: '(44:58)',
-    genre: 'Rock, progressive Rock',
+    genre: 'Rock, Rock Progressive',
   },
   {
     id: 27,
@@ -791,7 +804,7 @@ export const rockcollection = [
     date: 'December 08th, 1976',
     band: 'Eagles',
     length: '(43:25)',
-    genre: 'Rock, progressive Rock',
+    genre: 'Rock, Rock Progressive',
   },
   {
     id: 28,
@@ -818,7 +831,7 @@ export const rockcollection = [
     date: 'March 01st, 1973',
     band: 'Pink Floyd',
     length: '(40:25)',
-    genre: 'Progressive Rock',
+    genre: 'Rock Progressive',
   },
   {
     id: 31,
@@ -964,7 +977,7 @@ export const rockcollection = [
     date: 'May 14th, 1971',
     band: 'Pink Floyd',
     length: '(49:38)',
-    genre: 'Progressive Rock',
+    genre: 'Rock Progressive',
   },
   {
     id: 47,
@@ -1151,4 +1164,113 @@ export const rockcollection = [
     length: '(49:15)',
     genre: 'Trip-hop',
   },
+  {
+    id: 67,
+    image: deeppurple3,
+    title: 'Live Honk kong 2001',
+    date: 'August 13th, 2021',
+    band: 'Deep Purple',
+    length: '(119:04)',
+    genre: 'Rock',
+  },
+  {
+    id: 68,
+    image: simonandgarfunkel1,
+    title: 'Sounds of Silence',
+    date: 'January 01st, 1966',
+    band: 'Simon & Garfunkel',
+    length: '(29:27)',
+    genre: 'Folk-Rock',
+  },
+  {
+    id: 69,
+    image: johnnycash2,
+    title: 'With his hot and blue guitar (limited edition blue vinyl)',
+    date: 'July 16th, 2021',
+    band: 'Johnny Cash',
+    length: '(27:22)',
+    genre: 'Country-Rock',
+  },
+  {
+    id: 70,
+    image: thesmile1,
+    title: 'A light for attracting attention',
+    date: 'May 13th, 2022',
+    band: 'The smile',
+    length: '(53:12)',
+    genre: 'Alternative Rock',
+  },
+  {
+    id: 71,
+    image: deeppurple4,
+    title: 'Made in Europe',
+    date: 'November 13th, 1976',
+    band: 'Deep Purple',
+    length: '(45:47)',
+    genre: 'Rock',
+  },
+  {
+    id: 72,
+    image: johnnycash3,
+    title: 'American V: A Hundred Highways',
+    date: 'July 04th, 2006',
+    band: 'Johnny Cash',
+    length: '(42:50)',
+    genre: 'Country Rock',
+  },
+  {
+    id: 73,
+    image: pinkfloyd5,
+    title: 'The wall',
+    date: 'November 30th, 1979',
+    band: 'Pink Floyd',
+    length: '(81:03)',
+    genre: 'Rock Progressive',
+  },
+  {
+    id: 74,
+    image: U21,
+    title: 'Achtung Baby',
+    date: 'November 18th, 1991',
+    band: 'U2',
+    length: '(55:27)',
+    genre: 'Rock',
+  },
+  {
+    id: 75,
+    image: chriscornell1,
+    title: 'No One Sings Like You Anymore',
+    date: 'December 11th, 2020',
+    band: 'Chris Cornell',
+    length: '(36:25)',
+    genre: 'Rock',
+  },
+  {
+    id: 76,
+    image: kingcrimson1,
+    title: 'In the court of the crimson king',
+    date: 'October 10th, 1969',
+    band: 'King Crimson',
+    length: '(67:42)',
+    genre: 'Rock Progressive',
+  },
+  {
+    id: 77,
+    image: inxs1,
+    title: 'Kick',
+    date: 'January 01st, 1987',
+    band: 'INXS',
+    length: '(39:52)',
+    genre: 'Rock',
+  },
+  {
+    id: 78,
+    image: aha1,
+    title: 'Time and time again - The ultimate',
+    date: 'March 25th, 2016',
+    band: 'a-ha',
+    length: '(157:54)',
+    genre: 'Rock pop',
+  },
 ]
+
