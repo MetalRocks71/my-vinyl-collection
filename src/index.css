@@ -519,7 +519,12 @@ Search bar
     padding: 0.9rem 1.2rem;
     padding-left: 1.75rem;
   }
-
+    .nav-search {
+    margin-top: 8.2rem;
+    width: 100%;
+    max-width: 500px;
+    margin-bottom: 3.35rem;
+  }
   .search-input {
     max-width: 200px;
     font-size: 0.95rem;
