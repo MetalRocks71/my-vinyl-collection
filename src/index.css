@@ -499,17 +499,15 @@ Search bar
 }
 
 /* Small Mobile - Below 576px */
-@media screen and (max-width: 600px) {
+@media screen and (min-width: 576px) {
 
   .nav-toggle {
     left: 0.5rem;
     font-size: 1.6rem;
   }
-
   .nav-links {
     width: 260px;
   }
-
   .nav-link {
     padding: 0.9rem 1.2rem;
     font-size: 0.95rem;
