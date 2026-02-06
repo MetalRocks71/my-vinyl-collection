@@ -122,6 +122,7 @@ export const pageLinks = [
   { id: 3, href: '#top', text: 'Top 10 Albums' },
   { id: 5, href: '#metalcollection', text: 'The Metal collection' },
   { id: 6, href: '#rockcollection', text: 'The Rock collection' },
+  { id: 6, href: '#aderitopereira', text: 'The Aderito P. collection' },
 ]
 export const socialLinks = [
   { id: 1, href: 'https://www.facebook.com', icon: 'fab fa-facebook' },
@@ -632,7 +633,6 @@ export const rockcollection = [
     length: '(44:13)',
     genre: 'Rock progressive',
   },
-
   {
     id: 9,
     image: johnnycash1,
@@ -842,46 +842,8 @@ export const rockcollection = [
     length: '(41:40)',
     genre: 'Rock',
   },
-
   {
     id: 32,
-    image: depechemode1,
-    title: 'Violator',
-    date: 'March 19th, 1990',
-    band: 'Depeche Mode',
-    length: '(47:03)',
-    genre: 'Electronic, New Wave',
-  },
-  {
-    id: 33,
-    image: depechemode2,
-    title: 'Black Celebration',
-    date: 'March 17th, 1987',
-    band: 'Depeche Mode',
-    length: '(55:13)',
-    genre: 'Electronic, New Wave',
-  },
-  {
-    id: 34,
-    image: depechemode3,
-    title: 'Music for the Masses',
-    date: 'September 28th, 1988',
-    band: 'Depeche Mode',
-    length: '(61:58)',
-    genre: 'Electronic, New Wave',
-  },
-  {
-    id: 35,
-    image: depechemode4,
-    title: 'Speak & Spell',
-    date: 'October 21st, 1981',
-    band: 'Depeche Mode',
-    length: '(61:58)',
-    genre: 'Electronic, New Wave',
-  },
-
-  {
-    id: 36,
     image: radiohead1,
     title: 'the bends',
     date: 'April 04th, 1995',
@@ -890,7 +852,7 @@ export const rockcollection = [
     genre: 'Rock, Alternative Rock',
   },
   {
-    id: 37,
+    id: 33,
     image: radiohead2,
     title: 'Ok computer',
     date: 'July 01st, 1997',
@@ -899,7 +861,7 @@ export const rockcollection = [
     genre: 'Rock, Alternative Rock',
   },
   {
-    id: 38,
+    id: 34,
     image: radiohead3,
     title: 'Kid A MNESIA',
     date: 'November 05th 2021',
@@ -908,7 +870,7 @@ export const rockcollection = [
     genre: 'Rock, Alternative Rock',
   },
   {
-    id: 39,
+    id: 35,
     image: téléphone1,
     title: 'Best Of',
     date: 'November 24th 2000',
@@ -916,17 +878,9 @@ export const rockcollection = [
     length: '(65:34)',
     genre: 'Rock',
   },
+
   {
-    id: 40,
-    image: depechemode5,
-    title: 'Memento mori Mexico city',
-    date: 'November 14th, 2025',
-    band: 'Depeche Mode',
-    length: '(140:44)',
-    genre: 'Electronic, New Wave',
-  },
-  {
-    id: 41,
+    id: 36,
     image: stereophonics1,
     title: 'Graffiti on the Train',
     date: 'March 12th, 2013',
@@ -935,7 +889,7 @@ export const rockcollection = [
     genre: 'Rock',
   },
   {
-    id: 42,
+    id: 37,
     image: neildiamond1,
     title: 'Jonathan levingston Seagull',
     date: 'October 01st,1973',
@@ -944,7 +898,7 @@ export const rockcollection = [
     genre: 'Rock, pop rock',
   },
   {
-    id: 43,
+    id: 38,
     image: gretavanfleet3,
     title: 'Startcatcher',
     date: 'July 21st, 2023',
@@ -953,7 +907,7 @@ export const rockcollection = [
     genre: 'Rock',
   },
   {
-    id: 44,
+    id: 39,
     image: gretavanfleet4,
     title: 'Anthem of a peacfull army',
     date: 'October 19th, 2018',
@@ -962,7 +916,7 @@ export const rockcollection = [
     genre: 'Rock',
   },
   {
-    id: 45,
+    id: 40,
     image: supertramp5,
     title: 'Crisis? What Crisis?',
     date: 'January 01st, 1975',
@@ -971,7 +925,7 @@ export const rockcollection = [
     genre: 'Rock',
   },
   {
-    id: 46,
+    id: 41,
     image: pinkfloyd4,
     title: 'Relics',
     date: 'May 14th, 1971',
@@ -980,7 +934,7 @@ export const rockcollection = [
     genre: 'Rock Progressive',
   },
   {
-    id: 47,
+    id: 42,
     image: supertramp6,
     title: 'Even in quietest moments...',
     date: 'January 01st, 1977',
@@ -990,7 +944,7 @@ export const rockcollection = [
   },
 
   {
-    id: 48,
+    id: 43,
     image: genesis2,
     title: 'Trepass',
     date: 'October 01st, 1970',
@@ -999,7 +953,7 @@ export const rockcollection = [
     genre: 'Rock',
   },
   {
-    id: 49,
+    id: 44,
     image: queen1,
     title: 'Innuendo',
     date: 'February 01st, 1991',
@@ -1008,7 +962,7 @@ export const rockcollection = [
     genre: 'Rock',
   },
   {
-    id: 50,
+    id: 45,
     image: rem2,
     title: 'The best of R.E.M In time 1988-2003',
     date: 'October 28th, 2003',
@@ -1017,7 +971,7 @@ export const rockcollection = [
     genre: 'Rock',
   },
   {
-    id: 51,
+    id: 46,
     image: django1,
     title: 'Django unchainded Original Motion Picture Soundtrack',
     date: 'December 28th, 2012',
@@ -1026,7 +980,7 @@ export const rockcollection = [
     genre: 'Various',
   },
   {
-    id: 52,
+    id: 47,
     image: georgemichael1,
     title: 'Older',
     date: 'April 01st, 1996',
@@ -1035,7 +989,7 @@ export const rockcollection = [
     genre: '¨Pop',
   },
   {
-    id: 53,
+    id: 48,
     image: talkingheads1,
     title: 'Stop making sense',
     date: 'October 23rd, 1984',
@@ -1044,7 +998,7 @@ export const rockcollection = [
     genre: 'Punk rock, New wave',
   },
   {
-    id: 54,
+    id: 49,
     image: nickcave1,
     title: 'The firtborn is dead',
     date: 'June 03rd, 1985',
@@ -1054,7 +1008,7 @@ export const rockcollection = [
   },
 
   {
-    id: 55,
+    id: 50,
     image: iggypop1,
     title:
       'Iggy Pop & David Bowie – Live At The Rainbow Theatre March 1977 (Radio Broadcast)',
@@ -1064,7 +1018,7 @@ export const rockcollection = [
     genre: 'Punk',
   },
   {
-    id: 56,
+    id: 51,
     image: theclash1,
     title: 'London Calling Eu pressing',
     date: 'December 14th, 1979',
@@ -1073,7 +1027,7 @@ export const rockcollection = [
     genre: 'Punk Rock',
   },
   {
-    id: 57,
+    id: 52,
     image: therollingstones2,
     title: "Get yer ya-ya's out!",
     date: 'September  04th, 1970',
@@ -1082,7 +1036,7 @@ export const rockcollection = [
     genre: 'Rock',
   },
   {
-    id: 58,
+    id: 53,
     image: thecure2,
     title: 'Songs of the lost world',
     date: 'November  01st, 2024',
@@ -1091,7 +1045,7 @@ export const rockcollection = [
     genre: 'Gothic Rock',
   },
   {
-    id: 59,
+    id: 54,
     image: thepolice1,
     title: "Come Back Boys, All's Forgiven",
     date: 'June  15th, 1986',
@@ -1100,7 +1054,7 @@ export const rockcollection = [
     genre: 'Rock',
   },
   {
-    id: 60,
+    id: 55,
     image: statusquo1,
     title: 'The Early Works',
     date: 'December  15th, 1990',
@@ -1109,7 +1063,7 @@ export const rockcollection = [
     genre: 'Rock',
   },
   {
-    id: 61,
+    id: 56,
     image: deeppurple2,
     title: 'Deep Purple int the rock',
     date: 'January 01st, 1970',
@@ -1118,7 +1072,7 @@ export const rockcollection = [
     genre: 'Rock',
   },
   {
-    id: 62,
+    id: 57,
     image: catstevens1,
     title: 'Tea for the Tillerman',
     date: 'November 23rd, 1970',
@@ -1128,7 +1082,7 @@ export const rockcollection = [
   },
 
   {
-    id: 63,
+    id: 58,
     image: beastieboys1,
     title: 'Licensed to Ill',
     date: 'November 15th, 1986',
@@ -1138,7 +1092,7 @@ export const rockcollection = [
   },
 
   {
-    id: 64,
+    id: 59,
     image: pulpfiction1,
     title: 'Pulp Fiction',
     date: 'January 01st, 1994',
@@ -1147,7 +1101,7 @@ export const rockcollection = [
     genre: 'Various',
   },
   {
-    id: 65,
+    id: 60,
     image: jeffbuckley1,
     title: 'Grace',
     date: 'August 23rd, 1994',
@@ -1156,7 +1110,7 @@ export const rockcollection = [
     genre: 'Rock',
   },
   {
-    id: 66,
+    id: 61,
     image: portishead1,
     title: 'Dummy',
     date: 'October 01st, 1994',
@@ -1165,7 +1119,7 @@ export const rockcollection = [
     genre: 'Trip-hop',
   },
   {
-    id: 67,
+    id: 62,
     image: deeppurple3,
     title: 'Live Honk kong 2001',
     date: 'August 13th, 2021',
@@ -1174,7 +1128,7 @@ export const rockcollection = [
     genre: 'Rock',
   },
   {
-    id: 68,
+    id: 63,
     image: simonandgarfunkel1,
     title: 'Sounds of Silence',
     date: 'January 01st, 1966',
@@ -1183,7 +1137,7 @@ export const rockcollection = [
     genre: 'Folk-Rock',
   },
   {
-    id: 69,
+    id: 64,
     image: johnnycash2,
     title: 'With his hot and blue guitar (limited edition blue vinyl)',
     date: 'July 16th, 2021',
@@ -1192,7 +1146,7 @@ export const rockcollection = [
     genre: 'Country-Rock',
   },
   {
-    id: 70,
+    id: 65,
     image: thesmile1,
     title: 'A light for attracting attention',
     date: 'May 13th, 2022',
@@ -1201,7 +1155,7 @@ export const rockcollection = [
     genre: 'Alternative Rock',
   },
   {
-    id: 71,
+    id: 66,
     image: deeppurple4,
     title: 'Made in Europe',
     date: 'November 13th, 1976',
@@ -1210,7 +1164,7 @@ export const rockcollection = [
     genre: 'Rock',
   },
   {
-    id: 72,
+    id: 67,
     image: johnnycash3,
     title: 'American V: A Hundred Highways',
     date: 'July 04th, 2006',
@@ -1219,7 +1173,7 @@ export const rockcollection = [
     genre: 'Country Rock',
   },
   {
-    id: 73,
+    id: 68,
     image: pinkfloyd5,
     title: 'The wall',
     date: 'November 30th, 1979',
@@ -1228,7 +1182,7 @@ export const rockcollection = [
     genre: 'Rock Progressive',
   },
   {
-    id: 74,
+    id: 69,
     image: U21,
     title: 'Achtung Baby',
     date: 'November 18th, 1991',
@@ -1237,7 +1191,7 @@ export const rockcollection = [
     genre: 'Rock',
   },
   {
-    id: 75,
+    id: 70,
     image: chriscornell1,
     title: 'No One Sings Like You Anymore',
     date: 'December 11th, 2020',
@@ -1246,7 +1200,7 @@ export const rockcollection = [
     genre: 'Rock',
   },
   {
-    id: 76,
+    id: 71,
     image: kingcrimson1,
     title: 'In the court of the crimson king',
     date: 'October 10th, 1969',
@@ -1255,7 +1209,7 @@ export const rockcollection = [
     genre: 'Rock Progressive',
   },
   {
-    id: 77,
+    id: 72,
     image: inxs1,
     title: 'Kick',
     date: 'January 01st, 1987',
@@ -1264,13 +1218,60 @@ export const rockcollection = [
     genre: 'Rock',
   },
   {
-    id: 78,
+    id: 73,
     image: aha1,
     title: 'Time and time again - The ultimate',
     date: 'March 25th, 2016',
     band: 'a-ha',
     length: '(157:54)',
     genre: 'Rock pop',
+  },
+]
+export const aderitopereira = [
+  {
+    id: 1,
+    image: depechemode1,
+    title: 'Violator',
+    date: 'March 19th, 1990',
+    band: 'Depeche Mode',
+    length: '(47:03)',
+    genre: 'Electronic, New Wave',
+  },
+  {
+    id: 2,
+    image: depechemode2,
+    title: 'Black Celebration',
+    date: 'March 17th, 1987',
+    band: 'Depeche Mode',
+    length: '(55:13)',
+    genre: 'Electronic, New Wave',
+  },
+  {
+    id: 3,
+    image: depechemode5,
+    title: 'Memento mori Mexico city',
+    date: 'November 14th, 2025',
+    band: 'Depeche Mode',
+    length: '(140:44)',
+    genre: 'Electronic, New Wave',
+  },
+  {
+    id: 4,
+    image: depechemode4,
+    title: 'Speak & Spell',
+    date: 'October 21st, 1981',
+    band: 'Depeche Mode',
+    length: '(61:58)',
+    genre: 'Electronic, New Wave',
+  },
+  {
+    id: 5,
+    image: depechemode3,
+    title: 'Music for the Masses',
+    date: 'September 28th, 1988',
+    band: 'Depeche Mode',
+    length: '(61:58)',
+    genre: 'Electronic, New Wave',
   },
 ]
 

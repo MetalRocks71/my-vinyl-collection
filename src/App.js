@@ -7,6 +7,7 @@ import Footer from './components/Footer'
 import Collection from './components/Collection'
 import Collectionrock from './components/Collectionrock'
 import Topsrocks from './components/Topsrock'
+import AderitoPereira from './components/AderitoPereira'
 
 
 
@@ -26,6 +27,7 @@ function App() {
       <Topsrocks />
       <Collection searchQuery={searchQuery} />
       <Collectionrock searchQuery={searchQuery} />
+      <AderitoPereira searchQuery={searchQuery} />
       <Footer />
     </>
   )
