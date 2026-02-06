@@ -302,7 +302,7 @@ Navbar
   box-shadow: 2px 0 10px rgba(0, 0, 0, 0.3);
   transition: left 0.3s ease-in-out;
   padding-top: 5rem;
-  z-index: 9;
+  z-index: 1000; /* Changed from 9 to 1000 */
   overflow-y: auto;
   display: block;
 }
@@ -323,7 +323,7 @@ Navbar
   opacity: 0;
   visibility: hidden;
   transition: all 0.3s ease-in-out;
-  z-index: 8;
+  z-index: 999; /* Changed from 8 to 999 - MUST be lower than nav-links */
   pointer-events: none;
 }
 
