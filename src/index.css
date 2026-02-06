@@ -439,7 +439,7 @@ Search bar
     display: block;
     position: absolute;
     left: 1rem;
-    top: 55%;
+    top: 53%;
     transform: translateY(-50%);
     font-size: 1.8rem;
     z-index: 10;
