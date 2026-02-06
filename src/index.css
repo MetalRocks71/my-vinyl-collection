@@ -425,6 +425,8 @@ Search bar
   display: flex;
   align-items: center;
   width: 100%;
+  margin-bottom: 0.5rem;
+  margin-top: 1rem;
 }
 
 /* Responsive Design */
@@ -475,9 +477,9 @@ Search bar
   }
 
   .nav-search {
-    margin-top: 8.2rem;
+padding-left: 1rem;
     width: 90%;
-    margin-top: 1.65rem;
+    margin-top: 1.5rem;
   }
 
   .search-input {
