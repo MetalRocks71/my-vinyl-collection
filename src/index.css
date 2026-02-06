@@ -405,7 +405,7 @@ Search bar
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
-    margin-top: 1.7rem;
+    margin-top: 1.2rem;
   }
 
   .nav-center {
@@ -699,8 +699,11 @@ Hero
   border-color: var(--clr-white);
 }
 
-@media screen and (min-width: 768px) {
+@media screen and (max-width: 452px) {
 
+  .nav-search {
+    margin-top: 1.2rem; /* Same as navbar height to appear just below it */
+  }
 
   .hero-banner {
     padding: 0;
