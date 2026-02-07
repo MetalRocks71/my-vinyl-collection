@@ -119,7 +119,9 @@ export default App
   - About.js
   - Collection.js
   - Collectionrock.js
-  - Tops.j
+  - AderitoPereira.js
+  - Tops.js
+  - title.js
   - Topsrock.js
   - Footer.js
 - setup components with default export (snippet - rafce)
