@@ -1226,7 +1226,27 @@ footer>div {
 .copyright span {
   margin-left: 0.5rem;
 }
-
+/* Mobile: Stack footer links vertically and align left */
+@media screen and (max-width: 768px) {
+  .footer-links {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  
+  .footer-link {
+    margin-bottom: 0.75rem;
+    margin-right: 0;
+  }
+    .footer-icons {
+    flex-direction: row;
+    align-items: flex-start;
+  }
+  
+  .footer-icons {
+    margin-bottom: 0.75rem;
+    margin-left: 0;
+  }
+}
 /* Optional: Adjust font size on mobile for better readability */
 @media screen and (max-width: 768px) {
   .copyright {
@@ -1234,6 +1254,9 @@ footer>div {
     /* Slightly smaller on mobile */
     line-height: 1.6;
     /* Better line spacing */
+    text-align: left;
+    /* Align text to the left */
+    margin-bottom: 0.75rem;
   }
 }
 
