@@ -1,5 +1,5 @@
 import { useState, useEffect, useRef } from 'react'
-import { rockcollection} from '../data'
+import { rockcollection } from '../data'
 import Title from './Title'
 
 //search query with open collection section

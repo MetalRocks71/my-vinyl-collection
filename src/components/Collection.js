@@ -7,7 +7,6 @@ import { metalcollection } from '../data'
 const Collection = ({ searchQuery }) => {
   const [open, setOpen] = useState(false)
   const sectionRef = useRef(null)
-
   const toggle = () => {
     setOpen(!open)
   }

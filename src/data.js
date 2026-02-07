@@ -1,6 +1,6 @@
 
 
-import aha1  from './images/aha-1.jpg'
+import aha1 from './images/aha-1.jpg'
 import augustburnsred1 from './images/augustburnsred-1.jpg'
 import beastieboys1 from './images/beastieboys-1.jpg'
 import blacksabbath1 from './images/blacksabbath-1.jpg'

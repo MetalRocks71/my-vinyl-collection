@@ -3,10 +3,10 @@ import Title from './Title'
 import { top } from '../data'
 
 const Tops = () => {
-const [open, setOpen] = useState(false)
- const toggle = () => {
-   setOpen(!open)
- }  
+  const [open, setOpen] = useState(false)
+  const toggle = () => {
+    setOpen(!open)
+  }
 
   return (
     <section className="section tops" id="top">
@@ -15,21 +15,21 @@ const [open, setOpen] = useState(false)
         The Top 10 Metal Albums
       </button>
       {open && (
-      <div className="section-center tops-center">
-        {top.map((top) => {
-          const { id, title, text, image } = top
-          return (
-            <article className="top" key={id}>
-              <div className="top-info">
-                <h4 className="top-title">{title}</h4>
-                <p className="top-text">{text}</p>
-                <img src={image} alt={title} />
-              </div>
-            </article>
-          )
-        })}
-      </div>
-      )}  
+        <div className="section-center tops-center">
+          {top.map((top) => {
+            const { id, title, text, image } = top
+            return (
+              <article className="top" key={id}>
+                <div className="top-info">
+                  <h4 className="top-title">{title}</h4>
+                  <p className="top-text">{text}</p>
+                  <img src={image} alt={title} />
+                </div>
+              </article>
+            )
+          })}
+        </div>
+      )}
     </section>
   )
 }

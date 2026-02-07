@@ -1,5 +1,5 @@
 
-import { pageLinks,socialLinks, logo } from "../data"
+import { pageLinks, socialLinks, logo } from "../data"
 
 
 
@@ -20,7 +20,7 @@ const Footer = () => {
       <ul className="footer-icons">
         <ul className="footer-icons">
           {socialLinks.map((link) => {
-            const { id, href, icon,} = link
+            const { id, href, icon, } = link
             return (
               <li key={id}>
                 <a
@@ -50,7 +50,7 @@ const Footer = () => {
         </p>
         <div className="logo-footer">
           {logo.map((item) => {
-            const { id,image } = item
+            const { id, image } = item
             return (
               <img key={id} src={image} className="footer-logo" alt="logo" />
             )
