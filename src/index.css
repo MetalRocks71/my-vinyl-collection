@@ -504,6 +504,8 @@ Search bar
   .nav-link:hover {
     padding: 1rem 1.5rem;
     padding-left: 2rem;
+        color: var(--clr-white);
+    background: var(--clr-primary-5);
   }
 
   .nav-icons {
@@ -558,6 +560,8 @@ Search bar
   .nav-link:hover {
     padding: 0.9rem 1.2rem;
     padding-left: 1.75rem;
+        color: var(--clr-white);
+    background: var(--clr-primary-5);
   }
 
   .search-input {
@@ -615,6 +619,8 @@ Search bar
   .nav-link:hover {
     padding: 1rem 2rem;
     padding-left: 2.25rem;
+        color: var(--clr-white);
+    background: var(--clr-primary-5);
   }
 
   .nav-icons {
