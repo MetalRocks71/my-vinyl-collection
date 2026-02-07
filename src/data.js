@@ -122,7 +122,7 @@ export const pageLinks = [
   { id: 3, href: '#top', text: 'Top 10 Albums' },
   { id: 5, href: '#metalcollection', text: 'The Metal collection' },
   { id: 6, href: '#rockcollection', text: 'The Rock collection' },
-  { id: 6, href: '#aderitopereira', text: 'The Aderito P. collection' },
+  { id: 7, href: '#aderitopereira', text: 'The Aderito P. collection' },
 ]
 export const socialLinks = [
   { id: 1, href: 'https://www.facebook.com', icon: 'fab fa-facebook' },
