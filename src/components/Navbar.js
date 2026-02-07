@@ -113,6 +113,6 @@ const Navbar = ({ onSearch }) => {
         onClick={closeMenu}></div>
     </>
   )
-}
+} 
 
 export default Navbar
