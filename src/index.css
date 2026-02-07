@@ -397,7 +397,7 @@ Search bar
 }
 
 .search-button:hover {
-  background: var(--clr-primary-7);
+  background: var(--clr-grey-11);
   transform: translateY(-2px);
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
@@ -704,8 +704,8 @@ Search bar
   .nav-link:hover {
     padding: 1rem 2rem;
     padding-left: 2.25rem;
-    color: var(--clr-primary-1);
-    background: var(--clr-primary-8);
+    color: var(--clr-white);
+    background: var(--clr-primary-5);
   }
 
   .nav-icons {
