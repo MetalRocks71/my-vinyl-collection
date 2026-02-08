@@ -40,9 +40,8 @@ const Footer = () => {
           All rights reserved ©
           <br /> band name, images, audio recordings, logos,
           <br />
-          and all associated intellectual property belong to the bands cited in
-          <br />
-          this website and are protected by copyright and trademark laws.
+          and all associated intellectual property belong to the bands cited
+          in this website and are protected by copyright and trademark laws.
         </p>
         <p className="copyright">
           Copyright &copy; 13thGhost
