@@ -369,7 +369,9 @@ Search bar
   color: #222;
   transition: all 0.3s ease;
   height: 3rem;
+
 }
+
 
 .search-input::placeholder {
   color: #666;
@@ -432,7 +434,7 @@ Search bar
   align-items: center;
   width: 100%;
   margin-bottom: 3.3rem;
-  margin-left: 3rem;
+  margin-left: 8rem;
   padding-left: 5rem;
 
 }
