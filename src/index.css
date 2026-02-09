@@ -472,7 +472,7 @@ Search bar
     padding: 0.8rem 1rem;
     height: 3rem;
     border-radius: 20px;
-    margin-left: 1rem;
+    margin-left: 0.5rem;
   }
 
   .search-button i {
