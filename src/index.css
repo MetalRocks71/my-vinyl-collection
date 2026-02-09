@@ -395,7 +395,7 @@ Search bar
   align-items: center;
   justify-content: center;
   height: 3rem;
-  margin-left: 0.5rem ;
+  margin-left: 0.5rem;
 }
 
 .search-button:hover {
@@ -447,6 +447,8 @@ Search bar
     position: relative;
     padding-left: 0;
     margin-top: 4.4rem;
+    margin-left: 3rem;
+
   }
 
   .nav-search {
@@ -462,8 +464,8 @@ Search bar
     padding: 0.8rem 1rem;
     height: 3rem;
     border-radius: 20px;
-    margin-left: 0.1rem;
-    margin-right: 0.1rem;
+    margin-left: auto;
+
   }
 
   .search-button {
@@ -506,7 +508,7 @@ Search bar
   .nav-link:hover {
     padding: 1rem 1.5rem;
     padding-left: 2rem;
-        color: var(--clr-white);
+    color: var(--clr-white);
     background: var(--clr-primary-5);
   }
 
@@ -562,7 +564,7 @@ Search bar
   .nav-link:hover {
     padding: 0.9rem 1.2rem;
     padding-left: 1.75rem;
-        color: var(--clr-white);
+    color: var(--clr-white);
     background: var(--clr-primary-5);
   }
 
@@ -621,7 +623,7 @@ Search bar
   .nav-link:hover {
     padding: 1rem 2rem;
     padding-left: 2.25rem;
-        color: var(--clr-white);
+    color: var(--clr-white);
     background: var(--clr-primary-5);
   }
 
@@ -1270,14 +1272,14 @@ footer>div {
     padding-left: 0;
     /* Remove left padding */
   }
-  
+
   .footer {
     padding-left: 1rem;
     /* Keep some breathing room on the footer itself */
     padding-right: 1rem;
     flex-direction: column;
   }
-  
+
   .copyright {
     font-size: 0.875rem;
     line-height: 1.6;
