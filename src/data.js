@@ -1,5 +1,3 @@
-
-
 import aha1 from './images/aha-1.jpg'
 import augustburnsred1 from './images/augustburnsred-1.jpg'
 import beastieboys1 from './images/beastieboys-1.jpg'
@@ -14,10 +12,18 @@ import deeppurple2 from './images/deeppurple-2.jpg'
 import deeppurple3 from './images/deeppurple-3.jpg'
 import deeppurple4 from './images/deeppurple-4.jpg'
 import depechemode1 from './images/depechemode-1.jpg'
+import depechemode10 from './images/depechemode-10.jpg'
+import depechemode11 from './images/depechemode-11.jpg'
+import depechemode12 from './images/depechemode-12.jpg'
+import depechemode13 from './images/depechemode-13.jpg'
 import depechemode2 from './images/depechemode-2.jpg'
 import depechemode3 from './images/depechemode-3.jpg'
 import depechemode4 from './images/depechemode-4.jpg'
 import depechemode5 from './images/depechemode-5.jpg'
+import depechemode6 from './images/depechemode-6.jpg'
+import depechemode7 from './images/depechemode-7.jpg'
+import depechemode8 from './images/depechemode-8.jpg'
+import depechemode9 from './images/depechemode-9.jpg'
 import dio1 from './images/dio-1.jpg'
 import dio2 from './images/dio-2.jpg'
 import django1 from './images/django-1.jpg'
@@ -112,7 +118,6 @@ import whileshesleeps1 from './images/whileshesleeps-1.jpg'
 import whitechapel1 from './images/whitechapel-1.jpg'
 import yes1 from './images/yes-1.jpg'
 import yes2 from './images/yes-2.jpg'
-
 
 export const logo = [{ id: 1, image: thirteenthghost }]
 
@@ -1247,7 +1252,7 @@ export const aderitopereira = [
     genre: 'Electronic, New Wave',
   },
   {
-    id: 3,
+    id: 5,
     image: depechemode5,
     title: 'Memento mori Mexico city',
     date: 'November 14th, 2025',
@@ -1265,7 +1270,7 @@ export const aderitopereira = [
     genre: 'Electronic, New Wave',
   },
   {
-    id: 5,
+    id: 3,
     image: depechemode3,
     title: 'Music for the Masses',
     date: 'September 28th, 1988',
@@ -1273,5 +1278,76 @@ export const aderitopereira = [
     length: '(61:58)',
     genre: 'Electronic, New Wave',
   },
+  {
+    id: 6,
+    image: depechemode6,
+    title: 'New Life',
+    date: 'June 13th, 1981',
+    band: 'Depeche Mode',
+    length: '(11:27)',
+    genre: 'Electronic, New Wave',
+  },
+  {
+    id: 7,
+    image: depechemode7,
+    title: 'Hot Shot',
+    date: 'September 28th, 1988',
+    band: 'Depeche Mode',
+    length: '(49:40)',
+    genre: 'Electronic, New Wave',
+  },
+  {
+    id: 8,
+    image: depechemode8,
+    title: 'Everything counts/Nothing',
+    date: 'February 13th, 1989',
+    band: 'Depeche Mode',
+    length: '(11:11)',
+    genre: 'Electronic, New Wave',
+  },
+  {
+    id: 9,
+    image: depechemode9,
+    title: 'Leave 12inch single',
+    date: 'August 16th, 1982',
+    band: 'Depeche Mode',
+    length: '(16:06)',
+    genre: 'Electronic, New Wave',
+  },
+  {
+    id: 10,
+    image: depechemode10,
+    title: 'Enjoy The Silence (The Quad: Final Mix)',
+    date: 'February 05th, 1990',
+    band: 'Depeche Mode',
+    length: '(15:30)',
+    genre: 'Electronic, New Wave',
+  },
+  {
+    id: 11,
+    image: depechemode11,
+    title: 'World In My Eyes / Happiest Girl',
+    date: 'September 17th, 1990',
+    band: 'Depeche Mode',
+    length: '(30:15)',
+    genre: 'Electronic, New Wave',
+  },
+  {
+    id: 12,
+    image: depechemode12,
+    title: 'Walking in my shoes Limited edition',
+    date: 'April 26th, 1993',
+    band: 'Depeche Mode',
+    length: '(23:54)',
+    genre: 'Electronic, New Wave',
+  },
+  {
+    id: 13,
+    image: depechemode13,
+    title: '101',
+    date: 'March 13th, 1989',
+    band: 'Depeche Mode',
+    length: '(95:45)',
+    genre: 'Electronic, New Wave',
+  },
 ]
-
