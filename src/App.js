@@ -9,15 +9,12 @@ import Collectionrock from './components/Collectionrock'
 import Topsrocks from './components/Topsrock'
 import AderitoPereira from './components/AderitoPereira'
 
-
-
 function App() {
   const [searchQuery, setSearchQuery] = useState('')
 
   const handleSearch = (query) => {
     setSearchQuery(query)
   }
-
   return (
     <>
       <Navbar onSearch={handleSearch} />
@@ -30,6 +27,7 @@ function App() {
       <AderitoPereira searchQuery={searchQuery} />
       <Footer />
     </>
+    
   )
 }
 
