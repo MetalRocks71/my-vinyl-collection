@@ -997,7 +997,8 @@ Collections
   border-top-right-radius: 10rem;
   border-bottom-left-radius: 1rem;
   border-bottom-right-radius: 1rem;
-  overflow: visible; /* Changed from hidden to visible */
+  overflow: visible;
+  /* Changed from hidden to visible */
   background-color: var(--clr-white);
 }
 
@@ -1009,8 +1010,10 @@ Collections
 
 .collection-img-container {
   position: relative;
-  overflow: visible; /* Changed from hidden to visible */
-  padding: 1rem; /* Add padding so round image doesn't get cut off */
+  overflow: visible;
+  /* Changed from hidden to visible */
+  padding: 1rem;
+  /* Add padding so round image doesn't get cut off */
 
 }
 
@@ -1024,7 +1027,8 @@ Collections
   z-index: 1;
   opacity: 0;
   transition: opacity 0.3s ease;
-  border-radius: 50%; /* Make gradient overlay round too */
+  border-radius: 50%;
+  /* Make gradient overlay round too */
 }
 
 .collection-card:hover .collection-img-container::before {
@@ -1033,7 +1037,8 @@ Collections
 
 .collection-img {
   width: 100%;
-  aspect-ratio: 1 / 1; /* Forces square, making border-radius: 50% perfectly round */
+  aspect-ratio: 1 / 1;
+  /* Forces square, making border-radius: 50% perfectly round */
   object-fit: cover;
   border-radius: 50%;
   position: relative;
@@ -1042,6 +1047,7 @@ Collections
   display: block;
   margin-bottom: 1rem;
 }
+
 /* Add the center dot */
 .collection-img-container::after {
   content: '';
@@ -1049,19 +1055,23 @@ Collections
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  width: 10px; /* Adjust size as needed */
+  width: 10px;
+  /* Adjust size as needed */
   height: 10px;
   background: radial-gradient(circle, #1e293b 0%, #334155 100%);
   border-radius: 50%;
   border: 3px solid rgba(255, 255, 255, 0.9);
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.3);
   z-index: 2;
-  pointer-events: none; /* Allow clicks to pass through */
+  pointer-events: none;
+  /* Allow clicks to pass through */
 }
+
 @keyframes vinylSpin {
   from {
     transform: scale(1.18) rotate(0deg);
   }
+
   to {
     transform: scale(1.18) rotate(360deg);
   }
@@ -1115,15 +1125,12 @@ Collections
 
 .collection-title {
   margin-bottom: 0.5rem;
-
-
 }
 
 .collection-title p {
   color: var(--clr-grey-8);
   padding: 0;
   margin: 0;
-
 }
 
 .collection-title h4 {
@@ -1137,7 +1144,6 @@ Collections
   background-clip: text;
   font-weight: 700;
   text-transform: uppercase;
-
 }
 
 /* end of additional css for different layout*/
@@ -1374,10 +1380,13 @@ Reduce vinylSpin
 @media screen and (max-width: 767px) {
   @keyframes vinylSpin {
     from {
-      transform: scale(1.08) rotate(0deg); /* Reduced from 1.18 */
+      transform: scale(1.08) rotate(0deg);
+      /* Reduced from 1.18 */
     }
+
     to {
-      transform: scale(1.08) rotate(360deg); /* Reduced from 1.18 */
+      transform: scale(1.08) rotate(360deg);
+      /* Reduced from 1.18 */
     }
   }
 }
@@ -1388,6 +1397,7 @@ Reduce vinylSpin
     from {
       transform: scale(1.05) rotate(0deg);
     }
+
     to {
       transform: scale(1.05) rotate(360deg);
     }
