@@ -998,7 +998,7 @@ Collections
   border-bottom-left-radius: 1rem;
   border-bottom-right-radius: 1rem;
   overflow: visible; /* Changed from hidden to visible */
-  background: linear-gradient(180deg, var(--clr-grey-11) 0%, var(--clr-white) 100%); /* Top grey to bottom white */
+  background: linear-gradient(180deg, var(--clr-grey-12) 0%, var(--clr-white) 100%); /* Top grey to bottom white */
 }
 
 .collection-card:hover {
@@ -1060,19 +1060,7 @@ Collections
   filter: brightness(1);
 }
 
-/* Add a center dot like real vinyls */
-.collection-img::after {
-  content: '';
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  width: 20%;
-  height: 20%;
-  background: #333;
-  border-radius: 50%;
-  border: 2px solid #666;
-}
+
 
 .collection-card:hover .collection-img {
   animation: vinylSpin 3s linear infinite;
