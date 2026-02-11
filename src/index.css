@@ -993,8 +993,8 @@ Collections
   box-shadow: 0 8px 32px rgba(0, 0, 0, 0.1);
   margin-bottom: 2rem;
   margin-right: 0.7rem;
-  border-top-left-radius: 7.7rem;
-  border-top-right-radius: 7.7rem;
+  border-top-left-radius: 10rem;
+  border-top-right-radius: 10rem;
   border-bottom-left-radius: 1rem;
   border-bottom-right-radius: 1rem;
   overflow: visible; /* Changed from hidden to visible */
@@ -1047,10 +1047,10 @@ Collections
 
 @keyframes vinylSpin {
   from {
-    transform: scale(1.08) rotate(0deg);
+    transform: scale(1.15) rotate(0deg);
   }
   to {
-    transform: scale(1.08) rotate(360deg);
+    transform: scale(1.15) rotate(360deg);
   }
 }
 
@@ -1060,12 +1060,6 @@ Collections
   filter: brightness(1);
 }
 
-
-
-.collection-card:hover .collection-img {
-  animation: vinylSpin 3s linear infinite;
-  filter: brightness(1);
-}
 
 .collection-date {
   position: absolute;
