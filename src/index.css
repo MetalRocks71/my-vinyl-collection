@@ -1189,6 +1189,8 @@ Collections
   }
 }
 
+
+
 /*
 =============== 
 Footer
@@ -1345,4 +1347,34 @@ category button
   transition: var(--transition);
   border-radius: 0.313rem;
 
+}
+
+/*
+=============== 
+Reduce vinylSpin
+===============
+*/
+
+/* Reduce vinyl spin size on mobile */
+@media screen and (max-width: 767px) {
+  @keyframes vinylSpin {
+    from {
+      transform: scale(1.08) rotate(0deg); /* Reduced from 1.18 */
+    }
+    to {
+      transform: scale(1.08) rotate(360deg); /* Reduced from 1.18 */
+    }
+  }
+}
+
+/* Optional: Even smaller for very small screens */
+@media screen and (max-width: 480px) {
+  @keyframes vinylSpin {
+    from {
+      transform: scale(1.05) rotate(0deg);
+    }
+    to {
+      transform: scale(1.05) rotate(360deg);
+    }
+  }
 }
