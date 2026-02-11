@@ -993,22 +993,24 @@ Collections
   box-shadow: 0 8px 32px rgba(0, 0, 0, 0.1);
   margin-bottom: 2rem;
   margin-right: 0.7rem;
-  border-radius: 16px;
-  overflow: hidden;
-  background-color: var(--clr-white);
-
-
+  border-top-left-radius: 7.7rem;
+  border-top-right-radius: 7.7rem;
+  border-bottom-left-radius: 1rem;
+  border-bottom-right-radius: 1rem;
+  overflow: visible; /* Changed from hidden to visible */
+  background: linear-gradient(180deg, var(--clr-grey-11) 0%, var(--clr-white) 100%); /* Top grey to bottom white */
 }
 
 .collection-card:hover {
   box-shadow: 0 12px 40px rgba(0, 0, 0, 0.15);
-  transform: translateY(-8px) scale(1.02);
+  transform: translateY(-8px);
+  /* Removed scale(1.08) since image will scale instead */
 }
 
 .collection-img-container {
   position: relative;
-  overflow: hidden;
-
+  overflow: visible; /* Changed from hidden to visible */
+  padding: 1rem; /* Add padding so round image doesn't get cut off */
 }
 
 .collection-img-container::before {
@@ -1025,6 +1027,7 @@ Collections
   z-index: 1;
   opacity: 0;
   transition: opacity 0.3s ease;
+  border-radius: 50%; /* Make gradient overlay round too */
 }
 
 .collection-card:hover .collection-img-container::before {
@@ -1032,14 +1035,47 @@ Collections
 }
 
 .collection-img {
-  height: 15rem;
+  width: 100%;
+  aspect-ratio: 1 / 1; /* Forces square, making border-radius: 50% perfectly round */
   object-fit: cover;
-  transition: transform 0.4s ease;
+  border-radius: 50%;
+  position: relative;
+  transition: filter 0.3s ease;
   filter: brightness(0.95);
+  display: block;
+}
+
+@keyframes vinylSpin {
+  from {
+    transform: scale(1.08) rotate(0deg);
+  }
+  to {
+    transform: scale(1.08) rotate(360deg);
+  }
+}
+
+
+.collection-card:hover .collection-img {
+  animation: vinylSpin 3s linear infinite;
+  filter: brightness(1);
+}
+
+/* Add a center dot like real vinyls */
+.collection-img::after {
+  content: '';
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 20%;
+  height: 20%;
+  background: #333;
+  border-radius: 50%;
+  border: 2px solid #666;
 }
 
 .collection-card:hover .collection-img {
-  transform: scale(1.08);
+  animation: vinylSpin 3s linear infinite;
   filter: brightness(1);
 }
 
