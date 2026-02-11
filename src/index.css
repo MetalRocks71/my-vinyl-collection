@@ -1058,6 +1058,8 @@ Collections
   z-index: 2;
   pointer-events: none; /* Allow clicks to pass through */
 }
+
+/* make the spinning effect */
 @keyframes vinylSpin {
   from {
     transform: scale(1.18) rotate(0deg);
