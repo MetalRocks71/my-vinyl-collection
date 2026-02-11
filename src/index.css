@@ -383,6 +383,16 @@ Search bar
   box-shadow: 0 0 10px rgba(44, 174, 186, 0.3);
 }
 
+/*=============== 
+hidden blinking caret / cursor
+===============*/
+* {
+  caret-color: transparent !important;
+}
+
+*:focus {
+  caret-color: auto !important;
+}
 .search-button {
   background: var(--clr-primary-5);
   border: none;
@@ -1372,7 +1382,7 @@ category button
 
 /*
 =============== 
-Reduce vinylSpin
+Reduce size vinylSpin
 ===============
 */
 
