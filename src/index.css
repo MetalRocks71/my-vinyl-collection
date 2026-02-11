@@ -1042,7 +1042,22 @@ Collections
   display: block;
   margin-bottom: 1rem;
 }
-
+/* Add the center dot */
+.collection-img-container::after {
+  content: '';
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 10px; /* Adjust size as needed */
+  height: 10px;
+  background: radial-gradient(circle, #1e293b 0%, #334155 100%);
+  border-radius: 50%;
+  border: 1px solid rgba(255, 255, 255, 0.9);
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.3);
+  z-index: 2;
+  pointer-events: none; /* Allow clicks to pass through */
+}
 @keyframes vinylSpin {
   from {
     transform: scale(1.18) rotate(0deg);
