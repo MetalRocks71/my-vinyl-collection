@@ -998,7 +998,7 @@ Collections
   border-bottom-left-radius: 1rem;
   border-bottom-right-radius: 1rem;
   overflow: visible; /* Changed from hidden to visible */
-  background: linear-gradient(180deg, var(--clr-grey-12) 0%, var(--clr-white) 100%); /* Top grey to bottom white */
+  background-color: var(--clr-white);
 }
 
 .collection-card:hover {
@@ -1011,6 +1011,7 @@ Collections
   position: relative;
   overflow: visible; /* Changed from hidden to visible */
   padding: 1rem; /* Add padding so round image doesn't get cut off */
+
 }
 
 .collection-img-container::before {
@@ -1020,10 +1021,6 @@ Collections
   left: 0;
   right: 0;
   bottom: 0;
-  background: linear-gradient(180deg,
-      rgba(74, 74, 77, 0.3) 0%,
-      rgba(103, 100, 105, 0.2) 50%,
-      transparent 100%);
   z-index: 1;
   opacity: 0;
   transition: opacity 0.3s ease;
@@ -1043,6 +1040,7 @@ Collections
   transition: filter 0.3s ease;
   filter: brightness(0.95);
   display: block;
+  margin-bottom: 1rem;
 }
 
 @keyframes vinylSpin {
