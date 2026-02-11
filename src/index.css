@@ -1064,7 +1064,6 @@ Collections
 .collection-date {
   position: absolute;
   left: 0px;
-  bottom: 0px;
   background: var(--clr-primary-5);
   color: white;
   text-transform: capitalize;
