@@ -459,7 +459,7 @@ export const metalcollection = [
     title: 'Death Below',
     date: 'March 24th, 2023',
     band: 'August Burns Red',
-    length: '(44:02)',
+    length: '(53:53)',
     genre: 'MetalCore',
   },
   {
