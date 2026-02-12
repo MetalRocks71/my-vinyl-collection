@@ -118,6 +118,13 @@ import whileshesleeps1 from './images/whileshesleeps-1.jpg'
 import whitechapel1 from './images/whitechapel-1.jpg'
 import yes1 from './images/yes-1.jpg'
 import yes2 from './images/yes-2.jpg'
+import nickcave2 from './images/nickcave-2.jpg'
+import opeth2 from './images/opeth-2.jpg'
+import Slipknot1 from './images/slipknot-1.jpg'
+
+
+
+
 
 export const logo = [{ id: 1, image: thirteenthghost }]
 
@@ -563,6 +570,24 @@ export const metalcollection = [
     length: '(48:11)',
     genre: 'Death core',
   },
+    {
+    id: 34,
+    image: opeth2,
+    title: 'Watershed limited 4000 copies',
+    date: 'June 08th, 2008',
+    band: 'Opeth',
+    length: '(55:01)',
+    genre: 'Doom Death Metal, Progressive Metal',
+  },
+  {
+    id: 35,
+    image: Slipknot1,
+    title: 'Slipknot 25th anniversary',
+    date: 'June 29th, 2024',
+    band: 'Slipknot',
+    length: '(102:37)',
+    genre: 'Nu Metal',
+  }
 ]
 
 export const rockcollection = [
@@ -1230,6 +1255,15 @@ export const rockcollection = [
     band: 'a-ha',
     length: '(157:54)',
     genre: 'Rock pop',
+  },
+    {
+    id: 74,
+    image: nickcave2,
+    title: 'Live God',
+    date: 'December 5th, 2025',
+    band: 'nickcave and the bad Seeds',
+    length: '(99:14)',
+    genre: 'Goth Post punk',
   },
 ]
 export const aderitopereira = [
