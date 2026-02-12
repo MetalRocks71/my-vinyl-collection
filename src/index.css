@@ -1046,8 +1046,6 @@ Tops Section - Featured items/categories
 =============== 
 Collections Section - Vinyl record cards
 ===============
-(Already fully commented in previous response)
-===============
 */
 
 /* Main card container */
@@ -1518,5 +1516,32 @@ Vinyl Spin Size Reduction for Mobile
     to {
       transform: scale(1.05) rotate(360deg); /* Reduced scale */
     }
+  }
+}
+
+/* Mobile - Below 768px */
+@media screen and (max-width: 767px) {
+  .collection-card {
+    margin-bottom: 1.5rem; /* Reduced from 2rem */
+    margin-right: 0.5rem; /* Reduced from 0.7rem */
+  }
+  
+  .collection-img-container {
+    padding: 0.5rem; /* Less padding */
+  }
+  
+  /* Adjust tonearm for smaller size */
+  .collection-card::before {
+    top: 0.5rem;
+    right: 0.5rem;
+    width: 25%; /* Shorter arm */
+    height: 2px; /* Thinner arm */
+  }
+  
+  .collection-card::after {
+    top: calc(0.5rem + 1px);
+    right: calc(0.5rem - 6px);
+    width: 12px; /* Smaller headshell */
+    height: 12px;
   }
 }
