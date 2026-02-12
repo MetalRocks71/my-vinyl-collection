@@ -1008,23 +1008,18 @@ Collections
   border-bottom-left-radius: 1rem;
   border-bottom-right-radius: 1rem;
   overflow: visible;
-  /* Changed from hidden to visible */
   background-color: var(--clr-white);
 }
 
 .collection-card:hover {
   box-shadow: 0 12px 40px rgba(0, 0, 0, 0.15);
   transform: translateY(-8px);
-  /* Removed scale(1.08) since image will scale instead */
 }
 
 .collection-img-container {
   position: relative;
   overflow: visible;
-  /* Changed from hidden to visible */
   padding: 1rem;
-  /* Add padding so round image doesn't get cut off */
-
 }
 
 .collection-img-container::before {
@@ -1038,7 +1033,6 @@ Collections
   opacity: 0;
   transition: opacity 0.3s ease;
   border-radius: 50%;
-  /* Make gradient overlay round too */
 }
 
 .collection-card:hover .collection-img-container::before {
@@ -1048,7 +1042,6 @@ Collections
 .collection-img {
   width: 100%;
   aspect-ratio: 1 / 1;
-  /* Forces square, making border-radius: 50% perfectly round */
   object-fit: cover;
   border-radius: 50%;
   position: relative;
@@ -1058,7 +1051,7 @@ Collections
   margin-bottom: 1rem;
 }
 
-/* Add the center dot */
+/* Center dot (spindle) */
 .collection-img-container::after {
   content: '';
   position: absolute;
@@ -1066,7 +1059,6 @@ Collections
   left: 50%;
   transform: translate(-50%, -50%);
   width: 10px;
-  /* Adjust size as needed */
   height: 10px;
   background: radial-gradient(circle, #1e293b 0%, #334155 100%);
   border-radius: 50%;
@@ -1074,25 +1066,85 @@ Collections
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.3);
   z-index: 2;
   pointer-events: none;
-  /* Allow clicks to pass through */
+}
+
+/* Turntable Arm */
+.collection-img-container {
+  position: relative;
+}
+
+.collection-img-container:has(.collection-img)::before {
+  /* Reusing ::before for gradient, so we'll add arm via pseudo on card */
+  content: none;
+}
+
+.collection-card::before {
+  content: '';
+  position: absolute;
+  top: 1rem;
+  right: 1rem;
+  width: 30%;
+  height: 3px;
+  background: linear-gradient(50deg, 
+    #64748b 0%,
+    #94a3b8 40%,
+    #cbd5e1 50%,
+    #94a3b8 60%,
+    #64748b 100%
+  );
+  border-radius: 2px;
+  transform-origin: right center;
+  transform: rotate(-90deg) translateY(100%);
+  opacity: 0;
+  transition: all 0.5s ease;
+  z-index: 3;
+  pointer-events: none;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+/* Arm headshell (needle end) */
+.collection-card::after {
+  content: '';
+  position: absolute;
+  top: calc(1rem + 1.5px);
+  right: calc(1rem - 8px);
+  width: 16px;
+  height: 16px;
+  background: radial-gradient(circle, #475569 0%, #334155 100%);
+  border-radius: 50%;
+  border: 2px solid #94a3b8;
+  transform: translateX(100%);
+  opacity: 0;
+  transition: all 0.5s ease;
+  z-index: 4;
+  pointer-events: none;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.3);
+}
+
+/* Show and position arm on hover */
+.collection-card:hover::before {
+  opacity: 1;
+  transform: rotate(-75deg) translateX(0);
+}
+
+.collection-card:hover::after {
+  opacity: 1;
+  transform: translateX(0);
 }
 
 @keyframes vinylSpin {
   from {
     transform: scale(1.18) rotate(0deg);
   }
-
   to {
     transform: scale(1.18) rotate(360deg);
   }
 }
 
-
 .collection-card:hover .collection-img {
   animation: vinylSpin 3s linear infinite;
   filter: brightness(1);
 }
-
 
 .collection-date {
   position: absolute;
@@ -1116,7 +1168,6 @@ Collections
   min-height: 50px;
 }
 
-/* additional css for different layout*/
 .collection-title {
   display: flex;
   justify-content: space-between;
@@ -1156,7 +1207,6 @@ Collections
   text-transform: uppercase;
 }
 
-/* end of additional css for different layout*/
 .collection-footer {
   display: flex;
   flex-direction: column;
@@ -1170,7 +1220,6 @@ Collections
   flex-direction: column;
   width: 100%;
   flex: 1;
-  /* Allow it to grow */
 }
 
 .collection-footer p {
@@ -1190,7 +1239,6 @@ Collections
   text-transform: capitalize;
   margin-left: 0;
   margin-top: auto;
-  /* Push to bottom */
 }
 
 .collection-btn {
