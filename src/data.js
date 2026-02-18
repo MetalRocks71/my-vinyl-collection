@@ -121,6 +121,9 @@ import yes2 from './images/yes-2.jpg'
 import nickcave2 from './images/nickcave-2.jpg'
 import opeth2 from './images/opeth-2.jpg'
 import Slipknot1 from './images/slipknot-1.jpg'
+import prince1 from './images/prince-1.jpg'
+import prince2 from './images/prince-2.jpg'
+import prince3 from './images/prince-3.jpg'
 
 
 
@@ -1264,6 +1267,33 @@ export const rockcollection = [
     band: 'nickcave and the bad Seeds',
     length: '(99:14)',
     genre: 'Goth Post punk',
+  },
+    {
+    id: 75,
+    image: prince1,
+    title: '1999',
+    date: 'October 27th, 1982',
+    band: 'Prince',
+    length: '(70:24)',
+    genre: 'Funk Rock',
+  },
+    {
+    id: 76,
+    image: prince2,
+    title: 'Purple Rain',
+    date: 'June 29th, 1984',
+    band: 'Prince and the revolution',
+    length: '(43:51)',
+    genre: 'Funk Rock',
+  },
+    {
+    id: 77,
+    image: prince3,
+    title: 'Parade',
+    date: 'December 5th, 2025',
+    band: 'Prince and the revolution',
+    length: '(41:00)',
+    genre: 'Funk Rock',
   },
 ]
 export const aderitopereira = [
