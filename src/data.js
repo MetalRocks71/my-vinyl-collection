@@ -1290,7 +1290,7 @@ export const rockcollection = [
     id: 77,
     image: prince3,
     title: 'Parade',
-    date: 'December 5th, 2025',
+    date: 'March 31st, 1986',
     band: 'Prince and the revolution',
     length: '(41:00)',
     genre: 'Funk Rock',
