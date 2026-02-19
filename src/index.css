@@ -1084,7 +1084,7 @@ Collections Section - Vinyl record cards
   /* Hidden vertically */
   opacity: 0;
   /* Invisible */
-  transition: all 0.5s ease;
+  transition: all 0.1s ease;
   /* Smooth animation */
   z-index: 3;
   /* Above vinyl */
