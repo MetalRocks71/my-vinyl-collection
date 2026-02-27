@@ -65,7 +65,7 @@ const Collectionrock = ({ searchQuery }) => {
 								sortedCollection.map((item) => {
 									const { id, image, title, date, band, length, genre } = item
 									return (
-										<article className='collection-card' key={id}>
+										<article className='collection-card' key={id} onClick={() => console.log(id)}>
 											<div className='collection-img-container'>
 												<img src={image} className='collection-img' alt='' />
 												<p className='collection-date'>{date}</p>

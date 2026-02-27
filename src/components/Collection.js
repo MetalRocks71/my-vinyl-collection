@@ -2,7 +2,6 @@ import { useState, useEffect, useRef } from 'react'
 import Title from './Title'
 import { metalcollection } from '../data'
 
-
 //search query with open collection section
 const Collection = ({ searchQuery }) => {
 	const [open, setOpen] = useState(false)
@@ -64,7 +63,7 @@ const Collection = ({ searchQuery }) => {
 							sortedCollection.map((item) => {
 								const { id, image, title, band, date, length, genre } = item
 								return (
-									<article className='collection-card' key={id}>
+									<article className='collection-card' key={id} onClick={() => console.log(id)}>
 										<div className='collection-img-container'>
 											<img src={image} className='collection-img' alt='' />
 											<p className='collection-date'>{date}</p>
