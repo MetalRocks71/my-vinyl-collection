@@ -1016,7 +1016,7 @@ export const rockcollection = [
 		date: 'April 01st, 1996',
 		band: 'George Michael',
 		length: '(58:88)',
-		genre: '¨Pop',
+		genre: 'Pop Jazz Soul',
 	},
 	{
 		id: 48,
@@ -1297,8 +1297,8 @@ export const rockcollection = [
 		title: 'Faith',
 		date: 'October 30th, 1987',
 		band: 'George Michael',
-		length: '(41:00)',
-		genre: 'Pop Rock',
+		length: '(51:34)',
+		genre: 'Pop Jazz Soul',
 	},
 ]
 export const aderitopereira = [
