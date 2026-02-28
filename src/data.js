@@ -119,13 +119,13 @@ import thesmile1 from './images/thesmile-1.jpg'
 import thewhitestripes1 from './images/thewhitestripes-1.jpg'
 import thirteenthghost from './images/thirteenthghost.jpg'
 import tool1 from './images/tool-1.jpg'
+import tool2 from './images/tool-2.jpg'
 import typeofnegative1 from './images/typeofnegative-1.jpg'
 import U21 from './images/u2-1.jpg'
 import whileshesleeps1 from './images/whileshesleeps-1.jpg'
 import whitechapel1 from './images/whitechapel-1.jpg'
 import yes1 from './images/yes-1.jpg'
 import yes2 from './images/yes-2.jpg'
-import tool2 from './images/tool-2.jpg'
 
 export const logo = [{ id: 1, image: thirteenthghost }]
 
