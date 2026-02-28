@@ -125,6 +125,7 @@ import whileshesleeps1 from './images/whileshesleeps-1.jpg'
 import whitechapel1 from './images/whitechapel-1.jpg'
 import yes1 from './images/yes-1.jpg'
 import yes2 from './images/yes-2.jpg'
+import tool2 from './images/tool-2.jpg'
 
 export const logo = [{ id: 1, image: thirteenthghost }]
 
@@ -587,6 +588,15 @@ export const metalcollection = [
 		band: 'Slipknot',
 		length: '(102:37)',
 		genre: 'Nu Metal',
+	},
+  	{
+		id: 36,
+	image: tool2,
+		title: 'Aenima',
+		date: 'September 17th, 1996',
+		band: 'Tool',
+		length: '(77:18)',
+		genre: 'Underground Metal',
 	},
 ]
 
