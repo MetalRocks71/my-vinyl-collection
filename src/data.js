@@ -16,6 +16,15 @@ import depechemode10 from './images/depechemode-10.jpg'
 import depechemode11 from './images/depechemode-11.jpg'
 import depechemode12 from './images/depechemode-12.jpg'
 import depechemode13 from './images/depechemode-13.jpg'
+import depechemode14 from './images/depechemode-14.jpg'
+import depechemode15 from './images/depechemode-15.jpg'
+import depechemode16 from './images/depechemode-16.jpg'
+import depechemode17 from './images/depechemode-17.jpg'
+import depechemode18 from './images/depechemode-18.jpg'
+import depechemode19 from './images/depechemode-19.jpg'
+import depechemode20 from './images/depechemode-20.jpg'
+import depechemode21 from './images/depechemode-21.jpg'
+import depechemode22 from './images/depechemode-22.jpg'
 import depechemode2 from './images/depechemode-2.jpg'
 import depechemode3 from './images/depechemode-3.jpg'
 import depechemode4 from './images/depechemode-4.jpg'
@@ -1417,6 +1426,87 @@ export const aderitopereira = [
 		date: 'March 13th, 1989',
 		band: 'Depeche Mode',
 		length: '(95:45)',
+		genre: 'Electronic, New Wave',
+	},
+	{
+		id: 14,
+		image: depechemode14,
+		title: 'Do it if you want',
+		date: 'July 6th, 1985 ',
+		band: 'Depeche Mode',
+		length: '(47:45)',
+		genre: 'Electronic, New Wave',
+	},
+	{
+		id: 15,
+		image: depechemode15,
+		title: 'Question of time / Question of lust Limited edition',
+		date: 'April 10th, 1986',
+		band: 'Depeche Mode',
+		length: '(22:40)',
+		genre: 'Electronic, New Wave',
+	},
+	{
+		id: 16,
+		image: depechemode16,
+		title: 'Never Let Me Down Again (Tsangarides Mix)',
+		date: 'August 24th, 1987',
+		band: 'Depeche Mode',
+		length: '(11:42)',
+		genre: 'Electronic, New Wave',
+	},
+	{
+		id: 17,
+		image: depechemode17,
+		title: 'Depeche Mode – I Feel You',
+		date: 'February 9th, 1993',
+		band: 'Depeche Mode',
+		length: '(44:29)',
+		genre: 'Electronic, New Wave',
+	},
+	{
+		id: 18,
+		image: depechemode18,
+		title: 'Behind The Wheel (Remixed By Shep Pettibone)',
+		date: 'December 28th, 1987',
+		band: 'Depeche Mode',
+		length: '(12:14)',
+		genre: 'Electronic, New Wave',
+	},
+	{
+		id: 19,
+		image: depechemode19,
+		title: 'Behind The Wheel / Route 66 (Megamix)',
+		date: 'April 5th, 1988',
+		band: 'Depeche Mode',
+		length: '(27:14)',
+		genre: 'Electronic, New Wave',
+	},
+	{
+		id: 20,
+		image: depechemode20,
+		title: 'Master And Servant (Slavery Whip Mix)',
+		date: 'August 20th, 1984',
+		band: 'Depeche Mode',
+		length: '(20:23)',
+		genre: 'Electronic, New Wave',
+	},
+	{
+		id: 21,
+		image: depechemode21,
+		title: 'People Are People (Different Mix)',
+		date: 'March 12th, 1984',
+		band: 'Depeche Mode',
+		length: '(15:23)',
+		genre: 'Electronic, New Wave',
+	},
+	{
+		id: 22,
+		image: depechemode22,
+		title: 'Enjoy The Silence (Remix)',
+		date: 'February 5th, 1990',
+		band: 'Depeche Mode',
+		length: '(19:13)',
 		genre: 'Electronic, New Wave',
 	},
 ]
