@@ -128,6 +128,7 @@ import thesmile1 from './images/thesmile-1.jpg'
 import thewhitestripes1 from './images/thewhitestripes-1.jpg'
 import thirteenthghost from './images/thirteenthghost.jpg'
 import tool1 from './images/tool-1.jpg'
+import tool2 from './images/tool-2.jpg'
 import typeofnegative1 from './images/typeofnegative-1.jpg'
 import U21 from './images/u2-1.jpg'
 import whileshesleeps1 from './images/whileshesleeps-1.jpg'
@@ -596,6 +597,15 @@ export const metalcollection = [
 		band: 'Slipknot',
 		length: '(102:37)',
 		genre: 'Nu Metal',
+	},
+  	{
+		id: 36,
+	image: tool2,
+		title: 'Aenima',
+		date: 'September 17th, 1996',
+		band: 'Tool',
+		length: '(77:18)',
+		genre: 'Underground Metal',
 	},
 ]
 
