@@ -44,7 +44,7 @@ const Footer = () => {
           in this website and are protected by copyright and trademark laws.
         </p>
         <p className="copyright">
-          Copyright &copy; 13thGhost
+          Copyright &copy;13thGhost
           <span id="date">{new Date().getFullYear()}</span>
         </p>
         <div className="logo-footer">
