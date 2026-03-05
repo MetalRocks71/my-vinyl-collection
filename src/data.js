@@ -1468,7 +1468,7 @@ export const aderitopereira = [
 	{
 		id: 16,
 		image: depechemode16,
-		title: 'Never Let Me Down Again (Tsangarides Mix)',
+		title: 'Never Let Me Down Again (Tsangarides Mix) UK',
 		date: 'August 24th, 1987',
 		band: 'Depeche Mode',
 		length: '(11:42)',
@@ -1585,7 +1585,7 @@ export const aderitopereira = [
 	{
 		id: 29,
 		image: depechemode29,
-		title: 'Never Let Me Down Again (Tsangarides Mix)',
+		title: 'Never Let Me Down Again (Tsangarides Mix) US',
 		date: 'August 24th, 1988',
 		band: 'Depeche Mode',
 		length: '(11:48)',
@@ -1606,7 +1606,7 @@ export const aderitopereira = [
 		title: 'Strangelove - Highjack remix',
 		date: 'August 23rd, 1988',
 		band: 'Depeche Mode',
-		length: '(13:56)',
+		length: '(24:11)',
 		genre: 'Electronic, New Wave',
 	},
 ]
