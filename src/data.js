@@ -25,6 +25,15 @@ import depechemode19 from './images/depechemode-19.jpg'
 import depechemode20 from './images/depechemode-20.jpg'
 import depechemode21 from './images/depechemode-21.jpg'
 import depechemode22 from './images/depechemode-22.jpg'
+import depechemode23 from './images/depechemode-23.jpg'
+import depechemode24 from './images/depechemode-24.jpg'
+import depechemode25 from './images/depechemode-25.jpg'
+import depechemode26 from './images/depechemode-26.jpg'
+import depechemode27 from './images/depechemode-27.jpg'
+import depechemode28 from './images/depechemode-28.jpg'
+import depechemode29 from './images/depechemode-29.jpg'
+import depechemode30 from './images/depechemode-30.jpg'
+import depechemode31 from './images/depechemode-31.jpg'
 import depechemode2 from './images/depechemode-2.jpg'
 import depechemode3 from './images/depechemode-3.jpg'
 import depechemode4 from './images/depechemode-4.jpg'
@@ -598,9 +607,9 @@ export const metalcollection = [
 		length: '(102:37)',
 		genre: 'Nu Metal',
 	},
-  	{
+	{
 		id: 36,
-	image: tool2,
+		image: tool2,
 		title: 'Aenima',
 		date: 'September 17th, 1996',
 		band: 'Tool',
@@ -1450,7 +1459,7 @@ export const aderitopereira = [
 	{
 		id: 15,
 		image: depechemode15,
-		title: 'Question of time / Question of lust Limited edition',
+		title: 'A Question of time / Question of lust Limited edition',
 		date: 'April 10th, 1986',
 		band: 'Depeche Mode',
 		length: '(22:40)',
@@ -1517,6 +1526,87 @@ export const aderitopereira = [
 		date: 'February 5th, 1990',
 		band: 'Depeche Mode',
 		length: '(19:13)',
+		genre: 'Electronic, New Wave',
+	},
+	{
+		id: 23,
+		image: depechemode23,
+		title: 'The world we live in',
+		date: 'April 1st, 1985',
+		band: 'Depeche Mode',
+		length: '(75:10)',
+		genre: 'Electronic, New Wave',
+	},
+	{
+		id: 24,
+		image: depechemode24,
+		title: 'A Question Of Time (Extended Remix)',
+		date: 'August 11th, 1986',
+		band: 'Depeche Mode',
+		length: '(22:53)',
+		genre: 'Electronic, New Wave',
+	},
+	{
+		id: 25,
+		image: depechemode25,
+		title: 'Love In Itself • 3',
+		date: 'September 19th, 1983',
+		band: 'Depeche Mode',
+		length: '(19:29)',
+		genre: 'Electronic, New Wave',
+	},
+	{
+		id: 26,
+		image: depechemode26,
+		title: 'Strangelove - Maxi mix',
+		date: 'Avril 27th, 1987',
+		band: 'Depeche Mode',
+		length: '(13:46)',
+		genre: 'Electronic, New Wave',
+	},
+	{
+		id: 27,
+		image: depechemode27,
+		title: 'It\'s Called A Heart - Fly On The Windscreen',
+		date: 'September 16th, 1985',
+		band: 'Depeche Mode',
+		length: '(24:06)',
+		genre: 'Electronic, New Wave',
+	},
+	{
+		id: 28,
+		image: depechemode28,
+		title: 'Construction time again',
+		date: 'August 22nd, 1983',
+		band: 'Depeche Mode',
+		length: '(42:26)',
+		genre: 'Electronic, New Wave',
+	},
+	{
+		id: 29,
+		image: depechemode29,
+		title: 'Never Let Me Down Again (Tsangarides Mix)',
+		date: 'August 24th, 1988',
+		band: 'Depeche Mode',
+		length: '(11:48)',
+		genre: 'Electronic, New Wave',
+	},
+	{
+		id: 30,
+		image: depechemode30,
+		title: 'Memento mori',
+		date: 'March 24th, 2023',
+		band: 'Depeche Mode',
+		length: '(50:24)',
+		genre: 'Electronic, New Wave',
+	},
+		{
+		id: 31,
+		image: depechemode31,
+		title: 'Strangelove - Highjack remix',
+		date: 'August 23rd, 1988',
+		band: 'Depeche Mode',
+		length: '(13:56)',
 		genre: 'Electronic, New Wave',
 	},
 ]
