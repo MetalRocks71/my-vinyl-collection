@@ -22,6 +22,7 @@ import depechemode16 from './images/depechemode-16.jpg'
 import depechemode17 from './images/depechemode-17.jpg'
 import depechemode18 from './images/depechemode-18.jpg'
 import depechemode19 from './images/depechemode-19.jpg'
+import depechemode2 from './images/depechemode-2.jpg'
 import depechemode20 from './images/depechemode-20.jpg'
 import depechemode21 from './images/depechemode-21.jpg'
 import depechemode22 from './images/depechemode-22.jpg'
@@ -32,10 +33,9 @@ import depechemode26 from './images/depechemode-26.jpg'
 import depechemode27 from './images/depechemode-27.jpg'
 import depechemode28 from './images/depechemode-28.jpg'
 import depechemode29 from './images/depechemode-29.jpg'
+import depechemode3 from './images/depechemode-3.jpg'
 import depechemode30 from './images/depechemode-30.jpg'
 import depechemode31 from './images/depechemode-31.jpg'
-import depechemode2 from './images/depechemode-2.jpg'
-import depechemode3 from './images/depechemode-3.jpg'
 import depechemode4 from './images/depechemode-4.jpg'
 import depechemode5 from './images/depechemode-5.jpg'
 import depechemode6 from './images/depechemode-6.jpg'
@@ -111,6 +111,7 @@ import rainbow1 from './images/rainbow-1.jpg'
 import rem1 from './images/rem-1.jpg'
 import rem2 from './images/rem-2.jpg'
 import sacredreich1 from './images/sacredreich-1.jpg'
+import serenityinmurder1 from './images/serenityinmurder-1.jpg'
 import simonandgarfunkel1 from './images/simonandgarfunkel-1.jpg'
 import simpleminds1 from './images/simpleminds-1.jpg'
 import simpleminds2 from './images/simpleminds-2.jpg'
@@ -615,6 +616,15 @@ export const metalcollection = [
 		band: 'Tool',
 		length: '(77:18)',
 		genre: 'Underground Metal',
+	},
+	{
+		id: 37,
+		image: serenityinmurder1,
+		title: 'Timeless Reverie',
+		date: 'February 28th, 2025',
+		band: 'Serenity in Murder',
+		length: '(41:32)',
+		genre: 'symphonic death metal',
 	},
 ]
 
