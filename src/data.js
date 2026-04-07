@@ -145,6 +145,11 @@ import whileshesleeps1 from './images/whileshesleeps-1.jpg'
 import whitechapel1 from './images/whitechapel-1.jpg'
 import yes1 from './images/yes-1.jpg'
 import yes2 from './images/yes-2.jpg'
+import puscifer1 from './images/puscifer-1.jpg'
+import phillipboa1 from './images/phillipboa-1.jpg'
+import chriscornell2 from './images/chriscornell-2.jpg'
+import necrovation1 from './images/necrovation-1.jpg'
+import bloodincantation1 from './images/bloodincantation-1.jpg'
 
 export const logo = [{ id: 1, image: thirteenthghost }]
 
@@ -625,6 +630,33 @@ export const metalcollection = [
 		band: 'Serenity in Murder',
 		length: '(41:32)',
 		genre: 'symphonic death metal',
+	},
+	{
+		id: 37,
+		image: serenityinmurder1,
+		title: 'Timeless Reverie',
+		date: 'February 28th, 2025',
+		band: 'Serenity in Murder',
+		length: '(41:32)',
+		genre: 'symphonic death metal',
+	},
+	{
+		id: 38,
+		image: necrovation1,
+		title: 'necrovation',
+		date: 'July 17th, 2012',
+		band: 'necrovation',
+		length: '(46:40)',
+		genre: 'death metal',
+	},
+	{
+		id: 39,
+		image: bloodincantation1,
+		title: 'absolute elsewhere',
+		date: 'October 4th, 2024',
+		band: 'blood incantation',
+		length: '(43:43)',
+		genre: 'Progressive death metal',
 	},
 ]
 
@@ -1337,6 +1369,33 @@ export const rockcollection = [
 		band: 'George Michael',
 		length: '(51:34)',
 		genre: 'Pop Jazz Soul',
+	},
+	{
+		id: 79,
+		image: puscifer1,
+		title: 'Existential reckoning rewired',
+		date: 'March 31st, 2023',
+		band: 'Puscifer',
+		length: '(60:01)',
+		genre: 'Rock',
+	},
+	{
+		id: 80,
+		image: phillipboa1,
+		title: 'Reduced',
+		date: 'January 1st, 2013',
+		band: 'Phillip Boa',
+		length: '(70:54)',
+		genre: 'Rock',
+	},
+	{
+		id: 81,
+		image: chriscornell2,
+		title: 'Euphoria morning',
+		date: 'September 21st, 1999',
+		band: 'Chris cornell',
+		length: '(50:50)',
+		genre: 'Rock',
 	},
 ]
 export const aderitopereira = [
