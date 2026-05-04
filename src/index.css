@@ -932,406 +932,222 @@ Tops Section - Featured items/categories
 Collections Section - Vinyl record cards
 ===============
 */
-
-/* Main card container */
 .collection-card {
   transition: var(--transition);
-  /* Smooth transitions */
-  -webkit-backdrop-filter: blur(10px);
-  /* Safari blur */
   backdrop-filter: blur(10px);
-  /* Frosted glass effect */
   box-shadow: 0 8px 32px rgba(0, 0, 0, 0.1);
-  /* Soft shadow */
+
   margin-bottom: 2rem;
-  /* 32px bottom margin */
   margin-right: 0.7rem;
-  /* 11.2px right margin */
-  border-top-left-radius: 10rem;
-  /* Extremely rounded top-left */
-  border-top-right-radius: 10rem;
-  /* Extremely rounded top-right */
-  border-bottom-left-radius: 1rem;
-  /* Slightly rounded bottom-left */
-  border-bottom-right-radius: 1rem;
-  /* Slightly rounded bottom-right */
-  overflow: visible;
-  /* Allows tonearm to extend beyond */
+
+  border-radius: 16px; /* ✅ replaced */
+  overflow: hidden;
+
   background-color: var(--clr-white);
-  /* White background */
+
+  position: relative;
+  perspective: 1000px;
 }
 
-/* Card hover effect */
 .collection-card:hover {
+  transform: translateY(-6px);
   box-shadow: 0 12px 40px rgba(0, 0, 0, 0.15);
-  /* Deeper shadow */
-  transform: translateY(-8px);
-  /* Lifts up 8px */
 }
 
-/* Vinyl image container */
+/* ✅ CLEAN IMAGE CONTAINER */
 .collection-img-container {
   position: relative;
-  /* Positioning context */
-  overflow: visible;
-  /* Allows effects to extend */
+  overflow: hidden;
   padding: 1rem;
-  /* 16px padding */
+
+  border-radius: 12px;
+
+  transform-style: preserve-3d;
+  transition: transform 0.1s ease-out;
 }
 
-/* Overlay gradient (currently disabled) */
-.collection-img-container::before {
-  content: '';
-  /* Pseudo-element */
-  position: absolute;
-  /* Positioned */
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  /* Fills container */
-  z-index: 1;
-  /* Above image */
-  opacity: 0;
-  /* Hidden */
-  transition: opacity 0.3s ease;
-  /* Fade transition */
-  border-radius: 50%;
-  /* Circular */
-}
-
-.collection-card:hover .collection-img-container::before {
-  opacity: 1;
-  /* Shows on hover */
-}
-
-/* Vinyl image */
+/* ✅ CLEAN IMAGE */
 .collection-img {
   width: 100%;
-  /* Full width */
   aspect-ratio: 1 / 1;
-  /* Perfect square */
   object-fit: cover;
-  /* Covers area without distortion */
-  border-radius: 50%;
-  /* Circular */
-  position: relative;
-  /* For stacking */
-  transition: filter 0.3s ease;
-  /* Brightness transition */
-  filter: brightness(0.95);
-  /* Slightly dimmed */
+
+  border-radius: 12px;
   display: block;
-  /* Block display */
-  margin-bottom: 2rem;
-  /* 16px bottom margin */
 }
 
-/* Center spindle dot */
-.collection-img-container::after {
-  content: '';
-  /* Pseudo-element */
-  position: absolute;
-  /* Positioned */
-  top: 50%;
-  left: 50%;
-  /* Center */
-  transform: translate(-50%, -50%);
-  /* True center */
-  width: 10px;
-  height: 10px;
-  /* 10px circle */
-  background: radial-gradient(circle, #1e293b 0%, #334155 100%);
-  /* Dark gradient */
-  border-radius: 50%;
-  /* Circular */
-  border: 3px solid rgba(255, 255, 255, 0.9);
-  /* White border */
-  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.3);
-  /* Shadow */
-  z-index: 2;
-  /* Above image */
-  pointer-events: none;
-  /* Non-interactive */
-}
-
-/* Disables gradient overlay */
-.collection-img-container:has(.collection-img)::before {
-  content: none;
-  /* Removes element */
-}
-
-/* Tonearm */
-.collection-card::before {
-  content: '';
-  /* Creates arm */
-  position: absolute;
-  /* Positioned */
-  top: 1rem;
-  right: 1rem;
-  /* 16px from top-right */
-  width: 30%;
-  /* 30% of card width */
-  height: 3px;
-  /* 3px thick */
-  background: linear-gradient(50deg, #64748b 0%, #94a3b8 40%, var(--clr-primary-5) 50%, #94a3b8 60%, #64748b 100%);
-  /* Metallic gradient */
-  border-radius: 2px;
-  /* Rounded edges */
-  transform-origin: right center;
-  /* Rotates from right */
-  transform: rotate(-90deg) translateY(100%);
-  /* Hidden vertically */
-  opacity: 0;
-  /* Invisible */
-  transition: all 0.1s ease;
-  /* Smooth animation */
-  z-index: 3;
-  /* Above vinyl */
-  pointer-events: none;
-  /* Non-interactive */
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
-  /* Shadow */
-}
-
-/* Headshell/cartridge */
-.collection-card::after {
-  content: '';
-  /* Creates headshell */
-  position: absolute;
-  /* Positioned */
-  top: calc(1rem + 1.5px);
-  /* Vertically centered with arm */
-  right: calc(1rem - 8px);
-  /* Overlaps with arm */
-  width: 16px;
-  height: 16px;
-  /* 16px circle */
-  background: radial-gradient(circle, var(--clr-primary-5) 0%, #0f0f0f 100%);
-  /* Dark gradient */
-  border-radius: 50%;
-  /* Circular */
-  border: 2px solid #94a3b8;
-  /* Slate border */
-  transform: translateX(100%);
-  /* Hidden right */
-  opacity: 0;
-  /* Invisible */
-  transition: all 0.5s ease;
-  /* Smooth animation */
-  z-index: 4;
-  /* Highest layer */
-  pointer-events: none;
-  /* Non-interactive */
-  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.3);
-  /* Shadow */
-}
-
-/* Shows tonearm on hover */
-.collection-card:hover::before {
-  opacity: 1;
-  /* Visible */
-  transform: rotate(-75deg) translateX(0);
-  /* Rotates into position */
-}
-
-/* Shows headshell on hover */
-.collection-card:hover::after {
-  opacity: 1;
-  /* Visible */
-  transform: translateX(0);
-  /* Slides into position */
-}
-
-/* Vinyl spin animation */
-@keyframes vinylSpin {
-  from {
-    transform: scale(1.18) rotate(0deg);
-    /* Starts at 0° enlarged */
-  }
-
-  to {
-    transform: scale(1.18) rotate(360deg);
-    /* Full rotation enlarged */
-  }
-}
-
-/* Applies spin on hover */
-.collection-card:hover .collection-img {
-  animation: vinylSpin 3s linear infinite;
-  /* 3s continuous spin */
-  filter: brightness(1);
-  /* Full brightness */
-}
-
-/* Date/genre badge */
+/* ✅ DATE */
 .collection-date {
   position: absolute;
-  /* Positioned */
-  left: 0px;
-  /* Left edge */
+  top: 10px;
+  left: 10px;
+
   background: var(--clr-primary-5);
-  /* Red background */
-  color: white;
-  /* White text */
-  text-transform: capitalize;
-  /* Capitalizes words */
-  padding: 0.1rem 1rem;
-  /* Small vertical, larger horizontal padding */
-  margin-bottom: 0;
-  /* No bottom margin */
-  font-weight: 600;
-  /* Semi-bold */
-  font-size: 0.85rem;
-  /* 13.6px */
-  z-index: 2;
-  /* Above image */
-  -webkit-backdrop-filter: blur(10px);
-  /* Safari blur */
-  backdrop-filter: blur(10px);
-  /* Frosted glass */
+  color: #fff;
+
+  padding: 0.2rem 0.8rem;
+  border-radius: 999px;
+  font-size: 0.75rem;
+
+  z-index: 5;
 }
 
-/* Collection info section */
+/* ✅ INFO */
 .collection-info {
-  padding: 2rem 1.25rem;
-  /* Vertical 32px, horizontal 20px */
-  display: grid;
-  /* Grid layout */
-  grid-template-rows: auto 1fr;
-  /* Header auto-height, content fills rest */
-  min-height: 50px;
-  /* Minimum 50px height */
+  padding: 1.5rem 1rem;
 }
 
-/* Title container */
-.collection-title {
-  display: flex;
-  /* Flexbox */
-  justify-content: space-between;
-  /* Spreads items */
-  flex-wrap: wrap;
-  /* Allows wrapping */
-  width: 100%;
-  /* Full width */
-}
-
-/* Title text elements */
-.collection-title p,
 .collection-title h4 {
-  margin-bottom: 0.75rem;
-  /* 12px bottom margin */
-  line-height: 1.25;
-  /* 1.25x line spacing */
-  width: 100%;
-  /* Full width */
-  word-wrap: break-word;
-  /* Breaks long words */
-  overflow-wrap: break-word;
-  /* Additional word breaking */
-}
-
-.collection-title {
-  margin-bottom: 0.5rem;
-  /* 8px bottom margin */
-}
-
-/* Title paragraph */
-.collection-title p {
-  color: var(--clr-grey-8);
-  /* Very light grey */
-  padding: 0;
-  /* No padding */
-  margin: 0;
-  /* No margin */
-}
-
-/* Title heading */
-.collection-title h4 {
-  margin-bottom: 1rem;
-  /* 16px bottom margin */
-  line-height: 1.25;
-  /* 1.25x line spacing */
-  word-wrap: break-word;
-  /* Breaks long words */
-  overflow-wrap: break-word;
-  /* Additional breaking */
-  background: linear-gradient(135deg, #1e293b 0%, #334155 100%);
-  /* Slate gradient */
-  -webkit-background-clip: text;
-  /* Safari gradient text */
-  -webkit-text-fill-color: transparent;
-  /* Transparent to show gradient */
-  background-clip: text;
-  /* Gradient text effect */
-  font-weight: 700;
-  /* Bold */
   text-transform: uppercase;
-  /* ALL CAPS */
 }
 
-/* Footer section */
-.collection-footer {
-  display: flex;
-  /* Flexbox */
-  flex-direction: column;
-  /* Vertical stacking */
-  align-items: flex-start;
-  /* Left-aligns items */
-  align-self: end;
-  /* Pushes to bottom of grid */
-  width: 100%;
-  /* Full width */
-}
-
-/* Footer div */
-.collection-footer>div {
-  display: flex;
-  /* Flexbox */
-  flex-direction: column;
-  /* Vertical stacking */
-  width: 100%;
-  /* Full width */
-  flex: 1;
-  /* Grows to fill space */
-}
-
-/* Footer paragraphs */
 .collection-footer p {
-  line-height: 1.25;
-  /* 1.25x line spacing */
-  margin-bottom: 0.5rem;
-  /* 8px bottom margin */
-  text-transform: capitalize;
-  /* Capitalizes words */
   color: var(--clr-primary-5);
-  /* Red text */
-  font-weight: 500;
-  /* Medium bold */
 }
 
-/* Footer paragraph spans */
-.collection-footer p span {
-  margin-right: 0.25rem;
-  /* 4px right margin */
-}
-
-/* Collection length text */
 .collection-length {
   color: var(--clr-grey-5);
-  /* Medium grey */
-  text-transform: capitalize;
-  /* Capitalizes words */
-  margin-left: 0;
-  /* No left margin */
-  margin-top: auto;
-  /* Pushes to bottom */
 }
 
-/* Collection button container */
-.collection-btn {
-  text-align: center;
-  /* Centers button */
+/* =========================
+💡 REMOVED
+========================= */
+/*
+- vinylSpin animation
+- tonearm (::before/after)
+- circular images
+- center dot
+*/
+
+/* =========================
+✨ GLOW SYSTEM
+========================= */
+
+.album-card {
+  position: relative;
+}
+
+/* glow */
+.glow-layer {
+  position: absolute;
+  inset: -20px;
+
+  opacity: 0;
+  pointer-events: none;
+
+  background: radial-gradient(
+    circle at var(--mouse-x, 50%) var(--mouse-y, 50%),
+    rgba(255,255,255,0.3),
+    transparent 60%
+  );
+
+  filter: blur(20px);
+  transition: opacity 0.3s ease;
+}
+
+.album-card:hover .glow-layer {
+  opacity: 1;
+}
+
+/* light layers */
+.edge-glow,
+.shine-effect,
+.border-glow {
+  position: absolute;
+  inset: 0;
+
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity 0.3s ease;
+}
+
+.edge-glow {
+  background: radial-gradient(
+    circle at var(--mouse-x, 50%) var(--mouse-y, 50%),
+    rgba(100,200,255,0.6),
+    transparent 70%
+  );
+}
+
+.shine-effect {
+  background: radial-gradient(
+    circle at var(--mouse-x, 50%) var(--mouse-y, 50%),
+    rgba(255,255,255,0.4),
+    transparent 40%
+  );
+}
+
+.border-glow {
+  border: 2px solid rgba(255,255,255,0.08);
+}
+
+.album-card:hover .edge-glow,
+.album-card:hover .shine-effect,
+.album-card:hover .border-glow {
+  opacity: 1;
+}
+
+/* overlay */
+.album-overlay {
+  position: absolute;
+  inset: 0;
+
+  opacity: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+
+  padding: 16px;
+
+  transition: opacity 0.3s ease;
+
+  background: radial-gradient(
+    circle at var(--mouse-x, 50%) var(--mouse-y, 50%),
+    transparent,
+    rgba(0,0,0,0.7)
+  );
+}
+
+.album-card:hover .album-overlay {
+  opacity: 1;
+}
+
+/* play button */
+.play-button {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+
+  transform: translate(-50%, -50%) scale(0);
+
+  width: 50px;
+  height: 50px;
+
+  border-radius: 50%;
+  background: #fff;
+
+  transition: transform 0.3s ease;
+}
+
+.play-button::after {
+  content: '';
+  border-left: 14px solid black;
+  border-top: 8px solid transparent;
+  border-bottom: 8px solid transparent;
+}
+
+.album-card:hover .play-button {
+  transform: translate(-50%, -50%) scale(1);
+}
+
+/* overlay text */
+.album-title {
+  color: #fff;
+  font-weight: bold;
+}
+
+.album-artist {
+  color: rgba(255,255,255,0.8);
 }
 
 /*

@@ -1,6 +1,7 @@
 import { useState, useEffect, useRef } from 'react'
 import Title from './Title'
 import { metalcollection } from '../data'
+import GlowAlbumCard from './GlowAlbumCard'
 
 //search query with open collection section
 const Collection = ({ searchQuery }) => {
@@ -60,33 +61,7 @@ const Collection = ({ searchQuery }) => {
 				{shouldOpen && (
 					<div className='section-center featured-center'>
 						{sortedCollection.length > 0 ? (
-							sortedCollection.map((item) => {
-								const { id, image, title, band, date, length, genre } = item
-								return (
-									<article className='collection-card' key={id} onClick={() => console.log(id)}>
-										<div className='collection-img-container'>
-											<img src={image} className='collection-img' alt='' />
-											<p className='collection-date'>{date}</p>
-										</div>
-										<div className='collection-info'>
-											<div className='collection-title'>
-												<h4>{title}</h4>
-											</div>
-											<div className='collection-footer'>
-												<div>
-													<p>
-														<span></span> {band}
-													</p>
-													<p>
-														<span></span> {genre}
-													</p>
-													<p className='collection-length'>{length}</p>
-												</div>
-											</div>
-										</div>
-									</article>
-								)
-							})
+							sortedCollection.map((item) => <GlowAlbumCard key={item.id} {...item} />)
 						) : (
 							<div className='no-results'>
 								<p>No results found for "{searchQuery}"</p>

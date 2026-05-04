@@ -1,6 +1,7 @@
 import { useState, useEffect, useRef } from 'react'
 import { aderitopereira } from '../data'
 import Title from './Title'
+import GlowAlbumCard from './GlowAlbumCard'
 
 //search query with open collection section
 
@@ -52,54 +53,27 @@ const Collectionrock = ({ searchQuery }) => {
   const shouldOpen = open || searchQuery
 
   return (
-    <section className="section" id="aderitopereira" ref={sectionRef}>
-      <Title title="The " subtitle="Aderito P. Collection" />
-      <div>
-        <button className="category-btn" onClick={toggle}>
-          Rock and Subgenres({sortedCollection.length})
-          {searchQuery && ` (${sortedCollection.length} results)`}
-        </button>
-        {shouldOpen && (
-          <div>
-            <div className="section-center featured-center">
-              {sortedCollection.length > 0 ? (
-                sortedCollection.map((item) => {
-                  const { id, image, title, date, band, length, genre } = item
-                  return (
-                    <article className="collection-card" key={id}>
-                      <div className="collection-img-container">
-                        <img src={image} className="collection-img" alt="" />
-                        <p className="collection-date">{date}</p>
-                      </div>
-                      <div className="collection-info">
-                        <div className="collection-title">
-                          <h4>{title}</h4>
-                        </div>
-                        <div className="collection-footer">
-                          <div>
-                            <p>
-                              <span></span> {band}
-                            </p>
-                            <p>
-                              <span></span> {genre}
-                            </p>
-                            <p className="collection-length">{length}</p>
-                          </div>
-                        </div>
-                      </div>
-                    </article>
-                  )
-                })
-              ) : (
-                <div className="no-results">
-                  <p>No results found for "{searchQuery}"</p>
-                </div>
-              )}
-            </div>
-          </div>
-        )}
-      </div>
-    </section>
-  )
+		<section className='section' id='aderitopereira' ref={sectionRef}>
+			<Title title='The ' subtitle='Aderito P. Collection' />
+			<div>
+				<button className='category-btn' onClick={toggle}>
+					Rock and Subgenres({sortedCollection.length}){searchQuery && ` (${sortedCollection.length} results)`}
+				</button>
+				{shouldOpen && (
+					<div>
+						<div className='section-center featured-center'>
+							{sortedCollection.length > 0 ? (
+								sortedCollection.map((item) => <GlowAlbumCard key={item.id} {...item} />)
+							) : (
+								<div className='no-results'>
+									<p>No results found for "{searchQuery}"</p>
+								</div>
+							)}
+						</div>
+					</div>
+				)}
+			</div>
+		</section>
+	)
 }
 export default Collectionrock
