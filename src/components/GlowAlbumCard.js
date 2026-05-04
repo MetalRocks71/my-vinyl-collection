@@ -64,7 +64,7 @@ const GlowAlbumCard = ({ id, image, title, band, date, length, genre }) => {
 				<p className='collection-date'>{date}</p>
 
 				<div className='album-overlay'>
-					
+					<div className='play-button'></div>
 
 					<div className='album-info'>
 						<div className='album-title'>{title}</div>
