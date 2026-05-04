@@ -632,15 +632,6 @@ export const metalcollection = [
 		genre: 'symphonic death metal',
 	},
 	{
-		id: 37,
-		image: serenityinmurder1,
-		title: 'Timeless Reverie',
-		date: 'February 28th, 2025',
-		band: 'Serenity in Murder',
-		length: '(41:32)',
-		genre: 'symphonic death metal',
-	},
-	{
 		id: 38,
 		image: necrovation1,
 		title: 'necrovation',
