@@ -940,7 +940,8 @@ Collections Section - Vinyl record cards
   margin-bottom: 2rem;
   margin-right: 0.7rem;
 
-  border-radius: 16px; /* ✅ replaced */
+  border-radius: 16px;
+  /* ✅ replaced */
   overflow: hidden;
 
   background-color: var(--clr-white);
@@ -1035,11 +1036,9 @@ Collections Section - Vinyl record cards
   opacity: 0;
   pointer-events: none;
 
-  background: radial-gradient(
-    circle at var(--mouse-x, 50%) var(--mouse-y, 50%),
-    rgba(255,255,255,0.3),
-    transparent 60%
-  );
+  background: radial-gradient(circle at var(--mouse-x, 50%) var(--mouse-y, 50%),
+      rgba(255, 255, 255, 0.3),
+      transparent 60%);
 
   filter: blur(20px);
   transition: opacity 0.3s ease;
@@ -1062,23 +1061,19 @@ Collections Section - Vinyl record cards
 }
 
 .edge-glow {
-  background: radial-gradient(
-    circle at var(--mouse-x, 50%) var(--mouse-y, 50%),
-    rgba(100,200,255,0.6),
-    transparent 70%
-  );
+  background: radial-gradient(circle at var(--mouse-x, 50%) var(--mouse-y, 50%),
+      rgba(100, 200, 255, 0.6),
+      transparent 70%);
 }
 
 .shine-effect {
-  background: radial-gradient(
-    circle at var(--mouse-x, 50%) var(--mouse-y, 50%),
-    rgba(255,255,255,0.4),
-    transparent 40%
-  );
+  background: radial-gradient(circle at var(--mouse-x, 50%) var(--mouse-y, 50%),
+      rgba(255, 255, 255, 0.4),
+      transparent 40%);
 }
 
 .border-glow {
-  border: 2px solid rgba(255,255,255,0.08);
+  border: 2px solid rgba(255, 255, 255, 0.08);
 }
 
 .album-card:hover .edge-glow,
@@ -1101,11 +1096,9 @@ Collections Section - Vinyl record cards
 
   transition: opacity 0.3s ease;
 
-  background: radial-gradient(
-    circle at var(--mouse-x, 50%) var(--mouse-y, 50%),
-    transparent,
-    rgba(0,0,0,0.7)
-  );
+  background: radial-gradient(circle at var(--mouse-x, 50%) var(--mouse-y, 50%),
+      transparent,
+      rgba(0, 0, 0, 0.7));
 }
 
 .album-card:hover .album-overlay {
@@ -1150,7 +1143,7 @@ Collections Section - Vinyl record cards
 
 .play-button:hover {
   transform: translate(-50%, -50%) scale(1.1);
-  box-shadow: 0 6px 20px rgba(255,255,255,0.4);
+  box-shadow: 0 6px 20px rgba(255, 255, 255, 0.4);
 }
 
 
@@ -1165,9 +1158,11 @@ Collections Section - Vinyl record cards
 }
 
 .album-artist {
-  color: rgba(255,255,255,0.8);
+  color: rgba(255, 255, 255, 0.8);
 }
+
 @media (max-width: 768px) {
+
   /* Disable hover-based glow effects */
   .glow-layer,
   .edge-glow,
@@ -1212,6 +1207,7 @@ Collections Section - Vinyl record cards
     font-size: 12px;
   }
 }
+
 /*
 =============== 
 Footer
