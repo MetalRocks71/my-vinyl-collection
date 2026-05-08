@@ -941,7 +941,7 @@ Collections Section - Vinyl record cards
   margin-right: 0.7rem;
 
   border-radius: 16px;
-  /* ✅ replaced */
+  /*  replaced */
   overflow: hidden;
 
   background-color: var(--clr-white);
@@ -955,7 +955,7 @@ Collections Section - Vinyl record cards
   box-shadow: 0 12px 40px rgba(0, 0, 0, 0.15);
 }
 
-/* ✅ CLEAN IMAGE CONTAINER */
+/* CLEAN IMAGE CONTAINER */
 .collection-img-container {
   position: relative;
   overflow: hidden;
@@ -967,7 +967,7 @@ Collections Section - Vinyl record cards
   transition: transform 0.1s ease-out;
 }
 
-/* ✅ CLEAN IMAGE */
+/* CLEAN IMAGE */
 .collection-img {
   width: 100%;
   aspect-ratio: 1 / 1;
@@ -977,7 +977,7 @@ Collections Section - Vinyl record cards
   display: block;
 }
 
-/* ✅ DATE */
+/* DATE */
 .collection-date {
   position: absolute;
   top: 10px;
@@ -993,7 +993,7 @@ Collections Section - Vinyl record cards
   z-index: 5;
 }
 
-/* ✅ INFO */
+/* INFO */
 .collection-info {
   padding: 1.5rem 1rem;
 }
@@ -1010,15 +1010,6 @@ Collections Section - Vinyl record cards
   color: var(--clr-grey-5);
 }
 
-/* =========================
-💡 REMOVED
-========================= */
-/*
-- vinylSpin animation
-- tonearm (::before/after)
-- circular images
-- center dot
-*/
 
 /* =========================
     GLOW Effects - Mouse-following light layers and play button
@@ -1129,7 +1120,7 @@ Collections Section - Vinyl record cards
 .play-button::after {
   content: '';
 
-  /* ✅ triangle */
+  /*  triangle */
   width: 0;
   height: 0;
 
