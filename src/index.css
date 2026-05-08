@@ -1020,7 +1020,7 @@ Collections Section - Vinyl record cards
 */
 
 /* =========================
-✨ GLOW SYSTEM
+    GLOW Effects - Mouse-following light layers and play button
 ========================= */
 
 .album-card {
@@ -1125,7 +1125,7 @@ Collections Section - Vinyl record cards
 
   background: white;
 
-  /* ✅ THIS FIXES ALIGNMENT */
+  /* THIS FIXES ALIGNMENT */
   display: flex;
   align-items: center;
   justify-content: center;
@@ -1144,7 +1144,7 @@ Collections Section - Vinyl record cards
   border-top: 8px solid transparent;
   border-bottom: 8px solid transparent;
 
-  /* ✅ center adjustment */
+  /* center adjustment */
   margin-left: 4px;
 }
 
@@ -1167,7 +1167,51 @@ Collections Section - Vinyl record cards
 .album-artist {
   color: rgba(255,255,255,0.8);
 }
+@media (max-width: 768px) {
+  /* Disable hover-based glow effects */
+  .glow-layer,
+  .edge-glow,
+  .shine-effect,
+  .border-glow {
+    opacity: 0 !important;
+  }
 
+  /* Always show overlay on mobile */
+  .album-overlay {
+    opacity: 1;
+    background: rgba(0, 0, 0, 0.6);
+  }
+
+  /* Show play button by default */
+  .play-button {
+    transform: translate(-50%, -50%) scale(1);
+  }
+
+  /* Slightly smaller button for mobile */
+  .play-button {
+    width: 44px;
+    height: 44px;
+  }
+
+  .play-button::after {
+    border-left: 12px solid black;
+    border-top: 7px solid transparent;
+    border-bottom: 7px solid transparent;
+  }
+
+  /* Adjust text spacing */
+  .album-overlay {
+    padding: 12px;
+  }
+
+  .album-title {
+    font-size: 14px;
+  }
+
+  .album-artist {
+    font-size: 12px;
+  }
+}
 /*
 =============== 
 Footer
