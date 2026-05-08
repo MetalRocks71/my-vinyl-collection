@@ -57,7 +57,7 @@ These are reusable values that can be referenced throughout the stylesheet using
   /* Neutral medium grey */
   --clr-grey-12: hsl(60, 6%, 84%);
   /* Warm light grey - used for desktop body background */
-
+  --clr-black-2: hsl(0, 0%, 7%);
   /* Basic colors */
   --clr-black: #222;
   /* Near-black (slightly lighter than pure black for better readability) */
@@ -936,18 +936,17 @@ Collections Section - Vinyl record cards
   transition: var(--transition);
   backdrop-filter: blur(10px);
   box-shadow: 0 8px 32px rgba(0, 0, 0, 0.1);
-
   margin-bottom: 2rem;
   margin-right: 0.7rem;
-
   border-radius: 16px;
-  /*  replaced */
   overflow: hidden;
-
   background-color: var(--clr-white);
-
   position: relative;
   perspective: 1000px;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+
 }
 
 .collection-card:hover {
@@ -972,9 +971,9 @@ Collections Section - Vinyl record cards
   width: 100%;
   aspect-ratio: 1 / 1;
   object-fit: cover;
-
   border-radius: 12px;
   display: block;
+  height: 180px;
 }
 
 /* DATE */
@@ -995,15 +994,33 @@ Collections Section - Vinyl record cards
 
 /* INFO */
 .collection-info {
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
   padding: 1.5rem 1rem;
+  gap: 0.3rem;
 }
 
 .collection-title h4 {
+  font-size: 0.9rem;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
   text-transform: uppercase;
+
+
 }
 
 .collection-footer p {
   color: var(--clr-primary-5);
+  margin-bottom: 0.5rem;
+  margin-top: 0.5rem;
+  font-size: 0.8rem;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+
+
 }
 
 .collection-length {
@@ -1023,14 +1040,11 @@ Collections Section - Vinyl record cards
 .glow-layer {
   position: absolute;
   inset: -20px;
-
   opacity: 0;
   pointer-events: none;
-
   background: radial-gradient(circle at var(--mouse-x, 50%) var(--mouse-y, 50%),
-      rgba(255, 255, 255, 0.3),
+      var(--clr-primary-11),
       transparent 60%);
-
   filter: blur(20px);
   transition: opacity 0.3s ease;
 }
@@ -1053,18 +1067,17 @@ Collections Section - Vinyl record cards
 
 .edge-glow {
   background: radial-gradient(circle at var(--mouse-x, 50%) var(--mouse-y, 50%),
-      rgba(100, 200, 255, 0.6),
       transparent 70%);
 }
 
 .shine-effect {
   background: radial-gradient(circle at var(--mouse-x, 50%) var(--mouse-y, 50%),
-      rgba(255, 255, 255, 0.4),
+      var(--clr-primary-11),
       transparent 40%);
 }
 
 .border-glow {
-  border: 2px solid rgba(255, 255, 255, 0.08);
+  border: 2px solid var(--clr-grey-10);
 }
 
 .album-card:hover .edge-glow,
@@ -1077,64 +1090,19 @@ Collections Section - Vinyl record cards
 .album-overlay {
   position: absolute;
   inset: 0;
-
   opacity: 0;
   display: flex;
   flex-direction: column;
   justify-content: flex-end;
-
   padding: 16px;
-
   transition: opacity 0.3s ease;
-
   background: radial-gradient(circle at var(--mouse-x, 50%) var(--mouse-y, 50%),
       transparent,
-      rgba(0, 0, 0, 0.7));
+      var(--clr-black-2));
 }
 
 .album-card:hover .album-overlay {
   opacity: 1;
-}
-
-.play-button {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-
-  transform: translate(-50%, -50%) scale(0);
-
-  width: 50px;
-  height: 50px;
-  border-radius: 50%;
-
-  background: white;
-
-  /* THIS FIXES ALIGNMENT */
-  display: flex;
-  align-items: center;
-  justify-content: center;
-
-  transition: transform 0.3s ease;
-}
-
-.play-button::after {
-  content: '';
-
-  /*  triangle */
-  width: 0;
-  height: 0;
-
-  border-left: 14px solid black;
-  border-top: 8px solid transparent;
-  border-bottom: 8px solid transparent;
-
-  /* center adjustment */
-  margin-left: 4px;
-}
-
-.play-button:hover {
-  transform: translate(-50%, -50%) scale(1.1);
-  box-shadow: 0 6px 20px rgba(255, 255, 255, 0.4);
 }
 
 
@@ -1537,8 +1505,8 @@ Collection for Mobile
     /* Grid layout */
     grid-template-columns: 1fr 1fr;
     /* Two equal columns */
-    gap: 2rem;
-    /* 32px gap */
+    gap: 1.5rem;
+    /* 24px gap */
   }
 }
 
