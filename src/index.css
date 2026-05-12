@@ -1123,12 +1123,14 @@ Collections Section - Vinyl record cards
 @media (max-width: 768px) {
 
   /* Disable hover-based glow effects */
-  .glow-layer,
-  .edge-glow,
-  .shine-effect,
-  .border-glow {
-    opacity: 0 !important;
-  }
+
+.album-card.active .glow-layer,
+.album-card.active .edge-glow,
+.album-card.active .shine-effect,
+.album-card.active .border-glow {
+  opacity: 1;
+}
+
 
   /* Always show overlay on mobile */
   .album-overlay {

@@ -4,13 +4,16 @@ const GlowAlbumCard = ({ id, image, title, band, date, length, genre }) => {
 	const cardRef = useRef(null)
 	const coverRef = useRef(null)
 
-	const handleMouseMove = (e) => {
+	// ✅ shared logic (mouse + touch)
+	const updatePosition = (clientX, clientY) => {
 		const card = cardRef.current
 		const cover = coverRef.current
 
+		if (!card || !cover) return
+
 		const rect = card.getBoundingClientRect()
-		const x = e.clientX - rect.left
-		const y = e.clientY - rect.top
+		const x = clientX - rect.left
+		const y = clientY - rect.top
 
 		const centerX = rect.width / 2
 		const centerY = rect.height / 2
@@ -34,13 +37,35 @@ const GlowAlbumCard = ({ id, image, title, band, date, length, genre }) => {
 		card.style.setProperty('--angle', `${angle}deg`)
 	}
 
-	const handleLeave = () => {
+	// ✅ desktop
+	const handleMouseMove = (e) => {
+		updatePosition(e.clientX, e.clientY)
+	}
+
+	// ✅ mobile (finger move)
+	const handleTouchMove = (e) => {
+		const touch = e.touches[0]
+		updatePosition(touch.clientX, touch.clientY)
+
+		// activate glow manually (replaces :hover)
+		cardRef.current.classList.add('active')
+	}
+
+	const handleTouchStart = () => {
+		cardRef.current.classList.add('active')
+	}
+
+	const resetCard = () => {
 		const card = cardRef.current
 		const cover = coverRef.current
+
+		if (!card || !cover) return
 
 		cover.style.transform = 'rotateX(0) rotateY(0) scale(1)'
 		card.style.setProperty('--mouse-x', '50%')
 		card.style.setProperty('--mouse-y', '50%')
+
+		card.classList.remove('active')
 	}
 
 	return (
@@ -48,7 +73,12 @@ const GlowAlbumCard = ({ id, image, title, band, date, length, genre }) => {
 			className='collection-card album-card'
 			ref={cardRef}
 			onMouseMove={handleMouseMove}
-			onMouseLeave={handleLeave}
+			onMouseLeave={resetCard}
+			// ✅ TOUCH SUPPORT
+			onTouchStart={handleTouchStart}
+			onTouchMove={handleTouchMove}
+			onTouchEnd={resetCard}
+			onTouchCancel={resetCard}
 			onClick={() => console.log(id)}>
 			{/* glow background */}
 			<div className='glow-layer'></div>
