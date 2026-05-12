@@ -1133,7 +1133,7 @@ Collections Section - Vinyl record cards
   /* Always show overlay on mobile */
   .album-overlay {
     opacity: 1;
-    background: rgba(0, 0, 0, 0.6);
+  
   }
 
   /* Show play button by default */
