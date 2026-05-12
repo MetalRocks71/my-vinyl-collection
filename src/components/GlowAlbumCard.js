@@ -4,7 +4,7 @@ const GlowAlbumCard = ({ id, image, title, band, date, length, genre }) => {
 	const cardRef = useRef(null)
 	const coverRef = useRef(null)
 
-	// ✅ shared logic (mouse + touch)
+	// shared logic (mouse + touch)
 	const updatePosition = (clientX, clientY) => {
 		const card = cardRef.current
 		const cover = coverRef.current
@@ -37,12 +37,12 @@ const GlowAlbumCard = ({ id, image, title, band, date, length, genre }) => {
 		card.style.setProperty('--angle', `${angle}deg`)
 	}
 
-	// ✅ desktop
+	// desktop
 	const handleMouseMove = (e) => {
 		updatePosition(e.clientX, e.clientY)
 	}
 
-	// ✅ mobile (finger move)
+	// mobile (finger move)
 	const handleTouchMove = (e) => {
 		const touch = e.touches[0]
 		updatePosition(touch.clientX, touch.clientY)
