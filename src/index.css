@@ -59,7 +59,7 @@ These are reusable values that can be referenced throughout the stylesheet using
   /* Warm light grey - used for desktop body background */
   --clr-black-2: hsl(0, 0%, 7%);
   /* Basic colors */
-  --clr-black: #222;
+  --clr-black: #d7d3d3;
   /* Near-black (slightly lighter than pure black for better readability) */
   --clr-white: #fff;
   /* Pure white */
@@ -959,9 +959,7 @@ Collections Section - Vinyl record cards
   position: relative;
   overflow: hidden;
   padding: 1rem;
-
   border-radius: 12px;
-
   transform-style: preserve-3d;
   transition: transform 0.1s ease-out;
 }
@@ -981,14 +979,11 @@ Collections Section - Vinyl record cards
   position: absolute;
   top: 10px;
   left: 10px;
-
   background: var(--clr-primary-5);
   color: #fff;
-
   padding: 0.2rem 0.8rem;
   border-radius: 999px;
   font-size: 0.75rem;
-
   z-index: 5;
 }
 
@@ -1045,7 +1040,7 @@ Collections Section - Vinyl record cards
   background: radial-gradient(circle at var(--mouse-x, 50%) var(--mouse-y, 50%),
       var(--clr-primary-11),
       transparent 60%);
-  filter: blur(20px);
+  filter: blur(10px);
   transition: opacity 0.3s ease;
 }
 
@@ -1059,7 +1054,6 @@ Collections Section - Vinyl record cards
 .border-glow {
   position: absolute;
   inset: 0;
-
   opacity: 0;
   pointer-events: none;
   transition: opacity 0.3s ease;
@@ -1098,7 +1092,10 @@ Collections Section - Vinyl record cards
   transition: opacity 0.3s ease;
   background: radial-gradient(circle at var(--mouse-x, 50%) var(--mouse-y, 50%),
       transparent,
-      var(--clr-black-2));
+      rgba(0, 0, 0, 0.25),
+      rgba(0, 0, 0, 0.7) 70%,
+      var(--clr-black) 100%
+  );
 }
 
 .album-card:hover .album-overlay {
