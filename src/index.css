@@ -60,6 +60,8 @@ These are reusable values that can be referenced throughout the stylesheet using
   --clr-black-2: hsl(0, 0%, 7%);
   /* Basic colors */
   --clr-black: #d7d3d3;
+
+   --clr-grey-13: #d7d3d3;
   /* Near-black (slightly lighter than pure black for better readability) */
   --clr-white: #fff;
   /* Pure white */
@@ -1094,7 +1096,7 @@ Collections Section - Vinyl record cards
       transparent,
       rgba(0, 0, 0, 0.25),
       rgba(0, 0, 0, 0.7) 70%,
-      var(--clr-black) 100%
+      var(--clr-grey-13) 100%
   );
 }
 
