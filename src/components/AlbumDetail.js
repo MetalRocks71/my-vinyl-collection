@@ -1,32 +1,26 @@
 import { useParams, useNavigate } from 'react-router-dom'
-import { metalcollection } from '../data'
+import { metalcollection, artistBioMetal } from '../data'
 
 const AlbumDetail = () => {
-	const { id } = useParams() // useParams returns a STRING
+	const { id } = useParams()
 	const navigate = useNavigate()
 
-	// Convert to Number to match your data (id: 1, id: 2, etc.)
 	const album = metalcollection.find((item) => item.id === Number(id))
+	const artistBio = artistBioMetal.find((item) => item.id === Number(id))
 
 	if (!album) return <p>Album not found.</p>
 
 	return (
-		<section className='section'>
-			<button className='btn' onClick={() => navigate(-1)}>
+		<section className='section detail-section'>
+			<button className='btn detail-back-btn' onClick={() => navigate(-1)}>
 				← Back
 			</button>
-			<div className='collection-card' style={{ maxWidth: '600px', margin: '2rem auto' }}>
-				<img src={album.image} alt={album.title} className='collection-img' />
-				<div className='collection-info'>
-					<div className='collection-title'>
-						<h4>{album.title}</h4>
-					</div>
-					<div className='collection-footer'>
-						<p>{album.band}</p>
-						<p>{album.genre}</p>
-						<p className='collection-length'>{album.length}</p>
-						<p>{album.date}</p>
-					</div>
+			<div className='collection-card-1'>
+				<img src={album.image} alt={album.title} className='collection-img-1' />
+				<div className='artist-info-1'>
+					{' '}
+					{/* ← now INSIDE collection-card-1 */}
+					<p className='detail-artist-bio'>{artistBio ? artistBio.bio : 'No bio available.'}</p>
 				</div>
 			</div>
 		</section>

@@ -1170,6 +1170,71 @@ Collections Section - Vinyl record cards
 
 /*
 =============== 
+Collections Card 1 Section - Vinyl record cards
+===============
+*/
+.detail-section {
+  min-height: 100vh;
+  padding-top: 10rem;
+  background: var(--clr-grey-10);
+}
+
+.detail-back-btn {
+  display: inline-block;
+  margin-bottom: 2rem;
+  margin-left: 2rem;
+}
+
+.collection-card-1 {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  gap: 2.5rem;
+  max-width: 800px;
+  margin: 0 auto;
+  background: var(--clr-white);
+  border-radius: 16px;
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.12);
+  padding: 2rem;
+}
+
+.collection-img-1 {
+  width: 260px;
+  height: 260px;
+  object-fit: cover;
+  border-radius: 12px;
+  flex-shrink: 0;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+}
+
+.artist-info-1 {
+  flex: 1;
+  display: flex;
+  align-items: center;
+}
+
+.detail-artist-bio {
+  color: var(--clr-grey-5);
+  line-height: 1.8;
+  font-size: 0.95rem;
+  margin-bottom: 0;
+}
+
+/* Mobile - stack vertically */
+@media screen and (max-width: 600px) {
+  .collection-card-1 {
+    flex-direction: column;
+    padding: 1.5rem;
+  }
+
+  .collection-img-1 {
+    width: 100%;
+    height: auto;
+  }
+}
+
+/*
+=============== 
 Footer
 ===============
 */

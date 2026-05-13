@@ -15,18 +15,10 @@ const AlbumDetailRock = () => {
 			<button className='btn' onClick={() => navigate(-1)}>
 				← Back
 			</button>
-			<div className='collection-card' style={{ maxWidth: '600px', margin: '2rem auto' }}>
-				<img src={album.image} alt={album.title} className='collection-img' />
-				<div className='collection-info'>
-					<div className='collection-title'>
-						<h4>{album.title}</h4>
-					</div>
-					<div className='collection-footer'>
-						<p>{album.band}</p>
-						<p>{album.genre}</p>
-						<p className='collection-length'>{album.length}</p>
-						<p>{album.date}</p>
-					</div>
+			<div className='collection-card-1' style={{ maxWidth: '600px', margin: '2rem auto' }}>
+				<img src={album.image} alt={album.title} className='collection-img-1' />
+				<div className='collection-info-1'>
+			
 				</div>
 			</div>
 		</section>
