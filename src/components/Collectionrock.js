@@ -63,7 +63,7 @@ const Collectionrock = ({ searchQuery }) => {
 					<div>
 						<div className='section-center featured-center'>
 							{sortedCollection.length > 0 ? (
-								sortedCollection.map((item) => <GlowAlbumCard key={item.id} {...item} />)
+								sortedCollection.map((item) => <GlowAlbumCard key={item.id} {...item} detailPath='albumRock' />)
 							) : (
 								<div className='no-results'>
 									<p>No results found for "{searchQuery}"</p>

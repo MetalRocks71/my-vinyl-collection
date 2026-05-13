@@ -1,9 +1,10 @@
 import { useRef } from 'react'
+import { useNavigate } from 'react-router-dom'
 
-const GlowAlbumCard = ({ id, image, title, band, date, length, genre }) => {
+const GlowAlbumCard = ({ id, image, title, band, date, length, genre, detailPath ='album' }) => {
 	const cardRef = useRef(null)
 	const coverRef = useRef(null)
-
+	const navigate = useNavigate()
 	// shared logic (mouse + touch)
 	const updatePosition = (clientX, clientY) => {
 		const card = cardRef.current
@@ -74,15 +75,14 @@ const GlowAlbumCard = ({ id, image, title, band, date, length, genre }) => {
 			ref={cardRef}
 			onMouseMove={handleMouseMove}
 			onMouseLeave={resetCard}
-			// ✅ TOUCH SUPPORT
+			//TOUCH SUPPORT
 			onTouchStart={handleTouchStart}
 			onTouchMove={handleTouchMove}
 			onTouchEnd={resetCard}
 			onTouchCancel={resetCard}
-			onClick={() => console.log(id)}>
+			onClick={() => navigate(`/${detailPath}/${id}`)}>
 			{/* glow background */}
 			<div className='glow-layer'></div>
-
 			<div className='collection-img-container album-cover' ref={coverRef}>
 				<img src={image} className='collection-img' alt='' />
 
@@ -100,7 +100,6 @@ const GlowAlbumCard = ({ id, image, title, band, date, length, genre }) => {
 					</div>
 				</div>
 			</div>
-
 			<div className='collection-info'>
 				<div className='collection-title'>
 					<h4>{title}</h4>

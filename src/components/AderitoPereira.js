@@ -5,10 +5,9 @@ import GlowAlbumCard from './GlowAlbumCard'
 
 //search query with open collection section
 
-const Collectionrock = ({ searchQuery }) => {
+const AderitoPereira = ({ searchQuery }) => {
   const [open, setOpen] = useState(false)
   const sectionRef = useRef(null)
-
   const toggle = () => {
     setOpen(!open)
   }
@@ -63,7 +62,7 @@ const Collectionrock = ({ searchQuery }) => {
 					<div>
 						<div className='section-center featured-center'>
 							{sortedCollection.length > 0 ? (
-								sortedCollection.map((item) => <GlowAlbumCard key={item.id} {...item} />)
+								sortedCollection.map((item) => <GlowAlbumCard key={item.id} {...item} detailPath='albumAderitoPereira' />)
 							) : (
 								<div className='no-results'>
 									<p>No results found for "{searchQuery}"</p>
@@ -76,4 +75,4 @@ const Collectionrock = ({ searchQuery }) => {
 		</section>
 	)
 }
-export default Collectionrock
+export default AderitoPereira
