@@ -150,6 +150,9 @@ import phillipboa1 from './images/phillipboa-1.jpg'
 import chriscornell2 from './images/chriscornell-2.jpg'
 import necrovation1 from './images/necrovation-1.jpg'
 import bloodincantation1 from './images/bloodincantation-1.jpg'
+import ironmaidenbio from './images/ironmaidenbio.jpg'
+
+
 
 export const logo = [{ id: 1, image: thirteenthghost }]
 
@@ -1673,8 +1676,9 @@ export const aderitopereira = [
 export const artistBioMetal = [
 	{
 		id: 1,
-		image2:
-		bio: '',
+		image2:ironmaidenbio,
+		band: 'Iron Maiden',
+		bio: 'test'
 	},
 	{
 		id: 2,
