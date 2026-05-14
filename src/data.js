@@ -1673,6 +1673,7 @@ export const aderitopereira = [
 export const artistBioMetal = [
 	{
 		id: 1,
+		image2:
 		bio: '',
 	},
 	{
