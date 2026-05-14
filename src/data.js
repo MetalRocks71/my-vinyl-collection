@@ -1739,13 +1739,9 @@ export const artistBioMetal = [
 		bio: '',
 	},
 	{
-		id: 15,
-		image: ironmaiden3,
-		title: 'The Number of the Beast',
-		date: 'March 22nd, 1982',
-		band: 'Iron Maiden',
-		length: '(40:22)',
-		genre: 'Heavy Metal',
+		id: 16,
+		bio:'',
+		
 	},
 	{
 		id: 16,
