@@ -16,10 +16,11 @@ const AlbumDetail = () => {
 				← Back
 			</button>
 			<div className='collection-card-1'>
+								<img src={artistBio.image2} alt={artistBio.band} className='collection-img-1' />
 				<div className='artist-info-1'>
 					<p className='detail-artist-bio'>{artistBio ? artistBio.bio : 'No bio available.'}</p>
 				</div>
-				<img src={artistBio.image2} alt={artistBio.band} className='collection-img-1' />
+
 
 			</div>
 		</section>
