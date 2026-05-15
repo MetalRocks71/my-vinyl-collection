@@ -1,3 +1,4 @@
+/* eslint-disable no-useless-escape */
 import aha1 from './images/aha-1.jpg'
 import augustburnsred1 from './images/augustburnsred-1.jpg'
 import beastieboys1 from './images/beastieboys-1.jpg'
@@ -1676,9 +1677,9 @@ export const aderitopereira = [
 export const artistBioMetal = [
 	{
 		id: 1,
-		image2:ironmaidenbio,
+		image2: ironmaidenbio,
 		band: 'Iron Maiden',
-		bio: 'test'
+		bio: "Iron Maiden are an English heavy metal band formed in Leyton, East London, in 1975 by bassist and primary songwriter Steve Harris. Although fluid in the early years of the band, the line-up for most of the band's history has consisted of Harris, lead vocalist Bruce Dickinson, drummer Nicko McBrain, and guitarists Dave Murray, Adrian Smith and Janick Gers. As pioneers of the new wave of British heavy metal movement, Iron Maiden released a series of UK and US Platinum and Gold albums, including 1980 's debut album, 1981's Killers, and 1982's The Number of the Beast – its first album with Dickinson, who in 1981 replaced Paul Di'Anno as lead singer. The addition of Dickinson was a turning point in their career, establishing them as one of heavy metal's most important bands. The Number of the Beast is among the most popular heavy metal albums of all time, having sold almost 20 million copies worldwide. After some turbulence in the 1990's, the return of lead vocalist Bruce Dickinson and guitarist Adrian Smith in 1999 saw the band undergo a resurgence in popularity, with a series of new albums and highly successful tours. Their three most recent albums — The Final Frontier (2010), The Book of Souls (2015), and Senjutsu (2021) — have all reached number 1 in more than 25 countries. Iron Maiden have sold over 130 million copies of their albums worldwide and have obtained over 600 certifications. The band is considered to be one of the most influential and revered heavy metal bands of all time. They have received multiple industry awards, including the Grammy and Brit Awards. Iron Maiden were inducted into the Rock and Roll Hall of Fame in 2026.The band have released 41 albums, including 17 studio albums, 13 live albums, four EPs and seven compilations. They have also released 47 singles and 20 video albums, and two video games. Iron Maiden's lyrics cover such topics as history, literature, war, mythology, dark fantasy, science fiction, society and religion. As of October 2019, the band have played 2,500 live shows. For over 40 years the band have featured their signature mascot, 'Eddie', on the covers of almost all of their releases."
 	},
 	{
 		id: 2,
@@ -1734,19 +1735,19 @@ export const artistBioMetal = [
 		id: 13,
 		bio: '',
 	},
-	
+
 	{
 		id: 14,
-		bio: '',		
+		bio: '',
 	},
 	{
-		id: 15	,
+		id: 15,
 		bio: '',
 	},
 	{
 		id: 16,
-		bio:'',
-		
+		bio: '',
+
 	},
 	{
 		id: 16,

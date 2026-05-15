@@ -1211,6 +1211,9 @@ Collections Card 1 Section - Vinyl record cards
   flex: 1;
   display: flex;
   align-items: center;
+  margin-bottom: 0;
+  
+  
 }
 
 .detail-artist-bio {
@@ -1218,6 +1221,7 @@ Collections Card 1 Section - Vinyl record cards
   line-height: 1.8;
   font-size: 0.95rem;
   margin-bottom: 0;
+  
 }
 
 /* Mobile - stack vertically */
