@@ -1,6 +1,7 @@
 import { useParams, useNavigate } from 'react-router-dom'
 import { artistBioMetal } from '../data'
 
+
 const AlbumDetail = () => {
 	const { id } = useParams()
 	const navigate = useNavigate()
@@ -18,7 +19,10 @@ const AlbumDetail = () => {
 			<div className='collection-card-1'>
 								<img src={artistBio.image2} alt={artistBio.band} className='collection-img-1' />
 				<div className='artist-info-1'>
-					<p className='detail-artist-bio'>{artistBio ? artistBio.bio : 'No bio available.'}</p>
+				<p 
+  className='detail-artist-bio' 
+  dangerouslySetInnerHTML={{ __html: artistBio ? artistBio.bio : 'No bio available.' }}
+/>
 				</div>
 
 
