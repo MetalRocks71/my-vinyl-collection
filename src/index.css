@@ -61,7 +61,7 @@ These are reusable values that can be referenced throughout the stylesheet using
   /* Basic colors */
   --clr-black: #d7d3d3;
 
-   --clr-grey-13: #d7d3d3;
+  --clr-grey-13: #d7d3d3;
   /* Near-black (slightly lighter than pure black for better readability) */
   --clr-white: #fff;
   /* Pure white */
@@ -1096,8 +1096,7 @@ Collections Section - Vinyl record cards
       transparent,
       rgba(0, 0, 0, 0.25),
       rgba(0, 0, 0, 0.7) 70%,
-      var(--clr-grey-13) 100%
-  );
+      var(--clr-grey-13) 100%);
 }
 
 .album-card:hover .album-overlay {
@@ -1123,18 +1122,18 @@ Collections Section - Vinyl record cards
 
   /* Disable hover-based glow effects */
 
-.album-card.active .glow-layer,
-.album-card.active .edge-glow,
-.album-card.active .shine-effect,
-.album-card.active .border-glow {
-  opacity: 1;
-}
+  .album-card.active .glow-layer,
+  .album-card.active .edge-glow,
+  .album-card.active .shine-effect,
+  .album-card.active .border-glow {
+    opacity: 1;
+  }
 
 
   /* Always show overlay on mobile */
   .album-overlay {
     opacity: 1;
-  
+
   }
 
   /* Show play button by default */
@@ -1187,7 +1186,8 @@ Collections Card 1 Section - Vinyl record cards
 
 .collection-card-1 {
   display: flex;
-  flex-direction: column; /* Changed from 'row' to 'column' */
+  flex-direction: column;
+  /* Changed from 'row' to 'column' */
   align-items: flex-start;
   gap: 2.5rem;
   max-width: 800px;
@@ -1220,12 +1220,14 @@ Collections Card 1 Section - Vinyl record cards
   font-size: 0.95rem;
   margin-bottom: 0;
   flex-direction: column;
-  
+
 }
+
 .detail-artist-bio b,
 .detail-artist-bio strong {
   font-weight: 700;
 }
+
 /* Mobile - stack vertically */
 @media screen and (max-width: 600px) {
   .collection-card-1 {
@@ -1237,7 +1239,14 @@ Collections Card 1 Section - Vinyl record cards
     width: 100%;
     height: auto;
   }
+
+  .detail-back-btn {
+    display: inline-block;
+    margin-bottom: 1rem;
+    margin-left: 1rem;
+  }
 }
+
 
 /*
 =============== 
