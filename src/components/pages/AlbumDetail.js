@@ -1,5 +1,5 @@
 import { useParams, useNavigate } from 'react-router-dom'
-import { artistBioMetal } from '../data'
+import { artistBioMetal } from '../../data'
 
 
 const AlbumDetail = () => {
@@ -17,12 +17,12 @@ const AlbumDetail = () => {
 				← Back
 			</button>
 			<div className='collection-card-1'>
-								<img src={artistBio.image2} alt={artistBio.band} className='collection-img-1' />
+				<img src={artistBio.image2} alt={artistBio.band} className='collection-img-1' />
 				<div className='artist-info-1'>
-				<p 
-  className='detail-artist-bio' 
-  dangerouslySetInnerHTML={{ __html: artistBio ? artistBio.bio : 'No bio available.' }}
-/>
+					<p
+						className='detail-artist-bio'
+						dangerouslySetInnerHTML={{ __html: artistBio ? artistBio.bio : 'No bio available.' }}
+					/>
 				</div>
 
 

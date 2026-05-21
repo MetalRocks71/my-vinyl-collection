@@ -9,9 +9,10 @@ import Collection from './components/Collection'
 import Collectionrock from './components/Collectionrock'
 import Topsrocks from './components/Topsrock'
 import AderitoPereira from './components/AderitoPereira'
-import AlbumDetail from './components/AlbumDetail'
-import AlbumDetailRock from './components/AlbumDetailRock'
-import AlbumDetailAderito from './components/AlbumDetailAderito'
+import AlbumDetail from './components/pages/AlbumDetail'
+import AlbumDetailRock from './components/pages/AlbumDetailRock'
+import AlbumDetailAderito from './components/pages/AlbumDetailAderito'
+import ScrollToTop from './components/ScrollToTop'
 
 // Main page extracted into its own component so Router can wrap everything
 const HomePage = ({ searchQuery, handleSearch }) => (
@@ -37,7 +38,9 @@ function App() {
 
 	return (
 		<BrowserRouter>
+		<ScrollToTop />
 			<Routes>
+				
 				<Route path='/' element={<HomePage searchQuery={searchQuery} handleSearch={handleSearch} />} />
 				<Route path='/album/:id' element={<AlbumDetail />} />
 				<Route path='/albumRock/:id' element={<AlbumDetailRock />} />
