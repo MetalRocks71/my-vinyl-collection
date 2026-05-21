@@ -1208,7 +1208,7 @@ Collections Card 1 Section - Vinyl record cards
 /* Mobile - stack vertically */
 @media screen and (max-width: 600px) {
   .detail-section {
-    padding-top: 5rem;
+    padding-top: 3.5rem;
   }
 }
   .collection-card-1 {
