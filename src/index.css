@@ -574,12 +574,12 @@ Search Bar - Navbar search functionality
   /* Removes focus outline */
   font-size: 1rem;
   /* 16px font */
-  min-width: 200px;
-  /* Minimum 200px wide */
+  min-width: 262px;
+  /* Minimum 262px wide */
   flex: 1;
   /* Grows to fill available space */
-  max-width: 300px;
-  /* Maximum 300px wide */
+  max-width: 500px;
+  /* Maximum 500px wide */
   background: var(--clr-white);
   /* White background */
   color: #222;
