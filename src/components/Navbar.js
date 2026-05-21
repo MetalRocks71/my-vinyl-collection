@@ -96,7 +96,7 @@ const Navbar = ({ onSearch }) => {
                 value={searchQuery}
                 onChange={handleInputChange}
                 onKeyUp={handleKeyPress}
-                placeholder="Type 3 characters minimum"
+                placeholder="First 3 characters of the band or artist..." 
                 className="search-input"
               />
               <button onClick={handleSearch} className="search-button">
