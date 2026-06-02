@@ -97,6 +97,7 @@ import pinkfloyd2 from './images/pinkfloyd-2.jpg'
 import pinkfloyd3 from './images/pinkfloyd-3.jpg'
 import pinkfloyd4 from './images/pinkfloyd-4.jpg'
 import pinkfloyd5 from './images/pinkfloyd-5.jpg'
+import pinkfloyd6 from './images/pinkfloyd-6.jpg'
 import polyphia1 from './images/polyphia-1.jpg'
 import portishead1 from './images/portishead-1.jpg'
 import prince1 from './images/prince-1.jpg'
@@ -1391,6 +1392,15 @@ export const rockcollection = [
 		band: 'Chris cornell',
 		length: '(50:50)',
 		genre: 'Rock',
+	},
+	{
+		id: 282,
+		image: pinkfloyd6,
+		title: 'Pink floyd live at Pompeii',
+		date: 'May 2nd, 2026',
+		band: 'Pink Floyd',
+		length: '(88:31)',
+		genre: 'Rock psychedelic',
 	},
 ]
 export const aderitopereira = [
