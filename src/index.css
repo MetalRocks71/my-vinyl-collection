@@ -282,7 +282,7 @@ p {
 
 /* Standard section container */
 .section {
-  padding: 5rem 0;
+  padding: 1rem 0;
   /* 80px vertical padding, 0 horizontal */
   scroll-margin-top: 4rem;
   /* Adds 64px offset when scrolling to this section (accounts for fixed navbar) */
@@ -1135,24 +1135,6 @@ Collections Section - Vinyl record cards
     opacity: 1;
 
   }
-
-  /* Show play button by default */
-  .play-button {
-    transform: translate(-50%, -50%) scale(1);
-  }
-
-  /* Slightly smaller button for mobile */
-  .play-button {
-    width: 44px;
-    height: 44px;
-  }
-
-  .play-button::after {
-    border-left: 12px solid black;
-    border-top: 7px solid transparent;
-    border-bottom: 7px solid transparent;
-  }
-
   /* Adjust text spacing */
   .album-overlay {
     padding: 12px;
@@ -1174,14 +1156,9 @@ Collections Card 1 Section - Vinyl record cards
 */
 .detail-section {
   min-height: 100vh;
-  padding-top: 10rem;
   background: var(--clr-grey-10);
-}
-
-.detail-back-btn {
-  display: inline-block;
-  margin-bottom: 6rem;
-  margin-left: 1rem;
+   padding-top: 5rem;
+  margin-top: -4rem;
 }
 
 .collection-card-1 {
@@ -1231,9 +1208,9 @@ Collections Card 1 Section - Vinyl record cards
 /* Mobile - stack vertically */
 @media screen and (max-width: 600px) {
   .detail-section {
-    padding-top: 2rem;
+    padding-top: 3.5rem;
   }
-
+}
   .collection-card-1 {
     flex-direction: column;
     padding: 1.5rem;
@@ -1243,13 +1220,6 @@ Collections Card 1 Section - Vinyl record cards
     width: 100%;
     height: auto;
   }
-
-  .detail-back-btn {
-    display: inline-block;
-    margin-bottom: 1rem;
-    margin-left: 1rem;
-  }
-}
 
 /*
 =============== 

@@ -1,5 +1,5 @@
 
-import { pageLinks, socialLinks, logo } from "../data"
+import { pageLinks, socialLinks, logo } from '../data'
 
 
 
