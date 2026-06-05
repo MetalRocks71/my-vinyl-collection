@@ -1,6 +1,7 @@
 /* eslint-disable no-useless-escape */
 import aha1 from './images/aha-1.jpg'
 import augustburnsred1 from './images/augustburnsred-1.jpg'
+import augustburnsred2 from './images/augustburnsred-2.jpg'
 import beastieboys1 from './images/beastieboys-1.jpg'
 import blacksabbath1 from './images/blacksabbath-1.jpg'
 import borknagar1 from './images/borknagar-1.jpg'
@@ -653,6 +654,15 @@ export const metalcollection = [
 		band: 'blood incantation',
 		length: '(43:43)',
 		genre: 'Progressive death metal',
+	},
+	{
+		id: 40,
+		image: augustburnsred2,
+		title: 'Seaspn of surrender',
+		date: 'June 05th, 2026',
+		band: 'august burns red',
+		length: '(44:50)',
+		genre: 'MetalCore',
 	},
 ]
 
