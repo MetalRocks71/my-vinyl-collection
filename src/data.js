@@ -153,7 +153,12 @@ import phillipboa1 from './images/phillipboa-1.jpg'
 import chriscornell2 from './images/chriscornell-2.jpg'
 import necrovation1 from './images/necrovation-1.jpg'
 import bloodincantation1 from './images/bloodincantation-1.jpg'
+
+
+
+
 import ironmaidenbio from './images/ironmaidenbio.jpg'
+import orbitculturebio from './images/orbitculturebio.jpeg'
 
 
 
@@ -1703,15 +1708,15 @@ export const artistBioMetal = [
 	},
 	{
 		id: 2,
-		image2: orbitculture1,
+		image2: orbitculturebio,
 		band: 'Orbit Culture',
-		bio: 'Death Metal',
+		bio: "<b>Orbit Culture</b> is a Swedish melodic death metal band from Eksjö, formed in <b>2013</b> by vocalist/rhythm guitarist Niklas Karlsson and guitarist Maximilian Zinsmeister. The current lineup also includes lead guitarist Richard Hansson, bassist Fredrik Lennartsson, and drummer Christopher Wallerstedt. The band has released five studio albums and four EPs. Their breakthrough moment came in <b>2016</b> when the music video for 'Sun of All' reached over 1 million views on YouTube, and things started heating up for them in the underground metal community. Their 2018 EP Redfog marked a turning point, as all three of its singles surpassed a million listens each on multiple streaming platforms. Their 2020 album <b>Nija and 2023 album Descent were both well-received critically, with Descent earning praise from publications like Revolver and Metal Hammer</b>. A major milestone came in early 2024 when the band signed a deal with Century Media Records, one of the biggest names in metal. That same year they toured with major acts including Machine Head, Slipknot, Bullet for My Valentine, and Trivium. Their fifth studio album, <b>Death Above Life</b>, was released in <b>October 2025</b>, notably being the first album not mixed by Karlsson himself. In 2025 they also played major festivals like Graspop Metal Meeting and Download Festival, cementing their status as one of modern metal's rising forces.",
 	},
 	{
 		id: 3,
-		image2: orbitculture2,
+		image2: orbitculturebio,
 		band: 'Orbit Culture',
-		bio: 'Death Metal',
+		bio: "<b>Orbit Culture</b> is a Swedish melodic death metal band from Eksjö, formed in <b>2013</b> by vocalist/rhythm guitarist Niklas Karlsson and guitarist Maximilian Zinsmeister. The current lineup also includes lead guitarist Richard Hansson, bassist Fredrik Lennartsson, and drummer Christopher Wallerstedt. The band has released five studio albums and four EPs. Their breakthrough moment came in <b>2016</b> when the music video for 'Sun of All' reached over 1 million views on YouTube, and things started heating up for them in the underground metal community. Their 2018 EP Redfog marked a turning point, as all three of its singles surpassed a million listens each on multiple streaming platforms. Their 2020 album <b>Nija and 2023 album Descent were both well-received critically, with Descent earning praise from publications like Revolver and Metal Hammer</b>. A major milestone came in early 2024 when the band signed a deal with Century Media Records, one of the biggest names in metal. That same year they toured with major acts including Machine Head, Slipknot, Bullet for My Valentine, and Trivium. Their fifth studio album, <b>Death Above Life</b>, was released in <b>October 2025</b>, notably being the first album not mixed by Karlsson himself. In 2025 they also played major festivals like Graspop Metal Meeting and Download Festival, cementing their status as one of modern metal's rising forces.",
 	},
 
 	{
