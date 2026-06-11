@@ -153,6 +153,7 @@ import phillipboa1 from './images/phillipboa-1.jpg'
 import chriscornell2 from './images/chriscornell-2.jpg'
 import necrovation1 from './images/necrovation-1.jpg'
 import bloodincantation1 from './images/bloodincantation-1.jpg'
+import bloodincantation2 from './images/bloodincantation-2.jpg'	
 
 
 
@@ -663,11 +664,20 @@ export const metalcollection = [
 	{
 		id: 40,
 		image: augustburnsred2,
-		title: 'Seaspn of surrender',
+		title: 'Season of surrender',
 		date: 'June 05th, 2026',
 		band: 'august burns red',
 		length: '(44:50)',
 		genre: 'MetalCore',
+	},
+	{
+		id: 40,
+		image: bloodincantation2,
+		title: 'All Gates Open (Original Motion Picture Soundtrack)',
+		date: 'June 05th, 2026',
+		band: 'blood incantation',
+		length: '(61:01)',
+		genre: 'Progressive death metal',
 	},
 ]
 
