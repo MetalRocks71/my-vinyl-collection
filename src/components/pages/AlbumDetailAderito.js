@@ -1,26 +1,25 @@
 import { useParams } from 'react-router-dom'
-import { aderitopereira } from '../../data'
+import { artistBioAderito } from '../../data'
 
-const AlbumDetailAderito = () => {
-	const { id } = useParams() // useParams returns a STRING
-	
+const AlbumDetail = () => {
+	const { id } = useParams()
 
-	// Convert to Number to match your data (id: 1, id: 2, etc.)
-	const album = aderitopereira.find((item) => item.id === Number(id))
+	const artistBio = artistBioAderito.find((item) => item.id === Number(id))
 
-	if (!album) return <p>Album not found.</p>
+	if (!artistBio) return <p>Album not found.</p>
+
+	const bioContent = Array.isArray(artistBio.bio) ? artistBio.bio.join('<br><br>') : artistBio.bio
 
 	return (
-		<section className='section'>
-
-			<div className='collection-card-1' style={{ maxWidth: '600px', margin: '2rem auto' }}>
-				<img src={album.image} alt={album.title} className='collection-img-1' />
-				<div className='collection-info-1'>
-				
+		<section className='section detail-section'>
+			<div className='collection-card-1'>
+				<img src={artistBio.image2} alt={artistBio.band} className='collection-img-1' />
+				<div className='artist-info-1'>
+					<p className='detail-artist-bio' dangerouslySetInnerHTML={{ __html: bioContent || 'No bio available.' }} />
 				</div>
 			</div>
 		</section>
 	)
 }
 
-export default AlbumDetailAderito
+export default AlbumDetail

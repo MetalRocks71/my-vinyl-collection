@@ -149,7 +149,7 @@ import thewhitestripes1 from './images/thewhitestripes-1.jpg'
 import thirteenthghost from './images/thirteenthghost.jpg'
 import tool1 from './images/tool-1.jpg'
 import tool2 from './images/tool-2.jpg'
-import typeofnegative1 from './images/typeofnegative-1.jpg'
+import typeonegative1 from './images/typeonegative-1.jpg'
 import U21 from './images/u2-1.jpg'
 import whileshesleeps1 from './images/whileshesleeps-1.jpg'
 import whitechapel1 from './images/whitechapel-1.jpg'
@@ -157,8 +157,90 @@ import yes1 from './images/yes-1.jpg'
 import yes2 from './images/yes-2.jpg'
 
 // Bio images
-import ironmaidenbio from './images/ironmaidenbio.jpg'
-import orbitculturebio from './images/orbitculturebio.jpeg'
+
+import ahabio from './imagesBio/ahabio.jpg'
+import augustburnsredbio from './imagesBio/augustburnsredbio.jpg'
+import beastieboysbio from './imagesBio/beastieboysbio.jpg'
+import blacksabbathbio from './imagesBio/blacksabbathbio.jpg'
+import bloodincantationbio from './imagesBio/bloodincantationbio.jpg'
+import borknagarbio from './imagesBio/borknagarbio.jpg'
+import brucespringsteenbio from './imagesBio/brucespringsteenbio.jpg'
+import catstevensbio from './imagesBio/catstevensbio.jpg'
+import chriscornellbio from './imagesBio/chriscornellbio.jpg'
+import deathbio from './imagesBio/deathbio.jpg'
+import deeppurplebio from './imagesBio/deeppurplebio.jpg'
+import depechemodebio from './imagesBio/depechemodebio.jpg'
+import diobio from './imagesBio/diobio.jpg'
+import djangobio from './imagesBio/djangobio.jpg'
+import eaglesbio from './imagesBio/eaglesbio.jpg'
+import genesisbio from './imagesBio/genesisbio.jpg'
+import georgemichaelbio from './imagesBio/georgemichaelbio.jpg'
+import gretavanfleetbio from './imagesBio/gretavanfleetbio.jpg'
+import gunsandrosesbio from './imagesBio/gunsandrosesbio.jpg'
+import iggypopbio from './imagesBio/iggypopbio.jpg'
+import inxsbio from './imagesBio/inxsbio.jpg'
+import ironmaidenbio from './imagesBio/ironmaidenbio.jpg'
+import janisjoplinbio from './imagesBio/janisjoplinbio.jpg'
+import jeffbuckleybio from './imagesBio/jeffbuckleybio.jpg'
+import johnlennonbio from './imagesBio/johnlennonbio.jpg'
+import johnnycashbio from './imagesBio/johnnycashbio.jpg'
+import killswitchbio from './imagesBio/killswitchbio.jpg'
+import kingcrimsonbio from './imagesBio/kingcrimsonbio.jpg'
+import lennykravitzbio from './imagesBio/lennykravitzbio.jpg'
+import linkinparkbio from './imagesBio/linkinparkbio.jpg'
+import lornashorebio from './imagesBio/lornashorebio.jpg'
+import michaeljacksonbio from './imagesBio/michaeljacksonbio.jpg'
+import motorheadbio from './imagesBio/motorheadbio.jpg'
+import nazarethbio from './imagesBio/nazarethbio.jpg'
+import neaerabio from './imagesBio/neaerabio.jpg'
+import neckbreakkerbio from './imagesBio/neckbreakkerbio.jpg'
+import necrovationbio from './imagesBio/necrovationbio.jpg'
+import neildiamondbio from './imagesBio/neildiamondbio.jpg'
+import nickcavebio from './imagesBio/nickcavebio.jpg'
+import nineinchnailsbio from './imagesBio/nineinchnailsbio.jpg'
+import opethbio from './imagesBio/opethbio.jpg'
+import orbitculturebio from './imagesBio/orbitculturebio.jpg'
+import palefaceswissbio from './imagesBio/palefaceswissbio.jpg'
+import phillipboabio from './imagesBio/phillipboabio.jpg'
+import pinkfloydbio from './imagesBio/pinkfloydbio.jpg'
+import polyphiabio from './imagesBio/polyphiabio.jpg'
+import portisheadbio from './imagesBio/portisheadbio.jpg'
+import princebio from './imagesBio/princebio.jpg'
+import pulpfictionbio from './imagesBio/pulpfictionbio.jpg'
+import pusciferbio from './imagesBio/pusciferbio.jpg'
+import queenbio from './imagesBio/queenbio.jpg'
+import radioheadbio from './imagesBio/radioheadbio.jpg'
+import rageagainstthemachinebio from './imagesBio/rageagainstthemachinebio.jpg'
+import rainbowbio from './imagesBio/rainbowbio.jpg'
+import rembio from './imagesBio/rembio.jpg'
+import sacredreichbio from './imagesBio/sacredreichbio.jpg'
+import serenityinmurderbio from './imagesBio/serenityinmurderbio.jpg'
+import simonandgarfunkelbio from './imagesBio/simonandgarfunkelbio.jpg'
+import simplemindsbio from './imagesBio/simplemindsbio.jpg'
+import slipknotbio from './imagesBio/slipknotbio.jpg'
+import statusquobio from './imagesBio/statusquobio.jpg'
+import stereophonicsbio from './imagesBio/stereophonicsbio.jpg'
+import supertrampbio from './imagesBio/supertrampbio.jpg'
+import systemofadownbio from './imagesBio/systemofadownbio.jpg'
+import talkingheadsbio from './imagesBio/talkingheadsbio.jpg'
+import téléphonebio from './imagesBio/téléphonebio.jpg'
+import theblackdahliabio from './imagesBio/theblackdahliabio.jpg'
+import theclashbio from './imagesBio/theclashbio.jpg'
+import thecurebio from './imagesBio/thecurebio.jpg'
+import thepolicebio from './imagesBio/thepolicebio.jpg'
+import therollingstonesbio from './imagesBio/therollingstonesbio.jpg'
+import thesmilebio from './imagesBio/thesmilebio.jpg'
+import thewhitestripesbio from './imagesBio/thewhitestripesbio.jpg'
+import toolbio from './imagesBio/toolbio.jpg'
+import typeonegativebio from './imagesBio/typeonegativebio.jpg'
+import U2bio from './imagesBio/U2bio.jpg'
+import whileshesleepsbio from './imagesBio/whileshesleepsbio.jpg'
+import whitechapelbio from './imagesBio/whitechapelbio.jpg'
+import yesbio from './imagesBio/yesbio.jpg'
+
+
+
+
 
 // Logo
 export const logo = [{ id: 1, image: thirteenthghost }]
@@ -644,7 +726,7 @@ export const metalcollection = [
 	},
 	{
 		id: 38,
-		image: typeofnegative1,
+		image: typeonegative1,
 		title: 'Life is killing me',
 		date: 'April 19th, 2024',
 		band: 'Type of Negative',
@@ -1708,237 +1790,870 @@ export const aderitopereira = [
 // Metal artist biographies
 export const artistBioMetal = [
 	{
-		id: 500,
-		image2: augustburnsred1,
+		id: 1,
+		image2: augustburnsredbio,
 		band: 'August Burns Red',
-		bio: 'MetalCore',
+		bio: [
+			"August Burns Red is an American <b>metalcore</b> band from Lancaster, Pennsylvania, <b>formed in 2003</b>. The band's lineup of guitarists John Benjamin <b>JB</b> Brubaker and Brent Rambler, drummer Matt Greiner, lead vocalist Jake Luhrs and bassist Dustin Davidson has remained consistent since 2006. The band was nominated for a Grammy Award in 2016 for Best Metal Performance for the song <b>Identity</b> from its 2015 release Found in Far Away Places, and again in 2018 for <b>Invisible Enemy</b> from Phantom Anthem (2017).",
+			"August Burns Red members have been asked about the origin of their band name on many occasions and have given numerous different stories. The most popular story behind the name is an incident involving Jon Hershey, the band's original vocalist, when he dated a woman named August who burned his dog Redd alive in his dog house. However, it was later revealed in a radio interview that this meaning (along with others) was simply a comical story created by the members and that there is no actual meaning behind the band name. Drummer Matt Greiner stated in the interview that <b>'we just came up with the name to come up with a name.</b>'",
+		],
 	},
 	{
-		id: 501,
-		image2: blacksabbath1,
+		id: 2,
+		image2: augustburnsredbio,
+		band: 'August Burns Red',
+		bio: [
+			"August Burns Red is an American <b>metalcore</b> band from Lancaster, Pennsylvania, <b>formed in 2003</b>. The band's lineup of guitarists John Benjamin <b>JB</b> Brubaker and Brent Rambler, drummer Matt Greiner, lead vocalist Jake Luhrs and bassist Dustin Davidson has remained consistent since 2006. The band was nominated for a Grammy Award in 2016 for Best Metal Performance for the song <b>Identity</b> from its 2015 release Found in Far Away Places, and again in 2018 for <b>Invisible Enemy</b> from Phantom Anthem (2017).",
+			"August Burns Red members have been asked about the origin of their band name on many occasions and have given numerous different stories. The most popular story behind the name is an incident involving Jon Hershey, the band's original vocalist, when he dated a woman named August who burned his dog Redd alive in his dog house. However, it was later revealed in a radio interview that this meaning (along with others) was simply a comical story created by the members and that there is no actual meaning behind the band name. Drummer Matt Greiner stated in the interview that <b>'we just came up with the name to come up with a name.</b>'",
+		],
+	},
+	{
+		id: 3,
+		image2: blacksabbathbio,
 		band: 'Black Sabbath',
 		bio: 'Heavy Metal',
 	},
 	{
-		id: 502,
-		image2: bloodincantation1,
+		id: 4,
+		image2: bloodincantationbio,
 		band: 'blood incantation',
 		bio: 'Progressive death metal',
 	},
 	{
-		id: 503,
-		image2: borknagar1,
+		id: 5,
+		image2: bloodincantationbio,
+		band: 'blood incantation',
+		bio: 'Progressive death metal',
+	},
+	{
+		id: 6,
+		image2: borknagarbio,
 		band: 'Borknagar',
 		bio: 'Black Metal',
 	},
 	{
-		id: 504,
-		image2: death1,
+		id: 7,
+		image2: deathbio,
 		band: 'Death',
 		bio: 'Death Metal',
 	},
 	{
-		id: 505,
-		image2: dio1,
+		id: 8,
+		image2: diobio,
 		band: 'Dio',
 		bio: 'Heavy Metal',
 	},
 	{
-		id: 506,
-		image2: dio2,
+		id: 9,
+		image2: diobio,
 		band: 'Dio',
 		bio: 'Heavy Metal',
 	},
 	{
-		id: 507,
+		id: 10,
 		image2: ironmaidenbio,
 		band: 'Iron Maiden',
-		bio: "<b>Iron Maiden</b> are an English heavy metal band formed in Leyton, East London, in <b>1975</b> by bassist and primary songwriter <b>Steve Harris</b>. Although fluid in the early years of the band, the line-up for most of the band's history has consisted of Harris, lead vocalist <b>Bruce Dickinson</b>, drummer <b>Nicko McBrain</b>, and guitarists <b>Dave Murray</b>, <b>Adrian Smith</b> and <b>Janick Gers</b>. As pioneers of the <b>new wave of British heavy metal movement</b>, Iron Maiden released a series of UK and US Platinum and Gold albums, including 1980's debut album, 1981's <b>Killers</b>, and 1982's <b>The Number of the Beast</b> – its first album with Dickinson, who in 1981 replaced <b>Paul Di'Anno</b> as lead singer. The addition of Dickinson was a turning point in their career, establishing them as one of heavy metal's most important bands. <b>The Number of the Beast</b> is among the most popular heavy metal albums of all time, having sold <b>almost 20 million copies worldwide</b>. After some turbulence in the 1990's, the return of lead vocalist Bruce Dickinson and guitarist Adrian Smith in 1999 saw the band undergo a resurgence in popularity, with a series of new albums and highly successful tours. Their three most recent albums — <b>The Final Frontier (2010)</b>, <b>The Book of Souls (2015)</b>, and <b>Senjutsu (2021)</b> — have all reached number 1 in more than 25 countries. Iron Maiden have sold <b>over 130 million copies</b> of their albums worldwide and have obtained over 600 certifications. The band is considered to be one of the most influential and revered heavy metal bands of all time. They have received multiple industry awards, including the <b>Grammy and Brit Awards</b>. Iron Maiden were inducted into the <b>Rock and Roll Hall of Fame in 2026</b>. The band have released 41 albums, including < b>17 studio albums</ b>, 13 live albums, four EPs and seven compilations. They have also released 47 singles and 20 video albums, and two video games. Iron Maiden's lyrics cover such topics as history, literature, war, mythology, dark fantasy, science fiction, society and religion. As of October 2019, the band have played < b>2,500 live shows</ b>. For over 40 years the band have featured their signature mascot, < b>'Eddie'</ b>, on the covers of almost all of their releases.",
+		bio: [
+			"<b>Iron Maiden</b> are an English heavy metal band formed in Leyton, East London, in <b>1975</b> by bassist and primary songwriter <b>Steve Harris</b>. Although fluid in the early years of the band, the line-up for most of the band's history has consisted of Harris, lead vocalist <b>Bruce Dickinson</b>, drummer <b>Nicko McBrain</b>, and guitarists <b>Dave Murray</b>, <b>Adrian Smith</b> and <b>Janick Gers</b>. As pioneers of the <b>new wave of British heavy metal movement</b>, Iron Maiden released a series of UK and US Platinum and Gold albums, including 1980's debut album, 1981's <b>Killers</b>, and 1982's <b>The Number of the Beast</b> – its first album with Dickinson, who in 1981 replaced <b>Paul Di'Anno</b> as lead singer. The addition of Dickinson was a turning point in their career, establishing them as one of heavy metal's most important bands. <b>The Number of the Beast</b> is among the most popular heavy metal albums of all time, having sold <b>almost 20 million copies worldwide</b>.",
+			"After some turbulence in the 1990's, the return of lead vocalist Bruce Dickinson and guitarist Adrian Smith in 1999 saw the band undergo a resurgence in popularity, with a series of new albums and highly successful tours. Their three most recent albums — <b>The Final Frontier (2010)</b>, <b>The Book of Souls (2015)</b>, and <b>Senjutsu (2021)</b> — have all reached number 1 in more than 25 countries. Iron Maiden have sold <b>over 130 million copies</b> of their albums worldwide and have obtained over 600 certifications. The band is considered to be one of the most influential and revered heavy metal bands of all time. They have received multiple industry awards, including the <b>Grammy and Brit Awards</b>. Iron Maiden were inducted into the <b>Rock and Roll Hall of Fame in 2026</b>.",
+			"The band have released 41 albums, including <b>17 studio albums</b>, 13 live albums, four EPs and seven compilations. They have also released 47 singles and 20 video albums, and two video games. Iron Maiden's lyrics cover such topics as history, literature, war, mythology, dark fantasy, science fiction, society and religion. As of October 2019, the band have played <b>2,500 live shows</b>. For over 40 years the band have featured their signature mascot, <b>'Eddie'</b>, on the covers of almost all of their releases.",
+		],
 	},
 	{
-		id: 508,
+		id: 11,
 		image2: ironmaidenbio,
 		band: 'Iron Maiden',
-		bio: "<b>Iron Maiden</b> are an English heavy metal band formed in Leyton, East London, in <b>1975</b> by bassist and primary songwriter <b>Steve Harris</b>. Although fluid in the early years of the band, the line-up for most of the band's history has consisted of Harris, lead vocalist <b>Bruce Dickinson</b>, drummer <b>Nicko McBrain</b>, and guitarists <b>Dave Murray</b>, <b>Adrian Smith</b> and <b>Janick Gers</b>. As pioneers of the <b>new wave of British heavy metal movement</b>, Iron Maiden released a series of UK and US Platinum and Gold albums, including 1980's debut album, 1981's <b>Killers</b>, and 1982's <b>The Number of the Beast</b> – its first album with Dickinson, who in 1981 replaced <b>Paul Di'Anno</b> as lead singer. The addition of Dickinson was a turning point in their career, establishing them as one of heavy metal's most important bands. <b>The Number of the Beast</b> is among the most popular heavy metal albums of all time, having sold <b>almost 20 million copies worldwide</b>. After some turbulence in the 1990's, the return of lead vocalist Bruce Dickinson and guitarist Adrian Smith in 1999 saw the band undergo a resurgence in popularity, with a series of new albums and highly successful tours. Their three most recent albums — <b>The Final Frontier (2010)</b>, <b>The Book of Souls (2015)</b>, and <b>Senjutsu (2021)</b> — have all reached number 1 in more than 25 countries. Iron Maiden have sold <b>over 130 million copies</b> of their albums worldwide and have obtained over 600 certifications. The band is considered to be one of the most influential and revered heavy metal bands of all time. They have received multiple industry awards, including the <b>Grammy and Brit Awards</b>. Iron Maiden were inducted into the <b>Rock and Roll Hall of Fame in 2026</b>. The band have released 41 albums, including <b>17 studio albums</b>, 13 live albums, four EPs and seven compilations. They have also released 47 singles and 20 video albums, and two video games. Iron Maiden's lyrics cover such topics as history, literature, war, mythology, dark fantasy, science fiction, society and religion. As of October 2019, the band have played <b>2,500 live shows</b>. For over 40 years the band have featured their signature mascot, <b>'Eddie'</b>, on the covers of almost all of their releases.",
+		bio: [
+			"<b>Iron Maiden</b> are an English heavy metal band formed in Leyton, East London, in <b>1975</b> by bassist and primary songwriter <b>Steve Harris</b>. Although fluid in the early years of the band, the line-up for most of the band's history has consisted of Harris, lead vocalist <b>Bruce Dickinson</b>, drummer <b>Nicko McBrain</b>, and guitarists <b>Dave Murray</b>, <b>Adrian Smith</b> and <b>Janick Gers</b>. As pioneers of the <b>new wave of British heavy metal movement</b>, Iron Maiden released a series of UK and US Platinum and Gold albums, including 1980's debut album, 1981's <b>Killers</b>, and 1982's <b>The Number of the Beast</b> – its first album with Dickinson, who in 1981 replaced <b>Paul Di'Anno</b> as lead singer. The addition of Dickinson was a turning point in their career, establishing them as one of heavy metal's most important bands. <b>The Number of the Beast</b> is among the most popular heavy metal albums of all time, having sold <b>almost 20 million copies worldwide</b>.",
+			"After some turbulence in the 1990's, the return of lead vocalist Bruce Dickinson and guitarist Adrian Smith in 1999 saw the band undergo a resurgence in popularity, with a series of new albums and highly successful tours. Their three most recent albums — <b>The Final Frontier (2010)</b>, <b>The Book of Souls (2015)</b>, and <b>Senjutsu (2021)</b> — have all reached number 1 in more than 25 countries. Iron Maiden have sold <b>over 130 million copies</b> of their albums worldwide and have obtained over 600 certifications. The band is considered to be one of the most influential and revered heavy metal bands of all time. They have received multiple industry awards, including the <b>Grammy and Brit Awards</b>. Iron Maiden were inducted into the <b>Rock and Roll Hall of Fame in 2026</b>.",
+			"The band have released 41 albums, including <b>17 studio albums</b>, 13 live albums, four EPs and seven compilations. They have also released 47 singles and 20 video albums, and two video games. Iron Maiden's lyrics cover such topics as history, literature, war, mythology, dark fantasy, science fiction, society and religion. As of October 2019, the band have played <b>2,500 live shows</b>. For over 40 years the band have featured their signature mascot, <b>'Eddie'</b>, on the covers of almost all of their releases.",
+		],
 	},
 	{
-		id: 509,
+		id: 12,
 		image2: ironmaidenbio,
 		band: 'Iron Maiden',
-		bio: "<b>Iron Maiden</b> are an English heavy metal band formed in Leyton, East London, in <b>1975</b> by bassist and primary songwriter <b>Steve Harris</b>. Although fluid in the early years of the band, the line-up for most of the band's history has consisted of Harris, lead vocalist <b>Bruce Dickinson</b>, drummer <b>Nicko McBrain</b>, and guitarists <b>Dave Murray</b>, <b>Adrian Smith</b> and <b>Janick Gers</b>. As pioneers of the <b>new wave of British heavy metal movement</b>, Iron Maiden released a series of UK and US Platinum and Gold albums, including 1980's debut album, 1981's <b>Killers</b>, and 1982's <b>The Number of the Beast</b> – its first album with Dickinson, who in 1981 replaced <b>Paul Di'Anno</b> as lead singer. The addition of Dickinson was a turning point in their career, establishing them as one of heavy metal's most important bands. <b>The Number of the Beast</b> is among the most popular heavy metal albums of all time, having sold <b>almost 20 million copies worldwide</b>. After some turbulence in the 1990's, the return of lead vocalist Bruce Dickinson and guitarist Adrian Smith in 1999 saw the band undergo a resurgence in popularity, with a series of new albums and highly successful tours. Their three most recent albums — <b>The Final Frontier (2010)</b>, <b>The Book of Souls (2015)</b>, and <b>Senjutsu (2021)</b> — have all reached number 1 in more than 25 countries. Iron Maiden have sold <b>over 130 million copies</b> of their albums worldwide and have obtained over 600 certifications. The band is considered to be one of the most influential and revered heavy metal bands of all time. They have received multiple industry awards, including the <b>Grammy and Brit Awards</b>. Iron Maiden were inducted into the <b>Rock and Roll Hall of Fame in 2026</b>. The band have released 41 albums, including <b>17 studio albums</b>, 13 live albums, four EPs and seven compilations. They have also released 47 singles and 20 video albums, and two video games. Iron Maiden's lyrics cover such topics as history, literature, war, mythology, dark fantasy, science fiction, society and religion. As of October 2019, the band have played <b>2,500 live shows</b>. For over 40 years the band have featured their signature mascot, <b>'Eddie'</b>, on the covers of almost all of their releases.",
+		bio: [
+			"<b>Iron Maiden</b> are an English heavy metal band formed in Leyton, East London, in <b>1975</b> by bassist and primary songwriter <b>Steve Harris</b>. Although fluid in the early years of the band, the line-up for most of the band's history has consisted of Harris, lead vocalist <b>Bruce Dickinson</b>, drummer <b>Nicko McBrain</b>, and guitarists <b>Dave Murray</b>, <b>Adrian Smith</b> and <b>Janick Gers</b>. As pioneers of the <b>new wave of British heavy metal movement</b>, Iron Maiden released a series of UK and US Platinum and Gold albums, including 1980's debut album, 1981's <b>Killers</b>, and 1982's <b>The Number of the Beast</b> – its first album with Dickinson, who in 1981 replaced <b>Paul Di'Anno</b> as lead singer. The addition of Dickinson was a turning point in their career, establishing them as one of heavy metal's most important bands. <b>The Number of the Beast</b> is among the most popular heavy metal albums of all time, having sold <b>almost 20 million copies worldwide</b>.",
+			"After some turbulence in the 1990's, the return of lead vocalist Bruce Dickinson and guitarist Adrian Smith in 1999 saw the band undergo a resurgence in popularity, with a series of new albums and highly successful tours. Their three most recent albums — <b>The Final Frontier (2010)</b>, <b>The Book of Souls (2015)</b>, and <b>Senjutsu (2021)</b> — have all reached number 1 in more than 25 countries. Iron Maiden have sold <b>over 130 million copies</b> of their albums worldwide and have obtained over 600 certifications. The band is considered to be one of the most influential and revered heavy metal bands of all time. They have received multiple industry awards, including the <b>Grammy and Brit Awards</b>. Iron Maiden were inducted into the <b>Rock and Roll Hall of Fame in 2026</b>.",
+			"The band have released 41 albums, including <b>17 studio albums</b>, 13 live albums, four EPs and seven compilations. They have also released 47 singles and 20 video albums, and two video games. Iron Maiden's lyrics cover such topics as history, literature, war, mythology, dark fantasy, science fiction, society and religion. As of October 2019, the band have played <b>2,500 live shows</b>. For over 40 years the band have featured their signature mascot, <b>'Eddie'</b>, on the covers of almost all of their releases.",
+		],
 	},
 	{
-		id: 510,
+		id: 13,
 		image2: ironmaidenbio,
 		band: 'Iron Maiden',
-		bio: "<b>Iron Maiden</b> are an English heavy metal band formed in Leyton, East London, in <b>1975</b> by bassist and primary songwriter <b>Steve Harris</b>. Although fluid in the early years of the band, the line-up for most of the band's history has consisted of Harris, lead vocalist <b>Bruce Dickinson</b>, drummer <b>Nicko McBrain</b>, and guitarists <b>Dave Murray</b>, <b>Adrian Smith</b> and <b>Janick Gers</b>. As pioneers of the <b>new wave of British heavy metal movement</b>, Iron Maiden released a series of UK and US Platinum and Gold albums, including 1980's debut album, 1981's <b>Killers</b>, and 1982's <b>The Number of the Beast</b> – its first album with Dickinson, who in 1981 replaced <b>Paul Di'Anno</b> as lead singer. The addition of Dickinson was a turning point in their career, establishing them as one of heavy metal's most important bands. <b>The Number of the Beast</b> is among the most popular heavy metal albums of all time, having sold <b>almost 20 million copies worldwide</b>. After some turbulence in the 1990's, the return of lead vocalist Bruce Dickinson and guitarist Adrian Smith in 1999 saw the band undergo a resurgence in popularity, with a series of new albums and highly successful tours. Their three most recent albums — <b>The Final Frontier (2010)</b>, <b>The Book of Souls (2015)</b>, and <b>Senjutsu (2021)</b> — have all reached number 1 in more than 25 countries. Iron Maiden have sold <b>over 130 million copies</b> of their albums worldwide and have obtained over 600 certifications. The band is considered to be one of the most influential and revered heavy metal bands of all time. They have received multiple industry awards, including the <b>Grammy and Brit Awards</b>. Iron Maiden were inducted into the <b>Rock and Roll Hall of Fame in 2026</b>. The band have released 41 albums, including <b>17 studio albums</b>, 13 live albums, four EPs and seven compilations. They have also released 47 singles and 20 video albums, and two video games. Iron Maiden's lyrics cover such topics as history, literature, war, mythology, dark fantasy, science fiction, society and religion. As of October 2019, the band have played <b>2,500 live shows</b>. For over 40 years the band have featured their signature mascot, <b>'Eddie'</b>, on the covers of almost all of their releases.",
+		bio: [
+			"<b>Iron Maiden</b> are an English heavy metal band formed in Leyton, East London, in <b>1975</b> by bassist and primary songwriter <b>Steve Harris</b>. Although fluid in the early years of the band, the line-up for most of the band's history has consisted of Harris, lead vocalist <b>Bruce Dickinson</b>, drummer <b>Nicko McBrain</b>, and guitarists <b>Dave Murray</b>, <b>Adrian Smith</b> and <b>Janick Gers</b>. As pioneers of the <b>new wave of British heavy metal movement</b>, Iron Maiden released a series of UK and US Platinum and Gold albums, including 1980's debut album, 1981's <b>Killers</b>, and 1982's <b>The Number of the Beast</b> – its first album with Dickinson, who in 1981 replaced <b>Paul Di'Anno</b> as lead singer. The addition of Dickinson was a turning point in their career, establishing them as one of heavy metal's most important bands. <b>The Number of the Beast</b> is among the most popular heavy metal albums of all time, having sold <b>almost 20 million copies worldwide</b>.",
+			"After some turbulence in the 1990's, the return of lead vocalist Bruce Dickinson and guitarist Adrian Smith in 1999 saw the band undergo a resurgence in popularity, with a series of new albums and highly successful tours. Their three most recent albums — <b>The Final Frontier (2010)</b>, <b>The Book of Souls (2015)</b>, and <b>Senjutsu (2021)</b> — have all reached number 1 in more than 25 countries. Iron Maiden have sold <b>over 130 million copies</b> of their albums worldwide and have obtained over 600 certifications. The band is considered to be one of the most influential and revered heavy metal bands of all time. They have received multiple industry awards, including the <b>Grammy and Brit Awards</b>. Iron Maiden were inducted into the <b>Rock and Roll Hall of Fame in 2026</b>.",
+			"The band have released 41 albums, including <b>17 studio albums</b>, 13 live albums, four EPs and seven compilations. They have also released 47 singles and 20 video albums, and two video games. Iron Maiden's lyrics cover such topics as history, literature, war, mythology, dark fantasy, science fiction, society and religion. As of October 2019, the band have played <b>2,500 live shows</b>. For over 40 years the band have featured their signature mascot, <b>'Eddie'</b>, on the covers of almost all of their releases.",
+		],
 	},
 	{
-		id: 511,
+		id: 14,
 		image2: ironmaidenbio,
 		band: 'Iron Maiden',
-		bio: "<b>Iron Maiden</b> are an English heavy metal band formed in Leyton, East London, in <b>1975</b> by bassist and primary songwriter <b>Steve Harris</b>. Although fluid in the early years of the band, the line-up for most of the band's history has consisted of Harris, lead vocalist <b>Bruce Dickinson</b>, drummer <b>Nicko McBrain</b>, and guitarists <b>Dave Murray</b>, <b>Adrian Smith</b> and <b>Janick Gers</b>. As pioneers of the <b>new wave of British heavy metal movement</b>, Iron Maiden released a series of UK and US Platinum and Gold albums, including 1980's debut album, 1981's <b>Killers</b>, and 1982's <b>The Number of the Beast</b> – its first album with Dickinson, who in 1981 replaced <b>Paul Di'Anno</b> as lead singer. The addition of Dickinson was a turning point in their career, establishing them as one of heavy metal's most important bands. <b>The Number of the Beast</b> is among the most popular heavy metal albums of all time, having sold <b>almost 20 million copies worldwide</b>. After some turbulence in the 1990's, the return of lead vocalist Bruce Dickinson and guitarist Adrian Smith in 1999 saw the band undergo a resurgence in popularity, with a series of new albums and highly successful tours. Their three most recent albums — <b>The Final Frontier (2010)</b>, <b>The Book of Souls (2015)</b>, and <b>Senjutsu (2021)</b> — have all reached number 1 in more than 25 countries. Iron Maiden have sold <b>over 130 million copies</b> of their albums worldwide and have obtained over 600 certifications. The band is considered to be one of the most influential and revered heavy metal bands of all time. They have received multiple industry awards, including the <b>Grammy and Brit Awards</b>. Iron Maiden were inducted into the <b>Rock and Roll Hall of Fame in 2026</b>. The band have released 41 albums, including <b>17 studio albums</b>, 13 live albums, four EPs and seven compilations. They have also released 47 singles and 20 video albums, and two video games. Iron Maiden's lyrics cover such topics as history, literature, war, mythology, dark fantasy, science fiction, society and religion. As of October 2019, the band have played <b>2,500 live shows</b>. For over 40 years the band have featured their signature mascot, <b>'Eddie'</b>, on the covers of almost all of their releases.",
+		bio: [
+			"<b>Iron Maiden</b> are an English heavy metal band formed in Leyton, East London, in <b>1975</b> by bassist and primary songwriter <b>Steve Harris</b>. Although fluid in the early years of the band, the line-up for most of the band's history has consisted of Harris, lead vocalist <b>Bruce Dickinson</b>, drummer <b>Nicko McBrain</b>, and guitarists <b>Dave Murray</b>, <b>Adrian Smith</b> and <b>Janick Gers</b>. As pioneers of the <b>new wave of British heavy metal movement</b>, Iron Maiden released a series of UK and US Platinum and Gold albums, including 1980's debut album, 1981's <b>Killers</b>, and 1982's <b>The Number of the Beast</b> – its first album with Dickinson, who in 1981 replaced <b>Paul Di'Anno</b> as lead singer. The addition of Dickinson was a turning point in their career, establishing them as one of heavy metal's most important bands. <b>The Number of the Beast</b> is among the most popular heavy metal albums of all time, having sold <b>almost 20 million copies worldwide</b>.",
+			"After some turbulence in the 1990's, the return of lead vocalist Bruce Dickinson and guitarist Adrian Smith in 1999 saw the band undergo a resurgence in popularity, with a series of new albums and highly successful tours. Their three most recent albums — <b>The Final Frontier (2010)</b>, <b>The Book of Souls (2015)</b>, and <b>Senjutsu (2021)</b> — have all reached number 1 in more than 25 countries. Iron Maiden have sold <b>over 130 million copies</b> of their albums worldwide and have obtained over 600 certifications. The band is considered to be one of the most influential and revered heavy metal bands of all time. They have received multiple industry awards, including the <b>Grammy and Brit Awards</b>. Iron Maiden were inducted into the <b>Rock and Roll Hall of Fame in 2026</b>.",
+			"The band have released 41 albums, including <b>17 studio albums</b>, 13 live albums, four EPs and seven compilations. They have also released 47 singles and 20 video albums, and two video games. Iron Maiden's lyrics cover such topics as history, literature, war, mythology, dark fantasy, science fiction, society and religion. As of October 2019, the band have played <b>2,500 live shows</b>. For over 40 years the band have featured their signature mascot, <b>'Eddie'</b>, on the covers of almost all of their releases.",
+		],
 	},
 	{
-		id: 512,
+		id: 15,
 		image2: ironmaidenbio,
 		band: 'Iron Maiden',
-		bio: "<b>Iron Maiden</b> are an English heavy metal band formed in Leyton, East London, in <b>1975</b> by bassist and primary songwriter <b>Steve Harris</b>. Although fluid in the early years of the band, the line-up for most of the band's history has consisted of Harris, lead vocalist <b>Bruce Dickinson</b>, drummer <b>Nicko McBrain</b>, and guitarists <b>Dave Murray</b>, <b>Adrian Smith</b> and <b>Janick Gers</b>. As pioneers of the <b>new wave of British heavy metal movement</b>, Iron Maiden released a series of UK and US Platinum and Gold albums, including 1980's debut album, 1981's <b>Killers</b>, and 1982's <b>The Number of the Beast</b> – its first album with Dickinson, who in 1981 replaced <b>Paul Di'Anno</b> as lead singer. The addition of Dickinson was a turning point in their career, establishing them as one of heavy metal's most important bands. <b>The Number of the Beast</b> is among the most popular heavy metal albums of all time, having sold <b>almost 20 million copies worldwide</b>. After some turbulence in the 1990's, the return of lead vocalist Bruce Dickinson and guitarist Adrian Smith in 1999 saw the band undergo a resurgence in popularity, with a series of new albums and highly successful tours. Their three most recent albums — <b>The Final Frontier (2010)</b>, <b>The Book of Souls (2015)</b>, and <b>Senjutsu (2021)</b> — have all reached number 1 in more than 25 countries. Iron Maiden have sold <b>over 130 million copies</b> of their albums worldwide and have obtained over 600 certifications. The band is considered to be one of the most influential and revered heavy metal bands of all time. They have received multiple industry awards, including the <b>Grammy and Brit Awards</b>. Iron Maiden were inducted into the <b>Rock and Roll Hall of Fame in 2026</b>. The band have released 41 albums, including <b>17 studio albums</b>, 13 live albums, four EPs and seven compilations. They have also released 47 singles and 20 video albums, and two video games. Iron Maiden's lyrics cover such topics as history, literature, war, mythology, dark fantasy, science fiction, society and religion. As of October 2019, the band have played <b>2,500 live shows</b>. For over 40 years the band have featured their signature mascot, <b>'Eddie'</b>, on the covers of almost all of their releases.",
+		bio: [
+			"<b>Iron Maiden</b> are an English heavy metal band formed in Leyton, East London, in <b>1975</b> by bassist and primary songwriter <b>Steve Harris</b>. Although fluid in the early years of the band, the line-up for most of the band's history has consisted of Harris, lead vocalist <b>Bruce Dickinson</b>, drummer <b>Nicko McBrain</b>, and guitarists <b>Dave Murray</b>, <b>Adrian Smith</b> and <b>Janick Gers</b>. As pioneers of the <b>new wave of British heavy metal movement</b>, Iron Maiden released a series of UK and US Platinum and Gold albums, including 1980's debut album, 1981's <b>Killers</b>, and 1982's <b>The Number of the Beast</b> – its first album with Dickinson, who in 1981 replaced <b>Paul Di'Anno</b> as lead singer. The addition of Dickinson was a turning point in their career, establishing them as one of heavy metal's most important bands. <b>The Number of the Beast</b> is among the most popular heavy metal albums of all time, having sold <b>almost 20 million copies worldwide</b>.",
+			"After some turbulence in the 1990's, the return of lead vocalist Bruce Dickinson and guitarist Adrian Smith in 1999 saw the band undergo a resurgence in popularity, with a series of new albums and highly successful tours. Their three most recent albums — <b>The Final Frontier (2010)</b>, <b>The Book of Souls (2015)</b>, and <b>Senjutsu (2021)</b> — have all reached number 1 in more than 25 countries. Iron Maiden have sold <b>over 130 million copies</b> of their albums worldwide and have obtained over 600 certifications. The band is considered to be one of the most influential and revered heavy metal bands of all time. They have received multiple industry awards, including the <b>Grammy and Brit Awards</b>. Iron Maiden were inducted into the <b>Rock and Roll Hall of Fame in 2026</b>.",
+			"The band have released 41 albums, including <b>17 studio albums</b>, 13 live albums, four EPs and seven compilations. They have also released 47 singles and 20 video albums, and two video games. Iron Maiden's lyrics cover such topics as history, literature, war, mythology, dark fantasy, science fiction, society and religion. As of October 2019, the band have played <b>2,500 live shows</b>. For over 40 years the band have featured their signature mascot, <b>'Eddie'</b>, on the covers of almost all of their releases.",
+		],
 	},
 	{
-		id: 513,
-		image2: killswitch1,
+		id: 16,
+		image2: killswitchbio,
 		band: 'Killswitch Engage',
 		bio: 'Death Metal',
 	},
 	{
-		id: 514,
-		image2: linkinpark1,
+		id: 17,
+		image2: linkinparkbio,
 		band: 'Linkin Park',
 		bio: 'Nu Metal',
 	},
 	{
-		id: 515,
-		image2: linkinpark2,
+		id: 18,
+		image2: linkinparkbio,
 		band: 'Linkin Park',
 		bio: 'Nu Metal',
 	},
 	{
-		id: 516,
-		image2: lornashore1,
+		id: 19,
+		image2: lornashorebio,
 		band: 'Lorna Shore',
 		bio: 'Deathcore',
 	},
 	{
-		id: 517,
-		image2: motorhead1,
+		id: 20,
+		image2: motorheadbio,
 		band: 'Mötorhead',
 		bio: 'Heavy Rock',
 	},
 	{
-		id: 518,
-		image2: motorhead2,
+		id: 21,
+		image2: motorheadbio,
 		band: 'Mötorhead',
 		bio: 'Heavy Rock',
 	},
 	{
-		id: 519,
-		image2: neaera1,
+		id: 22,
+		image2: neaerabio,
 		band: 'Neaera',
 		bio: 'Death Metal',
 	},
 	{
-		id: 520,
-		image2: neckbreakker1,
+		id: 23,
+		image2: neckbreakkerbio,
 		band: 'Neckbreakker',
 		bio: 'Death Metal',
 	},
 	{
-		id: 521,
-		image2: nineinchnails2,
+		id: 24,
+		image2: nineinchnailsbio,
 		band: 'Nine Inch Nails',
 		bio: 'Industrial Rock',
 	},
 	{
-		id: 522,
-		image2: opeth1,
+		id: 25,
+		image2: opethbio,
 		band: 'Opeth',
 		bio: 'Progressive Death Metal',
 	},
 	{
-		id: 523,
-		image2: opeth2,
+		id: 26,
+		image2: opethbio,
 		band: 'Opeth',
 		bio: 'Doom Death Metal, Progressive Metal',
 	},
 	{
-		id: 524,
+		id: 27,
 		image2: orbitculturebio,
 		band: 'Orbit Culture',
 		bio: "<b>Orbit Culture</b> is a Swedish melodic death metal band from Eksjö, formed in <b>2013</b> by vocalist/rhythm guitarist Niklas Karlsson and guitarist Maximilian Zinsmeister. The current lineup also includes lead guitarist Richard Hansson, bassist Fredrik Lennartsson, and drummer Christopher Wallerstedt. The band has released five studio albums and four EPs. Their breakthrough moment came in <b>2016</b> when the music video for 'Sun of All' reached over 1 million views on YouTube, and things started heating up for them in the underground metal community. Their 2018 EP Redfog marked a turning point, as all three of its singles surpassed a million listens each on multiple streaming platforms. Their 2020 album <b>Nija and 2023 album Descent were both well-received critically, with Descent earning praise from publications like Revolver and Metal Hammer</b>. A major milestone came in early 2024 when the band signed a deal with Century Media Records, one of the biggest names in metal. That same year they toured with major acts including Machine Head, Slipknot, Bullet for My Valentine, and Trivium. Their fifth studio album, <b>Death Above Life</b>, was released in <b>October 2025</b>, notably being the first album not mixed by Karlsson himself. In 2025 they also played major festivals like Graspop Metal Meeting and Download Festival, cementing their status as one of modern metal's rising forces.",
 	},
 	{
-		id: 525,
+		id: 28,
 		image2: orbitculturebio,
 		band: 'Orbit Culture',
 		bio: "<b>Orbit Culture</b> is a Swedish melodic death metal band from Eksjö, formed in <b>2013</b> by vocalist/rhythm guitarist Niklas Karlsson and guitarist Maximilian Zinsmeister. The current lineup also includes lead guitarist Richard Hansson, bassist Fredrik Lennartsson, and drummer Christopher Wallerstedt. The band has released five studio albums and four EPs. Their breakthrough moment came in <b>2016</b> when the music video for 'Sun of All' reached over 1 million views on YouTube, and things started heating up for them in the underground metal community. Their 2018 EP Redfog marked a turning point, as all three of its singles surpassed a million listens each on multiple streaming platforms. Their 2020 album <b>Nija and 2023 album Descent were both well-received critically, with Descent earning praise from publications like Revolver and Metal Hammer</b>. A major milestone came in early 2024 when the band signed a deal with Century Media Records, one of the biggest names in metal. That same year they toured with major acts including Machine Head, Slipknot, Bullet for My Valentine, and Trivium. Their fifth studio album, <b>Death Above Life</b>, was released in <b>October 2025</b>, notably being the first album not mixed by Karlsson himself. In 2025 they also played major festivals like Graspop Metal Meeting and Download Festival, cementing their status as one of modern metal's rising forces.",
 	},
 	{
-		id: 526,
-		image2: palefaceswiss1,
+		id: 29,
+		image2: palefaceswissbio,
 		band: 'Paleface Swiss',
 		bio: 'Death Core',
 	},
 	{
-		id: 527,
-		image2: rainbow1,
+		id: 30,
+		image2: rainbowbio,
 		band: 'Rainbow',
 		bio: 'Heavy Metal',
 	},
 	{
-		id: 528,
-		image2: sacredreich1,
+		id: 31,
+		image2: sacredreichbio,
 		band: 'Sacred Reich',
 		bio: 'Trash Metal',
 	},
 	{
-		id: 529,
-		image2: serenityinmurder1,
+		id: 32,
+		image2: serenityinmurderbio,
 		band: 'Serenity in Murder',
 		bio: 'symphonic death metal',
 	},
 	{
-		id: 530,
-		image2: Slipknot1,
+		id: 33,
+		image2: slipknotbio,
 		band: 'Slipknot',
 		bio: 'Nu Metal',
 	},
 	{
-		id: 531,
-		image2: systemofadown1,
+		id: 34,
+		image2: systemofadownbio,
 		band: 'System of a Down',
 		bio: 'Trash alternative Metal',
 	},
 	{
-		id: 532,
-		image2: theblackdahlia1,
+		id: 35,
+		image2: theblackdahliabio,
 		band: 'The Black Dahlia Murder',
 		bio: 'Death Metal',
 	},
 	{
-		id: 533,
-		image2: tool1,
+		id: 36,
+		image2: toolbio,
 		band: 'Tool',
 		bio: 'Underground Metal',
 	},
 	{
-		id: 534,
-		image2: tool2,
+		id: 37,
+		image2: toolbio,
 		band: 'Tool',
 		bio: 'Underground Metal',
 	},
 	{
-		id: 535,
-		image2: typeofnegative1,
+		id: 38,
+		image2: typeonegativebio,
 		band: 'Type of Negative',
 		bio: 'Goth Metal',
 	},
 	{
-		id: 536,
-		image2: whitechapel1,
+		id: 39,
+		image2: whitechapelbio,
 		band: 'Whitechapel',
 		bio: 'Death Metal',
 	},
 	{
-		id: 537,
-		image2: whileshesleeps1,
+		id: 40,
+		image2: whileshesleepsbio,
 		band: 'While She Sleeps',
 		bio: 'MetalCore',
 	},
 	{
-		id: 538,
-		image2: necrovation1,
+		id: 41,
+		image2: necrovationbio,
 		band: 'necrovation',
 		bio: 'death metal',
 	},
+]
+export const artistBioRock= [
+
+	{
+		id: 200,
+		image2: ahabio,
+		bio: 'Rock pop',
+	},
+	{
+		id: 201,
+		image2: beastieboysbio,
+		bio: 'hip-hop',
+	},
+	{
+		id: 202,
+		image2: brucespringsteenbio,
+		bio: 'Rock',
+	},
+	{
+		id: 203,
+		image2: catstevensbio,
+		bio: 'Folk',
+	},
+	{
+		id: 204,
+		image2: chriscornellbio,
+		bio: 'Rock',
+	},
+	{
+		id: 205,
+		image2: chriscornellbio,
+		bio: 'Rock',
+	},
+	{
+		id: 206,
+		image2: deeppurplebio,
+		bio: 'Rock',
+	},
+	{
+		id: 207,
+		image2: deeppurplebio,
+		bio: 'Rock',
+	},
+	{
+		id: 208,
+		image2: deeppurplebio,
+		bio: 'Rock',
+	},
+	{
+		id: 209,
+		image2: deeppurplebio,
+		bio: 'Rock',
+	},
+	{
+		id: 210,
+		image2: djangobio,
+		bio: 'Various',
+	},
+	{
+		id: 211,
+		image2: eaglesbio,
+		bio: 'Rock, Rock Progressive',
+	},
+	{
+		id: 212,
+		image2: genesisbio,
+		bio: 'Rock Progressive',
+	},
+	{
+		id: 213,
+		image2: genesisbio,
+		bio: 'Rock',
+	},
+	{
+		id: 214,
+		image2: georgemichaelbio,
+		bio: 'Pop Jazz Soul',
+	},
+	{
+		id: 215,
+		image2: georgemichaelbio,
+		bio: 'Pop Jazz Soul',
+	},
+	{
+		id: 216,
+		image2: gretavanfleetbio,
+		bio: 'Rock',
+	},
+	{
+		id: 217,
+		image2: gretavanfleetbio,
+		bio: 'Rock',
+	},
+	{
+		id: 218,
+		image2: gretavanfleetbio,
+		bio: 'Rock',
+	},
+	{
+		id: 219,
+		image2: gretavanfleetbio,
+		bio: 'Rock',
+	},
+	{
+		id: 220,
+		image2: gunsandrosesbio,
+		bio: 'Hard Rock',
+	},
+	{
+		id: 221,
+		image2: iggypopbio,
+		bio: 'Punk',
+	},
+	{
+		id: 222,
+		image2: inxsbio,
+		bio: 'Rock',
+	},
+	{
+		id: 223,
+		image2: janisjoplinbio,
+		bio: 'Rock, Blues',
+	},
+	{
+		id: 224,
+		image2: jeffbuckleybio,
+		bio: 'Rock',
+	},
+	{
+		id: 225,
+		image2: johnlennonbio,
+		bio: 'Rock, pop, experimental',
+	},
+	{
+		id: 226,
+		image2: johnnycashbio,
+		bio: 'County Rock',
+	},
+	{
+		id: 227,
+		image2: johnnycashbio,
+		bio: 'Country-Rock',
+	},
+	{
+		id: 228,
+		image2: johnnycashbio,
+		bio: 'Country Rock',
+	},
+	{
+		id: 229,
+		image2: kingcrimsonbio,
+		bio: 'Rock Progressive',
+	},
+	{
+		id: 230,
+		image2: lennykravitzbio,
+		bio: 'Rock',
+	},
+	{
+		id: 231,
+		image2: michaeljacksonbio,
+		bio: 'R and B, Soul',
+	},
+	{
+		id: 232,
+		image2: nazarethbio,
+		bio: 'Rock',
+	},
+	{
+		id: 233,
+		image2: neildiamondbio,
+		bio: 'Rock, pop rock',
+	},
+	{
+		id: 234,
+		image2: nickcavebio,
+		bio: 'Gothic, post punk',
+	},
+	{
+		id: 235,
+		image2: nickcavebio,
+		bio: 'Goth Post punk',
+	},
+	{
+		id: 236,
+		image2: nineinchnailsbio,
+		bio: 'Industrial Rock',
+	},
+	{
+		id: 237,
+		image2: phillipboabio,
+		bio: 'Rock',
+	},
+	{
+		id: 238,
+		image2: pinkfloydbio,
+		bio: 'Rock progressive',
+	},
+	{
+		id: 239,
+		image2: pinkfloydbio,
+		bio: 'Rock progressive',
+	},
+	{
+		id: 240,
+		image2: pinkfloydbio,
+		bio: 'Rock Progressive',
+	},
+	{
+		id: 241,
+		image2: pinkfloydbio,
+		bio: 'Rock Progressive',
+	},
+	{
+		id: 242,
+		image2: pinkfloydbio,
+		bio: 'Rock Progressive',
+	},
+	{
+		id: 243,
+		image2: pinkfloydbio,
+		bio: 'Rock psychedelic',
+	},
+	{
+		id: 244,
+		image2: polyphiabio,
+		bio: 'Rock progressive',
+	},
+	{
+		id: 245,
+		image2: portisheadbio,
+		bio: 'Trip-hop',
+	},
+	{
+		id: 246,
+		image2: princebio,
+		bio: 'Funk Rock',
+	},
+	{
+		id: 247,
+		image2: princebio,
+		bio: 'Funk Rock',
+	},
+	{
+		id: 248,
+		image2: princebio,
+		bio: 'Funk Rock',
+	},
+	{
+		id: 249,
+		image2: pusciferbio,
+		bio: 'Rock',
+	},
+	{
+		id: 250,
+		image2: queenbio,
+		bio: 'Rock',
+	},
+	{
+		id: 251,
+		image2: radioheadbio,
+		bio: 'Rock, Alternative Rock',
+	},
+	{
+		id: 252,
+		image2: radioheadbio,
+		bio: 'Rock, Alternative Rock',
+	},
+	{
+		id: 253,
+		image2: radioheadbio,
+		bio: 'Rock, Alternative Rock',
+	},
+	{
+		id: 254,
+		image2: rageagainstthemachinebio,
+		bio: 'Hardcore Punk',
+	},
+	{
+		id: 255,
+		image2: rembio,
+		bio: 'Rock',
+	},
+	{
+		id: 256,
+		image2: rembio,
+		bio: 'Rock',
+	},
+	{
+		id: 257,
+		image2: simplemindsbio,
+		bio: 'Rock, Rock Progressive',
+	},
+	{
+		id: 258,
+		image2: simplemindsbio,
+		bio: 'Rock, Rock Progressive',
+	},
+	{
+		id: 259,
+		image2: simonandgarfunkelbio,
+		bio: 'Folk-Rock',
+	},
+	{
+		id: 260,
+		image2: statusquobio,
+		bio: 'Rock',
+	},
+	{
+		id: 261,
+		image2: stereophonicsbio,
+		bio: 'Rock',
+	},
+	{
+		id: 262,
+		image2: supertrampbio,
+		bio: 'Rock',
+	},
+	{
+		id: 263,
+		image2: supertrampbio,
+		bio: 'Rock',
+	},
+	{
+		id: 264,
+		image2: supertrampbio,
+		bio: 'Rock',
+	},
+	{
+		id: 265,
+		image2: supertrampbio,
+		bio: 'Rock',
+	},
+	{
+		id: 266,
+		image2: supertrampbio,
+		bio: 'Rock',
+	},
+	{
+		id: 267,
+		image2: supertrampbio,
+		bio: 'Rock',
+	},
+	{
+		id: 268,
+		image2: talkingheadsbio,
+		bio: 'Punk rock, New wave',
+	},
+	{
+		id: 269,
+		image2: téléphonebio,
+		bio: 'Rock',
+	},
+	{
+		id: 270,
+		image2: theclashbio,
+		bio: 'Punk Rock',
+	},
+	{
+		id: 271,
+		image2: thecurebio,
+		bio: 'Gothic Rock',
+	},
+	{
+		id: 272,
+		image2: thecurebio,
+		bio: 'Gothic Rock',
+	},
+	{
+		id: 273,
+		image2: thepolicebio,
+		bio: 'Rock',
+	},
+	{
+		id: 274,
+		image2: therollingstonesbio,
+		bio: 'Rock',
+	},
+	{
+		id: 275,
+		image2: therollingstonesbio,
+		bio: 'Rock',
+	},
+	{
+		id: 276,
+		image2: thesmilebio,
+		bio: 'Alternative Rock',
+	},
+	{
+		id: 277,
+		image2: thewhitestripesbio,
+		bio: 'Rock',
+	},
+	{
+		id: 278,
+		image2: U2bio,
+		bio: 'Rock',
+	},
+	{
+		id: 279,
+		image2: yesbio,
+		bio: 'Rock, Rock Progressive',
+	},
+	{
+		id: 280,
+		image2: yesbio,
+		bio: 'Rock, Rock Progressive',
+	},
+	{
+		id: 281,
+		image2: pulpfictionbio,
+		bio: 'Various',
+	},
+]
+export const artistBioAderito = [
+	{
+		id: 400,
+		image2: depechemodebio,
+		bio: 'Rock pop',
+	},
+	{
+		id: 401,
+		image2: depechemodebio,
+		bio: 'Rock pop',
+	},
+	{
+		id: 402,
+		image2: depechemodebio,
+		bio: 'Rock pop',
+	},
+	{
+		id: 403,
+		image2: depechemodebio,
+		bio: 'Rock pop',
+	},
+	{
+		id: 404,
+		image2: depechemodebio,
+		bio: 'Rock pop',
+	},
+	{
+		id: 405,
+		image2: depechemodebio,
+		bio: 'Rock pop',
+	},
+	{
+		id: 406,
+		image2: depechemodebio,
+		bio: 'Rock pop',
+	},
+	{
+		id: 407,
+		image2: depechemodebio,
+		bio: 'Rock pop',
+	},
+	{
+		id: 408,
+		image2: depechemodebio,
+		bio: 'Rock pop',
+	},
+	{
+		id: 409,
+		image2: depechemodebio,
+		bio: 'Rock pop',
+	},
+	{
+		id: 410,
+		image2: depechemodebio,
+		bio: 'Rock pop',
+	},
+	{
+		id: 411,
+		image2: depechemodebio,
+		bio: 'Rock pop',
+	},
+	{
+		id: 412,
+		image2: depechemodebio,
+		bio: 'Rock pop',
+	},
+	{
+		id: 413,
+		image2: depechemodebio,
+		bio: 'Rock pop',
+	},
+	{
+		id: 414,
+		image2: depechemodebio,
+		bio: 'Rock pop',
+	},
+	{
+		id: 415,
+		image2: depechemodebio,
+		bio: 'Rock pop',
+	},
+	{
+		id: 416,
+		image2: depechemodebio,
+		bio: 'Rock pop',
+	},
+	{
+		id: 417,
+		image2: depechemodebio,
+		bio: 'Rock pop',
+	},
+	{
+		id: 418,
+		image2: depechemodebio,
+		bio: 'Rock pop',
+	},
+	{
+		id: 419,
+		image2: depechemodebio,
+		bio: 'Rock pop',
+	},
+	{
+		id: 420,
+		image2: depechemodebio,
+		bio: 'Rock pop',
+	},
+	{
+		id: 421,
+		image2: depechemodebio,
+		bio: 'Rock pop',
+	},
+	{
+		id: 422,
+		image2: depechemodebio,
+		bio: 'Rock pop',
+	},
+	{
+		id: 423,
+		image2: depechemodebio,
+		bio: 'Rock pop',
+	},
+	{
+		id: 424,
+		image2: depechemodebio,
+		bio: 'Rock pop',
+	},
+	{
+		id: 425,
+		image2: depechemodebio,
+		bio: 'Rock pop',
+	},
+	{
+		id: 426,
+		image2: depechemodebio,
+		bio: 'Rock pop',
+	},
+	{
+		id: 427,
+		image2: depechemodebio,
+		bio: 'Rock pop',
+	},
+	{
+		id: 428,
+		image2: depechemodebio,
+		bio: 'Rock pop',
+	},
+	{
+		id: 429,
+		image2: depechemodebio,
+		bio: 'Rock pop',
+	},
+	{
+		id: 430,
+		image2: depechemodebio,
+		bio: 'Rock pop',
+	},
+	{
+		id: 431,
+		image2: depechemodebio,
+		bio: 'Rock pop',
+	},
+	{
+		id: 432,
+		image2: depechemodebio,
+		bio: 'Rock pop',
+	},
+	{
+		id: 433,
+		image2: depechemodebio,
+		bio: 'Rock pop',
+	},
+	{
+		id: 434,
+		image2: depechemodebio,
+		bio: 'Rock pop',
+	},
+	
 ]
