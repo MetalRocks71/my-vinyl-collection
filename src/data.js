@@ -600,6 +600,16 @@ export const metalcollection = [
 	},
 	{
 		id: 24,
+		image: necrovation1,
+		title: 'Necrovation',
+		date: 'July 17th, 2012',
+		band: 'Necrovation',
+		length: '(46:40)',
+		genre: 'death metal',
+	},
+
+	{
+		id: 25,
 		image: nineinchnails2,
 		title: 'Pretty Hate Machine',
 		date: 'October 20th, 1989',
@@ -608,7 +618,7 @@ export const metalcollection = [
 		genre: 'Industrial Rock',
 	},
 	{
-		id: 25,
+		id: 26,
 		image: opeth1,
 		title: 'Ghost reveries',
 		date: 'August 30th, 2005',
@@ -617,7 +627,7 @@ export const metalcollection = [
 		genre: 'Doom Death Metal, Progressive Metal',
 	},
 	{
-		id: 26,
+		id: 27,
 		image: opeth2,
 		title: 'Watershed limited 4000 copies',
 		date: 'June 08th, 2008',
@@ -626,7 +636,7 @@ export const metalcollection = [
 		genre: 'Doom Death Metal, Progressive Metal',
 	},
 	{
-		id: 27,
+		id: 28,
 		image: orbitculture1,
 		title: 'Death above life',
 		date: 'October 03rd, 2025',
@@ -635,7 +645,7 @@ export const metalcollection = [
 		genre: 'Death Metal',
 	},
 	{
-		id: 28,
+		id: 29,
 		image: orbitculture2,
 		title: 'Descent',
 		date: 'August 18th, 2023',
@@ -644,7 +654,7 @@ export const metalcollection = [
 		genre: 'Death Metal',
 	},
 	{
-		id: 29,
+		id: 30,
 		image: palefaceswiss1,
 		title: 'Cursed (The complete edition)',
 		date: 'January 03rd, 2025',
@@ -653,7 +663,7 @@ export const metalcollection = [
 		genre: 'Death core',
 	},
 	{
-		id: 30,
+		id: 31,
 		image: rainbow1,
 		title: 'The Defginitive Osaka 1978 Final night',
 		date: 'March 31st, 2023',
@@ -662,7 +672,7 @@ export const metalcollection = [
 		genre: 'Heavy Metal',
 	},
 	{
-		id: 31,
+		id: 32,
 		image: sacredreich1,
 		title: 'awakening',
 		date: 'August 23rd, 2019',
@@ -671,7 +681,7 @@ export const metalcollection = [
 		genre: 'Trash Metal',
 	},
 	{
-		id: 32,
+		id: 33,
 		image: serenityinmurder1,
 		title: 'Timeless Reverie',
 		date: 'February 28th, 2025',
@@ -680,7 +690,7 @@ export const metalcollection = [
 		genre: 'symphonic death metal',
 	},
 	{
-		id: 33,
+		id: 34,
 		image: Slipknot1,
 		title: 'Slipknot 25th anniversary',
 		date: 'June 29th, 2024',
@@ -689,7 +699,7 @@ export const metalcollection = [
 		genre: 'Nu Metal',
 	},
 	{
-		id: 34,
+		id: 35,
 		image: systemofadown1,
 		title: 'Toxicity',
 		date: 'September 04th, 2001',
@@ -698,7 +708,7 @@ export const metalcollection = [
 		genre: 'Trash alternative Metal',
 	},
 	{
-		id: 35,
+		id: 36,
 		image: theblackdahlia1,
 		title: 'Servitude',
 		date: 'September 27th, 2024',
@@ -707,7 +717,7 @@ export const metalcollection = [
 		genre: 'Death Metal',
 	},
 	{
-		id: 36,
+		id: 37,
 		image: tool1,
 		title: 'Undertow',
 		date: 'January 01st, 1993',
@@ -716,7 +726,7 @@ export const metalcollection = [
 		genre: 'Underground Metal',
 	},
 	{
-		id: 37,
+		id: 38,
 		image: tool2,
 		title: 'Aenima',
 		date: 'September 17th, 1996',
@@ -725,7 +735,7 @@ export const metalcollection = [
 		genre: 'Underground Metal',
 	},
 	{
-		id: 38,
+		id: 39,
 		image: typeonegative1,
 		title: 'Life is killing me',
 		date: 'April 19th, 2024',
@@ -734,7 +744,7 @@ export const metalcollection = [
 		genre: 'Goth Metal',
 	},
 	{
-		id: 39,
+		id: 40,
 		image: whitechapel1,
 		title: 'Hymmns in Dissonance',
 		date: 'March 07th, 2025',
@@ -743,22 +753,13 @@ export const metalcollection = [
 		genre: 'Hardcore,Grindcore',
 	},
 	{
-		id: 40,
+		id: 41,
 		image: whileshesleeps1,
 		title: 'This is the Six',
 		date: 'August 13th, 2012',
 		band: 'While She Sleeps',
 		length: '(44:39)',
 		genre: 'MetalCore',
-	},
-	{
-		id: 41,
-		image: necrovation1,
-		title: 'necrovation',
-		date: 'July 17th, 2012',
-		band: 'necrovation',
-		length: '(46:40)',
-		genre: 'death metal',
 	},
 ]
 
@@ -1822,9 +1823,7 @@ Osbourne was fired from Black Sabbath in 1979 and replaced by former Rainbow voc
 		id: 4,
 		image2: bloodincantationbio,
 		band: 'blood incantation',
-		bio: [
-		
-		],
+		bio: [],
 	},
 	{
 		id: 5,
@@ -1966,14 +1965,14 @@ Osbourne was fired from Black Sabbath in 1979 and replaced by former Rainbow voc
 	},
 	{
 		id: 24,
-		image2: nineinchnailsbio,
-		band: 'Nine Inch Nails',
+		image2: necrovationbio,
+		band: 'Necrovation',
 		bio: [],
 	},
 	{
 		id: 25,
-		image2: opethbio,
-		band: 'Opeth',
+		image2: nineinchnailsbio,
+		band: 'Nine Inch Nails',
 		bio: [],
 	},
 	{
@@ -1984,9 +1983,9 @@ Osbourne was fired from Black Sabbath in 1979 and replaced by former Rainbow voc
 	},
 	{
 		id: 27,
-		image2: orbitculturebio,
-		band: 'Orbit Culture',
-		bio: "<b>Orbit Culture</b> is a Swedish melodic death metal band from Eksjö, formed in <b>2013</b> by vocalist/rhythm guitarist Niklas Karlsson and guitarist Maximilian Zinsmeister. The current lineup also includes lead guitarist Richard Hansson, bassist Fredrik Lennartsson, and drummer Christopher Wallerstedt. The band has released five studio albums and four EPs. Their breakthrough moment came in <b>2016</b> when the music video for 'Sun of All' reached over 1 million views on YouTube, and things started heating up for them in the underground metal community. Their 2018 EP Redfog marked a turning point, as all three of its singles surpassed a million listens each on multiple streaming platforms. Their 2020 album <b>Nija and 2023 album Descent were both well-received critically, with Descent earning praise from publications like Revolver and Metal Hammer</b>. A major milestone came in early 2024 when the band signed a deal with Century Media Records, one of the biggest names in metal. That same year they toured with major acts including Machine Head, Slipknot, Bullet for My Valentine, and Trivium. Their fifth studio album, <b>Death Above Life</b>, was released in <b>October 2025</b>, notably being the first album not mixed by Karlsson himself. In 2025 they also played major festivals like Graspop Metal Meeting and Download Festival, cementing their status as one of modern metal's rising forces.",
+		image2: opethbio,
+		band: 'Opeth',
+		bio: [],
 	},
 	{
 		id: 28,
@@ -1996,50 +1995,50 @@ Osbourne was fired from Black Sabbath in 1979 and replaced by former Rainbow voc
 	},
 	{
 		id: 29,
+		image2: orbitculturebio,
+		band: 'Orbit Culture',
+		bio: "<b>Orbit Culture</b> is a Swedish melodic death metal band from Eksjö, formed in <b>2013</b> by vocalist/rhythm guitarist Niklas Karlsson and guitarist Maximilian Zinsmeister. The current lineup also includes lead guitarist Richard Hansson, bassist Fredrik Lennartsson, and drummer Christopher Wallerstedt. The band has released five studio albums and four EPs. Their breakthrough moment came in <b>2016</b> when the music video for 'Sun of All' reached over 1 million views on YouTube, and things started heating up for them in the underground metal community. Their 2018 EP Redfog marked a turning point, as all three of its singles surpassed a million listens each on multiple streaming platforms. Their 2020 album <b>Nija and 2023 album Descent were both well-received critically, with Descent earning praise from publications like Revolver and Metal Hammer</b>. A major milestone came in early 2024 when the band signed a deal with Century Media Records, one of the biggest names in metal. That same year they toured with major acts including Machine Head, Slipknot, Bullet for My Valentine, and Trivium. Their fifth studio album, <b>Death Above Life</b>, was released in <b>October 2025</b>, notably being the first album not mixed by Karlsson himself. In 2025 they also played major festivals like Graspop Metal Meeting and Download Festival, cementing their status as one of modern metal's rising forces.",
+	},
+	{
+		id: 30,
 		image2: palefaceswissbio,
 		band: 'Paleface Swiss',
 		bio: [],
 	},
 	{
-		id: 30,
+		id: 31,
 		image2: rainbowbio,
 		band: 'Rainbow',
 		bio: [],
 	},
 	{
-		id: 31,
+		id: 32,
 		image2: sacredreichbio,
 		band: 'Sacred Reich',
 		bio: [],
 	},
 	{
-		id: 32,
+		id: 33,
 		image2: serenityinmurderbio,
 		band: 'Serenity in Murder',
 		bio: [],
 	},
 	{
-		id: 33,
+		id: 34,
 		image2: slipknotbio,
 		band: 'Slipknot',
 		bio: [],
 	},
 	{
-		id: 34,
+		id: 35,
 		image2: systemofadownbio,
 		band: 'System of a Down',
 		bio: [],
 	},
 	{
-		id: 35,
+		id: 36,
 		image2: theblackdahliabio,
 		band: 'The Black Dahlia Murder',
-		bio: [],
-	},
-	{
-		id: 36,
-		image2: toolbio,
-		band: 'Tool',
 		bio: [],
 	},
 	{
@@ -2050,26 +2049,26 @@ Osbourne was fired from Black Sabbath in 1979 and replaced by former Rainbow voc
 	},
 	{
 		id: 38,
+		image2: toolbio,
+		band: 'Tool',
+		bio: [],
+	},
+	{
+		id: 39,
 		image2: typeonegativebio,
 		band: 'Type of Negative',
 		bio: [],
 	},
 	{
-		id: 39,
+		id: 40,
 		image2: whitechapelbio,
 		band: 'Whitechapel',
 		bio: [],
 	},
 	{
-		id: 40,
+		id: 41,
 		image2: whileshesleepsbio,
 		band: 'While She Sleeps',
-		bio: [],
-	},
-	{
-		id: 41,
-		image2: necrovationbio,
-		band: 'necrovation',
 		bio: [],
 	},
 ]
