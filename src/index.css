@@ -640,6 +640,35 @@ Search Bar - Navbar delete functionality (removes text cursor across site)
 .search-clear:hover {
   color: #333;
 }
+
+/* ── Mobile — clear button moves to the LEFT of the input ──────────────── */
+@media (max-width: 768px) {
+  .search-container {
+    flex-direction: row; /* flips the button to the left */
+    gap: 8px;
+  }
+
+  .search-input {
+    padding-right: 100px;      /* only needs room for the search button now */
+    padding-left: 10px;         /* normal left padding restored */
+  }
+
+  .search-clear {
+    position: static;           /* taken out of absolute flow */
+    flex-shrink: 0;
+    width: 28px;
+    height: 28px;
+    font-size: 12px;
+    background-color: #e8e8e8;
+    border-radius: 50%;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.15);
+  }
+
+  .search-clear:hover {
+    background-color: #d0d0d0;
+  }
+}
+
 /*
 =============== 
 Hidden Blinking Caret/Cursor - Removes text cursor across site
