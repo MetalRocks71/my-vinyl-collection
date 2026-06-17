@@ -608,6 +608,40 @@ Search Bar - Navbar search functionality
 
 /*
 =============== 
+Search Bar - Navbar delete functionality (removes text cursor across site)
+===============
+*/
+.search-container {
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+
+.search-input {
+  /* add right padding to make room for the clear + search buttons */
+  padding-right: 70px;
+}
+
+.search-clear {
+  position: absolute;
+  right: 40px; /* sits left of the search button */
+  background: none;
+  border: none;
+  cursor: pointer;
+  color: #999;
+  font-size: 14px;
+  padding: 4px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: color 0.2s;
+}
+
+.search-clear:hover {
+  color: #333;
+}
+/*
+=============== 
 Hidden Blinking Caret/Cursor - Removes text cursor across site
 ===============
 */
