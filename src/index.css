@@ -645,7 +645,7 @@ Search Bar - Navbar delete functionality (removes text cursor across site)
 @media (max-width: 768px) {
   .search-container {
     flex-direction: row; /* flips the button to the left */
-    gap: 8px;
+    gap: 6px;
   }
 
   .search-input {
