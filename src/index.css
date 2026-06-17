@@ -1311,15 +1311,18 @@ footer>div {
   /* 4px letter spacing */
   color: var(--clr-white);
   /* White text */
-  text-align: center;
+  text-align:center;
   /* Centered */
   word-wrap: break-word;
   /* Breaks long words */
+  font-size: 0.875rem;
+  /* 14px font */
+
 }
 
 /* Copyright span */
 .copyright span {
-  margin-left: 0.5rem;
+  margin-left: 0.75rem;
   /* 8px left margin */
 }
 
