@@ -1,5 +1,6 @@
 import { useParams } from 'react-router-dom'
 import { artistBioAderito } from '../../data'
+import Footer from '../Footer'
 
 const AlbumDetail = () => {
 	const { id } = useParams()
@@ -11,14 +12,17 @@ const AlbumDetail = () => {
 	const bioContent = Array.isArray(artistBio.bio) ? artistBio.bio.join('<br><br>') : artistBio.bio
 
 	return (
-		<section className='section detail-section'>
-			<div className='collection-card-1'>
-				<img src={artistBio.image2} alt={artistBio.band} className='collection-img-1' />
-				<div className='artist-info-1'>
-					<p className='detail-artist-bio' dangerouslySetInnerHTML={{ __html: bioContent || 'No bio available.' }} />
+		<>
+			<section className='section detail-section'>
+				<div className='collection-card-1'>
+					<img src={artistBio.image2} alt={artistBio.band} className='collection-img-1' />
+					<div className='artist-info-1'>
+						<p className='detail-artist-bio' dangerouslySetInnerHTML={{ __html: bioContent || 'No bio available.' }} />
+					</div>
 				</div>
-			</div>
-		</section>
+			</section>
+			<Footer />
+		</>
 	)
 }
 
