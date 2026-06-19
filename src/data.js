@@ -2287,419 +2287,585 @@ export const artistBioMetal = [
 	},
 	``,
 ]
+
 export const artistBioRock = [
 
-	{
-		id: 200,
-		image2: ahabio,
-		bio: [],
-	},
-	{
-		id: 201,
-		image2: beastieboysbio,
-		bio: [],
-	},
-	{
-		id: 202,
-		image2: brucespringsteenbio,
-		bio: [],
-	},
-	{
-		id: 203,
-		image2: catstevensbio,
-		bio: [],
-	},
-	{
-		id: 204,
-		image2: chriscornellbio,
-		bio: [],
-	},
-	{
-		id: 205,
-		image2: chriscornellbio,
-		bio: [],
-	},
-	{
-		id: 206,
-		image2: deeppurplebio,
-		bio: [],
-	},
-	{
-		id: 207,
-		image2: deeppurplebio,
-		bio: [],
-	},
-	{
-		id: 208,
-		image2: deeppurplebio,
-		bio: [],
-	},
-	{
-		id: 209,
-		image2: deeppurplebio,
-		bio: [],
-	},
-	{
-		id: 210,
-		image2: djangobio,
-		bio: [],
-	},
-	{
-		id: 211,
-		image2: eaglesbio,
-		bio: [],
-	},
-	{
-		id: 212,
-		image2: genesisbio,
-		bio: [],
-	},
-	{
-		id: 213,
-		image2: genesisbio,
-		bio: [],
-	},
-	{
-		id: 214,
-		image2: georgemichaelbio,
-		bio: [],
-	},
-	{
-		id: 215,
-		image2: georgemichaelbio,
-		bio: [],
-	},
-	{
-		id: 216,
-		image2: gretavanfleetbio,
-		bio: [],
-	},
-	{
-		id: 217,
-		image2: gretavanfleetbio,
-		bio: [],
-	},
-	{
-		id: 218,
-		image2: gretavanfleetbio,
-		bio: [],
-	},
-	{
-		id: 219,
-		image2: gretavanfleetbio,
-		bio: [],
-	},
-	{
-		id: 220,
-		image2: gunsandrosesbio,
-		bio: [],
-	},
-	{
-		id: 221,
-		image2: iggypopbio,
-		bio: [],
-	},
-	{
-		id: 222,
-		image2: inxsbio,
-		bio: [],
-	},
-	{
-		id: 223,
-		image2: janisjoplinbio,
-		bio: [],
-	},
-	{
-		id: 224,
-		image2: jeffbuckleybio,
-		bio: [],
-	},
-	{
-		id: 225,
-		image2: johnlennonbio,
-		bio: [],
-	},
-	{
-		id: 226,
-		image2: johnnycashbio,
-		bio: [],
-	},
-	{
-		id: 227,
-		image2: johnnycashbio,
-		bio: [],
-	},
-	{
-		id: 228,
-		image2: johnnycashbio,
-		bio: [],
-	},
-	{
-		id: 229,
-		image2: kingcrimsonbio,
-		bio: [],
-	},
-	{
-		id: 230,
-		image2: lennykravitzbio,
-		bio: [],
-	},
-	{
-		id: 231,
-		image2: michaeljacksonbio,
-		bio: [],
-	},
-	{
-		id: 232,
-		image2: nazarethbio,
-		bio: [],
-	},
-	{
-		id: 233,
-		image2: neildiamondbio,
-		bio: [],
-	},
-	{
-		id: 234,
-		image2: nickcavebio,
-		bio: [],
-	},
-	{
-		id: 235,
-		image2: nickcavebio,
-		bio: [],
-	},
-	{
-		id: 236,
-		image2: nineinchnailsbio,
-		bio: [],
-	},
-	{
-		id: 237,
-		image2: phillipboabio,
-		bio: [],
-	},
-	{
-		id: 238,
-		image2: pinkfloydbio,
-		bio: [],
-	},
-	{
-		id: 239,
-		image2: pinkfloydbio,
-		bio: [],
-	},
-	{
-		id: 240,
-		image2: pinkfloydbio,
-		bio: [],
-	},
-	{
-		id: 241,
-		image2: pinkfloydbio,
-		bio: [],
-	},
-	{
-		id: 242,
-		image2: pinkfloydbio,
-		bio: [],
-	},
-	{
-		id: 243,
-		image2: pinkfloydbio,
-		bio: [],
-	},
-	{
-		id: 244,
-		image2: polyphiabio,
-		bio: [],
-	},
-	{
-		id: 245,
-		image2: portisheadbio,
-		bio: [],
-	},
-	{
-		id: 246,
-		image2: princebio,
-		bio: [],
-	},
-	{
-		id: 247,
-		image2: princebio,
-		bio: [],
-	},
-	{
-		id: 248,
-		image2: princebio,
-		bio: [],
-	},
-	{
-		id: 249,
-		image2: pusciferbio,
-		bio: [],
-	},
-	{
-		id: 250,
-		image2: queenbio,
-		bio: [],
-	},
-	{
-		id: 251,
-		image2: radioheadbio,
-		bio: [],
-	},
-	{
-		id: 252,
-		image2: radioheadbio,
-		bio: [],
-	},
-	{
-		id: 253,
-		image2: radioheadbio,
-		bio: [],
-	},
-	{
-		id: 254,
-		image2: rageagainstthemachinebio,
-		bio: [],
-	},
-	{
-		id: 255,
-		image2: rembio,
-		bio: [],
-	},
-	{
-		id: 256,
-		image2: rembio,
-		bio: [],
-	},
-	{
-		id: 257,
-		image2: simplemindsbio,
-		bio: [],
-	},
-	{
-		id: 258,
-		image2: simplemindsbio,
-		bio: [],
-	},
-	{
-		id: 259,
-		image2: simonandgarfunkelbio,
-		bio: [],
-	},
-	{
-		id: 260,
-		image2: statusquobio,
-		bio: [],
-	},
-	{
-		id: 261,
-		image2: stereophonicsbio,
-		bio: [],
-	},
-	{
-		id: 262,
-		image2: supertrampbio,
-		bio: [],
-	},
-	{
-		id: 263,
-		image2: supertrampbio,
-		bio: [],
-	},
-	{
-		id: 264,
-		image2: supertrampbio,
-		bio: [],
-	},
-	{
-		id: 265,
-		image2: supertrampbio,
-		bio: [],
-	},
-	{
-		id: 266,
-		image2: supertrampbio,
-		bio: [],
-	},
-	{
-		id: 267,
-		image2: supertrampbio,
-		bio: [],
-	},
-	{
-		id: 268,
-		image2: talkingheadsbio,
-		bio: [],
-	},
-	{
-		id: 269,
-		image2: téléphonebio,
-		bio: [],
-	},
-	{
-		id: 270,
-		image2: theclashbio,
-		bio: [],
-	},
-	{
-		id: 271,
-		image2: thecurebio,
-		bio: [],
-	},
-	{
-		id: 272,
-		image2: thecurebio,
-		bio: [],
-	},
-	{
-		id: 273,
-		image2: thepolicebio,
-		bio: [],
-	},
-	{
-		id: 274,
-		image2: therollingstonesbio,
-		bio: [],
-	},
-	{
-		id: 275,
-		image2: therollingstonesbio,
-		bio: [],
-	},
-	{
-		id: 276,
-		image2: thesmilebio,
-		bio: [],
-	},
-	{
-		id: 277,
-		image2: thewhitestripesbio,
-		bio: [],
-	},
-	{
-		id: 278,
-		image2: U2bio,
-		bio: [],
-	},
-	{
-		id: 279,
-		image2: yesbio,
-		bio: [],
-	},
-	{
-		id: 280,
-		image2: yesbio,
-		bio: [],
-	},
-	{
-		id: 281,
-		image2: pulpfictionbio,
-		bio: [],
-	},
-]
+  {
+    id: 200,
+    image2: ahabio,
+    bio: [
+      "A-ha is a Norwegian band formed in Oslo in the early 1980s by Morten Harket, Magne Furuholmen, and Pål Waaktaar-Savoy. They became internationally famous with their debut album *Hunting High and Low* and its lead single “Take On Me,” which combined soaring synth-pop with a groundbreaking animated music video. The success of that song turned them into global stars and helped define the sound of mid-1980s pop. Over the following decades, A-ha released numerous albums, reunited after hiatuses, and maintained a strong fan base, especially in Europe and South America. **Their most important fact is that “Take On Me” became one of the most iconic and influential music videos and singles in pop history.**"
+    ],
+  },
+  {
+    id: 201,
+    image2: beastieboysbio,
+    bio: [
+      "Beastie Boys were an American group from New York City that evolved from hardcore punk into one of the most influential hip-hop acts of all time. Consisting of Michael “Mike D” Diamond, Adam “MCA” Yauch, and Adam “Ad-Rock” Horovitz, they blended rap, rock, and humor with inventive sampling and production. Their debut album *Licensed to Ill* became a massive success and helped bring hip-hop to a mainstream rock audience. Throughout the 1990s and 2000s, albums like *Paul’s Boutique*, *Check Your Head*, and *Ill Communication* expanded their artistic range and cemented their legacy. They were also known for activism, especially through the Tibetan Freedom Concerts. **Their most important fact is that *Licensed to Ill* was the first rap album to reach No. 1 on the Billboard 200 chart.**"
+    ],
+  },
+  {
+    id: 202,
+    image2: brucespringsteenbio,
+    bio: [
+      "Bruce Springsteen is an American singer-songwriter and bandleader whose work focuses on everyday life, working-class struggles, and the search for meaning in modern America. Emerging from the New Jersey rock scene, he gained critical acclaim with albums like *Born to Run*, which showcased his cinematic songwriting and the power of the E Street Band. In 1984, he achieved enormous commercial success with *Born in the U.S.A.*, an album whose anthemic sound contrasted with its often bleak lyrical themes. Springsteen’s concerts are legendary for their length, intensity, and emotional connection with audiences. Over his career, he has won numerous awards and remained a major cultural figure, continuing to release new music and perform worldwide. **His most important fact is that *Born in the U.S.A.* became one of the best-selling and most influential rock albums in history.**"
+    ],
+  },
+  {
+    id: 203,
+    image2: catstevensbio,
+    bio: [
+      "Cat Stevens, later known as Yusuf Islam and now performing as Yusuf / Cat Stevens, is a British singer-songwriter whose gentle, introspective songs became classics of the 1970s. He rose to prominence with albums like *Tea for the Tillerman* and *Teaser and the Firecat*, which featured hits such as “Wild World,” “Father and Son,” and “Morning Has Broken.” His music blended folk, pop, and spiritual themes, and he became known for his warm voice and reflective lyrics. In the late 1970s, he converted to Islam and stepped away from the mainstream music industry for many years. Eventually, he returned to recording and performing, bringing his earlier catalog and new material to audiences around the world. **His most important fact is that songs like “Father and Son” and “Wild World” became enduring folk-rock standards that defined his legacy.**"
+    ],
+  },
+  {
+    id: 204,
+    image2: chriscornellbio,
+    bio: [
+      "Chris Cornell was an American singer, songwriter, and guitarist best known as the frontman of Soundgarden and Audioslave, and for his powerful solo work. He emerged from the Seattle grunge scene in the late 1980s, helping shape the sound of alternative rock with Soundgarden’s heavy riffs and distinctive vocals. With Audioslave, he fused his voice with members of Rage Against the Machine, creating a hard rock supergroup that achieved global success. Cornell also released solo albums that showcased his versatility, from acoustic performances to cinematic rock. His voice, often described as one of the greatest in rock, spanned an impressive range and emotional depth. **His most important fact is that he was a central figure in the Seattle grunge movement and widely regarded as one of the most powerful rock vocalists of his generation.**"
+    ],
+  },
+  {
+    id: 205,
+    image2: chriscornellbio,
+    bio: [
+      "Chris Cornell was an American singer, songwriter, and guitarist best known as the frontman of Soundgarden and Audioslave, and for his powerful solo work. He emerged from the Seattle grunge scene in the late 1980s, helping shape the sound of alternative rock with Soundgarden’s heavy riffs and distinctive vocals. With Audioslave, he fused his voice with members of Rage Against the Machine, creating a hard rock supergroup that achieved global success. Cornell also released solo albums that showcased his versatility, from acoustic performances to cinematic rock. His voice, often described as one of the greatest in rock, spanned an impressive range and emotional depth. **His most important fact is that he was a central figure in the Seattle grunge movement and widely regarded as one of the most powerful rock vocalists of his generation.**"
+    ],
+  },
+  {
+    id: 206,
+    image2: deeppurplebio,
+    bio: [
+      "Deep Purple is an English rock band formed in the late 1960s, often cited as one of the pioneers of hard rock and heavy metal. Their classic lineup, including Ian Gillan, Ritchie Blackmore, Jon Lord, Roger Glover, and Ian Paice, created a powerful sound that combined virtuosic musicianship with heavy riffs. Albums like *Machine Head* and songs such as “Smoke on the Water” became foundational to rock guitar culture. Over the decades, the band went through numerous lineup changes but continued recording and touring. Their influence can be heard in countless metal and hard rock bands that followed. **Their most important fact is that “Smoke on the Water” became one of the most famous rock songs and guitar riffs of all time.**"
+    ],
+  },
+  {
+    id: 207,
+    image2: deeppurplebio,
+    bio: [
+      "Deep Purple is an English rock band formed in the late 1960s, often cited as one of the pioneers of hard rock and heavy metal. Their classic lineup, including Ian Gillan, Ritchie Blackmore, Jon Lord, Roger Glover, and Ian Paice, created a powerful sound that combined virtuosic musicianship with heavy riffs. Albums like *Machine Head* and songs such as “Smoke on the Water” became foundational to rock guitar culture. Over the decades, the band went through numerous lineup changes but continued recording and touring. Their influence can be heard in countless metal and hard rock bands that followed. **Their most important fact is that “Smoke on the Water” became one of the most famous rock songs and guitar riffs of all time.**"
+    ],
+  },
+  {
+    id: 208,
+    image2: deeppurplebio,
+    bio: [
+      "Deep Purple is an English rock band formed in the late 1960s, often cited as one of the pioneers of hard rock and heavy metal. Their classic lineup, including Ian Gillan, Ritchie Blackmore, Jon Lord, Roger Glover, and Ian Paice, created a powerful sound that combined virtuosic musicianship with heavy riffs. Albums like *Machine Head* and songs such as “Smoke on the Water” became foundational to rock guitar culture. Over the decades, the band went through numerous lineup changes but continued recording and touring. Their influence can be heard in countless metal and hard rock bands that followed. **Their most important fact is that “Smoke on the Water” became one of the most famous rock songs and guitar riffs of all time.**"
+    ],
+  },
+  {
+    id: 209,
+    image2: deeppurplebio,
+    bio: [
+      "Deep Purple is an English rock band formed in the late 1960s, often cited as one of the pioneers of hard rock and heavy metal. Their classic lineup, including Ian Gillan, Ritchie Blackmore, Jon Lord, Roger Glover, and Ian Paice, created a powerful sound that combined virtuosic musicianship with heavy riffs. Albums like *Machine Head* and songs such as “Smoke on the Water” became foundational to rock guitar culture. Over the decades, the band went through numerous lineup changes but continued recording and touring. Their influence can be heard in countless metal and hard rock bands that followed. **Their most important fact is that “Smoke on the Water” became one of the most famous rock songs and guitar riffs of all time.**"
+    ],
+  },
+  {
+    id: 210,
+    image2: djangobio,
+    bio: [
+      "Django Reinhardt was a pioneering jazz guitarist and composer born in Belgium and raised in France, known for creating the style now called Gypsy jazz. Despite suffering severe burns in a fire that left two fingers on his left hand partially paralyzed, he developed a unique technique that allowed him to play with extraordinary speed and expression. He co-led the Quintette du Hot Club de France with violinist Stéphane Grappelli, producing some of the most influential jazz recordings in Europe. His improvisational brilliance and melodic sense inspired generations of guitarists across genres. **His most important fact is that he overcame a debilitating injury to become one of the most influential jazz guitarists in history.**"
+    ],
+  },
+  {
+    id: 211,
+    image2: eaglesbio,
+    bio: [
+      "Eagles are an American rock band formed in Los Angeles in the early 1970s, blending country, rock, and folk influences into a polished, harmony-rich sound. The group, featuring members like Don Henley, Glenn Frey, Joe Walsh, and Timothy B. Schmit, became one of the best-selling bands of all time. Their albums *Hotel California* and *Their Greatest Hits (1971–1975)* are among the highest-selling records in history. Songs such as “Hotel California,” “Take It Easy,” and “Desperado” became staples of classic rock radio. After breaking up in 1980, they reunited in the 1990s and continued touring to huge audiences. **Their most important fact is that *Their Greatest Hits (1971–1975)* is one of the best-selling albums of all time.**"
+    ],
+  },
+  {
+    id: 212,
+    image2: genesisbio,
+    bio: [
+      "Genesis is an English rock band formed in the late 1960s, initially known for their elaborate progressive rock compositions and theatrical stage shows. The early lineup, featuring Peter Gabriel and Steve Hackett, produced conceptually ambitious albums like *Foxtrot* and *Selling England by the Pound*. After Gabriel’s departure, Phil Collins took over lead vocals, and the band gradually shifted toward a more accessible, pop-oriented sound. This transition led to massive commercial success in the 1980s with albums such as *Invisible Touch* and *Genesis*. Their evolution from prog rock to stadium pop made them one of the most successful bands of their era. **Their most important fact is that they successfully transformed from a progressive rock band into a global pop-rock powerhouse without losing their core identity.**"
+    ],
+  },
+  {
+    id: 213,
+    image2: genesisbio,
+    bio: [
+      "Genesis is an English rock band formed in the late 1960s, initially known for their elaborate progressive rock compositions and theatrical stage shows. The early lineup, featuring Peter Gabriel and Steve Hackett, produced conceptually ambitious albums like *Foxtrot* and *Selling England by the Pound*. After Gabriel’s departure, Phil Collins took over lead vocals, and the band gradually shifted toward a more accessible, pop-oriented sound. This transition led to massive commercial success in the 1980s with albums such as *Invisible Touch* and *Genesis*. Their evolution from prog rock to stadium pop made them one of the most successful bands of their era. **Their most important fact is that they successfully transformed from a progressive rock band into a global pop-rock powerhouse without losing their core identity.**"
+    ],
+  },
+  {
+    id: 214,
+    image2: georgemichaelbio,
+    bio: [
+      "George Michael was a British singer, songwriter, and producer who first gained fame as part of the duo Wham! before becoming a major solo artist. With Wham!, he helped define 1980s pop through hits like “Wake Me Up Before You Go-Go” and “Last Christmas.” His solo debut *Faith* became a global success, blending pop, R&B, and soul influences and producing multiple chart-topping singles. Michael was known for his powerful voice, sophisticated songwriting, and willingness to address personal and social themes in his music. He also became a prominent figure in LGBTQ+ visibility and philanthropy. **His most important fact is that *Faith* established him as one of the most successful and influential solo pop artists of the late 1980s.**"
+    ],
+  },
+  {
+    id: 215,
+    image2: georgemichaelbio,
+    bio: [
+      "George Michael was a British singer, songwriter, and producer who first gained fame as part of the duo Wham! before becoming a major solo artist. With Wham!, he helped define 1980s pop through hits like “Wake Me Up Before You Go-Go” and “Last Christmas.” His solo debut *Faith* became a global success, blending pop, R&B, and soul influences and producing multiple chart-topping singles. Michael was known for his powerful voice, sophisticated songwriting, and willingness to address personal and social themes in his music. He also became a prominent figure in LGBTQ+ visibility and philanthropy. **His most important fact is that *Faith* established him as one of the most successful and influential solo pop artists of the late 1980s.**"
+    ],
+  },
+  {
+    id: 216,
+    image2: gretavanfleetbio,
+    bio: [
+      "Greta Van Fleet is an American rock band formed in Michigan, known for their retro-inspired sound that draws heavily from classic rock of the 1970s. The band features brothers Josh, Jake, and Sam Kiszka, along with drummer Danny Wagner. They gained attention with their EPs and debut album *Anthem of the Peaceful Army*, which showcased high-pitched vocals, bluesy guitar riffs, and a vintage production style. Critics and fans often compare their sound to early Led Zeppelin, sparking both praise and debate. Despite the comparisons, they have built a dedicated following and continue to refine their style on subsequent releases. **Their most important fact is that they brought a classic 1970s hard rock sound back into mainstream conversation for a new generation.**"
+    ],
+  },
+  {
+    id: 217,
+    image2: gretavanfleetbio,
+    bio: [
+      "Greta Van Fleet is an American rock band formed in Michigan, known for their retro-inspired sound that draws heavily from classic rock of the 1970s. The band features brothers Josh, Jake, and Sam Kiszka, along with drummer Danny Wagner. They gained attention with their EPs and debut album *Anthem of the Peaceful Army*, which showcased high-pitched vocals, bluesy guitar riffs, and a vintage production style. Critics and fans often compare their sound to early Led Zeppelin, sparking both praise and debate. Despite the comparisons, they have built a dedicated following and continue to refine their style on subsequent releases. **Their most important fact is that they brought a classic 1970s hard rock sound back into mainstream conversation for a new generation.**"
+    ],
+  },
+  {
+    id: 218,
+    image2: gretavanfleetbio,
+    bio: [
+      "Greta Van Fleet is an American rock band formed in Michigan, known for their retro-inspired sound that draws heavily from classic rock of the 1970s. The band features brothers Josh, Jake, and Sam Kiszka, along with drummer Danny Wagner. They gained attention with their EPs and debut album *Anthem of the Peaceful Army*, which showcased high-pitched vocals, bluesy guitar riffs, and a vintage production style. Critics and fans often compare their sound to early Led Zeppelin, sparking both praise and debate. Despite the comparisons, they have built a dedicated following and continue to refine their style on subsequent releases. **Their most important fact is that they brought a classic 1970s hard rock sound back into mainstream conversation for a new generation.**"
+    ],
+  },
+  {
+    id: 219,
+    image2: gretavanfleetbio,
+    bio: [
+      "Greta Van Fleet is an American rock band formed in Michigan, known for their retro-inspired sound that draws heavily from classic rock of the 1970s. The band features brothers Josh, Jake, and Sam Kiszka, along with drummer Danny Wagner. They gained attention with their EPs and debut album *Anthem of the Peaceful Army*, which showcased high-pitched vocals, bluesy guitar riffs, and a vintage production style. Critics and fans often compare their sound to early Led Zeppelin, sparking both praise and debate. Despite the comparisons, they have built a dedicated following and continue to refine their style on subsequent releases. **Their most important fact is that they brought a classic 1970s hard rock sound back into mainstream conversation for a new generation.**"
+    ],
+  },
+  {
+    id: 220,
+    image2: gunsandrosesbio,
+    bio: [
+      "Guns N’ Roses is an American hard rock band formed in Los Angeles in the mid-1980s, known for their raw energy, attitude, and explosive live performances. The classic lineup, including Axl Rose, Slash, Duff McKagan, Izzy Stradlin, and Steven Adler, created a sound that mixed punk aggression with bluesy hard rock. Their debut album *Appetite for Destruction* became one of the best-selling debut albums in history, featuring hits like “Welcome to the Jungle,” “Sweet Child o’ Mine,” and “Paradise City.” In the early 1990s, they expanded their sound with the *Use Your Illusion* albums, incorporating ballads, epic arrangements, and diverse influences. After years of lineup changes and hiatuses, the band reunited key members and returned to touring on a massive scale. **Their most important fact is that *Appetite for Destruction* became one of the most successful and influential hard rock debut albums ever released.**"
+    ],
+  },
+  {
+    id: 221,
+    image2: iggypopbio,
+    bio: [
+      "Iggy Pop is an American singer, songwriter, and performer often called the “Godfather of Punk” for his groundbreaking work with The Stooges and his solo career. With The Stooges, he helped create a raw, aggressive sound that laid the foundation for punk rock, combining primal riffs with confrontational stage antics. Albums like *Fun House* and *Raw Power* became cult classics and later critical touchstones. As a solo artist, Iggy explored everything from art rock to new wave, collaborating with figures like David Bowie. His influence extends far beyond commercial charts, shaping the attitude and aesthetics of punk and alternative music. **His most important fact is that his work with The Stooges was crucial in defining the sound and spirit of punk rock.**"
+    ],
+  },
+  {
+    id: 222,
+    image2: inxsbio,
+    bio: [
+      "INXS was an Australian rock band formed in Sydney, blending new wave, funk, and rock into a sleek, danceable style. Fronted by charismatic singer Michael Hutchence, they rose to international fame in the 1980s with albums like *Listen Like Thieves* and *Kick*. Songs such as “Need You Tonight,” “New Sensation,” and “Never Tear Us Apart” became global hits and staples of MTV-era rock. The band’s tight rhythm section and stylish image helped them stand out in a crowded pop-rock landscape. After Hutchence’s death in 1997, INXS continued with various vocalists but never fully recaptured their earlier prominence. **Their most important fact is that *Kick* established them as one of the leading international rock acts of the late 1980s.**"
+    ],
+  },
+  {
+    id: 223,
+    image2: janisjoplinbio,
+    bio: [
+      "Janis Joplin was an American singer known for her powerful, bluesy voice and emotionally intense performances. She emerged from the San Francisco psychedelic scene in the late 1960s, first gaining attention as the lead singer of Big Brother and the Holding Company. Her album *Cheap Thrills* and later solo work, including *Pearl*, showcased her ability to channel vulnerability and raw emotion through rock and blues. Joplin became a symbol of the counterculture and a trailblazing woman in a male-dominated rock world. Her life was cut short when she died at 27, but her influence on vocalists and rock music remains profound. **Her most important fact is that she became one of the most iconic and influential female rock singers of the 1960s despite her brief career.**"
+    ],
+  },
+  {
+    id: 224,
+    image2: jeffbuckleybio,
+    bio: [
+      "Jeff Buckley was an American singer-songwriter and guitarist celebrated for his haunting voice and emotionally rich songwriting. He gained widespread recognition with his album *Grace*, which blended rock, folk, and jazz influences into a unique, atmospheric sound. His interpretation of Leonard Cohen’s “Hallelujah” became one of the most acclaimed cover versions in modern music. Buckley’s career was tragically short; he died in 1997 while working on his second album. Despite limited output, his work has had a lasting impact on singers and songwriters across genres. **His most important fact is that his album *Grace* and his rendition of “Hallelujah” became enduring touchstones of modern singer-songwriter music.**"
+    ],
+  },
+  {
+    id: 225,
+    image2: johnlennonbio,
+    bio: [
+      "John Lennon was an English singer, songwriter, and peace activist best known as a founding member of The Beatles and later as a solo artist. With The Beatles, he helped revolutionize popular music, co-writing many of the band’s most famous songs with Paul McCartney. After the group’s breakup, Lennon pursued a solo career that combined introspective songwriting with political and social commentary. Songs like “Imagine” and “Give Peace a Chance” became anthems for peace and idealism. His life was tragically cut short when he was assassinated in New York City in 1980. **His most important fact is that as a member of The Beatles and as a solo artist, he became one of the most influential songwriters in modern music history.**"
+    ],
+  },
+  {
+    id: 226,
+    image2: johnnycashbio,
+    bio: [
+      "Johnny Cash was an American singer, songwriter, and cultural icon whose deep voice and storytelling style made him one of the most recognizable figures in country and popular music. He first rose to fame on the Sun Records label alongside artists like Elvis Presley, blending country, rockabilly, and gospel influences. Known for his “Man in Black” persona, Cash often sang about hardship, redemption, and the lives of ordinary people. His live albums, including *At Folsom Prison*, brought raw authenticity to his work and connected him with audiences far beyond traditional country fans. Late in his career, his stark, intimate recordings with producer Rick Rubin introduced him to a new generation. **His most important fact is that *At Folsom Prison* became a landmark live album that solidified his image as a voice for the marginalized and downtrodden.**"
+    ],
+  },
+  {
+    id: 227,
+    image2: johnnycashbio,
+    bio: [
+      "Johnny Cash was an American singer, songwriter, and cultural icon whose deep voice and storytelling style made him one of the most recognizable figures in country and popular music. He first rose to fame on the Sun Records label alongside artists like Elvis Presley, blending country, rockabilly, and gospel influences. Known for his “Man in Black” persona, Cash often sang about hardship, redemption, and the lives of ordinary people. His live albums, including *At Folsom Prison*, brought raw authenticity to his work and connected him with audiences far beyond traditional country fans. Late in his career, his stark, intimate recordings with producer Rick Rubin introduced him to a new generation. **His most important fact is that *At Folsom Prison* became a landmark live album that solidified his image as a voice for the marginalized and downtrodden.**"
+    ],
+  },
+  {
+    id: 228,
+    image2: johnnycashbio,
+    bio: [
+      "Johnny Cash was an American singer, songwriter, and cultural icon whose deep voice and storytelling style made him one of the most recognizable figures in country and popular music. He first rose to fame on the Sun Records label alongside artists like Elvis Presley, blending country, rockabilly, and gospel influences. Known for his “Man in Black” persona, Cash often sang about hardship, redemption, and the lives of ordinary people. His live albums, including *At Folsom Prison*, brought raw authenticity to his work and connected him with audiences far beyond traditional country fans. Late in his career, his stark, intimate recordings with producer Rick Rubin introduced him to a new generation. **His most important fact is that *At Folsom Prison* became a landmark live album that solidified his image as a voice for the marginalized and downtrodden.**"
+    ],
+  },
+  {
+    id: 229,
+    image2: kingcrimsonbio,
+    bio: [
+      "King Crimson is an English progressive rock band formed in 1969, known for their constantly evolving sound and complex compositions. Led by guitarist Robert Fripp, the band’s debut album *In the Court of the Crimson King* is often cited as one of the foundational works of progressive rock. Over the years, King Crimson has gone through numerous lineup changes, exploring everything from symphonic rock to jazz fusion and experimental metal. Their willingness to reinvent themselves has kept their music challenging and influential. Many musicians in prog, metal, and experimental rock cite King Crimson as a major inspiration. **Their most important fact is that *In the Court of the Crimson King* became a cornerstone of progressive rock and helped define the genre.**"
+    ],
+  },
+  {
+    id: 230,
+    image2: lennykravitzbio,
+    bio: [
+      "Lenny Kravitz is an American singer, songwriter, and multi-instrumentalist known for blending rock, soul, funk, and psychedelic influences into a distinctive style. He emerged in the late 1980s and early 1990s with albums like *Let Love Rule* and *Mama Said*, showcasing retro-inspired sounds and strong melodies. Kravitz often plays many of the instruments on his recordings, emphasizing a hands-on, classic rock approach. His hits include “Are You Gonna Go My Way,” “Fly Away,” and “It Ain’t Over ’Til It’s Over.” Beyond music, he has also worked as an actor and designer. **His most important fact is that “Are You Gonna Go My Way” became a defining rock anthem of the 1990s and cemented his status as a major rock artist.**"
+    ],
+  },
+  {
+    id: 231,
+    image2: michaeljacksonbio,
+    bio: [
+      "Michael Jackson was an American singer, songwriter, and dancer often called the “King of Pop” for his enormous impact on popular music and culture. He first gained fame as a child with the Jackson 5 before launching a solo career that reached unprecedented heights. Albums like *Off the Wall*, *Thriller*, and *Bad* combined innovative production, memorable melodies, and groundbreaking music videos. *Thriller* became the best-selling album of all time, and its videos helped turn MTV into a global force. Jackson’s dance moves, including the moonwalk, and his visual style influenced countless artists. **His most important fact is that *Thriller* became the best-selling album in music history and transformed the landscape of pop and music videos.**"
+    ],
+  },
+  {
+    id: 232,
+    image2: nazarethbio,
+    bio: [
+      "Nazareth is a Scottish hard rock band formed in the late 1960s, known for their gritty sound and powerful vocals. They gained international recognition in the 1970s with albums like *Hair of the Dog*, which featured the hit “Love Hurts.” The band’s style combined blues-based rock with a rough edge that appealed to fans of heavy music. Over the years, Nazareth continued to record and tour, maintaining a loyal following. Their influence can be heard in later hard rock and metal bands. **Their most important fact is that their version of “Love Hurts” became a worldwide hit and remains their signature song.**"
+    ],
+  },
+  {
+    id: 233,
+    image2: neildiamondbio,
+    bio: [
+      "Neil Diamond is an American singer-songwriter whose career spans decades, known for his rich voice and memorable melodies. He wrote and performed numerous hits, including “Sweet Caroline,” “Cracklin’ Rosie,” and “Song Sung Blue.” Diamond’s music blends pop, rock, and folk influences, often with anthemic choruses that invite audience participation. He became a major live performer, selling out arenas and stadiums around the world. His songs have become fixtures at sporting events and celebrations. **His most important fact is that “Sweet Caroline” became one of the most recognizable sing-along songs in popular music.**"
+    ],
+  },
+  {
+    id: 234,
+    image2: nickcavebio,
+    bio: [
+      "Nick Cave is an Australian singer, songwriter, and author best known for his work with Nick Cave and the Bad Seeds. His music often explores themes of love, death, faith, and violence, delivered through a deep voice and poetic lyrics. Early in his career, he fronted the post-punk band The Birthday Party, known for its intense, chaotic sound. With the Bad Seeds, he developed a more varied style, ranging from dark ballads to explosive rock. Albums like *The Boatman’s Call* and *Skeleton Tree* highlight his ability to combine emotional vulnerability with literary depth. **His most important fact is that his work with the Bad Seeds established him as one of the most distinctive and influential songwriters in alternative rock.**"
+    ],
+  },
+  {
+    id: 235,
+    image2: nickcavebio,
+    bio: [
+      "Nick Cave is an Australian singer, songwriter, and author best known for his work with Nick Cave and the Bad Seeds. His music often explores themes of love, death, faith, and violence, delivered through a deep voice and poetic lyrics. Early in his career, he fronted the post-punk band The Birthday Party, known for its intense, chaotic sound. With the Bad Seeds, he developed a more varied style, ranging from dark ballads to explosive rock. Albums like *The Boatman’s Call* and *Skeleton Tree* highlight his ability to combine emotional vulnerability with literary depth. **His most important fact is that his work with the Bad Seeds established him as one of the most distinctive and influential songwriters in alternative rock.**"
+    ],
+  },
+  {
+    id: 236,
+    image2: nineinchnailsbio,
+    bio: [
+      "Nine Inch Nails is an American industrial rock project led by musician Trent Reznor. Emerging in the late 1980s and early 1990s, Nine Inch Nails combined electronic textures, distorted guitars, and introspective lyrics into a dark, intense sound. Albums like *Pretty Hate Machine*, *The Downward Spiral*, and *The Fragile* became landmarks of industrial and alternative rock. Reznor’s work often explores themes of alienation, self-destruction, and technological anxiety. Beyond the band, he has composed acclaimed film scores and won major awards. **Their most important fact is that *The Downward Spiral* became a defining industrial rock album and a major influence on alternative music.**"
+    ],
+  },
+  {
+    id: 237,
+    image2: phillipboabio,
+    bio: [
+      "Phillip Boa is a German singer, songwriter, and bandleader best known for his work with Phillip Boa and the Voodooclub. His music blends indie rock, post-punk, and avant-garde influences, often featuring unusual arrangements and ironic lyrics. Boa became a notable figure in the German alternative scene from the late 1980s onward. His albums have cultivated a dedicated fan base, particularly in Europe. **His most important fact is that Phillip Boa and the Voodooclub became one of the key names in German indie and alternative rock.**"
+    ],
+  },
+  {
+    id: 238,
+    image2: pinkfloydbio,
+    bio: [
+      "Pink Floyd is an English rock band formed in the 1960s, renowned for their progressive and psychedelic music, conceptual albums, and elaborate live shows. Early on, under Syd Barrett’s leadership, they explored experimental psychedelia before evolving into a more expansive, philosophical style. With members like David Gilmour, Roger Waters, Richard Wright, and Nick Mason, they created classic albums such as *The Dark Side of the Moon*, *Wish You Were Here*, and *The Wall*. Their music often addresses themes of alienation, mental health, and societal pressures, wrapped in lush soundscapes and innovative production. Pink Floyd’s visual presentation, including stage designs and album art, became integral to their identity. **Their most important fact is that *The Dark Side of the Moon* became one of the best-selling and most influential albums in rock history.**"
+    ],
+  },
+  {
+    id: 239,
+    image2: pinkfloydbio,
+    bio: [
+      "Pink Floyd is an English rock band formed in the 1960s, renowned for their progressive and psychedelic music, conceptual albums, and elaborate live shows. Early on, under Syd Barrett’s leadership, they explored experimental psychedelia before evolving into a more expansive, philosophical style. With members like David Gilmour, Roger Waters, Richard Wright, and Nick Mason, they created classic albums such as *The Dark Side of the Moon*, *Wish You Were Here*, and *The Wall*. Their music often addresses themes of alienation, mental health, and societal pressures, wrapped in lush soundscapes and innovative production. Pink Floyd’s visual presentation, including stage designs and album art, became integral to their identity. **Their most important fact is that *The Dark Side of the Moon* became one of the best-selling and most influential albums in rock history.**"
+    ],
+  },
+  {
+    id: 240,
+    image2: pinkfloydbio,
+    bio: [
+      "Pink Floyd is an English rock band formed in the 1960s, renowned for their progressive and psychedelic music, conceptual albums, and elaborate live shows. Early on, under Syd Barrett’s leadership, they explored experimental psychedelia before evolving into a more expansive, philosophical style. With members like David Gilmour, Roger Waters, Richard Wright, and Nick Mason, they created classic albums such as *The Dark Side of the Moon*, *Wish You Were Here*, and *The Wall*. Their music often addresses themes of alienation, mental health, and societal pressures, wrapped in lush soundscapes and innovative production. Pink Floyd’s visual presentation, including stage designs and album art, became integral to their identity. **Their most important fact is that *The Dark Side of the Moon* became one of the best-selling and most influential albums in rock history.**"
+    ],
+  },
+  {
+    id: 241,
+    image2: pinkfloydbio,
+    bio: [
+      "Pink Floyd is an English rock band formed in the 1960s, renowned for their progressive and psychedelic music, conceptual albums, and elaborate live shows. Early on, under Syd Barrett’s leadership, they explored experimental psychedelia before evolving into a more expansive, philosophical style. With members like David Gilmour, Roger Waters, Richard Wright, and Nick Mason, they created classic albums such as *The Dark Side of the Moon*, *Wish You Were Here*, and *The Wall*. Their music often addresses themes of alienation, mental health, and societal pressures, wrapped in lush soundscapes and innovative production. Pink Floyd’s visual presentation, including stage designs and album art, became integral to their identity. **Their most important fact is that *The Dark Side of the Moon* became one of the best-selling and most influential albums in rock history.**"
+    ],
+  },
+  {
+    id: 242,
+    image2: pinkfloydbio,
+    bio: [
+      "Pink Floyd is an English rock band formed in the 1960s, renowned for their progressive and psychedelic music, conceptual albums, and elaborate live shows. Early on, under Syd Barrett’s leadership, they explored experimental psychedelia before evolving into a more expansive, philosophical style. With members like David Gilmour, Roger Waters, Richard Wright, and Nick Mason, they created classic albums such as *The Dark Side of the Moon*, *Wish You Were Here*, and *The Wall*. Their music often addresses themes of alienation, mental health, and societal pressures, wrapped in lush soundscapes and innovative production. Pink Floyd’s visual presentation, including stage designs and album art, became integral to their identity. **Their most important fact is that *The Dark Side of the Moon* became one of the best-selling and most influential albums in rock history.**"
+    ],
+  },
+  {
+    id: 243,
+    image2: pinkfloydbio,
+    bio: [
+      "Pink Floyd is an English rock band formed in the 1960s, renowned for their progressive and psychedelic music, conceptual albums, and elaborate live shows. Early on, under Syd Barrett’s leadership, they explored experimental psychedelia before evolving into a more expansive, philosophical style. With members like David Gilmour, Roger Waters, Richard Wright, and Nick Mason, they created classic albums such as *The Dark Side of the Moon*, *Wish You Were Here*, and *The Wall*. Their music often addresses themes of alienation, mental health, and societal pressures, wrapped in lush soundscapes and innovative production. Pink Floyd’s visual presentation, including stage designs and album art, became integral to their identity. **Their most important fact is that *The Dark Side of the Moon* became one of the best-selling and most influential albums in rock history.**"
+    ],
+  },
+  {
+    id: 244,
+    image2: polyphiabio,
+    bio: [
+      "Polyphia is an American instrumental progressive rock band known for blending technical guitar work with elements of hip-hop, EDM, and pop. Formed in Texas, they gained attention through online videos showcasing virtuosic playing and modern production. Their albums and EPs feature intricate riffs, unconventional song structures, and collaborations with other musicians. Polyphia’s style reflects a new generation of guitar-focused music that embraces digital production and genre fusion. **Their most important fact is that they helped redefine modern instrumental guitar music by mixing prog, hip-hop, and pop influences.**"
+    ],
+  },
+  {
+    id: 245,
+    image2: portisheadbio,
+    bio: [
+      "Portishead is an English band formed in the early 1990s, often associated with the trip-hop movement. The group, led by vocalist Beth Gibbons and producer Geoff Barrow, created a dark, cinematic sound that combined hip-hop beats, jazz samples, and haunting vocals. Their debut album *Dummy* became a critical and cult favorite, influencing countless artists in electronic and alternative music. Portishead’s work is known for its emotional intensity and meticulous production. They have released relatively few albums but each has had a significant impact. **Their most important fact is that *Dummy* became one of the defining albums of trip-hop and a landmark in 1990s electronic music.**"
+    ],
+  },
+  {
+    id: 246,
+    image2: princebio,
+    bio: [
+      "Prince was an American singer, songwriter, multi-instrumentalist, and producer whose creativity and virtuosity made him one of the most influential musicians of the late 20th century. He blended funk, rock, pop, R&B, and jazz into a unique style, often playing most or all instruments on his recordings. Albums like *1999*, *Purple Rain*, and *Sign o’ the Times* showcased his songwriting, guitar skills, and innovative production. Prince was also known for his flamboyant stage presence, visual style, and battles for artistic control over his work. His influence extends across genres and generations. **His most important fact is that *Purple Rain* became a cultural phenomenon, cementing his status as a global superstar and musical innovator.**"
+    ],
+  },
+  {
+    id: 247,
+    image2: princebio,
+    bio: [
+      "Prince was an American singer, songwriter, multi-instrumentalist, and producer whose creativity and virtuosity made him one of the most influential musicians of the late 20th century. He blended funk, rock, pop, R&B, and jazz into a unique style, often playing most or all instruments on his recordings. Albums like *1999*, *Purple Rain*, and *Sign o’ the Times* showcased his songwriting, guitar skills, and innovative production. Prince was also known for his flamboyant stage presence, visual style, and battles for artistic control over his work. His influence extends across genres and generations. **His most important fact is that *Purple Rain* became a cultural phenomenon, cementing his status as a global superstar and musical innovator.**"
+    ],
+  },
+  {
+    id: 248,
+    image2: princebio,
+    bio: [
+      "Prince was an American singer, songwriter, multi-instrumentalist, and producer whose creativity and virtuosity made him one of the most influential musicians of the late 20th century. He blended funk, rock, pop, R&B, and jazz into a unique style, often playing most or all instruments on his recordings. Albums like *1999*, *Purple Rain*, and *Sign o’ the Times* showcased his songwriting, guitar skills, and innovative production. Prince was also known for his flamboyant stage presence, visual style, and battles for artistic control over his work. His influence extends across genres and generations. **His most important fact is that *Purple Rain* became a cultural phenomenon, cementing his status as a global superstar and musical innovator.**"
+    ],
+  },
+  {
+    id: 249,
+    image2: pusciferbio,
+    bio: [
+      "Puscifer is an American rock project led by Maynard James Keenan, also known for his work with Tool and A Perfect Circle. Puscifer serves as a more experimental and theatrical outlet, blending rock, electronic, and ambient elements. The project often incorporates humor, multimedia concepts, and evolving lineups. Albums like *Conditions of My Parole* and *Money Shot* showcase a mix of introspective songs and playful, surreal themes. **Their most important fact is that Puscifer allows Maynard James Keenan to explore a more experimental and multimedia-driven side of his artistry beyond his main bands.**"
+    ],
+  },
+  {
+    id: 250,
+    image2: queenbio,
+    bio: [
+      "Queen is a British rock band formed in the early 1970s, known for their theatrical style, complex arrangements, and powerful performances. The classic lineup of Freddie Mercury, Brian May, Roger Taylor, and John Deacon produced a wide range of music, from hard rock to pop and opera-inspired pieces. Albums like *A Night at the Opera* and songs such as “Bohemian Rhapsody,” “We Will Rock You,” and “We Are the Champions” became global anthems. Queen’s live shows, including their legendary performance at Live Aid in 1985, showcased Mercury’s charisma and the band’s ability to engage massive audiences. Their influence continues through ongoing tours and the enduring popularity of their recordings. **Their most important fact is that “Bohemian Rhapsody” became one of the most iconic and innovative songs in rock history.**"
+    ],
+  },
+  {
+    id: 251,
+    image2: radioheadbio,
+    bio: [
+      "Radiohead is an English rock band formed in the late 1980s, known for constantly reinventing their sound and pushing the boundaries of alternative rock. They first gained widespread attention with the single “Creep” and the album *Pablo Honey*, but quickly moved beyond grunge influences. With *The Bends* and *OK Computer*, they developed a more sophisticated, atmospheric style that addressed technology, alienation, and modern life. Later albums like *Kid A* and *Amnesiac* incorporated electronic and experimental elements, influencing a generation of musicians. Radiohead’s approach to releasing music, including pay-what-you-want models, also challenged industry norms. **Their most important fact is that *OK Computer* became a landmark album in alternative rock, widely regarded as one of the greatest records of the 1990s.**"
+    ],
+  },
+  {
+    id: 252,
+    image2: radioheadbio,
+    bio: [
+      "Radiohead is an English rock band formed in the late 1980s, known for constantly reinventing their sound and pushing the boundaries of alternative rock. They first gained widespread attention with the single “Creep” and the album *Pablo Honey*, but quickly moved beyond grunge influences. With *The Bends* and *OK Computer*, they developed a more sophisticated, atmospheric style that addressed technology, alienation, and modern life. Later albums like *Kid A* and *Amnesiac* incorporated electronic and experimental elements, influencing a generation of musicians. Radiohead’s approach to releasing music, including pay-what-you-want models, also challenged industry norms. **Their most important fact is that *OK Computer* became a landmark album in alternative rock, widely regarded as one of the greatest records of the 1990s.**"
+    ],
+  },
+  {
+    id: 253,
+    image2: radioheadbio,
+    bio: [
+      "Radiohead is an English rock band formed in the late 1980s, known for constantly reinventing their sound and pushing the boundaries of alternative rock. They first gained widespread attention with the single “Creep” and the album *Pablo Honey*, but quickly moved beyond grunge influences. With *The Bends* and *OK Computer*, they developed a more sophisticated, atmospheric style that addressed technology, alienation, and modern life. Later albums like *Kid A* and *Amnesiac* incorporated electronic and experimental elements, influencing a generation of musicians. Radiohead’s approach to releasing music, including pay-what-you-want models, also challenged industry norms. **Their most important fact is that *OK Computer* became a landmark album in alternative rock, widely regarded as one of the greatest records of the 1990s.**"
+    ],
+  },
+  {
+    id: 254,
+    image2: rageagainstthemachinebio,
+    bio: [
+      "Rage Against the Machine is an American band formed in the early 1990s, known for combining heavy metal riffs with rap vocals and politically charged lyrics. Fronted by Zack de la Rocha and driven by Tom Morello’s inventive guitar work, they created a powerful, confrontational sound. Their self-titled debut album featured songs like “Killing in the Name,” which became an anthem of protest and resistance. The band’s music addresses issues such as inequality, corporate power, and social justice. Rage Against the Machine’s influence can be heard in later rap-rock and politically engaged bands. **Their most important fact is that “Killing in the Name” became one of the most recognizable protest songs in modern rock.**"
+    ],
+  },
+  {
+    id: 255,
+    image2: rembio,
+    bio: [
+      "R.E.M. is an American rock band formed in Athens, Georgia, often credited with helping define alternative rock in the 1980s and 1990s. Early on, they developed a jangly guitar sound and cryptic lyrics that set them apart from mainstream rock. Albums like *Murmur* and *Reckoning* built a strong underground following, while later releases such as *Document* and *Green* brought them wider attention. Their 1991 album *Out of Time*, featuring “Losing My Religion,” propelled them to global fame. R.E.M. balanced commercial success with artistic integrity and political engagement. **Their most important fact is that “Losing My Religion” became a breakthrough hit that brought alternative rock into the mainstream.**"
+    ],
+  },
+  {
+    id: 256,
+    image2: rembio,
+    bio: [
+      "R.E.M. is an American rock band formed in Athens, Georgia, often credited with helping define alternative rock in the 1980s and 1990s. Early on, they developed a jangly guitar sound and cryptic lyrics that set them apart from mainstream rock. Albums like *Murmur* and *Reckoning* built a strong underground following, while later releases such as *Document* and *Green* brought them wider attention. Their 1991 album *Out of Time*, featuring “Losing My Religion,” propelled them to global fame. R.E.M. balanced commercial success with artistic integrity and political engagement. **Their most important fact is that “Losing My Religion” became a breakthrough hit that brought alternative rock into the mainstream.**"
+    ],
+  },
+  {
+    id: 257,
+    image2: simplemindsbio,
+    bio: [
+      "Simple Minds are a Scottish rock band formed in the late 1970s, known for their evolution from post-punk and new wave into stadium-sized rock. Early albums explored atmospheric, experimental sounds, while later releases embraced more anthemic, accessible styles. They achieved major success with songs like “Don’t You (Forget About Me),” featured in the film *The Breakfast Club*, and “Alive and Kicking.” Simple Minds became a prominent live act, especially in Europe. **Their most important fact is that “Don’t You (Forget About Me)” became a defining 1980s anthem and their most famous song.**"
+    ],
+  },
+  {
+    id: 258,
+    image2: simplemindsbio,
+    bio: [
+      "Simple Minds are a Scottish rock band formed in the late 1970s, known for their evolution from post-punk and new wave into stadium-sized rock. Early albums explored atmospheric, experimental sounds, while later releases embraced more anthemic, accessible styles. They achieved major success with songs like “Don’t You (Forget About Me),” featured in the film *The Breakfast Club*, and “Alive and Kicking.” Simple Minds became a prominent live act, especially in Europe. **Their most important fact is that “Don’t You (Forget About Me)” became a defining 1980s anthem and their most famous song.**"
+    ],
+  },
+  {
+    id: 259,
+    image2: simonandgarfunkelbio,
+    bio: [
+      "Simon & Garfunkel were an American folk-rock duo consisting of Paul Simon and Art Garfunkel. They became known for their delicate harmonies and introspective songwriting in the 1960s. Albums like *Parsley, Sage, Rosemary and Thyme* and *Bridge Over Troubled Water* produced numerous classics, including “The Sound of Silence,” “Mrs. Robinson,” and “Bridge Over Troubled Water.” Their music often reflected the social and emotional currents of the era. Although they eventually split, both members pursued successful solo careers. **Their most important fact is that “Bridge Over Troubled Water” became one of the most celebrated songs of the era and a timeless standard.**"
+    ],
+  },
+  {
+    id: 260,
+    image2: statusquobio,
+    bio: [
+      "Status Quo is an English rock band known for their boogie rock style and long career. They achieved success with songs like “Pictures of Matchstick Men” and “Rockin’ All Over the World.” The band’s straightforward, guitar-driven sound and energetic live shows earned them a loyal fan base. Over decades, Status Quo released numerous albums and became a fixture of British rock culture. **Their most important fact is that “Rockin’ All Over the World” became a signature anthem and a staple of their live performances.**"
+    ],
+  },
+  {
+    id: 261,
+    image2: stereophonicsbio,
+    bio: [
+      "Stereophonics are a Welsh rock band formed in the 1990s, known for their gritty vocals and melodic guitar-based songs. Led by singer and guitarist Kelly Jones, they gained popularity with albums like *Word Gets Around* and *Performance and Cocktails*. Their music often blends rock, pop, and storytelling about everyday life. Stereophonics became one of the prominent British bands of the late 1990s and 2000s, regularly appearing on charts and festival lineups. **Their most important fact is that they became a key part of the post-Britpop wave, maintaining consistent success over multiple decades.**"
+    ],
+  },
+  {
+    id: 262,
+    image2: supertrampbio,
+    bio: [
+      "Supertramp is a British rock band formed in the late 1960s, known for their blend of progressive rock and pop with distinctive keyboard-driven arrangements. The classic lineup, featuring Rick Davies and Roger Hodgson, produced albums like *Crime of the Century* and *Breakfast in America*. Their songs often combined introspective lyrics with catchy melodies, including hits such as “The Logical Song,” “Dreamer,” and “Give a Little Bit.” Supertramp’s sound became a staple of 1970s and early 1980s radio. **Their most important fact is that *Breakfast in America* became their most successful album and a defining record of late-1970s pop-rock.**"
+    ],
+  },
+  {
+    id: 263,
+    image2: supertrampbio,
+    bio: [
+      "Supertramp is a British rock band formed in the late 1960s, known for their blend of progressive rock and pop with distinctive keyboard-driven arrangements. The classic lineup, featuring Rick Davies and Roger Hodgson, produced albums like *Crime of the Century* and *Breakfast in America*. Their songs often combined introspective lyrics with catchy melodies, including hits such as “The Logical Song,” “Dreamer,” and “Give a Little Bit.” Supertramp’s sound became a staple of 1970s and early 1980s radio. **Their most important fact is that *Breakfast in America* became their most successful album and a defining record of late-1970s pop-rock.**"
+    ],
+  },
+  {
+    id: 264,
+    image2: supertrampbio,
+    bio: [
+      "Supertramp is a British rock band formed in the late 1960s, known for their blend of progressive rock and pop with distinctive keyboard-driven arrangements. The classic lineup, featuring Rick Davies and Roger Hodgson, produced albums like *Crime of the Century* and *Breakfast in America*. Their songs often combined introspective lyrics with catchy melodies, including hits such as “The Logical Song,” “Dreamer,” and “Give a Little Bit.” Supertramp’s sound became a staple of 1970s and early 1980s radio. **Their most important fact is that *Breakfast in America* became their most successful album and a defining record of late-1970s pop-rock.**"
+    ],
+  },
+  {
+    id: 265,
+    image2: supertrampbio,
+    bio: [
+      "Supertramp is a British rock band formed in the late 1960s, known for their blend of progressive rock and pop with distinctive keyboard-driven arrangements. The classic lineup, featuring Rick Davies and Roger Hodgson, produced albums like *Crime of the Century* and *Breakfast in America*. Their songs often combined introspective lyrics with catchy melodies, including hits such as “The Logical Song,” “Dreamer,” and “Give a Little Bit.” Supertramp’s sound became a staple of 1970s and early 1980s radio. **Their most important fact is that *Breakfast in America* became their most successful album and a defining record of late-1970s pop-rock.**"
+    ],
+  },
+  {
+    id: 266,
+    image2: supertrampbio,
+    bio: [
+      "Supertramp is a British rock band formed in the late 1960s, known for their blend of progressive rock and pop with distinctive keyboard-driven arrangements. The classic lineup, featuring Rick Davies and Roger Hodgson, produced albums like *Crime of the Century* and *Breakfast in America*. Their songs often combined introspective lyrics with catchy melodies, including hits such as “The Logical Song,” “Dreamer,” and “Give a Little Bit.” Supertramp’s sound became a staple of 1970s and early 1980s radio. **Their most important fact is that *Breakfast in America* became their most successful album and a defining record of late-1970s pop-rock.**"
+    ],
+  },
+  {
+    id: 267,
+    image2: supertrampbio,
+    bio: [
+      "Supertramp is a British rock band formed in the late 1960s, known for their blend of progressive rock and pop with distinctive keyboard-driven arrangements. The classic lineup, featuring Rick Davies and Roger Hodgson, produced albums like *Crime of the Century* and *Breakfast in America*. Their songs often combined introspective lyrics with catchy melodies, including hits such as “The Logical Song,” “Dreamer,” and “Give a Little Bit.” Supertramp’s sound became a staple of 1970s and early 1980s radio. **Their most important fact is that *Breakfast in America* became their most successful album and a defining record of late-1970s pop-rock.**"
+    ],
+  },
+  {
+    id: 268,
+    image2: talkingheadsbio,
+    bio: [
+      "Talking Heads were an American band formed in New York City, associated with the punk and new wave scenes of the late 1970s. Led by David Byrne, they combined art-rock sensibilities with funk, world music, and conceptual lyrics. Albums like *Fear of Music* and *Remain in Light* showcased their innovative use of rhythm and texture. Their live performances, including the concert film *Stop Making Sense*, became iconic for their creativity and energy. Talking Heads influenced countless alternative and indie bands. **Their most important fact is that *Remain in Light* became a landmark album in art-rock and world-influenced new wave.**"
+    ],
+  },
+  {
+    id: 269,
+    image2: téléphonebio,
+    bio: [
+      "Téléphone was a French rock band formed in the late 1970s, becoming one of the most popular rock groups in France. Their music combined energetic guitar work with catchy melodies and French-language lyrics that resonated with local audiences. Albums like *Dure Limite* helped establish them as a major force in French rock. Téléphone’s songs remain influential and are often cited as classics of French popular music. **Their most important fact is that they became one of the first French rock bands to achieve massive mainstream success while singing primarily in French.**"
+    ],
+  },
+  {
+    id: 270,
+    image2: theclashbio,
+    bio: [
+      "The Clash were an English punk rock band formed in the mid-1970s, known for combining punk energy with reggae, rockabilly, and political lyrics. Fronted by Joe Strummer and Mick Jones, they quickly became one of the most important bands of the punk era. Albums like *London Calling* and *Sandinista!* expanded their sound and addressed social and political issues. “London Calling” in particular is often cited as one of the greatest rock albums ever made. The Clash’s influence extends far beyond punk, shaping alternative and rock music for decades. **Their most important fact is that *London Calling* became a landmark album that redefined what punk and rock could be.**"
+    ],
+  },
+  {
+    id: 271,
+    image2: thecurebio,
+    bio: [
+      "The Cure is an English band formed in the late 1970s, known for their evolution from post-punk and gothic rock into a more diverse alternative sound. Led by Robert Smith, they created dark, atmospheric music on albums like *Pornography* and later embraced poppier styles on records such as *The Head on the Door* and *Disintegration*. Songs like “Just Like Heaven,” “Lovesong,” and “Friday I’m in Love” became staples of alternative radio. The Cure’s visual style and emotional lyrics made them icons of goth and alternative culture. **Their most important fact is that *Disintegration* is widely regarded as one of the greatest gothic and alternative rock albums.**"
+    ],
+  },
+  {
+    id: 272,
+    image2: thecurebio,
+    bio: [
+      "The Cure is an English band formed in the late 1970s, known for their evolution from post-punk and gothic rock into a more diverse alternative sound. Led by Robert Smith, they created dark, atmospheric music on albums like *Pornography* and later embraced poppier styles on records such as *The Head on the Door* and *Disintegration*. Songs like “Just Like Heaven,” “Lovesong,” and “Friday I’m in Love” became staples of alternative radio. The Cure’s visual style and emotional lyrics made them icons of goth and alternative culture. **Their most important fact is that *Disintegration* is widely regarded as one of the greatest gothic and alternative rock albums.**"
+    ],
+  },
+  {
+    id: 273,
+    image2: thepolicebio,
+    bio: [
+      "The Police were a British band formed in the late 1970s, blending rock, reggae, and new wave influences. The trio of Sting, Andy Summers, and Stewart Copeland created a distinctive sound characterized by tight rhythms and melodic bass lines. Albums like *Reggatta de Blanc* and *Synchronicity* produced hits such as “Message in a Bottle,” “Every Breath You Take,” and “Roxanne.” The Police became one of the biggest bands of the early 1980s before disbanding, with Sting pursuing a successful solo career. **Their most important fact is that “Every Breath You Take” became one of the most recognizable songs of the 1980s and a massive global hit.**"
+    ],
+  },
+  {
+    id: 274,
+    image2: therollingstonesbio,
+    bio: [
+      "The Rolling Stones are an English rock band formed in the early 1960s, often called “the greatest rock and roll band in the world.” Led by Mick Jagger and Keith Richards, they drew heavily from blues and R&B, creating a raw, rebellious sound. Albums like *Sticky Fingers*, *Exile on Main St.*, and *Let It Bleed* are considered classics of rock music. The Stones became known for their longevity, continuing to tour and record for decades. Their influence on rock style, attitude, and songwriting is immense. **Their most important fact is that they helped define the image and sound of rock and roll, remaining active and influential for over half a century.**"
+    ],
+  },
+  {
+    id: 275,
+    image2: therollingstonesbio,
+    bio: [
+      "The Rolling Stones are an English rock band formed in the early 1960s, often called “the greatest rock and roll band in the world.” Led by Mick Jagger and Keith Richards, they drew heavily from blues and R&B, creating a raw, rebellious sound. Albums like *Sticky Fingers*, *Exile on Main St.*, and *Let It Bleed* are considered classics of rock music. The Stones became known for their longevity, continuing to tour and record for decades. Their influence on rock style, attitude, and songwriting is immense. **Their most important fact is that they helped define the image and sound of rock and roll, remaining active and influential for over half a century.**"
+    ],
+  },
+  {
+    id: 276,
+    image2: thesmilebio,
+    bio: [
+      "The Smile is an English band formed by Radiohead members Thom Yorke and Jonny Greenwood, along with drummer Tom Skinner. The project allows them to explore a different set of influences, including post-punk, jazz, and experimental rock. Their debut releases feature intricate rhythms, angular guitar work, and Yorke’s distinctive vocals. The Smile has been praised for its adventurous songwriting and live performances. **Their most important fact is that the band showcases a more raw and experimental side of members of Radiohead, expanding their musical universe.**"
+    ],
+  },
+  {
+    id: 277,
+    image2: thewhitestripesbio,
+    bio: [
+      "The White Stripes were an American rock duo consisting of Jack White and Meg White, known for their minimalist setup and raw sound. Emerging from Detroit’s garage rock scene, they combined blues, punk, and classic rock influences. Albums like *White Blood Cells* and *Elephant* brought them international fame, with “Seven Nation Army” becoming a global anthem. Their red, white, and black visual aesthetic and stripped-down instrumentation made them instantly recognizable. The band disbanded in the 2010s, but their influence on garage and alternative rock remains strong. **Their most important fact is that “Seven Nation Army” became one of the most recognizable riffs in modern rock and a worldwide stadium chant.**"
+    ],
+  },
+  {
+    id: 278,
+    image2: U2bio,
+    bio: [
+      "U2 is an Irish rock band formed in Dublin in the late 1970s, known for their anthemic sound and socially conscious lyrics. The lineup of Bono, The Edge, Adam Clayton, and Larry Mullen Jr. has remained stable throughout their career. They achieved global success with albums like *The Joshua Tree*, which combined atmospheric guitar work with themes of spirituality and politics. U2’s live shows are famous for their scale and emotional impact. The band has also been heavily involved in humanitarian and political causes. **Their most important fact is that *The Joshua Tree* became one of the most acclaimed and best-selling albums of the 1980s.**"
+    ],
+  },
+  {
+    id: 279,
+    image2: yesbio,
+    bio: [
+      "Yes is an English progressive rock band formed in the late 1960s, known for their complex compositions and virtuosic musicianship. They combined rock with classical and jazz influences, creating long, intricate pieces. Albums like *Fragile* and *Close to the Edge* are considered landmarks of progressive rock. The band’s lineup has changed many times, but their emphasis on technical skill and ambitious arrangements remains. **Their most important fact is that *Close to the Edge* became one of the most celebrated and influential progressive rock albums.**"
+    ],
+  },
+  {
+    id: 280,
+    image2: yesbio,
+    bio: [
+      "Yes is an English progressive rock band formed in the late 1960s, known for their complex compositions and virtuosic musicianship. They combined rock with classical and jazz influences, creating long, intricate pieces. Albums like *Fragile* and *Close to the Edge* are considered landmarks of progressive rock. The band’s lineup has changed many times, but their emphasis on technical skill and ambitious arrangements remains. **Their most important fact is that *Close to the Edge* became one of the most celebrated and influential progressive rock albums.**"
+    ],
+  },
+  {
+    id: 281,
+    image2: pulpfictionbio,
+    bio: [
+      "“Pulp Fiction” is a 1994 American film directed by Quentin Tarantino, known for its nonlinear narrative, stylized dialogue, and eclectic soundtrack. The movie weaves together multiple stories involving crime, redemption, and dark humor. Its soundtrack features a mix of surf rock, soul, and classic rock songs that became closely associated with the film’s atmosphere. “Pulp Fiction” had a major impact on independent cinema and pop culture. **Its most important fact is that it became one of the most influential films of the 1990s, with a soundtrack that helped revive interest in surf and retro rock music.**"
+    ],
+  },
+];
+
 export const artistBioAderito = [
 	{
 		id: 400,
