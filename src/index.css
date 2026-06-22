@@ -1250,17 +1250,15 @@ Collections Card 1 Section - Vinyl record cards
 .artist-info-1 {
   flex: 1;
   display: flex;
-  align-items: center;
-  margin-bottom: 0;
+  flex-direction: column;   /*  left align text */
+  margin: 0;
 }
 
 .detail-artist-bio {
   color: var(--clr-grey-5);
-  line-height: 1.8;
-  font-size: 0.95rem;
-  margin-bottom: 0;
-  flex-direction: column;
-
+  line-height: 1.4;        /*  slightly tighter than 1.2 */
+  margin: 0;
+  flex-direction: column;  /*  optional: better readability */
 }
 
 .detail-artist-bio b,
