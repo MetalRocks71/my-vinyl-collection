@@ -44,17 +44,16 @@ const GlowAlbumCard = ({ id, image, title, band, date, length, genre, detailPath
 	}
 
 	// mobile (finger move)
-	const handleTouchMove = (e) => {
-		const touch = e.touches[0]
-		updatePosition(touch.clientX, touch.clientY)
+const handleTouchStart = (e) => {
+	const touch = e.touches[0]
+	updatePosition(touch.clientX, touch.clientY)
+	cardRef.current.classList.add('active')
+}
 
-		// activate glow manually (replaces :hover)
-		cardRef.current.classList.add('active')
-	}
-
-	const handleTouchStart = () => {
-		cardRef.current.classList.add('active')
-	}
+const handleTouchMove = (e) => {
+	const touch = e.touches[0]
+	updatePosition(touch.clientX, touch.clientY)
+}
 
 	const resetCard = () => {
 		const card = cardRef.current
