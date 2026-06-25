@@ -1,11 +1,11 @@
-import { useRef } from 'react'
+import { useRef, useEffect } from 'react'
 import { useNavigate } from 'react-router-dom'
 
-const GlowAlbumCard = ({ id, image, title, band, date, length, genre, detailPath ='album' }) => {
+const GlowAlbumCard = ({ id, image, title, band, date, length, genre, detailPath = 'album' }) => {
 	const cardRef = useRef(null)
 	const coverRef = useRef(null)
 	const navigate = useNavigate()
-	// shared logic (mouse + touch)
+
 	const updatePosition = (clientX, clientY) => {
 		const card = cardRef.current
 		const cover = coverRef.current
@@ -38,42 +38,6 @@ const GlowAlbumCard = ({ id, image, title, band, date, length, genre, detailPath
 		card.style.setProperty('--angle', `${angle}deg`)
 	}
 
-	// desktop
-	const handleMouseMove = (e) => {
-		updatePosition(e.clientX, e.clientY)
-	}
-
-	// mobile (finger move)
-const handleTouchStart = (e) => {
-	e.preventDefault() // stops synthetic mouse events after touch
-	const touch = e.touches[0]
-	updatePosition(touch.clientX, touch.clientY)
-	cardRef.current.classList.add('active')
-}
-
-const handleTouchMove = (e) => {
-	const touch = e.touches[0]
-	updatePosition(touch.clientX, touch.clientY)
-}
-
-const handleTouchEnd = (e) => {
-	e.preventDefault()
-	resetCard()
-
-	// only navigate if finger didn't move (i.e. it was a tap, not a scroll)
-	const touch = e.changedTouches[0]
-	const rect = cardRef.current.getBoundingClientRect()
-	const stillInside =
-		touch.clientX >= rect.left &&
-		touch.clientX <= rect.right &&
-		touch.clientY >= rect.top &&
-		touch.clientY <= rect.bottom
-
-	if (stillInside) {
-		navigate(`/${detailPath}/${id}`)
-	}
-}
-
 	const resetCard = () => {
 		const card = cardRef.current
 		const cover = coverRef.current
@@ -87,6 +51,57 @@ const handleTouchEnd = (e) => {
 		card.classList.remove('active')
 	}
 
+	useEffect(() => {
+		const card = cardRef.current
+		if (!card) return
+
+		card.addEventListener('touchmove', handleTouchMove, { passive: false })
+		return () => card.removeEventListener('touchmove', handleTouchMove)
+	},)
+
+	const handleMouseMove = (e) => {
+		updatePosition(e.clientX, e.clientY)
+	}
+
+	const handleClick = (e) => {
+		if (e.pointerType === 'touch') return
+		navigate(`/${detailPath}/${id}`)
+	}
+
+	const handleTouchStart = (e) => {
+		e.preventDefault()
+		const touch = e.touches[0]
+		updatePosition(touch.clientX, touch.clientY)
+		cardRef.current.classList.add('active')
+	}
+
+	const handleTouchMove = (e) => {
+		e.preventDefault()
+		const touch = e.touches[0]
+		updatePosition(touch.clientX, touch.clientY)
+	}
+
+	const handleTouchEnd = (e) => {
+		e.preventDefault()
+		resetCard()
+
+		const touch = e.changedTouches[0]
+		const rect = cardRef.current.getBoundingClientRect()
+		const stillInside =
+			touch.clientX >= rect.left &&
+			touch.clientX <= rect.right &&
+			touch.clientY >= rect.top &&
+			touch.clientY <= rect.bottom
+
+		if (stillInside) {
+			navigate(`/${detailPath}/${id}`)
+		}
+	}
+
+	const handleTouchCancel = () => {
+		resetCard()
+	}
+
 	return (
 		<article
 			className='collection-card album-card'
@@ -96,8 +111,8 @@ const handleTouchEnd = (e) => {
 			onTouchStart={handleTouchStart}
 			onTouchMove={handleTouchMove}
 			onTouchEnd={handleTouchEnd}
-			onTouchCancel={resetCard}
-			onClick={() => navigate(`/${detailPath}/${id}`)}>
+			onTouchCancel={handleTouchCancel}
+			onClick={handleClick}>
 			{/* glow background */}
 			<div className='glow-layer'></div>
 			<div className='collection-img-container album-cover' ref={coverRef}>
