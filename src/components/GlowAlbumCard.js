@@ -45,6 +45,7 @@ const GlowAlbumCard = ({ id, image, title, band, date, length, genre, detailPath
 
 	// mobile (finger move)
 const handleTouchStart = (e) => {
+	e.preventDefault() // stops synthetic mouse events after touch
 	const touch = e.touches[0]
 	updatePosition(touch.clientX, touch.clientY)
 	cardRef.current.classList.add('active')
@@ -53,6 +54,24 @@ const handleTouchStart = (e) => {
 const handleTouchMove = (e) => {
 	const touch = e.touches[0]
 	updatePosition(touch.clientX, touch.clientY)
+}
+
+const handleTouchEnd = (e) => {
+	e.preventDefault()
+	resetCard()
+
+	// only navigate if finger didn't move (i.e. it was a tap, not a scroll)
+	const touch = e.changedTouches[0]
+	const rect = cardRef.current.getBoundingClientRect()
+	const stillInside =
+		touch.clientX >= rect.left &&
+		touch.clientX <= rect.right &&
+		touch.clientY >= rect.top &&
+		touch.clientY <= rect.bottom
+
+	if (stillInside) {
+		navigate(`/${detailPath}/${id}`)
+	}
 }
 
 	const resetCard = () => {
@@ -74,10 +93,9 @@ const handleTouchMove = (e) => {
 			ref={cardRef}
 			onMouseMove={handleMouseMove}
 			onMouseLeave={resetCard}
-			//TOUCH SUPPORT
 			onTouchStart={handleTouchStart}
 			onTouchMove={handleTouchMove}
-			onTouchEnd={resetCard}
+			onTouchEnd={handleTouchEnd}
 			onTouchCancel={resetCard}
 			onClick={() => navigate(`/${detailPath}/${id}`)}>
 			{/* glow background */}
