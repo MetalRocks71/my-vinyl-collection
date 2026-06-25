@@ -1189,7 +1189,7 @@ Collections Section - Vinyl record cards
   .album-card.active .edge-glow,
   .album-card.active .shine-effect,
   .album-card.active .border-glow {
-    opacity: 1;
+    opacity: 0;
   }
 
 
