@@ -1183,21 +1183,15 @@ Collections Section - Vinyl record cards
 
 @media (max-width: 768px) {
 
-  /* Disable hover-based glow effects */
-
+  /* Disable hover; trigger glow + overlay only on touch (.active) */
   .album-card.active .glow-layer,
   .album-card.active .edge-glow,
   .album-card.active .shine-effect,
-  .album-card.active .border-glow {
-    opacity: 0;
-  }
-
-
-  /* Always show overlay on mobile */
-  .album-overlay {
+  .album-card.active .border-glow,
+  .album-card.active .album-overlay {
     opacity: 1;
-
   }
+
   /* Adjust text spacing */
   .album-overlay {
     padding: 12px;
@@ -1211,7 +1205,6 @@ Collections Section - Vinyl record cards
     font-size: 12px;
   }
 }
-
 /*
 =============== 
 Collections Card 1 Section - Vinyl record cards
