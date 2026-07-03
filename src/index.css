@@ -1213,27 +1213,39 @@ Collections Card 1 Section - Vinyl record cards
 .detail-section {
   min-height: 100vh;
   background: var(--clr-grey-10);
-   padding-top: 5rem;
+  padding-top: 5rem;
   margin-top: -4rem;
+}
+
+.detail-wrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;   /* changed from center */
+  gap: 2rem;
+  padding: 2rem;
+  margin: 0 auto;
 }
 
 .collection-card-1 {
   display: flex;
-  flex-direction: column;
-  /* Changed from 'row' to 'column' */
+  flex-direction: row;
   align-items: flex-start;
+  flex-wrap: wrap;              /* allow wrapping instead of overflowing */
   gap: 2.5rem;
   max-width: 800px;
-  margin: 0 auto;
+  box-sizing: border-box;       /* padding included in max-width */
   background: var(--clr-white);
   border-radius: 16px;
   box-shadow: 0 8px 32px rgba(0, 0, 0, 0.12);
   padding: 2rem;
+  overflow: hidden;  
+           /* clip anything that still overflows */
 }
 
 .collection-img-1 {
   width: 260px;
-  height: 260px;
+  height: 300px;
   object-fit: cover;
   border-radius: 12px;
   flex-shrink: 0;
@@ -1243,31 +1255,106 @@ Collections Card 1 Section - Vinyl record cards
 .artist-info-1 {
   flex: 1;
   display: flex;
-  flex-direction: column;   /*  left align text */
+  flex-direction: column;
   margin: 0;
 }
 
 .detail-artist-bio {
   color: var(--clr-grey-5);
-  line-height: 1.4;        /*  slightly tighter than 1.2 */
+  line-height: 1.4;
   margin: 0;
-  flex-direction: column;  /*  optional: better readability */
 }
 
 .detail-artist-bio b,
 .detail-artist-bio strong {
   font-weight: 700;
 }
-
-/* Mobile - stack vertically */
-@media screen and (max-width: 600px) {
-  .detail-section {
-    padding-top: 3.5rem;
-  }
+/*
+=============== 
+Image Detail album Section - Vinyl record cards
+===============
+*/
+.detail-wrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 2rem;
+  max-width: 1100px;
+  margin: 0 auto;
 }
+
+.collection-card-1 {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  gap: 2.5rem;
+  max-width: 800px;
+  box-sizing: border-box;
+  background: var(--clr-white);
+  border-radius: 16px;
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.12);
+  padding: 2rem;
+  flex-shrink: 0;
+}
+
+.artist-albums-list {
+  flex: 1;
+  min-width: 0;
+}
+
+.albums-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1.5rem;
+  margin-top: 1rem;
+}
+
+.album-item {
+  text-align: center;
+  width: 140px;
+}
+
+.album-item .imageDetail {
+  width: 140px;
+  height: 140px;
+  object-fit: cover;
+  border-radius: 12px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+}
+
+.album-title-list,
+.album-year-list {
+  margin: 0;               /* remove default <p> margins */
+}
+
+.album-title-list {
+  font-size: 0.95rem;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.album-year-list {
+  margin-top: 0.15rem;      /* much smaller gap */
+  font-size: 0.9rem;
+  color: var(--clr-grey-5);
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+/* Mobile - stack vertically */
+@media screen and (max-width: 900px) {
+  .detail-wrapper {
+    flex-direction: column;
+    align-items: center;
+  }
+
   .collection-card-1 {
     flex-direction: column;
     padding: 1.5rem;
+    max-width: 100%;
   }
 
   .collection-img-1 {
@@ -1275,6 +1362,10 @@ Collections Card 1 Section - Vinyl record cards
     height: auto;
   }
 
+  .artist-albums-list {
+    width: 100%;
+  }
+}
 /*
 =============== 
 Footer

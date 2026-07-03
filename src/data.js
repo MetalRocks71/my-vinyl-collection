@@ -238,6 +238,10 @@ import whileshesleepsbio from './imagesBio/whileshesleepsbio.jpg'
 import whitechapelbio from './imagesBio/whitechapelbio.jpg'
 import yesbio from './imagesBio/yesbio.jpg'
 
+// Album images listed in alphabetical order by artist
+import augustburnsred3 from './ImageDetails/augustburnsred-3.jpg'
+import augustburnsred4 from './ImageDetails/augustburnsred-4.jpg'
+
 // Logo
 export const logo = [{ id: 1, image: thirteenthghost }]
 // Navigation and social links
@@ -1781,7 +1785,12 @@ export const artistBioMetal = [
 	{
 		id: 1,
 		image2: augustburnsredbio,
-		band: 'August Burns Red',
+		albums: [
+			{ id: 1, title: 'Death Below', cover: augustburnsred1, year: 2023 },
+			{ id: 2, title: 'Season of Surrender', cover: augustburnsred2, year: 2026 },
+			{ id: 3, title: 'Guardians', cover: augustburnsred3, year: 2020 },
+			{ id: 4, title: 'Constellations', cover: augustburnsred4, year: 2019 },
+		],
 		bio: [
 			`August Burns Red is an American <strong>metalcore</strong> band from Lancaster, Pennsylvania, <strong>formed in 2003</strong>. The band's lineup of guitarists John Benjamin <strong>JB</strong> Brubaker and Brent Rambler, drummer Matt Greiner, lead vocalist Jake Luhrs and bassist Dustin Davidson has remained consistent since 2006. The band was nominated for a Grammy Award in 2016 for Best Metal Performance for the song <strong>Identity</strong> from its 2015 release Found in Far Away Places, and again in 2018 for <strong>Invisible Enemy</strong> from Phantom Anthem (2017).`,
 			`August Burns Red members have been asked about the origin of their band name on many occasions and have given numerous different stories. The most popular story behind the name is an incident involving Jon Hershey, the band's original vocalist, when he dated a woman named August who burned his dog Redd alive in his dog house. However, it was later revealed in a radio interview that this meaning (along with others) was simply a comical story created by the members and that there is no actual meaning behind the band name. Drummer Matt Greiner stated in the interview that <strong>'we just came up with the name to come up with a name.'</strong>`,

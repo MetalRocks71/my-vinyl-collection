@@ -13,6 +13,7 @@ import AlbumDetail from './components/pages/AlbumDetail'
 import AlbumDetailRock from './components/pages/AlbumDetailRock'
 import AlbumDetailAderito from './components/pages/AlbumDetailAderito'
 import ScrollToTop from './components/ScrollToTop'
+import FooterTwo from './components/pages/FooterTwo'
 
 // Main page extracted into its own component so Router can wrap everything
 const HomePage = ({ searchQuery, handleSearch }) => (
@@ -26,6 +27,7 @@ const HomePage = ({ searchQuery, handleSearch }) => (
 		<Collectionrock searchQuery={searchQuery} />
 		<AderitoPereira searchQuery={searchQuery} />
 		<Footer />
+		<FooterTwo />
 	</>
 )
 
