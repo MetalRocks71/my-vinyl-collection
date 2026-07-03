@@ -1280,7 +1280,6 @@ Image Detail album Section - Vinyl record cards
   align-items: flex-start;
   justify-content: flex-start;
   gap: 2rem;
-  max-width: 1100px;
   margin: 0 auto;
 }
 
