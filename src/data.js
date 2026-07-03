@@ -1799,6 +1799,12 @@ export const artistBioMetal = [
 	{
 		id: 2,
 		image2: augustburnsredbio,
+		albums: [
+			{ id: 1, title: 'Season of Surrender', cover: augustburnsred2, year: 2026 },
+			{ id: 2, title: 'Death Below', cover: augustburnsred1, year: 2023 },
+			{ id: 3, title: 'Guardians', cover: augustburnsred3, year: 2020 },
+			{ id: 4, title: 'Constellations', cover: augustburnsred4, year: 2019 },
+		],
 		band: 'August Burns Red',
 		bio: [
 			`August Burns Red is an American <strong>metalcore</strong> band from Lancaster, Pennsylvania, <strong>formed in 2003</strong>. The band's lineup of guitarists John Benjamin <strong>JB</strong> Brubaker and Brent Rambler, drummer Matt Greiner, lead vocalist Jake Luhrs and bassist Dustin Davidson has remained consistent since 2006. The band was nominated for a Grammy Award in 2016 for Best Metal Performance for the song <strong>Identity</strong> from its 2015 release Found in Far Away Places, and again in 2018 for <strong>Invisible Enemy</strong> from Phantom Anthem (2017).`,
@@ -1808,6 +1814,7 @@ export const artistBioMetal = [
 	{
 		id: 3,
 		image2: blacksabbathbio,
+		albums: [],
 		band: 'Black Sabbath',
 		bio: [
 			'<strong>Black Sabbath</strong> were an English heavy metal band formed in Birmingham in 1968 by guitarist Tony Iommi, drummer Bill Ward, bassist Geezer Butler and vocalist Ozzy Osbourne. After adopting the Black Sabbath name in 1969 (the band were previously named Polka Tulk Blues Band and then Earth), they distinguished themselves through occult themes with horror-inspired lyrics and down-tuned guitars. Their first three albums, <strong>Black Sabbath, Paranoid (both 1970), and Master of Reality (1971)</strong>, were commercially successful, and are cited as pioneering albums in the development of heavy metal. Subsequent albums Vol. 4 (1972), Sabbath Bloody Sabbath (1973), Sabotage (1975), Technical Ecstasy (1976), and Never Say Die! (1978) saw the band explore more experimental and progressive styles.',
@@ -1819,6 +1826,7 @@ export const artistBioMetal = [
 	{
 		id: 4,
 		image2: bloodincantationbio,
+		albums: [],
 		band: 'blood incantation',
 		bio: [
 			"<strong>Blood Incantation</strong> is an American progressive death metal band from Denver, Colorado, formed in 2011. The band consists of guitarist and vocalist <strong>Paul Riedl, drummer Isaac Faulk, guitarist Morris Kolontyrsky and bassist Jeff Barrett.</strong>``Blood Incantation's debut album, Starspawn, was released in 2016 through Dark Descent Records and received critical acclaim from music publications such as Decibel and Stereogum.",
@@ -1828,6 +1836,7 @@ export const artistBioMetal = [
 	{
 		id: 5,
 		image2: bloodincantationbio,
+		albums: [],
 		band: 'blood incantation',
 		bio: [
 			"<strong>Blood Incantation</strong> is an American progressive death metal band from Denver, Colorado, formed in 2011. The band consists of guitarist and vocalist <strong>Paul Riedl, drummer Isaac Faulk, guitarist Morris Kolontyrsky and bassist Jeff Barrett.</strong>``Blood Incantation's debut album, Starspawn, was released in 2016 through Dark Descent Records and received critical acclaim from music publications such as Decibel and Stereogum.",
