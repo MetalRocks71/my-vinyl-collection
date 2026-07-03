@@ -1786,8 +1786,8 @@ export const artistBioMetal = [
 		id: 1,
 		image2: augustburnsredbio,
 		albums: [
-			{ id: 1, title: 'Death Below', cover: augustburnsred1, year: 2023 },
-			{ id: 2, title: 'Season of Surrender', cover: augustburnsred2, year: 2026 },
+			{ id: 1, title: 'Season of Surrender', cover: augustburnsred2, year: 2026 },
+			{ id: 2, title: 'Death Below', cover: augustburnsred1, year: 2023 },
 			{ id: 3, title: 'Guardians', cover: augustburnsred3, year: 2020 },
 			{ id: 4, title: 'Constellations', cover: augustburnsred4, year: 2019 },
 		],

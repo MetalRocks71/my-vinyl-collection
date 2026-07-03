@@ -1212,7 +1212,7 @@ Collections Card 1 Section - Vinyl record cards
 */
 .detail-section {
   min-height: 100vh;
-  background: var(--clr-grey-10);
+  background: var(--clr-primary-1);
   padding-top: 5rem;
   margin-top: -4rem;
 }
@@ -1291,7 +1291,7 @@ Image Detail album Section - Vinyl record cards
   gap: 2.5rem;
   max-width: 800px;
   box-sizing: border-box;
-  background: var(--clr-white);
+  background: var(--clr-black-2);
   border-radius: 16px;
   box-shadow: 0 8px 32px rgba(0, 0, 0, 0.12);
   padding: 2rem;
@@ -1333,6 +1333,7 @@ Image Detail album Section - Vinyl record cards
   white-space: nowrap;
   overflow: hidden;
   text-overflow: ellipsis;
+  color: var(--clr-white);
 }
 
 .album-year-list {
@@ -1342,6 +1343,7 @@ Image Detail album Section - Vinyl record cards
   white-space: nowrap;
   overflow: hidden;
   text-overflow: ellipsis;
+  color: var(--clr-white);
 }
 /* Mobile - stack vertically */
 @media screen and (max-width: 900px) {
