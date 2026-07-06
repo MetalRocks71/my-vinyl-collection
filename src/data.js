@@ -241,6 +241,25 @@ import yesbio from './imagesBio/yesbio.jpg'
 // Album images listed in alphabetical order by artist
 import augustburnsred3 from './ImageDetails/augustburnsred-3.jpg'
 import augustburnsred4 from './ImageDetails/augustburnsred-4.jpg'
+import blacksabbath2 from './ImageDetails/blacksabbath-2.jpg'
+import blacksabbath3 from './ImageDetails/blacksabbath-3.jpg'
+import blacksabbath4 from './ImageDetails/blacksabbath-4.jpg'
+import blacksabbath5 from './ImageDetails/blacksabbath-5.jpg'
+import blacksabbath7 from './ImageDetails/blacksabbath-7.jpg'
+import blacksabbath8 from './ImageDetails/blacksabbath-8.jpg'	
+import blacksabbath9 from './ImageDetails/blacksabbath-9.jpg'
+import blacksabbath10 from './ImageDetails/blacksabbath-10.jpg'
+import blacksabbath11 from './ImageDetails/blacksabbath-11.jpg'	
+import blacksabbath12 from './ImageDetails/blacksabbath-12.jpg'
+import blacksabbath13 from './ImageDetails/blacksabbath-13.jpg'
+import blacksabbath14 from './ImageDetails/blacksabbath-14.jpg'
+import blacksabbath15 from './ImageDetails/blacksabbath-15.jpg'
+import blacksabbath16 from './ImageDetails/blacksabbath-16.jpg'	
+import blacksabbath17 from './ImageDetails/blacksabbath-17.jpg'
+import blacksabbath18 from './ImageDetails/blacksabbath-18.jpg'
+import blacksabbath19 from './ImageDetails/blacksabbath-19.jpg'
+import blacksabbath20 from './ImageDetails/blacksabbath-20.jpg'
+
 
 // Logo
 export const logo = [{ id: 1, image: thirteenthghost }]
@@ -1814,7 +1833,27 @@ export const artistBioMetal = [
 	{
 		id: 3,
 		image2: blacksabbathbio,
-		albums: [],
+		albums: [
+			{ id: 1, title: 'Black Sabbath', cover: blacksabbath2, year: 1970 },
+			{ id: 2, title: 'Paranoid', cover: blacksabbath3, year: 1970 },
+			{ id: 3, title: 'Master of Reality', cover: blacksabbath9, year: 1971 },
+			{ id: 4, title: 'Vol. 4', cover: blacksabbath4, year: 1972 },
+			{ id: 5, title: 'Sabbath Bloody Sabbath', cover: blacksabbath5, year: 1973 },
+			{ id: 6, title: 'Sabotage', cover: blacksabbath7, year: 1975 },
+			{ id: 7, title: 'Technical Ecstasy', cover: blacksabbath8, year: 1976 },
+			{ id: 8, title: 'Heaven and Hell', cover: blacksabbath1, year: 1980 },
+			{ id: 9, title: 'Never Say Die!', cover: blacksabbath10, year: 1978 },
+			{ id: 10, title: 'Mob Rules', cover: blacksabbath11, year: 1981 },
+			{ id: 11, title: 'Born Again', cover: blacksabbath12, year: 1983 },
+			{ id: 12, title: 'Seventh Star', cover: blacksabbath13, year: 1986 },
+			{ id: 13, title: 'The Eternal Idol', cover: blacksabbath14, year: 1987 },
+			{ id: 14, title: 'Headless Cross', cover: blacksabbath15, year: 1989 },
+			{ id: 15, title: 'Tyr', cover: blacksabbath16, year: 1990 },
+			{ id: 16, title: 'Dehumanizer', cover: blacksabbath17, year: 1992 },
+			{ id: 17, title: 'Cross Purposes', cover: blacksabbath18, year: 1994 },
+			{ id: 18, title: 'Forbidden', cover: blacksabbath19, year: 1995 },
+			{ id: 19, title: '13', cover: blacksabbath20, year: 2013 },
+		],
 		band: 'Black Sabbath',
 		bio: [
 			'<strong>Black Sabbath</strong> were an English heavy metal band formed in Birmingham in 1968 by guitarist Tony Iommi, drummer Bill Ward, bassist Geezer Butler and vocalist Ozzy Osbourne. After adopting the Black Sabbath name in 1969 (the band were previously named Polka Tulk Blues Band and then Earth), they distinguished themselves through occult themes with horror-inspired lyrics and down-tuned guitars. Their first three albums, <strong>Black Sabbath, Paranoid (both 1970), and Master of Reality (1971)</strong>, were commercially successful, and are cited as pioneering albums in the development of heavy metal. Subsequent albums Vol. 4 (1972), Sabbath Bloody Sabbath (1973), Sabotage (1975), Technical Ecstasy (1976), and Never Say Die! (1978) saw the band explore more experimental and progressive styles.',
