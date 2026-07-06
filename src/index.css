@@ -1365,6 +1365,8 @@ Image Detail album Section - Vinyl record cards
 
   .artist-albums-list {
     width: 100%;
+    padding-left: 2.5rem;
+    padding-right: 2.5rem;
   }
 }
 /*
