@@ -14,10 +14,28 @@ const AlbumDetail = () => {
 	return (
 		<>
 			<section className='section detail-section'>
-				<div className='collection-card-1'>
-					<img src={artistBio.image2} alt={artistBio.band} className='collection-img-1' />
-					<div className='artist-info-1'>
-						<p className='detail-artist-bio' dangerouslySetInnerHTML={{ __html: bioContent || 'No bio available.' }} />
+				<div className='detail-wrapper'>
+					<div className='collection-card-1'>
+						<img src={artistBio.image2} alt={artistBio.band} className='collection-img-1' />
+						<div className='artist-info-1'>
+							<p
+								className='detail-artist-bio'
+								dangerouslySetInnerHTML={{ __html: bioContent || 'No bio available.' }}
+							/>
+						</div>
+					</div>
+
+					<div className='artist-albums-list'>
+						<h3>Albums</h3>
+						<div className='albums-grid'>
+							{artistBio.albums.map((album) => (
+								<div key={album.id} className='album-item'>
+									<img src={album.cover} alt={album.title} className='imageDetail' />
+									<p className='album-title-list'>{album.title}</p>
+									<p className='album-year-list'>{album.year}</p>
+								</div>
+							))}
+						</div>
 					</div>
 				</div>
 			</section>
