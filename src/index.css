@@ -1346,7 +1346,7 @@ Image Detail album Section - Vinyl record cards
   color: var(--clr-white);
 }
 /* Mobile - stack vertically */
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 768px) {
   .detail-wrapper {
     flex-direction: column;
     align-items: center;
