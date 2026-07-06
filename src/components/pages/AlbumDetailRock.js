@@ -26,7 +26,7 @@ const AlbumDetail = () => {
 					</div>
 
 					<div className='artist-albums-list'>
-						<h3>Albums</h3>
+						<h3 className='section-title-albums'>Albums</h3>
 						<div className='albums-grid'>
 							{artistBio.albums.map((album) => (
 								<div key={album.id} className='album-item'>

@@ -59,11 +59,11 @@ These are reusable values that can be referenced throughout the stylesheet using
   /* Warm light grey - used for desktop body background */
   --clr-black-2: hsl(0, 0%, 7%);
   /* Basic colors */
-  --clr-black: #d7d3d3;
+  --clr-black: hsl(0, 5%, 84%);
 
-  --clr-grey-13: #d7d3d3;
+  --clr-grey-13: hsl(0, 5%, 84%);
   /* Near-black (slightly lighter than pure black for better readability) */
-  --clr-white: #fff;
+  --clr-white: hsl(0, 0%, 100%);
   /* Pure white */
   --clr-red-dark: hsl(360, 67%, 44%);
   /* Dark red */
@@ -126,7 +126,7 @@ body {
   /* Font stack - uses system fonts for best performance */
   background: var(--clr-white);
   /* White background by default */
-  color: var(--clr-grey-1);
+  color: var(--clr-black-2);
   /* Dark grey text color */
   line-height: 1.5;
   /* 1.5x line spacing for readability */
@@ -1301,6 +1301,13 @@ Image Detail album Section - Vinyl record cards
 .artist-albums-list {
   flex: 1;
   min-width: 0;
+  color: var(--clr-white);
+}
+
+.section-title-albums {
+  text-align: center;
+  margin-bottom: 1rem;
+  color: var(--clr-white);
 }
 
 .albums-grid {
