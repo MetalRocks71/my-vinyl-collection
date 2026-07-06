@@ -1354,7 +1354,7 @@ Image Detail album Section - Vinyl record cards
 
   .collection-card-1 {
     flex-direction: column;
-    padding: 1.5rem;
+    padding: 1rem;
     max-width: 100%;
   }
 
@@ -1364,13 +1364,24 @@ Image Detail album Section - Vinyl record cards
   }
 
   .artist-albums-list {
-
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    gap: 0.75rem;
     width: 100%;
     padding: 0 1rem;
+  }
 
+  .albums-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1rem;
+  }
+
+  .album-item {
+    width: 100%;
+  }
+
+  .imageDetail {
+    width: 100%;
+    height: auto;
+    display: block;
   }
 }
 /*
