@@ -14,6 +14,7 @@ import AlbumDetailRock from './components/pages/AlbumDetailRock'
 import AlbumDetailAderito from './components/pages/AlbumDetailAderito'
 import ScrollToTop from './components/ScrollToTop'
 import FooterTwo from './components/pages/FooterTwo'
+import AlbumSongs from './components/AlbumListSongs/AlbumSongs'
 
 // Main page extracted into its own component so Router can wrap everything
 const HomePage = ({ searchQuery, handleSearch }) => (
@@ -40,13 +41,13 @@ function App() {
 
 	return (
 		<BrowserRouter>
-		<ScrollToTop />
+			<ScrollToTop />
 			<Routes>
-				
 				<Route path='/' element={<HomePage searchQuery={searchQuery} handleSearch={handleSearch} />} />
 				<Route path='/album/:id' element={<AlbumDetail />} />
 				<Route path='/albumRock/:id' element={<AlbumDetailRock />} />
 				<Route path='/albumAderitoPereira/:id' element={<AlbumDetailAderito />} />
+				<Route path='/albumSongs/:id' element={<AlbumSongs />} />
 			</Routes>
 		</BrowserRouter>
 	)

@@ -1,9 +1,10 @@
-import { useParams } from 'react-router-dom'
+import { useParams, useNavigate } from 'react-router-dom'
 import { artistBioAderito } from '../../data'
 import FooterTwo from './FooterTwo'
 
-const AlbumDetail = () => {
+const AlbumDetailAderito = () => {
 	const { id } = useParams()
+	const navigate = useNavigate()
 
 	const artistBio = artistBioAderito.find((item) => item.id === Number(id))
 
@@ -29,7 +30,12 @@ const AlbumDetail = () => {
 						<h3 className='section-title-albums'>Albums</h3>
 						<div className='albums-grid'>
 							{artistBio.albums.map((album) => (
-								<div key={album.id} className='album-item'>
+								<div
+									key={album.id}
+									className='album-item'
+									onClick={() => navigate(`/albumSongs/${album.id}`)}
+									tabIndex={0}
+									role='button'>
 									<img src={album.cover} alt={album.title} className='imageDetail' />
 									<p className='album-title-list'>{album.title}</p>
 									<p className='album-year-list'>{album.year}</p>
@@ -44,4 +50,4 @@ const AlbumDetail = () => {
 	)
 }
 
-export default AlbumDetail
+export default AlbumDetailAderito

@@ -3,7 +3,7 @@ import Title from './Title'
 import { metalcollection } from '../data'
 import GlowAlbumCard from './GlowAlbumCard'
 
-//search query with open collection section
+//search query with open collection sectioni
 const Collection = ({ searchQuery }) => {
 	const [open, setOpen] = useState(false)
 	const sectionRef = useRef(null)
