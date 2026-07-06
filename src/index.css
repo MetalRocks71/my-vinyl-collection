@@ -1364,9 +1364,13 @@ Image Detail album Section - Vinyl record cards
   }
 
   .artist-albums-list {
+
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 0.75rem;
     width: 100%;
-    padding-left: 2.5rem;
-    padding-right: 2.5rem;
+    padding: 0 1rem;
+
   }
 }
 /*
