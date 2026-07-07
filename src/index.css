@@ -1411,12 +1411,12 @@ Album Cover with Songs Overlay
 }
 
 .album-cover-wrapper {
-  position: relative;
+  position: fixed;
   display: inline-block;
   border-radius: var(--radius);
   box-shadow: var(--dark-shadow);
-  min-height: 100vh;
-  width: 100%;
+  min-height: 100%;
+  width: 97%;
 
 }
 
@@ -1438,12 +1438,13 @@ Album Cover with Songs Overlay
   position: absolute;   /* was: relative — take it out of flow so it can't blow up the box */
   inset: 0;
   z-index: 1;
-  width: 100vh;           /* was: 100vh */
-  height: 100vh;          /* was: 100vh */
+  width: 100%;           /* was: 100vh */
+  height: 100%;          /* was: 100vh */
   object-fit: contain;
   display: block;
   margin: 0 auto;
   box-shadow: none;
+  
 }
 
 .album-songs-overlay {
@@ -1509,8 +1510,9 @@ Album Cover with Songs Overlay
     position:fixed;    /* smaller fixed height */
   }
 
-  .album-songs-overlay {
-    opacity: 0;            /* always visible on touch devices, no hover */
+.album-songs-overlay,
+  .album-cover-wrapper:hover .album-songs-overlay {
+    opacity: 1 !important;
     background: hsla(0, 0%, 0%, 0.8);
     padding: 1rem;
   }
