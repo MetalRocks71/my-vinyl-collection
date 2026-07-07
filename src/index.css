@@ -1506,45 +1506,108 @@ Album Cover with Songs Overlay
   margin-left: 1rem;
   flex-shrink: 0;
 }
+/* Global: click-toggled overlay opacity — works at every screen size */
+.album-songs-overlay {
+  opacity: 0;
+  transition: opacity 0.2s;
+}
 
-/* Mobile: scale the cover down to fit the screen, click-toggled overlay */
-@media screen and (max-width: 768px) {
+.album-cover-wrapper.is-open .album-songs-overlay {
+  opacity: 1;
+}
+
+/* Desktop/pointer devices only: hover also reveals it */
+@media (hover: hover) and (pointer: fine) {
+  .album-cover-wrapper:hover .album-songs-overlay {
+    opacity: 1;
+  }
+}
+
+/* Small mobile: phones up to 480px */
+@media screen and (max-width: 480px) {
   .album-cover-wrapper {
-    margin-top: 100px;
-    max-width: 423px;
-    min-height: 423px;
+    margin-top: 80px;
+    max-width: 100%;
+    min-height: 360px;
     width: 100%;
     position: fixed;
-
   }
 
   .album-songs-overlay {
-    opacity: 0;
-    transition: opacity 0.2s;
     background: hsla(0, 0%, 0%, 0.8);
-    padding: 1.25rem;
+    padding: 1rem;
   }
 
-  /*open overlay when album cover is clicked (toggled) */
-  .album-cover-wrapper.is-open .album-songs-overlay {
-    opacity: 1;
+  .detail-album-title {
+    font-size: 1rem;
+  }
+
+  .detail-album-year {
+    font-size: 1.5rem;
+  }
+
+  .song-overlay-item {
+    font-size: 0.7rem;
+  }
+}
+
+/* Mobile: 481px to 768px */
+@media screen and (min-width: 481px) and (max-width: 768px) {
+  .album-cover-wrapper {
+    margin-top: 100px;
+    max-width: 100%;
+    min-height: 423px;
+    width: 100%;
+    position: fixed;
+  }
+
+  .album-songs-overlay {
+    background: hsla(0, 0%, 0%, 0.8);
+    padding: 1.25rem;
   }
 
   .detail-album-title {
     font-size: 1.1rem;
   }
 
-  .song-overlay-item {
-    font-size: 0.75rem;
-
+  .detail-album-year {
+    font-size: 2rem;
   }
 
+  .song-overlay-item {
+    font-size: 0.75rem;
+  }
 }
 
-/* Desktop only: hover reveals overlay (real mouse/pointer devices) */
-@media (hover: hover) and (pointer: fine) {
-  .album-cover-wrapper:hover .album-songs-overlay {
-    opacity: 1;
+/* Tablet: 769px to 1024px */
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+  .album-cover-wrapper {
+    width: 90%;
+    min-height: 500px;
+  }
+
+  .album-songs-overlay {
+    padding: 1.5rem;
+  }
+
+  .detail-album-title {
+    font-size: 2rem;
+  }
+
+  .detail-album-year {
+    font-size: 2.5rem;
+  }
+
+  .song-overlay-item {
+    font-size: 1rem;
+  }
+}
+
+/* Desktop: 1025px and up (your original base styles apply here already, 
+   add overrides only if something needs to differ) */
+@media screen and (min-width: 1025px) {
+  .album-cover-wrapper {
+    width: 97%;
   }
 }
 
