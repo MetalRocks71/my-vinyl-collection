@@ -592,7 +592,7 @@ Search Bar - Navbar search functionality
 
 /* Placeholder text styling */
 .search-input::placeholder {
-  color: #666;
+  color: hsl(0, 0%, 40%);
   /* Medium grey placeholder text */
 }
 
@@ -600,9 +600,9 @@ Search Bar - Navbar search functionality
 .search-input:focus {
   border-color: var(--clr-primary-5);
   /* Red border when focused */
-  background: rgba(255, 255, 255, 0.15);
+  background: hsla(0, 0%, 100%, 0.149);
   /* Slightly transparent white background */
-  box-shadow: 0 0 10px rgba(44, 174, 186, 0.3);
+  box-shadow: 0 0 10px hsla(185, 62%, 45%, 0.3);
   /* Teal glow effect */
 }
 
@@ -628,7 +628,7 @@ Search Bar - Navbar delete functionality (removes text cursor across site)
   background: none;
   border: none;
   cursor: pointer;
-  color: #999;
+  color: hsl(0, 0%, 60%);
   font-size: 14px;
   padding: 4px;
   display: flex;
@@ -659,13 +659,13 @@ Search Bar - Navbar delete functionality (removes text cursor across site)
     width: 28px;
     height: 28px;
     font-size: 12px;
-    background-color: #e8e8e8;
+    background-color: hsl(0, 0%, 91%);
     border-radius: 50%;
     box-shadow: 0 1px 3px rgba(0, 0, 0, 0.15);
   }
 
   .search-clear:hover {
-    background-color: #d0d0d0;
+    background-color: hsl(0, 0%, 80%);
   }
 }
 
@@ -796,7 +796,7 @@ Hero Section - Full-screen landing area
   /* Minimum full viewport height */
   background: var(--clr-primary-5);
   /* Fallback red background */
-  background: linear-gradient(rgba(84, 95, 95, 0.726), rgba(0, 0, 0, 0.7)),
+  background: linear-gradient(hsla(180, 6%, 35%, 0.725), hsla(0, 0%, 0%, 0.7)),
     url('./images/main.jpeg') center/cover no-repeat;
   /* Dark overlay over background image, centered and covers full area */
   display: flex;
@@ -962,7 +962,7 @@ Tops Section - Featured items/categories
 
 /* Top card title */
 .top-title {
-  background: linear-gradient(135deg, #1e293b 0%, #334155 100%);
+  background: linear-gradient(135deg, hsl(217, 33%, 17%) 0%, hsl(215, 25%, 27%) 100%);
   /* Slate gradient */
   -webkit-background-clip: text;
   /* Safari support for gradient text */
@@ -1000,7 +1000,7 @@ Collections Section - Vinyl record cards
 .collection-card {
   transition: var(--transition);
   backdrop-filter: blur(10px);
-  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 8px 32px hsla(0, 0%, 0%, 0.1);
   margin-bottom: 2rem;
   margin-right: 0.7rem;
   border-radius: 16px;
@@ -1016,7 +1016,7 @@ Collections Section - Vinyl record cards
 
 .collection-card:hover {
   transform: translateY(-6px);
-  box-shadow: 0 12px 40px rgba(0, 0, 0, 0.15);
+  box-shadow: 0 12px 40px hsla(0, 0%, 0%, 0.15);
 }
 
 /* CLEAN IMAGE CONTAINER */
@@ -1045,7 +1045,7 @@ Collections Section - Vinyl record cards
   top: 10px;
   left: 10px;
   background: var(--clr-primary-5);
-  color: #fff;
+  color: hsl(0, 0%, 100%);
   padding: 0.2rem 0.8rem;
   border-radius: 999px;
   font-size: 0.75rem;
@@ -1212,7 +1212,7 @@ Collections Card 1 Section - Vinyl record cards
 */
 .detail-section {
   min-height: 100vh;
-  background: var(--clr-primary-1);
+  background-color: #413f3f;
   padding-top: 5rem;
   margin-top: -4rem;
 }
@@ -1237,7 +1237,7 @@ Collections Card 1 Section - Vinyl record cards
   box-sizing: border-box;       /* padding included in max-width */
   background: var(--clr-white);
   border-radius: 16px;
-  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.12);
+  box-shadow: 0 8px 32px hsla(0, 0%, 0%, 0.12);
   padding: 2rem;
   overflow: hidden;  
   color: var(--clr-white);
@@ -1250,7 +1250,7 @@ Collections Card 1 Section - Vinyl record cards
   object-fit: cover;
   border-radius: 12px;
   flex-shrink: 0;
-  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 4px 20px hsla(0, 0%, 0%, 0.2);
 }
 
 .artist-info-1 {
@@ -1294,7 +1294,7 @@ Image Detail album Section - Vinyl record cards
   box-sizing: border-box;
   background: var(--clr-black-2);
   border-radius: 16px;
-  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.12);
+  box-shadow: 0 8px 32px hsla(0, 0%, 0%, 0.12);
   padding: 2rem;
   flex-shrink: 0;
 }
@@ -1328,7 +1328,7 @@ Image Detail album Section - Vinyl record cards
   height: 140px;
   object-fit: cover;
   border-radius: 12px;
-  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 4px 20px hsla(0, 0%, 0%, 0.2);
 }
 
 .album-title-list,
@@ -1405,34 +1405,49 @@ Album Cover with Songs Overlay
   border-radius: var(--radius);
   overflow: hidden;
   box-shadow: var(--dark-shadow);
-  max-width: 100vh;
-  min-height: 100svh; 
-  width: 100%; /* ensures enough room for 8 songs + title */
+  min-height: 100vh;
+  width: 100%;
 }
 
-.album-cover-wrapper .collection-img-1 {
+/* Blurred background layer - fills the whole box */
+.cover-bg-blur {
+  position: absolute;
+  inset: 0;
   width: 100%;
   height: 100%;
-  display: block;
   object-fit: cover;
-  border-radius: 0;
+  filter: blur(20px) brightness(0.6);
+  transform: scale(1.2);   /* hides soft edges from the blur */
+  z-index: 0;
+}
+
+/* Sharp foreground image - centered, normal size */
+.album-cover-wrapper .collection-img-1 {
+  position: relative;
+  z-index: 1;
+  width: 100vh;
+  height: 100vh;
+  object-fit: contain;     /* shows full image without cropping, centered */
+  display: block;
+  margin: 0 auto;
   box-shadow: none;
 }
 
 .album-songs-overlay {
   position: absolute;
   inset: 0;
-  background: rgba(0, 0, 0, 0.7);
+  z-index: 2;
+  background: hsla(0, 0%, 0%, 0.35);  /* lighter tint since blur already darkens things */
   color: var(--clr-white);
   display: flex;
   flex-direction: column;
-  justify-content: flex-start;   /* top-aligned, not centered */
+  justify-content: flex-start;
   align-items: center;
   padding: 1.25rem 1rem;
   text-align: center;
   opacity: 0;
   transition: var(--transition);
-  overflow-y: auto;              /* scrolls instead of clipping if content is tall */
+  overflow-y: auto;
 }
 
 .album-cover-wrapper:hover .album-songs-overlay {
@@ -1473,8 +1488,9 @@ Album Cover with Songs Overlay
 /* Mobile: scale the cover down to fit the screen, and always show overlay */
 @media screen and (max-width: 767px) {
   .album-cover-wrapper {
+    margin-top: 180px;
     max-width: 100%;      /* fills available width instead of fixed 400px */
-    min-height: 280px;    /* smaller fixed height so it doesn't dominate the screen */
+    min-height: 400px;    /* smaller fixed height so it doesn't dominate the screen */
     width: 100%;
   }
 
@@ -1491,6 +1507,16 @@ Album Cover with Songs Overlay
   .song-overlay-item {
     font-size: 0.75rem;    /* tighter to fit 8 songs on a shorter box */
   }
+  .cover-bg-blur {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  filter: blur(20px) brightness(0.6);
+  transform: scale(1.2);   /* hides soft edges from the blur */
+  z-index: 0;
+}
 }
 /*
 =============== 

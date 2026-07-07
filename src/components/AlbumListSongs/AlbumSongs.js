@@ -12,6 +12,7 @@ const AlbumSongList = () => {
 		<section className='section detail-section'>
 			<div className='detail-wrapper'>
 				<div className='album-cover-wrapper'>
+					<img src={albumSongs.cover} alt='' className='cover-bg-blur' aria-hidden='true' />
 					<img src={albumSongs.cover} alt={albumSongs.album} className='collection-img-1' />
 
 					<div className='album-songs-overlay'>
