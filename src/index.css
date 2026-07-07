@@ -1503,25 +1503,30 @@ Album Cover with Songs Overlay
 @media screen and (max-width: 767px) {
   .album-cover-wrapper {
     margin-top: 100px;
-    max-width: 100%;      /* fills available width instead of fixed 400px */
-    min-height: 400px;    /* smaller fixed height so it doesn't dominate the screen */
+    max-width: 100%;
+    min-height: 400px;
     width: 100%;
-    max-height: 400px; 
-    position:fixed;    /* smaller fixed height */
+    max-height: 400px;
+    position: fixed;
   }
 
-.album-songs-overlay,
-  .album-cover-wrapper:hover .album-songs-overlay {
-    opacity: 1 !important;
+  .album-songs-overlay {
+    opacity: 0;
+    transition: opacity 0.2s;
     background: hsla(0, 0%, 0%, 0.8);
     padding: 1rem;
   }
+
+  .album-cover-wrapper.is-open .album-songs-overlay {
+    opacity: 1;
+  }
+
   .detail-album-title {
-    font-size: 1.1rem;     /* slightly smaller on mobile */
+    font-size: 1.1rem;
   }
 
   .song-overlay-item {
-    font-size: 0.75rem;    /* tighter to fit 8 songs on a shorter box */
+    font-size: 0.75rem;
   }
 }
 /*

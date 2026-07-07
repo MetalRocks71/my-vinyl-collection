@@ -1,8 +1,10 @@
+import { useState } from 'react'
 import { useParams } from 'react-router-dom'
 import { songList } from '../../data'
 
 const AlbumSongList = () => {
 	const { id } = useParams()
+	const [isOpen, setIsOpen] = useState(false)
 
 	const albumSongs = songList.find((item) => item.id === Number(id))
 
@@ -11,7 +13,7 @@ const AlbumSongList = () => {
 	return (
 		<section className='section detail-section'>
 			<div className='detail-wrapper'>
-				<div className='album-cover-wrapper'>
+				<div className={`album-cover-wrapper ${isOpen ? 'is-open' : ''}`} onClick={() => setIsOpen((prev) => !prev)}>
 					<img src={albumSongs.cover} alt='' className='cover-bg-blur' aria-hidden='true' />
 					<img src={albumSongs.cover} alt={albumSongs.album} className='album-hero-img' />
 
