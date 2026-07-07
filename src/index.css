@@ -1511,8 +1511,8 @@ Album Cover with Songs Overlay
 @media screen and (max-width: 767px) {
   .album-cover-wrapper {
     margin-top: 100px;
-    max-width: 100%;
-    min-height: 420px;
+    max-width: 423px;
+    min-height: 423px;
     width: 100%;
     position: fixed;
 
