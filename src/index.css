@@ -1489,7 +1489,7 @@ Album Cover with Songs Overlay
   justify-content: space-between;
   width: 100%;
   margin: 0.2rem 0;
-  font-size: 2rem;   /* smaller so all 8 songs fit */
+  font-size: 1.3rem;   /* smaller so all 8 songs fit */
 }
 
 .song-overlay-length {
