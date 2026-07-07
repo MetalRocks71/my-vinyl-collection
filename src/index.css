@@ -1428,7 +1428,7 @@ Album Cover with Songs Overlay
   height: 100%;
   object-fit: cover;
   filter: blur(20px) brightness(0.6);
-  transform: scale(3);   /* hides soft edges from the blur */
+  transform: scale(1.2);   /* hides soft edges from the blur */
   z-index: 0;
   
 }
@@ -1438,8 +1438,8 @@ Album Cover with Songs Overlay
   position: absolute;   /* was: relative — take it out of flow so it can't blow up the box */
   inset: 0;
   z-index: 1;
-  width: 100%;           /* was: 100vh */
-  height: 100%;          /* was: 100vh */
+  width: 100vh;           /* was: 100vh */
+  height: 100vh;          /* was: 100vh */
   object-fit: contain;
   display: block;
   margin: 0 auto;
