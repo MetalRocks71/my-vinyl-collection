@@ -1470,10 +1470,26 @@ Album Cover with Songs Overlay
   flex-shrink: 0;       /* keeps the time from wrapping/shrinking oddly */
 }
 
+/* Mobile: scale the cover down to fit the screen, and always show overlay */
 @media screen and (max-width: 767px) {
+  .album-cover-wrapper {
+    max-width: 100%;      /* fills available width instead of fixed 400px */
+    min-height: 280px;    /* smaller fixed height so it doesn't dominate the screen */
+    width: 100%;
+  }
+
   .album-songs-overlay {
-    opacity: 1;
+    opacity: 1;            /* always visible on touch devices, no hover */
     background: rgba(0, 0, 0, 0.8);
+    padding: 1rem;
+  }
+
+  .detail-album-title {
+    font-size: 1.1rem;     /* slightly smaller on mobile */
+  }
+
+  .song-overlay-item {
+    font-size: 0.75rem;    /* tighter to fit 8 songs on a shorter box */
   }
 }
 /*
