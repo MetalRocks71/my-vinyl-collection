@@ -1414,10 +1414,10 @@ Album Cover with Songs Overlay
   position: relative;
   display: inline-block;
   border-radius: var(--radius);
-  overflow: hidden;
   box-shadow: var(--dark-shadow);
   min-height: 100vh;
   width: 100%;
+
 }
 
 /* Blurred background layer - fills the whole box */
@@ -1428,8 +1428,9 @@ Album Cover with Songs Overlay
   height: 100%;
   object-fit: cover;
   filter: blur(20px) brightness(0.6);
-  transform: scale(1.2);   /* hides soft edges from the blur */
+  transform: scale(3);   /* hides soft edges from the blur */
   z-index: 0;
+  
 }
 
 /* Sharp foreground image - centered, normal size */
@@ -1508,10 +1509,9 @@ Album Cover with Songs Overlay
 
   .album-songs-overlay {
     opacity: 1;            /* always visible on touch devices, no hover */
-    background: rgba(0, 0, 0, 0.8);
+    background: hsla(0, 0%, 0%, 0.8);
     padding: 1rem;
   }
-
   .detail-album-title {
     font-size: 1.1rem;     /* slightly smaller on mobile */
   }
