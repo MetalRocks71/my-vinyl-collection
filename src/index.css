@@ -1508,7 +1508,7 @@ Album Cover with Songs Overlay
 }
 
 /* Mobile: scale the cover down to fit the screen, click-toggled overlay */
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 768px) {
   .album-cover-wrapper {
     margin-top: 100px;
     max-width: 423px;
