@@ -1423,11 +1423,12 @@ Album Cover with Songs Overlay
 
 /* Sharp foreground image - centered, normal size */
 .album-cover-wrapper .collection-img-1 {
-  position: relative;
+  position: absolute;   /* was: relative — take it out of flow so it can't blow up the box */
+  inset: 0;
   z-index: 1;
-  width: 100vh;
-  height: 100vh;
-  object-fit: contain;     /* shows full image without cropping, centered */
+  width: 100%;           /* was: 100vh */
+  height: 100%;          /* was: 100vh */
+  object-fit: contain;
   display: block;
   margin: 0 auto;
   box-shadow: none;
