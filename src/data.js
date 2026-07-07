@@ -3440,6 +3440,27 @@ export const songList = [
 			{ id: 11, title: 'Forged by Failure', length: '6:45' },
 		],
 	},
+
+	{
+		id: 10001 /*id of the album*/,
+		cover: augustburnsred1,
+		year: 2026,
+		album: 'Death Below',
+		albumSongs: [
+			{ id: 1, title: 'Premonition', length: '1:53' },
+			{ id: 2, title: 'The Cleansing', length: '7:47' },
+			{ id: 3, title: 'Ancestry (feat. Jesse Leach)', length: '4:50' },
+			{ id: 4, title: 'Tightrope (feat. Jason Richardson)', length: '4:13' },
+			{ id: 5, title: "Fool's Gold in the Bear Trap", length: '3:04' },
+			{ id: 6, title: 'Backfire', length: '4:22' },
+			{ id: 7, title: 'Revival', length: '4:29' },
+			{ id: 8, title: 'Sevink', length: '1:23' },
+			{ id: 9, title: 'Dark Divide', length: '4:58' },
+			{ id: 10, title: 'Deadbolt', length: '4:20' },
+			{ id: 11, title: 'The Abyss (feat. JT Cavey)', length: '4:34' },
+			{ id: 12, title: 'Reckoning (feat. Spencer Chamberlain)', length: '7:52' },
+		],
+	},
 	{
 		id: 10028 /*id of the album*/,
 		cover: blacksabbath1,
