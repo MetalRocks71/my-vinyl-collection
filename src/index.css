@@ -1530,7 +1530,9 @@ Album Cover with Songs Overlay
     max-width: 100%;
     min-height: 360px;
     width: 100%;
-    position: fixed;
+    position: auto;
+    left: 0;
+    right: 0;
   }
 
   .album-songs-overlay {
