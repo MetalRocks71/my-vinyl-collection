@@ -3422,7 +3422,7 @@ export const artistBioAderito = [
 ]
 export const songList = [
 	{
-		id: 10000,
+		id: 10000 /*id of the album*/,
 		cover: augustburnsred2,
 		year: 2026,
 		album: 'Season of Surrender',
@@ -3441,7 +3441,7 @@ export const songList = [
 		],
 	},
 	{
-		id: 10028,
+		id: 10028 /*id of the album*/,
 		cover: blacksabbath1,
 		year: 1980,
 		album: 'Heaven and Hell',
@@ -3457,7 +3457,7 @@ export const songList = [
 		],
 	},
 	{
-		id: 10020,
+		id: 10020 /*id of the album*/,
 		cover: blacksabbath2,
 		year: 1970,
 		album: 'black Sabbath',
