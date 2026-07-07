@@ -1427,8 +1427,8 @@ Album Cover with Songs Overlay
   width: 100%;
   height: 100%;
   object-fit: cover;
-  filter: blur(20px) brightness(0.6);
-  transform: scale(1.8);   /* hides soft edges from the blur */
+  filter: blur(5px) brightness(1.2) contrast(1.1);
+  transform: scale(3.1);   /* hides soft edges from the blur */
   z-index: 0;
   
 }
