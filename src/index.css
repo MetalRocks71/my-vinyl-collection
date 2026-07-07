@@ -1529,6 +1529,11 @@ Album Cover with Songs Overlay
     font-size: 0.75rem;
   }
 }
+@media (hover: hover) and (pointer: fine) {
+  .album-cover-wrapper:hover .album-songs-overlay {
+    opacity: 1;
+  }
+}
 /*
 =============== 
 Footer
