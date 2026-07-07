@@ -1398,6 +1398,17 @@ Image Detail album Section - Vinyl record cards
 Album Cover with Songs Overlay
 ===============
 */
+.album-hero-img {
+  position: absolute;
+  inset: 0;
+  z-index: 1;
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  display: block;
+  margin: 0 auto;
+  box-shadow: none;
+}
 
 .album-cover-wrapper {
   position: relative;

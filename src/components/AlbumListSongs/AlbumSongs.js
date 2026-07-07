@@ -13,7 +13,7 @@ const AlbumSongList = () => {
 			<div className='detail-wrapper'>
 				<div className='album-cover-wrapper'>
 					<img src={albumSongs.cover} alt='' className='cover-bg-blur' aria-hidden='true' />
-					<img src={albumSongs.cover} alt={albumSongs.album} className='collection-img-1' />
+					<img src={albumSongs.cover} alt={albumSongs.album} className='album-hero-img' />
 
 					<div className='album-songs-overlay'>
 						<h2 className='detail-album-title'>{albumSongs.album}</h2>
