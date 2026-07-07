@@ -624,7 +624,8 @@ Search Bar - Navbar delete functionality (removes text cursor across site)
 
 .search-clear {
   position: absolute;
-  right: 40px; /* sits left of the search button */
+  right: 40px;
+  /* sits left of the search button */
   background: none;
   border: none;
   cursor: pointer;
@@ -644,17 +645,21 @@ Search Bar - Navbar delete functionality (removes text cursor across site)
 /* ── Mobile — clear button moves to the LEFT of the input ──────────────── */
 @media (max-width: 768px) {
   .search-container {
-    flex-direction: row; /* flips the button to the left */
+    flex-direction: row;
+    /* flips the button to the left */
     gap: 6px;
   }
 
   .search-input {
-    padding-right: 100px;      /* only needs room for the search button now */
-    padding-left: 10px;         /* normal left padding restored */
+    padding-right: 100px;
+    /* only needs room for the search button now */
+    padding-left: 10px;
+    /* normal left padding restored */
   }
 
   .search-clear {
-    position: static;           /* taken out of absolute flow */
+    position: static;
+    /* taken out of absolute flow */
     flex-shrink: 0;
     width: 28px;
     height: 28px;
@@ -1205,6 +1210,7 @@ Collections Section - Vinyl record cards
     font-size: 12px;
   }
 }
+
 /*
 =============== 
 Collections Card 1 Section - Vinyl record cards
@@ -1221,7 +1227,8 @@ Collections Card 1 Section - Vinyl record cards
   display: flex;
   flex-direction: row;
   align-items: flex-start;
-  justify-content: flex-start;   /* changed from center */
+  justify-content: flex-start;
+  /* changed from center */
   gap: 2rem;
   padding: 2rem;
   margin: 0 auto;
@@ -1231,17 +1238,19 @@ Collections Card 1 Section - Vinyl record cards
   display: flex;
   flex-direction: row;
   align-items: flex-start;
-  flex-wrap: wrap;              /* allow wrapping instead of overflowing */
+  flex-wrap: wrap;
+  /* allow wrapping instead of overflowing */
   gap: 2.5rem;
   max-width: 800px;
-  box-sizing: border-box;       /* padding included in max-width */
+  box-sizing: border-box;
+  /* padding included in max-width */
   background: var(--clr-white);
   border-radius: 16px;
   box-shadow: 0 8px 32px hsla(0, 0%, 0%, 0.12);
   padding: 2rem;
-  overflow: hidden;  
+  overflow: hidden;
   color: var(--clr-white);
-           /* clip anything that still overflows */
+  /* clip anything that still overflows */
 }
 
 .collection-img-1 {
@@ -1270,6 +1279,7 @@ Collections Card 1 Section - Vinyl record cards
 .detail-artist-bio strong {
   font-weight: 700;
 }
+
 /*
 =============== 
 Image Detail album Section - Vinyl record cards
@@ -1333,7 +1343,8 @@ Image Detail album Section - Vinyl record cards
 
 .album-title-list,
 .album-year-list {
-  margin: 0;               /* remove default <p> margins */
+  margin: 0;
+  /* remove default <p> margins */
 }
 
 .album-title-list {
@@ -1345,7 +1356,8 @@ Image Detail album Section - Vinyl record cards
 }
 
 .album-year-list {
-  margin-top: 0.15rem;      /* much smaller gap */
+  margin-top: 0.15rem;
+  /* much smaller gap */
   font-size: 0.9rem;
   color: var(--clr-grey-5);
   white-space: nowrap;
@@ -1353,6 +1365,7 @@ Image Detail album Section - Vinyl record cards
   text-overflow: ellipsis;
   color: var(--clr-white);
 }
+
 /* Mobile - stack vertically */
 @media screen and (max-width: 768px) {
   .detail-wrapper {
@@ -1499,19 +1512,20 @@ Album Cover with Songs Overlay
   .album-cover-wrapper {
     margin-top: 100px;
     max-width: 100%;
-    min-height: 400px;
+    min-height: 420px;
     width: 100%;
-    max-height: 400px;
     position: fixed;
+
   }
 
   .album-songs-overlay {
     opacity: 0;
     transition: opacity 0.2s;
     background: hsla(0, 0%, 0%, 0.8);
-    padding: 1rem;
+    padding: 1.25rem;
   }
 
+  /*open overlay when album cover is clicked (toggled) */
   .album-cover-wrapper.is-open .album-songs-overlay {
     opacity: 1;
   }
@@ -1522,7 +1536,9 @@ Album Cover with Songs Overlay
 
   .song-overlay-item {
     font-size: 0.75rem;
+
   }
+
 }
 
 /* Desktop only: hover reveals overlay (real mouse/pointer devices) */
@@ -1531,6 +1547,7 @@ Album Cover with Songs Overlay
     opacity: 1;
   }
 }
+
 /*
 =============== 
 Footer
@@ -1621,7 +1638,7 @@ footer>div {
   /* 4px letter spacing */
   color: var(--clr-white);
   /* White text */
-  text-align:center;
+  text-align: center;
   /* Centered */
   word-wrap: break-word;
   /* Breaks long words */
