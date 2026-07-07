@@ -3420,3 +3420,21 @@ export const artistBioAderito = [
 		],
 	},
 ]
+export const songList = [
+	{
+		id: 8,
+		cover: blacksabbath1,
+		year: 1980,
+		album: 'Heaven and Hell',
+		albumSongs: [
+			{ id: 1, title: 'Neon Knights',length: '3:49',  },
+			{ id: 2, title: 'Children of the Sea', length: '4:12',  },
+			{ id: 3, title: 'Lady Evil',length: '3:25',  },
+			{ id: 4, title: 'Heaven and Hell',length: '5:00', },
+			{ id: 5, title: 'Wishing Well', length: '3:30', },
+			{ id: 6, title: 'Die Young',  length: '4:05'},
+			{ id: 7, title: 'Walk Away', length: '3:45' },
+			{ id: 8, title: 'Lonely Is the Word', length: '4:30' },
+		],
+	},
+]

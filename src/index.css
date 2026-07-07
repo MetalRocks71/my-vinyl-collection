@@ -1173,7 +1173,7 @@ Collections Section - Vinyl record cards
 
 /* overlay text */
 .album-title {
-  color: #fff;
+  color: hsl(0, 0%, 100%);
   font-weight: bold;
 }
 
@@ -1240,6 +1240,7 @@ Collections Card 1 Section - Vinyl record cards
   box-shadow: 0 8px 32px rgba(0, 0, 0, 0.12);
   padding: 2rem;
   overflow: hidden;  
+  color: var(--clr-white);
            /* clip anything that still overflows */
 }
 
@@ -1389,6 +1390,90 @@ Image Detail album Section - Vinyl record cards
     width: 100%;
     height: auto;
     display: block;
+  }
+}
+
+/*
+=============== 
+Album Cover with Songs Overlay
+===============
+*/
+
+.album-cover-wrapper {
+  position: relative;
+  display: inline-block;
+  border-radius: var(--radius);
+  overflow: hidden;
+  box-shadow: var(--dark-shadow);
+  max-width: 100vh;
+  min-height: 100svh; 
+  width: 100%; /* ensures enough room for 8 songs + title */
+}
+
+.album-cover-wrapper .collection-img-1 {
+  width: 100%;
+  height: 100%;
+  display: block;
+  object-fit: cover;
+  border-radius: 0;
+  box-shadow: none;
+}
+
+.album-songs-overlay {
+  position: absolute;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.7);
+  color: var(--clr-white);
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;   /* top-aligned, not centered */
+  align-items: center;
+  padding: 1.25rem 1rem;
+  text-align: center;
+  opacity: 0;
+  transition: var(--transition);
+  overflow-y: auto;              /* scrolls instead of clipping if content is tall */
+}
+
+.album-cover-wrapper:hover .album-songs-overlay {
+  opacity: 1;
+}
+
+.detail-album-title {
+  color: var(--clr-white);
+  font-size: 3rem;   /* smaller so it doesn't wrap/clip */
+  margin-bottom: 0.15rem;
+  line-height: 1.1;
+}
+
+.detail-album-year {
+  color: var(--clr-grey-9);
+  margin-bottom: 0.75rem;
+  font-size: 4rem;
+}
+
+.songs-overlay-list {
+  width: 100%;
+}
+
+.song-overlay-item {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  margin: 0.2rem 0;
+  font-size: 4rem;   /* smaller so all 8 songs fit */
+}
+
+.song-overlay-length {
+  color: hsla(0, 0%, 100%, 0.7);
+  margin-left: 1rem;
+  flex-shrink: 0;       /* keeps the time from wrapping/shrinking oddly */
+}
+
+@media screen and (max-width: 767px) {
+  .album-songs-overlay {
+    opacity: 1;
+    background: rgba(0, 0, 0, 0.8);
   }
 }
 /*
