@@ -1391,8 +1391,8 @@ Image Detail album Section - Vinyl record cards
 
   .albums-grid {
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    gap: 1rem;
+    grid-template-columns: repeat(2, 2fr);
+    gap: 0.5rem;
   }
 
   .album-item {
