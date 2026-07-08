@@ -1391,12 +1391,17 @@ Image Detail album Section - Vinyl record cards
 
   .albums-grid {
     display: grid;
-    grid-template-columns: repeat(2, 2fr);
-    gap: 0.5rem;
+    grid-template-columns: repeat(2, 160px);
+    justify-content: center;
+    gap: 2rem;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0;
   }
 
   .album-item {
-    width: 100%;
+    width: 160px;
+    justify-self: center;
   }
 
   .imageDetail {
