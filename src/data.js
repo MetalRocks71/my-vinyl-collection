@@ -241,6 +241,12 @@ import yesbio from './imagesBio/yesbio.jpg'
 // Album images listed in alphabetical order by artist
 import augustburnsred3 from './ImageDetails/augustburnsred-3.jpg'
 import augustburnsred4 from './ImageDetails/augustburnsred-4.jpg'
+import augustburnsred5 from './ImageDetails/augustburnsred-5.jpg'
+import augustburnsred6 from './ImageDetails/augustburnsred-6.jpg'
+import augustburnsred8 from './ImageDetails/augustburnsred-8.jpg'
+import augustburnsred9 from './ImageDetails/augustburnsred-9.jpg'
+import augustburnsred10 from './ImageDetails/augustburnsred-10.jpg'
+import augustburnsred11 from './ImageDetails/augustburnsred-11.jpg'
 import blacksabbath2 from './ImageDetails/blacksabbath-2.jpg'
 import blacksabbath3 from './ImageDetails/blacksabbath-3.jpg'
 import blacksabbath4 from './ImageDetails/blacksabbath-4.jpg'
@@ -1804,12 +1810,20 @@ export const artistBioMetal = [
 	{
 		id: 1,
 		image2: augustburnsredbio,
+
 		albums: [
-			{ id: 10000, title: 'Season of Surrender', cover: augustburnsred2, year: 2026 },
-			{ id: 10001, title: 'Death Below', cover: augustburnsred1, year: 2023 },
+			{ id: 10000, title: 'Season of Surrender', cover: augustburnsred1, year: 2026 },
+			{ id: 10001, title: 'Death Below', cover: augustburnsred2, year: 2023 },
 			{ id: 10002, title: 'Guardians', cover: augustburnsred3, year: 2020 },
-			{ id: 10003, title: 'Constellations', cover: augustburnsred4, year: 2019 },
+			{ id: 10003, title: 'Phantom Anthem', cover: augustburnsred4, year: 2017 },
+			{ id: 10004, title: 'Found in Far Away Places', cover: augustburnsred5, year: 2015 },
+			{ id: 10005, title: 'Rescue & Restore', cover: augustburnsred6, year: 2013 },
+			{ id: 10007, title: 'Leveler', cover: augustburnsred8, year: 2011 },
+			{ id: 10008, title: 'Constellations', cover: augustburnsred9, year: 2009 },
+			{ id: 10009, title: 'Messengers', cover: augustburnsred10, year: 2007 },
+			{ id: 10010, title: 'Thrill Seeker', cover: augustburnsred11, year: 2005 },
 		],
+
 		bio: [
 			`August Burns Red is an American <strong>metalcore</strong> band from Lancaster, Pennsylvania, <strong>formed in 2003</strong>. The band's lineup of guitarists John Benjamin <strong>JB</strong> Brubaker and Brent Rambler, drummer Matt Greiner, lead vocalist Jake Luhrs and bassist Dustin Davidson has remained consistent since 2006. The band was nominated for a Grammy Award in 2016 for Best Metal Performance for the song <strong>Identity</strong> from its 2015 release Found in Far Away Places, and again in 2018 for <strong>Invisible Enemy</strong> from Phantom Anthem (2017).`,
 			`August Burns Red members have been asked about the origin of their band name on many occasions and have given numerous different stories. The most popular story behind the name is an incident involving Jon Hershey, the band's original vocalist, when he dated a woman named August who burned his dog Redd alive in his dog house. However, it was later revealed in a radio interview that this meaning (along with others) was simply a comical story created by the members and that there is no actual meaning behind the band name. Drummer Matt Greiner stated in the interview that <strong>'we just came up with the name to come up with a name.'</strong>`,
@@ -1818,12 +1832,20 @@ export const artistBioMetal = [
 	{
 		id: 2,
 		image2: augustburnsredbio,
+
 		albums: [
-			{ id: 10000, title: 'Season of Surrender', cover: augustburnsred2, year: 2026 },
-			{ id: 10001, title: 'Death Below', cover: augustburnsred1, year: 2023 },
+			{ id: 10000, title: 'Season of Surrender', cover: augustburnsred1, year: 2026 },
+			{ id: 10001, title: 'Death Below', cover: augustburnsred2, year: 2023 },
 			{ id: 10002, title: 'Guardians', cover: augustburnsred3, year: 2020 },
-			{ id: 10003, title: 'Constellations', cover: augustburnsred4, year: 2019 },
+			{ id: 10003, title: 'Phantom Anthem', cover: augustburnsred4, year: 2017 },
+			{ id: 10004, title: 'Found in Far Away Places', cover: augustburnsred5, year: 2015 },
+			{ id: 10005, title: 'Rescue & Restore', cover: augustburnsred6, year: 2013 },
+			{ id: 10007, title: 'Leveler', cover: augustburnsred8, year: 2011 },
+			{ id: 10008, title: 'Constellations', cover: augustburnsred9, year: 2009 },
+			{ id: 10009, title: 'Messengers', cover: augustburnsred10, year: 2007 },
+			{ id: 10010, title: 'Thrill Seeker', cover: augustburnsred11, year: 2005 },
 		],
+
 		band: 'August Burns Red',
 		bio: [
 			`August Burns Red is an American <strong>metalcore</strong> band from Lancaster, Pennsylvania, <strong>formed in 2003</strong>. The band's lineup of guitarists John Benjamin <strong>JB</strong> Brubaker and Brent Rambler, drummer Matt Greiner, lead vocalist Jake Luhrs and bassist Dustin Davidson has remained consistent since 2006. The band was nominated for a Grammy Award in 2016 for Best Metal Performance for the song <strong>Identity</strong> from its 2015 release Found in Far Away Places, and again in 2018 for <strong>Invisible Enemy</strong> from Phantom Anthem (2017).`,
@@ -3421,9 +3443,11 @@ export const artistBioAderito = [
 	},
 ]
 export const songList = [
+
+	/*August Burns Red Albums*/
 	{
 		id: 10000 /*id of the album*/,
-		cover: augustburnsred2,
+		cover: augustburnsred1,
 		year: 2026,
 		album: 'Season of Surrender',
 		albumSongs: [
@@ -3443,7 +3467,7 @@ export const songList = [
 
 	{
 		id: 10001 /*id of the album*/,
-		cover: augustburnsred1,
+		cover: augustburnsred2,
 		year: 2026,
 		album: 'Death Below',
 		albumSongs: [
@@ -3461,6 +3485,164 @@ export const songList = [
 			{ id: 12, title: 'Reckoning (feat. Spencer Chamberlain)', length: '7:52' },
 		],
 	},
+{
+    id: 10002,
+    cover: augustburnsred3,
+    year: 2020,
+    album: 'Guardians',
+    albumSongs: [
+        { id: 1, title: 'The Narrative', length: '4:09' },
+        { id: 2, title: 'Bones', length: '4:15' },
+        { id: 3, title: 'Paramount', length: '4:48' },
+        { id: 4, title: 'Defender', length: '4:21' },
+        { id: 5, title: 'Lighthouse', length: '4:13' },
+        { id: 6, title: 'Dismembered Memory', length: '4:09' },
+        { id: 7, title: 'Ties That Bind', length: '4:18' },
+        { id: 8, title: 'Bloodletter', length: '3:40' },
+        { id: 9, title: 'Extinct By Instinct', length: '4:43' },
+        { id: 10, title: 'Empty Heaven', length: '4:25' },
+        { id: 11, title: 'Three Fountains', length: '6:21' },
+    ],
+},
+{
+    id: 10003,
+    cover: augustburnsred4,
+    year: 2017,
+    album: 'Phantom Anthem',
+    albumSongs: [
+        { id: 1, title: 'King of Sorrow', length: '4:05' },
+        { id: 2, title: 'Hero of the Half Truth', length: '5:03' },
+        { id: 3, title: 'The Frost', length: '4:46' },
+        { id: 4, title: 'Lifeline', length: '5:34' },
+        { id: 5, title: 'Invisible Enemy', length: '4:37' },
+        { id: 6, title: 'Quake', length: '4:08' },
+        { id: 7, title: 'Coordinates', length: '5:11' },
+        { id: 8, title: 'Generations', length: '6:00' },
+        { id: 9, title: 'Float', length: '4:15' },
+        { id: 10, title: 'Dangerous', length: '4:23' },
+        { id: 11, title: 'Carbon Copy', length: '5:39' },
+    ],
+},
+
+{
+    id: 10004,
+    cover: augustburnsred5,
+    year: 2015,
+    album: 'Found in Far Away Places',
+        albumSongs: [
+        { id: 1, title: 'The Wake', length: '3:26' },
+        { id: 2, title: 'Martyr', length: '4:35' },
+        { id: 3, title: 'Identity', length: '4:19' },
+        { id: 4, title: 'Separating the Seas', length: '4:19' },
+        { id: 5, title: 'Ghosts', length: '4:49' },
+        { id: 6, title: 'Majoring in the Minors', length: '4:18' },
+        { id: 7, title: 'Everlasting Ending', length: '5:09' },
+        { id: 8, title: 'Broken Promises', length: '6:12' },
+        { id: 9, title: 'Blackwood', length: '4:42' },
+        { id: 10, title: 'Twenty-One Grams', length: '4:53' },
+        { id: 11, title: 'Vanguard', length: '5:39' },
+    ],
+},
+
+{
+    id: 10005,
+    cover: augustburnsred6,
+    year: 2013,
+    album: 'Rescue & Restore',
+    albumSongs: [
+        { id: 1, title: 'Provision', length: '4:40' },
+        { id: 2, title: 'Treatment', length: '5:14' },
+        { id: 3, title: 'Spirit Breaker', length: '4:51' },
+        { id: 4, title: 'Count It All As Lost', length: '4:09' },
+        { id: 5, title: 'Sincerity', length: '3:17' },
+        { id: 6, title: 'Creative Captivity', length: '4:42' },
+        { id: 7, title: 'Fault Line', length: '4:03' },
+        { id: 8, title: 'Beauty In Tragedy', length: '4:51' },
+        { id: 9, title: 'Animals', length: '3:29' },
+        { id: 10, title: 'Echoes', length: '4:23' },
+        { id: 11, title: 'The First Step', length: '4:24' },
+    ],
+},
+{
+    id: 10007,
+    cover: augustburnsred8,
+    year: 2011,
+    album: 'Leveler',
+    albumSongs: [
+        { id: 1, title: 'Empire', length: '3:49' },
+        { id: 2, title: 'Internal Cannon', length: '5:05' },
+        { id: 3, title: 'Divisions', length: '3:20' },
+        { id: 4, title: 'Cutting the Ties', length: '5:02' },
+        { id: 5, title: 'Pangaea', length: '6:22' },
+        { id: 6, title: 'Carpe Diem', length: '5:37' },
+        { id: 7, title: '40 Nights', length: '3:54' },
+        { id: 8, title: 'Salt & Light', length: '3:40' },
+        { id: 9, title: 'Poor Millionaire', length: '4:28' },
+        { id: 10, title: '01/16/2011', length: '0:52' },
+        { id: 11, title: 'Boys of Fall', length: '4:01' },
+        { id: 12, title: 'Leveler', length: '4:47' },
+    ],
+},
+{
+    id: 10008,
+    cover: augustburnsred9,
+    year: 2009,
+    album: 'Constellations',
+    albumSongs: [
+        { id: 1, title: 'Thirty and Seven', length: '3:19' },
+        { id: 2, title: 'Existence', length: '3:54' },
+        { id: 3, title: 'Ocean of Apathy', length: '3:57' },
+        { id: 4, title: 'White Washed', length: '3:46' },
+        { id: 5, title: 'Marianas Trench', length: '4:18' },
+        { id: 6, title: 'The Escape Artist', length: '3:58' },
+        { id: 7, title: 'Indonesia', length: '3:34' },
+        { id: 8, title: 'Paradox', length: '3:19' },
+        { id: 9, title: 'Meridian', length: '6:00' },
+        { id: 10, title: 'Rationalist', length: '2:39' },
+        { id: 11, title: 'Meddler', length: '3:54' },
+        { id: 12, title: 'Crusades', length: '5:12' },
+    ],
+},
+{
+    id: 10009,
+    cover: augustburnsred10,
+    year: 2007,
+    album: 'Messengers',
+    albumSongs: [
+        { id: 1, title: 'The Truth of a Liar', length: '4:12' },
+        { id: 2, title: 'Up Against the Ropes', length: '5:04' },
+        { id: 3, title: 'Back Burner', length: '3:42' },
+        { id: 4, title: 'The Blinding Light', length: '5:28' },
+        { id: 5, title: 'Composure', length: '4:13' },
+        { id: 6, title: 'Vital Signs', length: '3:17' },
+        { id: 7, title: 'The Eleventh Hour', length: '4:05' },
+        { id: 8, title: 'The Balance', length: '3:20' },
+        { id: 9, title: 'Black Sheep', length: '3:53' },
+        { id: 10, title: 'An American Dream', length: '4:41' },
+        { id: 11, title: 'Redemption', length: '6:12' },
+    ],
+},
+{
+    id: 10010,
+    cover: augustburnsred11,
+    year: 2005,
+    album: 'Thrill Seeker',
+    albumSongs: [
+        { id: 1, title: 'Your Little Suburbia Is in Ruins', length: '3:58' },
+        { id: 2, title: 'Speech Impediment', length: '4:01' },
+        { id: 3, title: 'Endorphins', length: '3:10' },
+        { id: 4, title: 'Too Late for Roses', length: '3:19' },
+        { id: 5, title: 'Barbarian', length: '3:45' },
+        { id: 6, title: 'The Reflective Property', length: '3:51' },
+        { id: 7, title: 'A Wish Full of Dreams', length: '2:58' },
+        { id: 8, title: 'Consumer', length: '4:10' },
+        { id: 9, title: 'A Shot Below the Belt', length: '4:10' },
+        { id: 10, title: 'Eve of the End', length: '3:09' },
+        { id: 11, title: 'The Seventh Trumpet', length: '8:12' },
+    ],
+},
+
+/*Black Sabbath Albums*/
 	{
 		id: 10028 /*id of the album*/,
 		cover: blacksabbath1,
