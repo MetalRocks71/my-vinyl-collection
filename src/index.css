@@ -1324,7 +1324,7 @@ Image Detail album Section - Vinyl record cards
 .albums-grid {
   display: flex;
   flex-wrap: wrap;
-  gap: 1.5rem;
+  gap: 3.5rem;
   margin-top: 1rem;
 }
 
