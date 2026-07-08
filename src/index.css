@@ -1047,8 +1047,8 @@ Collections Section - Vinyl record cards
 /* DATE */
 .collection-date {
   position: absolute;
-  top: 10px;
-  left: 10px;
+  bottom: 0;
+  right: 15px;
   background: var(--clr-primary-5);
   color: hsl(0, 0%, 100%);
   padding: 0.2rem 0.8rem;
