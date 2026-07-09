@@ -35,7 +35,7 @@ const Footer = () => {
 				<p className='copyright'>
 					All rights reserved ©
 					<br />
-					<br /> band name, images, audio recordings, logos,
+					<br /> Band name, images, audio recordings, logos,
 					<br />
 					and all associated intellectual property belong to the bands cited in this website and are protected by
 					copyright and trademark laws.
