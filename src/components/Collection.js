@@ -2,6 +2,7 @@ import { useState, useEffect, useRef } from 'react'
 import Title from './Title'
 import { metalcollection } from '../data'
 import GlowAlbumCard from './GlowAlbumCard'
+import { useLocation } from 'react-router-dom'
 
 //search query with open collection sectioni
 const Collection = ({ searchQuery }) => {
@@ -50,6 +51,15 @@ const Collection = ({ searchQuery }) => {
 
 	// Auto-open when there's a search query
 	const shouldOpen = open || searchQuery
+
+	  const location = useLocation()
+
+		useEffect(() => {
+			if (location && location.hash) {
+				const el = document.querySelector(location.hash)
+				if (el) el.scrollIntoView({ behavior: 'smooth' })
+			}
+		}, [location])
 
 	return (
 		<section className='section collection' id='metalcollection' ref={sectionRef}>

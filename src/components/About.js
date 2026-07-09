@@ -1,7 +1,20 @@
 import aboutImg from '../images/about.jpeg'
 import Title from './Title'
+import { useLocation } from 'react-router-dom'
+import { useEffect} from 'react'
+
+
 
 const About = () => {
+  const location = useLocation()
+
+  useEffect(() => {
+    if (location && location.hash) {
+      const el = document.querySelector(location.hash)
+      if (el) el.scrollIntoView({ behavior: 'smooth' })
+    }
+  }, [location])
+
   return (
     <section className="section" id="about">
       <Title title="about" subtitle="the Music" />

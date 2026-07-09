@@ -1,8 +1,6 @@
 
 import { pageLinks, socialLinks, logo } from '../data'
 
-
-
 const Footer = () => {
   return (
 		<footer className='section footer'>

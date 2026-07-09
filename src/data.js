@@ -286,12 +286,12 @@ import depeche_mode15 from './ImageDetails/depechemode-15.jpg'
 export const logo = [{ id: 1, image: thirteenthghost }]
 // Navigation and social links
 export const pageLinks = [
-	{ id: 1, href: '#home', text: 'home' },
-	{ id: 2, href: '#about', text: 'about the music' },
-	{ id: 3, href: '#top', text: 'Top 10 Albums' },
-	{ id: 5, href: '#metalcollection', text: 'The Metal collection' },
-	{ id: 6, href: '#rockcollection', text: 'The Rock collection' },
-	{ id: 7, href: '#aderitopereira', text: 'The Aderito P. collection' },
+	{ id: 1, href: '/#home', text: 'home' },
+	{ id: 2, href: '/#about', text: 'about the music' },
+	{ id: 3, href: '/#top', text: 'Top 10 Albums' },
+	{ id: 5, href: '/#metalcollection', text: 'The Metal collection' },
+	{ id: 6, href: '/#rockcollection', text: 'The Rock collection' },
+	{ id: 7, href: '/#aderitopereira', text: 'The Aderito P. collection' },
 ]
 export const socialLinks = [
 	{ id: 1, href: 'https://www.facebook.com', icon: 'fab fa-facebook' },
