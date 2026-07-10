@@ -1,6 +1,6 @@
 import { useParams, useNavigate } from 'react-router-dom'
 import { artistBioRock } from '../../data'
-import FooterTwo from './FooterTwo'
+import Footer from '../Footer'
 
 const AlbumDetailRock = () => {
 	const { id } = useParams()
@@ -45,7 +45,7 @@ const AlbumDetailRock = () => {
 					</div>
 				</div>
 			</section>
-			<FooterTwo />
+			<Footer/>
 		</>
 	)
 }
