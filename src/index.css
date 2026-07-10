@@ -1219,11 +1219,11 @@ Collections Card 1 Section - Vinyl record cards
 .detail-section {
   min-height: 100vh;
   background-color: #413f3f;
-  padding-top: 5rem;
-  margin-top: -4rem;
+  padding-top: 4.05rem;
+  margin-top: -6rem;
 }
 
-.detail-wrapper {
+.detail-wrapper-2 {
   display: flex;
   flex-direction: row;
   align-items: flex-start;
@@ -1232,6 +1232,8 @@ Collections Card 1 Section - Vinyl record cards
   gap: 2rem;
   padding: 2rem;
   margin: 0 auto;
+
+
 }
 
 .collection-card-1 {
@@ -1462,6 +1464,7 @@ Album Cover with Songs Overlay
   box-shadow: none;
 }
 
+/* Click-toggled overlay — merged from two duplicate rules into one */
 .album-songs-overlay {
   position: absolute;
   inset: 0;
@@ -1472,26 +1475,29 @@ Album Cover with Songs Overlay
   flex-direction: column;
   justify-content: flex-start;
   align-items: center;
-  padding: 1.25rem 1rem;
+  padding: 1.25rem 1rem 1rem;
   text-align: center;
+  border-radius: 16px;
   opacity: 0;
-  transition: var(--transition);
+  transition: opacity 0.2s;
   overflow-y: auto;
 }
 
-/* REMOVED: the old unscoped .album-cover-wrapper:hover rule was here */
+.album-cover-wrapper.is-open .album-songs-overlay {
+  opacity: 1;
+}
 
 .detail-album-title {
   color: var(--clr-white);
-  font-size: 3rem;
+  font-size: clamp(1.5rem, 5vw, 3rem);
   margin-bottom: 0.15rem;
   line-height: 1.1;
 }
 
 .detail-album-year {
   color: var(--clr-grey-9);
+  font-size: clamp(1rem, 3vw, 1.5rem);
   margin-bottom: 0.75rem;
-  font-size: 4rem;
 }
 
 .songs-overlay-list {
@@ -1503,22 +1509,13 @@ Album Cover with Songs Overlay
   justify-content: space-between;
   width: 100%;
   margin: 0.2rem 0;
-  font-size: 1.3rem;
+  font-size: clamp(0.85rem, 2vw, 1.3rem);
 }
 
 .song-overlay-length {
   color: hsla(0, 0%, 100%, 0.7);
   margin-left: 1rem;
   flex-shrink: 0;
-}
-/* Global: click-toggled overlay opacity — works at every screen size */
-.album-songs-overlay {
-  opacity: 0;
-  transition: opacity 0.2s;
-}
-
-.album-cover-wrapper.is-open .album-songs-overlay {
-  opacity: 1;
 }
 
 /* Desktop/pointer devices only: hover also reveals it */
