@@ -1,7 +1,7 @@
 import { useState } from 'react'
 import { useParams } from 'react-router-dom'
 import { songList } from '../../data'
-import Footer from '../Footer'
+
 
 const AlbumSongList = () => {
 	const { id } = useParams()
@@ -12,7 +12,7 @@ const AlbumSongList = () => {
 	if (!albumSongs) return <p>Album not found.</p>
 
 	return (
-		<>
+		
 			<section className='section detail-section'>
 				<div className='detail-wrapper-2'>
 					<div className={`album-cover-wrapper ${isOpen ? 'is-open' : ''}`} onClick={() => setIsOpen((prev) => !prev)}>
@@ -35,8 +35,8 @@ const AlbumSongList = () => {
 					</div>
 				</div>
 			</section>
-			<Footer />
-		</>
+			
+		
 	)
 }
 
