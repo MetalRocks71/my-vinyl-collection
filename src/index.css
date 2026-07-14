@@ -1218,22 +1218,19 @@ Collections Card 1 Section - Vinyl record cards
 */
 .detail-section {
   min-height: 100vh;
-  background-color: #413f3f;
-  padding-top: 4.05rem;
-  margin-top: -6rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  background-color: hsl(0, 0%, 13%);
 }
 
 .detail-wrapper-2 {
   display: flex;
-  flex-direction: row;
-  align-items: flex-start;
-  justify-content: flex-start;
-  /* changed from center */
-  gap: 2rem;
-  padding: 2rem;
-  margin: 0 auto;
-
-
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  
 }
 
 .collection-card-1 {
@@ -1315,6 +1312,7 @@ Image Detail album Section - Vinyl record cards
   flex: 1;
   min-width: 0;
   color: var(--clr-white);
+  position: relative;
 }
 
 .section-title-albums {
@@ -1328,6 +1326,7 @@ Image Detail album Section - Vinyl record cards
   flex-wrap: wrap;
   gap: 2.5rem;
   margin-top: 1rem;
+  padding-left: 5rem;
 }
 
 .album-item {
@@ -1418,69 +1417,66 @@ Image Detail album Section - Vinyl record cards
 Album Cover with Songs Overlay
 ===============
 */
+
+/* Full-page blurred backdrop */
+.page-bg-blur {
+  position: fixed;
+  inset: 0;
+  background-size: cover;
+  background-position: center;
+  filter: blur(30px) brightness(0.7) saturate(1.2);
+  transform: scale(1.15);
+}
+
+/* Circle wrapper */
+.album-cover-wrapper {
+  position: relative;
+  width: min(90vmin, 700px);
+  aspect-ratio: 1 / 1;
+  border-radius: 50%;
+  overflow: hidden;
+  box-shadow: var(--dark-shadow);
+  margin: 0 auto;
+  cursor: pointer;
+}
+/* Sharp album cover image, fills the circle completely */
 .album-hero-img {
   position: absolute;
   inset: 0;
+  width: 100%;
+  height: 100%;
   z-index: 1;
-  width: 100%;
-  height: 100%;
-  object-fit: contain;
-  display: block;
-  margin: 0 auto;
-  box-shadow: none;
-}
-
-.album-cover-wrapper {
-  position: fixed;
-  display: inline-block;
-  border-radius: var(--radius);
-  box-shadow: var(--dark-shadow);
-  min-height: 100%;
-  width: 97%;
-}
-
-/* Blurred background layer - fills the whole box */
-.cover-bg-blur {
-  position: absolute;
-  inset: 0;
-  width: 100%;
-  height: 100%;
   object-fit: cover;
-  filter: blur(5px) brightness(1.2) contrast(1.1);
-  transform: scale(3.1);
-  z-index: 0;
-}
-
-/* Sharp foreground image - centered, normal size */
-.album-cover-wrapper .collection-img-1 {
-  position: absolute;
-  inset: 0;
-  z-index: 1;
-  width: 100%;
-  height: 100%;
-  object-fit: contain;
   display: block;
-  margin: 0 auto;
-  box-shadow: none;
 }
 
-/* Click-toggled overlay — merged from two duplicate rules into one */
+/* Click/hover-toggled overlay */
 .album-songs-overlay {
   position: absolute;
   inset: 0;
   z-index: 2;
-  background: hsla(0, 0%, 0%, 0.35);
+  background: hsla(0, 0%, 0%, 0.45);
   color: var(--clr-white);
   display: flex;
   flex-direction: column;
-  justify-content: flex-start;
+  justify-content: center;
   align-items: center;
-  padding: 1.25rem 1rem 1rem;
+  padding: 12% 15%;
   text-align: center;
-  border-radius: 16px;
   opacity: 0;
   transition: opacity 0.2s;
   overflow-y: auto;
+ 
+  /* hide scrollbar but keep scrolling functional */
+  scrollbar-width: none;
+  /* Firefox */
+  -ms-overflow-style: none;
+  /* old Edge/IE */
+}
+
+.album-songs-overlay::-webkit-scrollbar {
+  display: none;
+  /* Chrome/Safari */
 }
 
 .album-cover-wrapper.is-open .album-songs-overlay {
@@ -1488,28 +1484,25 @@ Album Cover with Songs Overlay
 }
 
 .detail-album-title {
-  color: var(--clr-white);
-  font-size: clamp(1.5rem, 5vw, 3rem);
-  margin-bottom: 0.15rem;
-  line-height: 1.1;
+  font-size: clamp(1rem, 3vw, 1.75rem);
+  margin-bottom: 0.1rem;
+  line-height: 1.05;
 }
 
 .detail-album-year {
-  color: var(--clr-grey-9);
-  font-size: clamp(1.75rem, 3vw, 1.5rem);
-  margin-bottom: 0.75rem;
+  font-size: clamp(0.8rem, 1.5vw, 1rem);
+  margin-bottom: 0.5rem;
+  color: hsla(0, 0%, 100%, 0.7);  
 }
 
 .songs-overlay-list {
   width: 100%;
+  
 }
 
 .song-overlay-item {
-  display: flex;
-  justify-content: space-between;
-  width: 100%;
-  margin: 0.2rem 0;
-  font-size: clamp(1.75rem, 2vw, 1.3rem);
+  font-size: clamp(1.2rem, 1.1vw, 1.5rem);
+  margin: 0.1rem 0;
 }
 
 .song-overlay-length {
@@ -1518,103 +1511,23 @@ Album Cover with Songs Overlay
   flex-shrink: 0;
 }
 
-/* Desktop/pointer devices only: hover also reveals it */
-@media (hover: hover) and (pointer: fine) {
-  .album-cover-wrapper:hover .album-songs-overlay {
-    opacity: 1;
-  }
-}
-
-/* Small mobile: phones up to 480px */
 @media screen and (max-width: 480px) {
   .album-cover-wrapper {
-    margin-top: 80px;
-    max-width: 100%;
-    min-height: 360px;
-    width: 100%;
-    position: auto;
-    left: 0;
-    right: 0;
-  }
-
-  .album-songs-overlay {
-    background: hsla(0, 0%, 0%, 0.8);
-    padding: 1rem;
-  }
-
-  .detail-album-title {
-    font-size: 1rem;
-  }
-
-  .detail-album-year {
-    font-size: 1.5rem;
-  }
-
-  .song-overlay-item {
-    font-size: 0.7rem;
+    width: min(92vmin, 380px);
   }
 }
 
-/* Mobile: 481px to 768px */
 @media screen and (min-width: 481px) and (max-width: 768px) {
   .album-cover-wrapper {
-    margin-top: 100px;
-    max-width: 100%;
-    min-height: 423px;
-    width: 100%;
-    position: fixed;
-  }
-
-  .album-songs-overlay {
-    background: hsla(0, 0%, 0%, 0.8);
-    padding: 1.25rem;
-  }
-
-  .detail-album-title {
-    font-size: 1.1rem;
-  }
-
-  .detail-album-year {
-    font-size: 2rem;
-  }
-
-  .song-overlay-item {
-    font-size: 0.75rem;
+    width: min(80vmin, 460px);
   }
 }
 
-/* Tablet: 769px to 1024px */
 @media screen and (min-width: 769px) and (max-width: 1024px) {
   .album-cover-wrapper {
-    width: 90%;
-    min-height: 500px;
-  }
-
-  .album-songs-overlay {
-    padding: 1.5rem;
-  }
-
-  .detail-album-title {
-    font-size: 2rem;
-  }
-
-  .detail-album-year {
-    font-size: 2.5rem;
-  }
-
-  .song-overlay-item {
-    font-size: 1rem;
+    width: min(75vmin, 540px);
   }
 }
-
-/* Desktop: 1025px and up (your original base styles apply here already, 
-   add overrides only if something needs to differ) */
-@media screen and (min-width: 1025px) {
-  .album-cover-wrapper {
-    width: 97%;
-  }
-}
-
 /*
 =============== 
 Footer
