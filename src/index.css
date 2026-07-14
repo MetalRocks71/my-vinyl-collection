@@ -1513,7 +1513,7 @@ Album Cover with Songs Overlay
 
 @media screen and (min-width: 481px) and (max-width: 768px) {
   .album-cover-wrapper {
-    width: min(70vmin, 400px);
+    width: min(80vmin, 500px);
   }
 
   .album-songs-overlay {
