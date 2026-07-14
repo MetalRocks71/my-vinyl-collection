@@ -1459,34 +1459,59 @@ Album Cover with Songs Overlay
   color: var(--clr-white);
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: flex-start;
   align-items: center;
   padding: 12% 15%;
   text-align: center;
-  opacity: 0;
-  transition: opacity 0.2s;
+  transform: translateY(100%);
+  transition: transform 1.8s ease-out ;
   overflow-y: auto;
-  animation: spin-reverse 20s linear infinite;
-    animation-play-state: inherit;
-    /* stays in sync if you pause the parent */
- 
-  /* hide scrollbar but keep scrolling functional */
   scrollbar-width: none;
-  /* Firefox */
   -ms-overflow-style: none;
-  /* old Edge/IE */
 }
-
 
 .album-songs-overlay::-webkit-scrollbar {
   display: none;
-  /* Chrome/Safari */
+}
+
+.album-cover-wrapper.is-open .album-songs-overlay {
+  transform: translateY(0);
+}
+
+.detail-album-title,
+.detail-album-year,
+.songs-overlay-list {
+  opacity: 0;
+  transform: translateY(20px);
+  transition: opacity 0.4s ease, transform 0.4s ease;
+}
+
+.album-cover-wrapper.is-open .detail-album-title {
+  opacity: 1;
+  transform: translateY(0);
+  transition-delay: 0.05s;
+}
+
+.album-cover-wrapper.is-open .detail-album-year {
+  opacity: 1;
+  transform: translateY(0);
+  transition-delay: 0.15s;
+}
+
+.album-cover-wrapper.is-open .songs-overlay-list {
+  opacity: 1;
+  transform: translateY(0);
+  transition-delay: 0.25s;
+}
+
+.album-songs-overlay::-webkit-scrollbar {
+  display: none;
 }
 
 .album-cover-wrapper.is-open .album-songs-overlay {
   opacity: 1;
+  transform: translateY(0);
 }
-
 .detail-album-title {
   font-size: clamp(1rem, 3vw, 1.75rem);
   margin-bottom: 0.1rem;
@@ -1514,22 +1539,6 @@ Album Cover with Songs Overlay
   margin-left: 1rem;
   flex-shrink: 0;
 }
-/*spinning effect*/
-
-@keyframes spin {
-  from {
-    transform: rotate(0deg);
-  }
-
-  to {
-    transform: rotate(360deg);
-  }
-  
-}
-
-.album-cover-wrapper {
-  animation: spin 18s linear infinite;
-}
 
 
 
@@ -1541,7 +1550,7 @@ Album Cover with Songs Overlay
 
   .album-songs-overlay {
     background: hsla(0, 0%, 0%, 0.85);
-    padding: 8% 12%;
+    padding: 8% 8%;
     justify-content: flex-start;
     /* let list scroll instead of trying to vertically center everything */
     overflow-y: auto;
@@ -1556,7 +1565,6 @@ Album Cover with Songs Overlay
   .song-overlay-item {
     font-size: clamp(0.7rem, 2vw, 0.9rem);
     margin: 0.12rem 0;
-    gap: 0.5rem;
   }
 
   .song-overlay-title {
@@ -1590,11 +1598,7 @@ Album Cover with Songs Overlay
     display: none;
   }
 }
-@media (prefers-reduced-motion: reduce) {
-  .album-hero-img {
-    animation: none;
-  }
-}
+
 /*
 =============== 
 Footer
