@@ -1513,19 +1513,28 @@ Album Cover with Songs Overlay
 
 @media screen and (max-width: 480px) {
   .album-cover-wrapper {
-    width: min(92vmin, 380px);
+    width: min(85vmin, 340px);
+  }
+
+  .album-songs-overlay {
+    background: hsla(0, 0%, 0%, 0.8);
+    padding: 10% 8%;
   }
 }
 
 @media screen and (min-width: 481px) and (max-width: 768px) {
   .album-cover-wrapper {
-    width: min(80vmin, 460px);
+    width: min(70vmin, 400px);
+  }
+
+  .album-songs-overlay {
+    background: hsla(0, 0%, 0%, 0.8);
   }
 }
 
 @media screen and (min-width: 769px) and (max-width: 1024px) {
   .album-cover-wrapper {
-    width: min(75vmin, 540px);
+    width: min(65vmin, 460px);
   }
 }
 /*
