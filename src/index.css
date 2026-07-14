@@ -1522,8 +1522,8 @@ Album Cover with Songs Overlay
   }
 
   .song-overlay-item {
-    font-size: clamp(0.4rem, 1vw, 0.5rem);
-    margin: 0.15rem 0;
+    font-size: clamp(0.2rem, 1vw, 0.2rem);
+    margin: 0.10rem 0;
     gap: 0.5rem;
   }
 
