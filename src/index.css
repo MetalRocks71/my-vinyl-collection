@@ -1513,23 +1513,58 @@ Album Cover with Songs Overlay
 
 @media screen and (min-width: 481px) and (max-width: 768px) {
   .album-cover-wrapper {
-    width: min(120vmin, 800px);
+    width: min(70vmin, 400px);
   }
 
   .album-songs-overlay {
-    background: hsla(0, 0%, 0%, 0.8);
-    padding: 10% 12%;
+    background: hsla(0, 0%, 0%, 0.85);
+    padding: 8% 12%;
+    justify-content: flex-start;
+    /* let list scroll instead of trying to vertically center everything */
+    overflow-y: auto;
+    scrollbar-width: none;
+    -ms-overflow-style: none;
+  }
+
+  .album-songs-overlay::-webkit-scrollbar {
+    display: none;
   }
 
   .song-overlay-item {
-    font-size: clamp(0.2rem, 1vw, 0.2rem);
-    margin: 0.10rem 0;
+    font-size: clamp(0.7rem, 2vw, 0.9rem);
+    margin: 0.12rem 0;
     gap: 0.5rem;
   }
 
   .song-overlay-title {
     overflow-wrap: break-word;
     text-align: left;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .album-songs-overlay {
+    justify-content: flex-start;
+    overflow-y: auto;
+    scrollbar-width: none;
+    -ms-overflow-style: none;
+  }
+
+  .album-songs-overlay::-webkit-scrollbar {
+    display: none;
+  }
+}
+
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+  .album-songs-overlay {
+    justify-content: flex-start;
+    overflow-y: auto;
+    scrollbar-width: none;
+    -ms-overflow-style: none;
+  }
+
+  .album-songs-overlay::-webkit-scrollbar {
+    display: none;
   }
 }
 /*
