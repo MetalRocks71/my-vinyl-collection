@@ -1545,12 +1545,12 @@ Album Cover with Songs Overlay
 
 @media screen and (min-width: 481px) and (max-width: 768px) {
   .album-cover-wrapper {
-    width: min(70vmin, 400px);
+    width: min(80vmin, 400px);
   }
 
   .album-songs-overlay {
     background: hsla(0, 0%, 0%, 0.85);
-    padding: 8% 8%;
+    padding: 8% 5%;
     justify-content: flex-start;
     /* let list scroll instead of trying to vertically center everything */
     overflow-y: auto;
