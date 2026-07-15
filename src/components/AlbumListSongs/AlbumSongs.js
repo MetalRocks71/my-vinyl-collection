@@ -11,7 +11,7 @@ const AlbumSongList = () => {
 	if (!albumSongs) return <p>Album not found.</p>
 
 	return (
-		<section className='section detail-section'>
+		<section className='section detail-section-2'>
 			{/* Full-page blurred backdrop */}
 			<div className='page-bg-blur' style={{ backgroundImage: `url(${albumSongs.cover})` }} aria-hidden='true' />
 

@@ -1222,7 +1222,7 @@ Collections Card 1 Section - Vinyl record cards
   align-items: center;
   justify-content: center;
   position: relative;
-  background-color: hsl(0, 6%, 91%);
+  background-color: hsl(0, 1%, 27%);
 }
 
 .detail-wrapper-2 {
@@ -1465,7 +1465,7 @@ Vinyl Sleeve with Sliding Record + Song List Below
   align-items: center;
   justify-content: center;
   transform: translateX(0) rotate(0deg);
-  transition: transform 1.4s cubic-bezier(0.22, 1, 0.36, 1);
+  transition: transform 1.5s cubic-bezier(0.22, 1, 0.36, 1);
 }
 
 .vinyl-label {
@@ -1506,7 +1506,7 @@ Vinyl Sleeve with Sliding Record + Song List Below
   border-radius: 8px;
   overflow: hidden;
   box-shadow: var(--dark-shadow);
-  transition: transform 1.2s cubic-bezier(0.22, 1, 0.36, 1);
+  transition: transform 1.5s cubic-bezier(0.22, 1, 0.36, 1);
 }
 
 .vinyl-sleeve-wrapper.is-open .album-sleeve {
@@ -1525,7 +1525,7 @@ Vinyl Sleeve with Sliding Record + Song List Below
 /* ============ Song info BELOW the artwork ============ */
 .album-info-below {
   width: min(90vmin, 700px);
-  color: var(--clr-black-2);
+  color: var(--clr-white);
   text-align: center;
   opacity: 0;
   transform: translateY(20px);
@@ -1541,15 +1541,15 @@ Vinyl Sleeve with Sliding Record + Song List Below
 }
 
 .detail-album-title {
-  font-size: clamp(1rem, 3vw, 1.75rem);
+  font-size: clamp(1rem, 3vw, 2rem);
   margin-bottom: 0.1rem;
   line-height: 1.05;
 }
 
 .detail-album-year {
-  font-size: clamp(0.8rem, 1.5vw, 1rem);
+  font-size: clamp(0.8rem, 1.5vw, 4rem);
   margin-bottom: 0.75rem;
-  color: hsla(0, 0%, 0%, 0.7);
+  color: hsl(0, 0%, 100%);
 }
 
 .songs-overlay-list {
@@ -1568,12 +1568,12 @@ Vinyl Sleeve with Sliding Record + Song List Below
   display: flex;
   justify-content: center;
   align-items: baseline;
-  font-size: clamp(0.9rem, 1.1vw, 1.2rem);
+  font-size: clamp(0.9rem, 1.1vw, 2rem);
   margin: 0.25rem 0;
 }
 
 .song-overlay-length {
-  color: hsla(0, 98%, 50%, 0.7);
+  color: hsl(51, 92%, 49%);
   margin-left: 1rem;
   flex-shrink: 0;
 }

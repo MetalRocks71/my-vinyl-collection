@@ -1827,8 +1827,8 @@ export const artistBioMetal = [
 		image2: augustburnsredbio,
 
 		albums: [
-			{ id: 10000, title: 'Season of Surrender', cover: augustburnsred1, year: 2026 },
-			{ id: 10001, title: 'Death Below', cover: augustburnsred2, year: 2023 },
+			{ id: 10000, title: 'Season of Surrender', cover: augustburnsred2, year: 2026 },
+			{ id: 10001, title: 'Death Below', cover: augustburnsred1, year: 2023 },
 			{ id: 10002, title: 'Guardians', cover: augustburnsred3, year: 2020 },
 			{ id: 10003, title: 'Phantom Anthem', cover: augustburnsred4, year: 2017 },
 			{ id: 10004, title: 'Found in Far Away Places', cover: augustburnsred5, year: 2015 },
@@ -1849,8 +1849,8 @@ export const artistBioMetal = [
 		image2: augustburnsredbio,
 
 		albums: [
-			{ id: 10000, title: 'Season of Surrender', cover: augustburnsred1, year: 2026 },
-			{ id: 10001, title: 'Death Below', cover: augustburnsred2, year: 2023 },
+			{ id: 10000, title: 'Season of Surrender', cover: augustburnsred2, year: 2026 },
+			{ id: 10001, title: 'Death Below', cover: augustburnsred1, year: 2023 },
 			{ id: 10002, title: 'Guardians', cover: augustburnsred3, year: 2020 },
 			{ id: 10003, title: 'Phantom Anthem', cover: augustburnsred4, year: 2017 },
 			{ id: 10004, title: 'Found in Far Away Places', cover: augustburnsred5, year: 2015 },
@@ -4021,7 +4021,7 @@ export const songList = [
 	/*August Burns Red Albums*/
 	{
 		id: 10000 /*id of the album*/,
-		cover: augustburnsred1,
+		cover: augustburnsred2,
 		year: 2026,
 		album: 'Season of Surrender',
 		albumSongs: [
@@ -4041,8 +4041,8 @@ export const songList = [
 
 	{
 		id: 10001 /*id of the album*/,
-		cover: augustburnsred2,
-		year: 2026,
+		cover: augustburnsred1,
+		year: 2023,
 		album: 'Death Below',
 		albumSongs: [
 			{ id: 1, title: 'Premonition', length: '1:53' },
