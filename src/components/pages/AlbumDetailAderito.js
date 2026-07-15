@@ -15,7 +15,7 @@ const AlbumDetailAderito = () => {
 	return (
 		<>
 			<section className='section detail-section'>
-				<div className='detail-wrapper-2'>
+				<div className='detail-wrapper'>
 					<div className='collection-card-1'>
 						<img src={artistBio.image2} alt={artistBio.band} className='collection-img-1' />
 						<div className='artist-info-1'>
