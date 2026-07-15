@@ -1584,6 +1584,10 @@ Vinyl Sleeve with Sliding Record + Song List Below
     width: min(80vmin, 400px);
   }
 
+  .vinyl-sleeve-wrapper.is-open .vinyl-disc {
+    transform: translateX(42%) rotate(30deg);
+  }
+
   .song-overlay-item {
     font-size: clamp(0.7rem, 2vw, 0.9rem);
     margin: 0.12rem 0;
@@ -1597,10 +1601,10 @@ Vinyl Sleeve with Sliding Record + Song List Below
 
 @media screen and (max-width: 480px) {
   .vinyl-sleeve-wrapper.is-open .vinyl-disc {
-    transform: translateX(30%) rotate(25deg);
+    /* was 30% — bumped up so it's actually visible on small screens */
+    transform: translateX(48%) rotate(28deg);
   }
 }
-
 /*
 =============== 
 Footer
