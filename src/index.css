@@ -1414,7 +1414,7 @@ Image Detail album Section - Vinyl record cards
 
 /*
 =============== 
-Album Cover with Songs Overlay
+Vinyl Sleeve with Sliding Record + Song List Below
 ===============
 */
 
@@ -1426,92 +1426,120 @@ Album Cover with Songs Overlay
   background-position: center;
   filter: blur(30px) brightness(0.7) saturate(1.2);
   transform: scale(1.15);
+  z-index: -1;
 }
 
-/* Circle wrapper */
-.album-cover-wrapper {
+.detail-wrapper-2 {
+  position: relative;
+  z-index: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2rem;
+  padding: 2rem 0;
+}
+
+/* ============ Sleeve + Vinyl wrapper ============ */
+.vinyl-sleeve-wrapper {
   position: relative;
   width: min(90vmin, 700px);
   aspect-ratio: 1 / 1;
-  border-radius: 50%;
-  overflow: hidden;
-  box-shadow: var(--dark-shadow);
   margin: 0 auto;
   cursor: pointer;
 }
-/* Sharp album cover image, fills the circle completely */
+
+/* The record — same size as the sleeve, sits behind it, slides out on open */
+.vinyl-disc {
+  position: absolute;
+  inset: 0;
+  z-index: 1;
+  border-radius: 50%;
+  background:
+    repeating-radial-gradient(circle at center,
+      hsl(0, 0%, 10%) 0px,
+      hsl(0, 0%, 10%) 2px,
+      hsl(0, 0%, 15%) 3px,
+      hsl(0, 0%, 10%) 4px);
+  box-shadow: var(--dark-shadow);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transform: translateX(0) rotate(0deg);
+  transition: transform 1.4s cubic-bezier(0.22, 1, 0.36, 1);
+}
+
+.vinyl-label {
+  width: 32%;
+  aspect-ratio: 1 / 1;
+  border-radius: 50%;
+  background: hsl(350, 60%, 35%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 8%;
+  color: var(--clr-white);
+  font-size: clamp(0.6rem, 1.2vw, 0.85rem);
+  box-shadow: inset 0 0 0 2px hsla(0, 0%, 0%, 0.4);
+  position: relative;
+}
+
+.vinyl-label::after {
+  content: '';
+  position: absolute;
+  width: 8%;
+  aspect-ratio: 1 / 1;
+  background: hsl(0, 0%, 5%);
+  border-radius: 50%;
+}
+
+/* Slide the record out from behind the sleeve, with a little spin */
+.vinyl-sleeve-wrapper.is-open .vinyl-disc {
+  transform: translateX(45%) rotate(35deg);
+}
+
+/* Album cover sleeve — sits on top, stays put */
+.album-sleeve {
+  position: absolute;
+  inset: 0;
+  z-index: 2;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: var(--dark-shadow);
+  transition: transform 1.2s cubic-bezier(0.22, 1, 0.36, 1);
+}
+
+.vinyl-sleeve-wrapper.is-open .album-sleeve {
+  transform: translateX(-8%) rotate(-2deg);
+}
+
 .album-hero-img {
   position: absolute;
   inset: 0;
   width: 100%;
   height: 100%;
-  z-index: 1;
   object-fit: cover;
   display: block;
 }
 
-/* Click/hover-toggled overlay */
-.album-songs-overlay {
-  position: absolute;
-  inset: 0;
-  z-index: 2;
-  background: hsla(0, 0%, 0%, 0.45);
+/* ============ Song info BELOW the artwork ============ */
+.album-info-below {
+  width: min(90vmin, 700px);
   color: var(--clr-white);
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-start;
-  align-items: center;
-  padding: 12% 15%;
   text-align: center;
-  transform: translateY(100%);
-  transition: transform 1.8s ease-out ;
-  overflow-y: auto;
-  scrollbar-width: none;
-  -ms-overflow-style: none;
-}
-
-.album-songs-overlay::-webkit-scrollbar {
-  display: none;
-}
-
-.album-cover-wrapper.is-open .album-songs-overlay {
-  transform: translateY(0);
-}
-
-.detail-album-title,
-.detail-album-year,
-.songs-overlay-list {
   opacity: 0;
   transform: translateY(20px);
-  transition: opacity 0.4s ease, transform 0.4s ease;
+  max-height: 0;
+  overflow: hidden;
+  transition: opacity 0.5s ease, transform 0.5s ease, max-height 0.6s ease;
 }
 
-.album-cover-wrapper.is-open .detail-album-title {
+.album-info-below.is-visible {
   opacity: 1;
   transform: translateY(0);
-  transition-delay: 0.05s;
+  max-height: 1000px;
 }
 
-.album-cover-wrapper.is-open .detail-album-year {
-  opacity: 1;
-  transform: translateY(0);
-  transition-delay: 0.15s;
-}
-
-.album-cover-wrapper.is-open .songs-overlay-list {
-  opacity: 1;
-  transform: translateY(0);
-  transition-delay: 0.25s;
-}
-
-.album-songs-overlay::-webkit-scrollbar {
-  display: none;
-}
-
-.album-cover-wrapper.is-open .album-songs-overlay {
-  opacity: 1;
-  transform: translateY(0);
-}
 .detail-album-title {
   font-size: clamp(1rem, 3vw, 1.75rem);
   margin-bottom: 0.1rem;
@@ -1520,18 +1548,28 @@ Album Cover with Songs Overlay
 
 .detail-album-year {
   font-size: clamp(0.8rem, 1.5vw, 1rem);
-  margin-bottom: 0.5rem;
-  color: hsla(0, 0%, 100%, 0.7);  
+  margin-bottom: 0.75rem;
+  color: hsla(0, 0%, 100%, 0.7);
 }
 
 .songs-overlay-list {
   width: 100%;
-  
+  max-height: 40vh;
+  overflow-y: auto;
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+}
+
+.songs-overlay-list::-webkit-scrollbar {
+  display: none;
 }
 
 .song-overlay-item {
-  font-size: clamp(1.2rem, 1.1vw, 1.5rem);
-  margin: 0.1rem 0;
+  display: flex;
+  justify-content: center;
+  align-items: baseline;
+  font-size: clamp(0.9rem, 1.1vw, 1.2rem);
+  margin: 0.25rem 0;
 }
 
 .song-overlay-length {
@@ -1540,26 +1578,10 @@ Album Cover with Songs Overlay
   flex-shrink: 0;
 }
 
-
-
-
+/* ============ Responsive ============ */
 @media screen and (min-width: 481px) and (max-width: 768px) {
-  .album-cover-wrapper {
+  .vinyl-sleeve-wrapper {
     width: min(80vmin, 400px);
-  }
-
-  .album-songs-overlay {
-    background: hsla(0, 0%, 0%, 0.45);
-    padding: 8% 5%;
-    justify-content: flex-start;
-    /* let list scroll instead of trying to vertically center everything */
-    overflow-y: auto;
-    scrollbar-width: none;
-    -ms-overflow-style: none;
-  }
-
-  .album-songs-overlay::-webkit-scrollbar {
-    display: none;
   }
 
   .song-overlay-item {
@@ -1574,28 +1596,8 @@ Album Cover with Songs Overlay
 }
 
 @media screen and (max-width: 480px) {
-  .album-songs-overlay {
-    justify-content: flex-start;
-    overflow-y: auto;
-    scrollbar-width: none;
-    -ms-overflow-style: none;
-  }
-
-  .album-songs-overlay::-webkit-scrollbar {
-    display: none;
-  }
-}
-
-@media screen and (min-width: 769px) and (max-width: 1024px) {
-  .album-songs-overlay {
-    justify-content: flex-start;
-    overflow-y: auto;
-    scrollbar-width: none;
-    -ms-overflow-style: none;
-  }
-
-  .album-songs-overlay::-webkit-scrollbar {
-    display: none;
+  .vinyl-sleeve-wrapper.is-open .vinyl-disc {
+    transform: translateX(30%) rotate(25deg);
   }
 }
 
