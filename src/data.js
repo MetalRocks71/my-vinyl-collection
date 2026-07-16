@@ -252,19 +252,22 @@ import blacksabbath3 from './ImageDetails/blacksabbath-3.jpg'
 import blacksabbath4 from './ImageDetails/blacksabbath-4.jpg'
 import blacksabbath5 from './ImageDetails/blacksabbath-5.jpg'
 import blacksabbath7 from './ImageDetails/blacksabbath-7.jpg'
-import blacksabbath8 from './ImageDetails/blacksabbath-8.jpg'	
+import blacksabbath8 from './ImageDetails/blacksabbath-8.jpg'
 import blacksabbath9 from './ImageDetails/blacksabbath-9.jpg'
 import blacksabbath10 from './ImageDetails/blacksabbath-10.jpg'
-import blacksabbath11 from './ImageDetails/blacksabbath-11.jpg'	
+import blacksabbath11 from './ImageDetails/blacksabbath-11.jpg'
 import blacksabbath12 from './ImageDetails/blacksabbath-12.jpg'
 import blacksabbath13 from './ImageDetails/blacksabbath-13.jpg'
 import blacksabbath14 from './ImageDetails/blacksabbath-14.jpg'
 import blacksabbath15 from './ImageDetails/blacksabbath-15.jpg'
-import blacksabbath16 from './ImageDetails/blacksabbath-16.jpg'	
+import blacksabbath16 from './ImageDetails/blacksabbath-16.jpg'
 import blacksabbath17 from './ImageDetails/blacksabbath-17.jpg'
 import blacksabbath18 from './ImageDetails/blacksabbath-18.jpg'
 import blacksabbath19 from './ImageDetails/blacksabbath-19.jpg'
 import blacksabbath20 from './ImageDetails/blacksabbath-20.jpg'
+import bloodincantation3 from './ImageDetails/bloodincantation-3.jpg'
+import bloodincantation4 from './ImageDetails/bloodincantation-4.jpg'
+import bloodincantation5 from './ImageDetails/bloodincantation-5.jpg'
 import depeche_mode1 from './ImageDetails/depechemode-1.jpg'
 import depeche_mode2 from './ImageDetails/depechemode-2.jpg'
 import depeche_mode3 from './ImageDetails/depechemode-3.jpg'
@@ -280,7 +283,6 @@ import depeche_mode12 from './ImageDetails/depechemode-12.jpg'
 import depeche_mode13 from './ImageDetails/depechemode-13.jpg'
 import depeche_mode14 from './ImageDetails/depechemode-14.jpg'
 import depeche_mode15 from './ImageDetails/depechemode-15.jpg'
-
 
 // Logo
 export const logo = [{ id: 1, image: thirteenthghost }]
@@ -1906,21 +1908,37 @@ export const artistBioMetal = [
 	{
 		id: 4,
 		image2: bloodincantationbio,
-		albums: [],
+		albums: [
+			{ id: 10052, title: 'Starspawn', cover: bloodincantation5, year: 2016 },
+			{ id: 10053, title: 'Hidden History of the Human Race', cover: bloodincantation4, year: 2019 },
+			{ id: 10054, title: 'Timewave Zero', cover: bloodincantation3, year: 2022 },
+			{ id: 10056, title: 'Absolute Elsewhere', cover: bloodincantation1, year: 2024 },
+			{ id: 10057, title: 'All Gates Open (Original Motion Picture Soundtrack)', cover: bloodincantation2, year: 2026 },
+		],
 		band: 'blood incantation',
 		bio: [
-			"<strong>Blood Incantation</strong> is an American progressive death metal band from Denver, Colorado, formed in 2011. The band consists of guitarist and vocalist <strong>Paul Riedl, drummer Isaac Faulk, guitarist Morris Kolontyrsky and bassist Jeff Barrett.</strong>``Blood Incantation's debut album, Starspawn, was released in 2016 through Dark Descent Records and received critical acclaim from music publications such as Decibel and Stereogum.",
-			'They supported Immolation on their tour of North America in the fall of 2019. In the spring of 2023, they supported Obituary on their US tour along with Immolation and Ingrown. They also played at Milwaukee Metal Fest in May of that year.``In the fall of 2023, they supported Cannibal Corpse on their Northe American tour along with Gorguts and Mayhem. In the summer of 2025, they toured North America with Krallice, Pallbearer, Steve Roach, and Cynic. They are scheduled to tour North America in the spring of 2026 with Emperor.',
+			'<strong>Blood Incantation</strong> are an American death metal band formed in Denver, Colorado in 2011 by vocalist/guitarist Paul Riedl and drummer Isaac Faulk, who were soon joined by guitarist Morris Kolontyrsky and bassist Jeff Barrett, forming the lineup that remains intact to this day. After a pair of self-released demos and the <strong>Interdimensional Extinction EP (2015)</strong>, the band signed to Dark Descent Records and released their debut full-length, <strong>Starspawn (2016)</strong>, a dense, five-track excursion into cosmic, technical death metal that drew immediate acclaim from the underground metal press. Known for entwining Lovecraftian and esoteric science-fiction themes with labyrinthine riffing, alien atmospheres, and a devotion to analog recording, the band quickly drew comparisons to genre forerunners like Demilich, Gorguts, and Morbid Angel as standard-bearers of a new wave of "cosmic" death metal.',
+			'With <strong>Riedl, Kolontyrsky, Barrett, and Faulk</strong> firmly established, Blood Incantation released <strong>Hidden History of the Human Race (2019)</strong>, a more focused, four-track record - three shorter cuts backed by the 18-minute closer "Awakening From the Dream of Existence to the Multidimensional Nature of Our Reality (Mirror of the Soul)" - that was widely hailed as one of the best metal albums of its year and of the decade. The band then took an unexpected turn with <strong>Timewave Zero (2022)</strong>, a fully synthesizer-driven ambient record inspired by 1970s Berlin School acts like Tangerine Dream, trading distorted guitars and growls entirely for analog synths. Throughout this period the band toured relentlessly across North America and Europe, sharing stages with acts like Gatecreeper, Immolation, and Cannibal Corpse while steadily building a reputation as one of extreme metal\'s most creatively fearless acts.',
+			'The band returned to their death metal roots - while folding in everything they had learned from their ambient detour - with <strong>Absolute Elsewhere (2024)</strong>, a two-song, six-"tablet" opus recorded at Berlin\'s legendary Hansa Tonstudios with producer Arthur Rizk and featuring a guest appearance from Tangerine Dream\'s Thorsten Quaeschning. The album received near-universal critical acclaim, landing among the highest-rated releases of the year on Metacritic and being described by critics as a genre-defying fusion of prog rock, krautrock, and death metal. In 2023 the band also issued the <strong>Luminescent Bridge EP</strong>, continuing to explore the ambient textures introduced on <strong>Timewave Zero</strong>.',
+			"Blood Incantation have released <strong>four studio albums to date</strong>, along with several EPs and the recently unveiled <strong>All Gates Open (Original Motion Picture Soundtrack) (2026)</strong> - four sprawling ambient pieces composed alongside Absolute Elsewhere and paired with a feature-length documentary chronicling the band's month in Berlin. Widely credited as leading figures of modern cosmic and progressive death metal, the band has maintained the same four-piece lineup since 2011 and continues to headline festivals and tours across the globe while pushing the boundaries of what an extreme metal band can sound like.",
 		],
 	},
 	{
 		id: 5,
 		image2: bloodincantationbio,
-		albums: [],
+		albums: [
+			{ id: 10052, title: 'Starspawn', cover: bloodincantation5, year: 2016 },
+			{ id: 10053, title: 'Hidden History of the Human Race', cover: bloodincantation4, year: 2019 },
+			{ id: 10054, title: 'Timewave Zero', cover: bloodincantation3, year: 2022 },
+			{ id: 10056, title: 'Absolute Elsewhere', cover: bloodincantation1, year: 2024 },
+			{ id: 10057, title: 'All Gates Open (Original Motion Picture Soundtrack)', cover: bloodincantation2, year: 2026 },
+		],
 		band: 'blood incantation',
 		bio: [
-			"<strong>Blood Incantation</strong> is an American progressive death metal band from Denver, Colorado, formed in 2011. The band consists of guitarist and vocalist <strong>Paul Riedl, drummer Isaac Faulk, guitarist Morris Kolontyrsky and bassist Jeff Barrett.</strong>``Blood Incantation's debut album, Starspawn, was released in 2016 through Dark Descent Records and received critical acclaim from music publications such as Decibel and Stereogum.",
-			'They supported Immolation on their tour of North America in the fall of 2019. In the spring of 2023, they supported Obituary on their US tour along with Immolation and Ingrown. They also played at Milwaukee Metal Fest in May of that year.``In the fall of 2023, they supported Cannibal Corpse on their Northe American tour along with Gorguts and Mayhem. In the summer of 2025, they toured North America with Krallice, Pallbearer, Steve Roach, and Cynic. They are scheduled to tour North America in the spring of 2026 with Emperor.',
+			'<strong>Blood Incantation</strong> are an American death metal band formed in Denver, Colorado in 2011 by vocalist/guitarist Paul Riedl and drummer Isaac Faulk, who were soon joined by guitarist Morris Kolontyrsky and bassist Jeff Barrett, forming the lineup that remains intact to this day. After a pair of self-released demos and the <strong>Interdimensional Extinction EP (2015)</strong>, the band signed to Dark Descent Records and released their debut full-length, <strong>Starspawn (2016)</strong>, a dense, five-track excursion into cosmic, technical death metal that drew immediate acclaim from the underground metal press. Known for entwining Lovecraftian and esoteric science-fiction themes with labyrinthine riffing, alien atmospheres, and a devotion to analog recording, the band quickly drew comparisons to genre forerunners like Demilich, Gorguts, and Morbid Angel as standard-bearers of a new wave of "cosmic" death metal.',
+			'With <strong>Riedl, Kolontyrsky, Barrett, and Faulk</strong> firmly established, Blood Incantation released <strong>Hidden History of the Human Race (2019)</strong>, a more focused, four-track record - three shorter cuts backed by the 18-minute closer "Awakening From the Dream of Existence to the Multidimensional Nature of Our Reality (Mirror of the Soul)" - that was widely hailed as one of the best metal albums of its year and of the decade. The band then took an unexpected turn with <strong>Timewave Zero (2022)</strong>, a fully synthesizer-driven ambient record inspired by 1970s Berlin School acts like Tangerine Dream, trading distorted guitars and growls entirely for analog synths. Throughout this period the band toured relentlessly across North America and Europe, sharing stages with acts like Gatecreeper, Immolation, and Cannibal Corpse while steadily building a reputation as one of extreme metal\'s most creatively fearless acts.',
+			'The band returned to their death metal roots - while folding in everything they had learned from their ambient detour - with <strong>Absolute Elsewhere (2024)</strong>, a two-song, six-"tablet" opus recorded at Berlin\'s legendary Hansa Tonstudios with producer Arthur Rizk and featuring a guest appearance from Tangerine Dream\'s Thorsten Quaeschning. The album received near-universal critical acclaim, landing among the highest-rated releases of the year on Metacritic and being described by critics as a genre-defying fusion of prog rock, krautrock, and death metal. In 2023 the band also issued the <strong>Luminescent Bridge EP</strong>, continuing to explore the ambient textures introduced on <strong>Timewave Zero</strong>.',
+			"Blood Incantation have released <strong>four studio albums to date</strong>, along with several EPs and the recently unveiled <strong>All Gates Open (Original Motion Picture Soundtrack) (2026)</strong> - four sprawling ambient pieces composed alongside Absolute Elsewhere and paired with a feature-length documentary chronicling the band's month in Berlin. Widely credited as leading figures of modern cosmic and progressive death metal, the band has maintained the same four-piece lineup since 2011 and continues to headline festivals and tours across the globe while pushing the boundaries of what an extreme metal band can sound like.",
 		],
 	},
 	{
@@ -4252,6 +4270,75 @@ export const songList = [
 			{ id: 7, title: 'Warning', length: '10:32' },
 		],
 	},
+
+	{
+		id: 10052,
+		cover: bloodincantation5,
+		year: 2016,
+		album: 'Starspawn',
+		albumSongs: [
+			{ id: 1, title: 'Vitrification of Blood (Part I)', length: '13:04' },
+			{ id: 2, title: 'Chaoplasm', length: '5:29' },
+			{ id: 3, title: 'Hidden Species (Vitrification of Blood Part 2)', length: '6:56' },
+			{ id: 4, title: 'Meticulous Soul Devourment', length: '4:13' },
+			{ id: 5, title: 'Starspawn', length: '4:14' },
+		],
+	},
+	{
+		id: 10053,
+		cover: bloodincantation4,
+		year: 2019,
+		album: 'Hidden History of the Human Race',
+		albumSongs: [
+			{ id: 1, title: 'Slave Species of the Gods', length: '5:31' },
+			{ id: 2, title: 'The Giza Power Plant', length: '7:06' },
+			{ id: 3, title: 'Inner Paths (to Outer Space)', length: '5:38' },
+			{id:  4,  title:'Awakening From the Dream of Existence to the Multidimensional Nature of Our Reality (Mirror of the Soul)',length: '18:05',},
+		],
+	},
+	{
+		id: 10054,
+		cover: bloodincantation3,
+		year: 2022,
+		album: 'Timewave Zero',
+		albumSongs: [
+			{ id: 1, title: 'Io: First Movement', length: '7:05' },
+			{ id: 2, title: 'Io: Second Movement', length: '4:58' },
+			{ id: 3, title: 'Io: Third Movement', length: '5:30' },
+			{ id: 4, title: 'Io: Fourth Movement', length: '3:23' },
+			{ id: 5, title: 'Ea: First Movement', length: '7:21' },
+			{ id: 6, title: 'Ea: Second Movement', length: '2:23' },
+			{ id: 7, title: 'Ea: Third Movement', length: '5:34' },
+			{ id: 8, title: 'Ea: Fourth Movement', length: '4:21' },
+		],
+	},
+	{
+		id: 10056,
+		cover: bloodincantation1,
+		year: 2024,
+		album: 'Absolute Elsewhere',
+		albumSongs: [
+			{ id: 1, title: 'The Stargate [Tablet I]', length: '8:20' },
+			{ id: 2, title: 'The Stargate [Tablet II]', length: '5:08' },
+			{ id: 3, title: 'The Stargate [Tablet III]', length: '6:51' },
+			{ id: 4, title: 'The Message [Tablet I]', length: '5:57' },
+			{ id: 5, title: 'The Message [Tablet II]', length: '5:59' },
+			{ id: 6, title: 'The Message [Tablet III]', length: '11:28' },
+		],
+	},
+	{
+		id: 10057,
+		cover: bloodincantation2,
+		year: 2026,
+		title: 'All Gates Open (Original Motion Picture Soundtrack)',
+		albumSongs: [
+			{ id: 1, title: 'Balance', length: '20:47' },
+			{ id: 2, title: 'Flight', length: '20:37' },
+			{ id: 3, title: 'Dawn', length: '5:43' },
+			{ id: 4, title: 'Rain', length: '13:43' },
+		],
+	},
+
 	/*Depeche Mode Albums*/
 	{
 		id: 40000,
