@@ -4330,7 +4330,7 @@ export const songList = [
 		id: 10057,
 		cover: bloodincantation2,
 		year: 2026,
-		title: 'All Gates Open (Original Motion Picture Soundtrack)',
+		album: 'All Gates Open (Original Motion Picture Soundtrack)',
 		albumSongs: [
 			{ id: 1, title: 'Balance', length: '20:47' },
 			{ id: 2, title: 'Flight', length: '20:37' },
