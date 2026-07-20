@@ -4272,6 +4272,57 @@ export const songList = [
 	},
 
 	{
+		id: 10021 /*id of the album*/,
+		cover: blacksabbath3,
+		year: 1970,
+		album: 'Paranoid',
+		albumSongs: [
+			{ id: 1, title: 'War Pigs', length: '7:55' },
+			{ id: 2, title: 'Paranoid', length: '2:48' },
+			{ id: 3, title: 'Planet Caravan', length: '4:30' },
+			{ id: 4, title: 'Iron Man', length: '5:57' },
+			{ id: 5, title: 'Electric Funeral', length: '4:52' },
+			{ id: 6, title: 'Hand of Doom', length: '7:08' },
+			{ id: 7, title: 'Rat Salad', length: '2:30' },
+			{ id: 8, title: 'Fairies Wear Boots', length: '6:15' },
+		],
+	},
+	{
+		id: 10022 /*id of the album*/,
+		cover: blacksabbath9,
+		year: 1971,
+		album: 'Master of reality',
+		albumSongs: [
+			{ id: 1, title: 'Sweet Leaf', length: '5:05' },
+			{ id: 2, title: 'After Forever', length: '5:27' },
+			{ id: 3, title: 'Embryo', length: '0:28' },
+			{ id: 4, title: 'Children of the Grave', length: '5:18' },
+			{ id: 5, title: 'Orchid', length: '1:31' },
+			{ id: 6, title: 'Lord of This World', length: '5:26' },
+			{ id: 7, title: 'Solitude', length: '5:02' },
+			{ id: 8, title: 'Into the Void', length: '6:12' },
+		],
+	},
+	{
+		id: 10023 /*id of the album*/,
+		cover: blacksabbath4,
+		year: 1972,
+		album: 'Vol.4',
+		albumSongs: [
+			{ id: 1, title: 'Wheels of Confusion', length: '8:14' },
+			{ id: 2, title: "Tomorrow's Dream", length: '3:12' },
+			{ id: 3, title: 'Changes', length: '4:46' },
+			{ id: 4, title: 'FX', length: '1:40' },
+			{ id: 5, title: 'Supernaut', length: '4:43' },
+			{ id: 6, title: 'Snowblind', length: '5:33' },
+			{ id: 7, title: 'Cornucopia', length: '3:55' },
+			{ id: 8, title: 'Laguna Sunrise', length: '2:56' },
+			{ id: 9, title: "St. Vitus' Dance", length: '2:30' },
+			{ id: 10, title: 'Under the Sun', length: '5:52' },
+		],
+	},
+
+	{
 		id: 10052,
 		cover: bloodincantation5,
 		year: 2016,
@@ -4293,7 +4344,12 @@ export const songList = [
 			{ id: 1, title: 'Slave Species of the Gods', length: '5:31' },
 			{ id: 2, title: 'The Giza Power Plant', length: '7:06' },
 			{ id: 3, title: 'Inner Paths (to Outer Space)', length: '5:38' },
-			{id:  4,  title:'Awakening From the Dream of Existence to the Multidimensional Nature of Our Reality (Mirror of the Soul)',length: '18:05',},
+			{
+				id: 4,
+				title:
+					'Awakening From the Dream of Existence to the Multidimensional Nature of Our Reality (Mirror of the Soul)',
+				length: '18:05',
+			},
 		],
 	},
 	{
