@@ -4321,6 +4321,22 @@ export const songList = [
 			{ id: 10, title: 'Under the Sun', length: '5:52' },
 		],
 	},
+	{
+		id: 10024 /*id of the album*/,
+		cover: blacksabbath5,
+		year: 1973,
+		album: 'Sabbath Bloody Sabbath',
+		albumSongs: [
+			{ id: 1, title: 'Sabbath Bloody Sabbath', length: '5:45' },
+			{ id: 2, title: 'A National Acrobat', length: '6:16' },
+			{ id: 3, title: 'Fluff', length: '4:12' },
+			{ id: 4, title: 'Sabbra Cadabra', length: '5:59' },
+			{ id: 5, title: 'Killing Yourself to Live', length: '5:41' },
+			{ id: 6, title: 'Who Are You?', length: '4:16' },
+			{ id: 7, title: 'Looking for Today', length: '5:06' },
+			{ id: 8, title: 'Spiral Architect', length: '5:29' },
+		],
+	},
 
 	{
 		id: 10052,
