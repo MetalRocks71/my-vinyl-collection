@@ -1650,6 +1650,23 @@ Vinyl Sleeve with Sliding Record + Song List Below
     font-size: 0.65rem;
     padding: 6px 2px;
   }
+    .vinyl-grooves::before {
+      content: '';
+      position: absolute;
+      inset: 0;
+      border-radius: 50%;
+      background: conic-gradient(from 0deg,
+          rgba(255, 255, 255, 0.08) 0deg,
+          rgba(255, 255, 255, 0) 40deg,
+          rgba(255, 255, 255, 0) 140deg,
+          rgba(255, 255, 255, 0.05) 180deg,
+          rgba(255, 255, 255, 0) 220deg,
+          rgba(255, 255, 255, 0) 320deg,
+          rgba(255, 255, 255, 0.08) 360deg);
+      mix-blend-mode: screen;
+      pointer-events: none;
+      animation: vinylShine 8s linear infinite;
+    }
 }
 
 
@@ -1690,6 +1707,23 @@ Vinyl Sleeve with Sliding Record + Song List Below
     flex-shrink: 0;
     margin-left: 8px;
   }
+    .vinyl-grooves::before {
+      content: '';
+      position: absolute;
+      inset: 0;
+      border-radius: 50%;
+      background: conic-gradient(from 0deg,
+          rgba(255, 255, 255, 0.08) 0deg,
+          rgba(255, 255, 255, 0) 40deg,
+          rgba(255, 255, 255, 0) 140deg,
+          rgba(255, 255, 255, 0.05) 180deg,
+          rgba(255, 255, 255, 0) 220deg,
+          rgba(255, 255, 255, 0) 320deg,
+          rgba(255, 255, 255, 0.08) 360deg);
+      mix-blend-mode: screen;
+      pointer-events: none;
+      animation: vinylShine 8s linear infinite;
+    }
 }
 
 
@@ -1713,6 +1747,23 @@ Vinyl Sleeve with Sliding Record + Song List Below
   .song-overlay-item {
     font-size: clamp(0.7rem, 2.5vw, 0.9rem);
   }
+    .vinyl-grooves::before {
+      content: '';
+      position: absolute;
+      inset: 0;
+      border-radius: 50%;
+      background: conic-gradient(from 0deg,
+          rgba(255, 255, 255, 0.08) 0deg,
+          rgba(255, 255, 255, 0) 40deg,
+          rgba(255, 255, 255, 0) 140deg,
+          rgba(255, 255, 255, 0.05) 180deg,
+          rgba(255, 255, 255, 0) 220deg,
+          rgba(255, 255, 255, 0) 320deg,
+          rgba(255, 255, 255, 0.08) 360deg);
+      mix-blend-mode: screen;
+      pointer-events: none;
+      animation: vinylShine 8s linear infinite;
+    }
 }
 
 
@@ -1743,6 +1794,23 @@ Vinyl Sleeve with Sliding Record + Song List Below
     overflow-wrap: break-word;
     text-align: left;
   }
+    .vinyl-grooves::before {
+      content: '';
+      position: absolute;
+      inset: 0;
+      border-radius: 50%;
+      background: conic-gradient(from 0deg,
+          rgba(255, 255, 255, 0.08) 0deg,
+          rgba(255, 255, 255, 0) 40deg,
+          rgba(255, 255, 255, 0) 140deg,
+          rgba(255, 255, 255, 0.05) 180deg,
+          rgba(255, 255, 255, 0) 220deg,
+          rgba(255, 255, 255, 0) 320deg,
+          rgba(255, 255, 255, 0.08) 360deg);
+      mix-blend-mode: screen;
+      pointer-events: none;
+      animation: vinylShine 8s linear infinite;
+    }
 }
 
 
@@ -1761,6 +1829,23 @@ Vinyl Sleeve with Sliding Record + Song List Below
   .vinyl-sleeve-wrapper.is-open .vinyl-disc {
     transform: translateX(42%) rotate(30deg);
   }
+    .vinyl-grooves::before {
+      content: '';
+      position: absolute;
+      inset: 0;
+      border-radius: 50%;
+      background: conic-gradient(from 0deg,
+          rgba(255, 255, 255, 0.08) 0deg,
+          rgba(255, 255, 255, 0) 40deg,
+          rgba(255, 255, 255, 0) 140deg,
+          rgba(255, 255, 255, 0.05) 180deg,
+          rgba(255, 255, 255, 0) 220deg,
+          rgba(255, 255, 255, 0) 320deg,
+          rgba(255, 255, 255, 0.08) 360deg);
+      mix-blend-mode: screen;
+      pointer-events: none;
+      animation: vinylShine 8s linear infinite;
+    }
 }
 
 
@@ -1778,6 +1863,23 @@ Vinyl Sleeve with Sliding Record + Song List Below
   .vinyl-sleeve-wrapper.is-open .vinyl-disc {
     transform: translateX(45%) rotate(30deg);
   }
+    .vinyl-grooves::before {
+      content: '';
+      position: absolute;
+      inset: 0;
+      border-radius: 50%;
+      background: conic-gradient(from 0deg,
+          rgba(255, 255, 255, 0.08) 0deg,
+          rgba(255, 255, 255, 0) 40deg,
+          rgba(255, 255, 255, 0) 140deg,
+          rgba(255, 255, 255, 0.05) 180deg,
+          rgba(255, 255, 255, 0) 220deg,
+          rgba(255, 255, 255, 0) 320deg,
+          rgba(255, 255, 255, 0.08) 360deg);
+      mix-blend-mode: screen;
+      pointer-events: none;
+      animation: vinylShine 8s linear infinite;
+    }
 }
 
 
@@ -1791,6 +1893,23 @@ Vinyl Sleeve with Sliding Record + Song List Below
   .vinyl-sleeve-wrapper.is-open .vinyl-disc {
     transform: translateX(48%) rotate(30deg);
   }
+    .vinyl-grooves::before {
+      content: '';
+      position: absolute;
+      inset: 0;
+      border-radius: 50%;
+      background: conic-gradient(from 0deg,
+          rgba(255, 255, 255, 0.08) 0deg,
+          rgba(255, 255, 255, 0) 40deg,
+          rgba(255, 255, 255, 0) 140deg,
+          rgba(255, 255, 255, 0.05) 180deg,
+          rgba(255, 255, 255, 0) 220deg,
+          rgba(255, 255, 255, 0) 320deg,
+          rgba(255, 255, 255, 0.08) 360deg);
+      mix-blend-mode: screen;
+      pointer-events: none;
+      animation: vinylShine 8s linear infinite;
+    }
 }
 
 
@@ -1804,6 +1923,23 @@ Vinyl Sleeve with Sliding Record + Song List Below
   .vinyl-sleeve-wrapper.is-open .vinyl-disc {
     transform: translateX(52%) rotate(30deg);
   }
+    .vinyl-grooves::before {
+      content: '';
+      position: absolute;
+      inset: 0;
+      border-radius: 50%;
+      background: conic-gradient(from 0deg,
+          rgba(255, 255, 255, 0.08) 0deg,
+          rgba(255, 255, 255, 0) 40deg,
+          rgba(255, 255, 255, 0) 140deg,
+          rgba(255, 255, 255, 0.05) 180deg,
+          rgba(255, 255, 255, 0) 220deg,
+          rgba(255, 255, 255, 0) 320deg,
+          rgba(255, 255, 255, 0.08) 360deg);
+      mix-blend-mode: screen;
+      pointer-events: none;
+      animation: vinylShine 8s linear infinite;
+    }
 }
 
 
@@ -1816,6 +1952,23 @@ Vinyl Sleeve with Sliding Record + Song List Below
   .vinyl-sleeve-wrapper.is-open .vinyl-disc {
     transform: translateX(56%) rotate(30deg);
   }
+    .vinyl-grooves::before {
+      content: '';
+      position: absolute;
+      inset: 0;
+      border-radius: 50%;
+      background: conic-gradient(from 0deg,
+          rgba(255, 255, 255, 0.08) 0deg,
+          rgba(255, 255, 255, 0) 40deg,
+          rgba(255, 255, 255, 0) 140deg,
+          rgba(255, 255, 255, 0.05) 180deg,
+          rgba(255, 255, 255, 0) 220deg,
+          rgba(255, 255, 255, 0) 320deg,
+          rgba(255, 255, 255, 0.08) 360deg);
+      mix-blend-mode: screen;
+      pointer-events: none;
+      animation: vinylShine 8s linear infinite;
+    }
 }
 
 /*
