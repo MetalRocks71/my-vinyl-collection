@@ -268,6 +268,7 @@ import blacksabbath20 from './ImageDetails/blacksabbath-20.jpg'
 import bloodincantation3 from './ImageDetails/bloodincantation-3.jpg'
 import bloodincantation4 from './ImageDetails/bloodincantation-4.jpg'
 import bloodincantation5 from './ImageDetails/bloodincantation-5.jpg'
+import borknagar12 from './ImageDetails/borknagar-12.jpg'
 import depeche_mode1 from './ImageDetails/depechemode-1.jpg'
 import depeche_mode2 from './ImageDetails/depechemode-2.jpg'
 import depeche_mode3 from './ImageDetails/depechemode-3.jpg'
@@ -1944,7 +1945,20 @@ export const artistBioMetal = [
 	{
 		id: 6,
 		image2: borknagarbio,
-		albums: [],
+		albums: [
+			{ id: 10070, title: 'Borknagar', cover: borknagar12, year: 1996 },
+		/*	{ id: 10071, title: 'The Olden Domain', cover: borknagar2, year: 1997 },*/
+		/*	{ id: 10072, title: 'The Archaic Course', cover: borknagar3, year: 1998 },*/
+		/*	{ id: 10073, title: 'Quintessence', cover: borknagar4, year: 2000 },*/
+		/*	{ id: 10074, title: 'Empiricism', cover: borknagar5, year: 2001 },*/
+		/*	{ id: 10075, title: 'Epic', cover: borknagar6, year: 2004 },*/
+		/*	{ id: 10076, title: 'Origin', cover: borknagar7, year: 2006 },*/
+		/*	{ id: 10077, title: 'Universal', cover: borknagar8, year: 2010 },*/
+		/*	{ id: 10078, title: 'Urd', cover: borknagar9, year: 2012 },*/
+		/*	{ id: 10079, title: 'Winter Thrice', cover: borknagar10, year: 2016 },*/
+		/*	{ id: 10080, title: 'True North', cover: borknagar11, year: 2019 },*/
+			{ id: 10081, title: 'Fall', cover: borknagar1, year: 2024 },
+		],
 		band: 'Borknagar',
 		bio: [
 			'<strong>Borknagar</strong> is a Norwegian progressive metal band with black metal and folk influences, formed in Bergen in 1995 by guitarist <strong>Øystein G. Brun</strong>. The band was originally conceived as a black metal project but quickly evolved into a more melodic and progressive style, pushing beyond the boundaries of traditional black metal. Their music combines progressive, folk, and extreme metal elements, while their lyrics often explore themes such as philosophy, nature, paganism, and the cosmos.',
@@ -4560,7 +4574,44 @@ export const songList = [
 			{ id: 11, title: 'Pariah', length: '5:34' },
 		],
 	},
-/*BLOOD INCANTATION ALBULS*/
+
+/*BORGNARAK ALBUMS LIST*/
+
+	{
+		id: 10070,
+		cover: borknagar12,
+		year: 1996,
+		album: 'Borknagar',
+		albumSongs: [
+			{ id: 1, title: 'Vintervredets Sjelesagn', length: '6:44' },
+			{ id: 2, title: 'Tanker Mot Tind (Kvelding)', length: '3:29' },
+			{ id: 3, title: 'Svartskogs Gilde', length: '5:52' },
+			{ id: 4, title: 'Ved Steingard', length: '2:13' },
+			{ id: 5, title: 'Krigsstev', length: '2:03' },
+			{ id: 6, title: 'Dauden', length: '5:48' },
+			{ id: 7, title: 'Grimskalle Trell', length: '5:38' },
+			{ id: 8, title: 'Nord Naagauk', length: '3:06' },
+			{ id: 9, title: 'Fandens Allheim', length: '6:19' },
+			{ id: 10, title: 'Tanker Mot Tind (Gryning)', length: '2:56' },
+		],
+	},
+	{
+		id: 10081,
+		cover: borknagar1,
+		year: 2024,
+		album: 'Fall',
+		albumSongs: [
+			{ id: 1, title: 'Summits', length: '7:58' },
+			{ id: 2, title: 'Nordic Anthem', length: '5:14' },
+			{ id: 3, title: 'Afar', length: '6:54' },
+			{ id: 4, title: 'Moon', length: '5:51' },
+			{ id: 5, title: 'Stars Ablaze', length: '8:26' },
+			{ id: 6, title: 'Unraveling', length: '4:33' },
+			{ id: 7, title: 'The Wild Lingers', length: '5:34' },
+			{ id: 8, title: 'Northward', length: '9:54' },
+		],
+	},
+	/*BLOOD INCANTATION ALBULS*/
 	{
 		id: 10052,
 		cover: bloodincantation5,
