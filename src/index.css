@@ -1726,6 +1726,35 @@ Vinyl Sleeve with Sliding Record + Song List Below
     }
 }
 
+/* ASUS ROG Phone 8 Pro Portrait */
+@media screen and (min-width: 393px) and (max-width: 412px) {
+
+  .vinyl-sleeve-wrapper {
+    width: min(90vmin, 340px);
+    margin: 0 auto;
+    
+  }
+
+  .vinyl-sleeve-wrapper.is-open .vinyl-disc {
+    transform: translateX(44%) translateY(8%) rotate(28deg);
+  }
+
+  .song-overlay-item {
+    font-size: 0.75rem;
+  }
+}
+
+@media screen and (max-width: 412px) {
+  .vinyl-sleeve-wrapper {
+    width: min(88vmin, 320px);
+    margin: 0 auto;
+    
+  }
+
+  .vinyl-sleeve-wrapper.is-open .vinyl-disc {
+    transform: translateX(45%) translateY(5%) rotate(28deg);
+  }
+}
 
 /* =========================================================
    LARGE PHONES
