@@ -13,7 +13,7 @@
 - install
 
 ```sh
-npx create-react-app@latest backroads-app
+npx create-react-app@latest my-vinyls-collection-app
 ```
 
 - run dev server
@@ -121,9 +121,14 @@ export default App
   - Collectionrock.js
   - AderitoPereira.js
   - Tops.js
-  - title.js
+  - Title.js
   - Topsrock.js
   - Footer.js
+  - ScrollToTop.js
+  - GlowAlbumCard.js
+- In the subfolder of the components folder
+- AlbumSongs.js
+  - 
 - setup components with default export (snippet - rafce)
 - carefully move the code from App.js into components (files)
   - hint - look for navbar, footer and section tags
