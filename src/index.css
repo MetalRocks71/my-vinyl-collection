@@ -1230,7 +1230,7 @@ Collections Card 1 Section - Vinyl record cards
   align-items: center;
   justify-content: center;
   width: 100%;
-  
+
 }
 
 .collection-card-1 {
@@ -1472,6 +1472,7 @@ Vinyl Sleeve with Sliding Record + Song List Below
 .vinyl-grooves {
   position: absolute;
   inset: 0;
+  z-index: 0;
   border-radius: 50%;
   background:
     repeating-radial-gradient(circle at center,
@@ -1500,6 +1501,7 @@ Vinyl Sleeve with Sliding Record + Song List Below
   pointer-events: none;
   animation: vinylShine 8s linear infinite;
 }
+
 @keyframes vinylShine {
   from {
     transform: rotate(0deg);
@@ -1509,23 +1511,25 @@ Vinyl Sleeve with Sliding Record + Song List Below
     transform: rotate(360deg);
   }
 }
+
 .vinyl-label {
   width: 32%;
   aspect-ratio: 1 / 1;
   border-radius: 50%;
-  background-color: hsl(350, 60%, 35%); /*fallback if image fell to load*/
+  background-color: hsl(350, 60%, 35%);
+  /*fallback if image fell to load*/
   background-size: cover;
   display: flex;
   align-items: center;
-  justify-content:center;
+  justify-content: center;
   text-align: center;
   padding: 8%;
   box-shadow: inset 0 0 0 2px hsla(0, 0%, 0%, 0.4);
-  position:relative;
+  position: relative;
 }
 
-.vinyl-label span{
-  display: none !important; 
+.vinyl-label span {
+  display: none !important;
 }
 
 .vinyl-label::after {
@@ -1539,7 +1543,7 @@ Vinyl Sleeve with Sliding Record + Song List Below
 
 /* Slide the record out from behind the sleeve, with a little spin */
 .vinyl-sleeve-wrapper.is-open .vinyl-disc {
-  transform: translateX(45%) rotate(35deg);
+  transform: translateX(50%) rotate(35deg);
 }
 
 /* Album cover sleeve — sits on top, stays put */
@@ -1625,57 +1629,45 @@ Vinyl Sleeve with Sliding Record + Song List Below
   flex-shrink: 0;
 }
 
-/* ============ Responsive ============ */
-@media screen and (min-width: 481px) and (max-width: 768px) {
+/* =========================================================
+   EXTRA SMALL PHONES
+   iPhone SE, old Android devices
+   320px - 359px
+========================================================= */
+@media screen and (max-width: 359px) {
+
   .vinyl-sleeve-wrapper {
-    width: min(80vmin, 400px);
+    width: min(92vmin, 280px);
     margin: 0 auto;
+    padding-right: 18rem;
   }
 
   .vinyl-sleeve-wrapper.is-open .vinyl-disc {
-    transform: translateX(38%) rotate(30deg);
+    transform: translateX(48%) translateY(8%) rotate(26deg);
   }
 
   .song-overlay-item {
-    font-size: clamp(0.7rem, 2vw, 0.9rem);
-    margin: 0.12rem 0;
-    padding: 8px 4px;
+    font-size: 0.65rem;
+    padding: 6px 2px;
   }
-
-  .song-overlay-title {
-    overflow-wrap: break-word;
-    text-align: left;
-  }
-             .vinyl-grooves::before {
-               content: '';
-               position: absolute;
-               inset: 0;
-               border-radius: 50%;
-               background: conic-gradient(from 0deg,
-                   rgba(255, 255, 255, 0.08) 0deg,
-                   rgba(255, 255, 255, 0) 40deg,
-                   rgba(255, 255, 255, 0) 140deg,
-                   rgba(255, 255, 255, 0.05) 180deg,
-                   rgba(255, 255, 255, 0) 220deg,
-                   rgba(255, 255, 255, 0) 320deg,
-                   rgba(255, 255, 255, 0.08) 360deg);
-               mix-blend-mode: screen;
-               pointer-events: none;
-              animation: vinylShine 8s linear infinite;
-             }
-   
 }
 
-@media screen and (max-width: 412px) {
+
+/* =========================================================
+   SMALL PHONES
+   iPhone 12 Mini, Galaxy S8
+   360px - 412px
+========================================================= */
+@media screen and (min-width: 360px) and (max-width: 412px) {
+
   .vinyl-sleeve-wrapper {
     width: min(88vmin, 320px);
     margin: 0 auto;
+    padding-right: 25rem;
   }
 
   .vinyl-sleeve-wrapper.is-open .vinyl-disc {
-    /* pulled in from 48% so the disc doesn't slide past the wrapper's
-       own centered box on narrow screens */
-    transform: translateX(40%) rotate(28deg);
+    transform: translateX(45%) translateY(5%) rotate(28deg);
   }
 
   .vinyl-sleeve-wrapper.is-open .album-sleeve {
@@ -1698,24 +1690,134 @@ Vinyl Sleeve with Sliding Record + Song List Below
     flex-shrink: 0;
     margin-left: 8px;
   }
-     .vinyl-grooves::before {
-       content: '';
-       position: absolute;
-       inset: 0;
-       border-radius: 50%;
-       background: conic-gradient(from 0deg,
-           rgba(255, 255, 255, 0.08) 0deg,
-           rgba(255, 255, 255, 0) 40deg,
-           rgba(255, 255, 255, 0) 140deg,
-           rgba(255, 255, 255, 0.05) 180deg,
-           rgba(255, 255, 255, 0) 220deg,
-           rgba(255, 255, 255, 0) 320deg,
-           rgba(255, 255, 255, 0.08) 360deg);
-       mix-blend-mode: screen;
-       pointer-events: none;
-      animation: vinylShine 8s linear infinite;
-     }
 }
+
+
+/* =========================================================
+   LARGE PHONES
+   iPhone 14 Pro Max, Galaxy S24 Ultra
+   413px - 480px
+========================================================= */
+@media screen and (min-width: 413px) and (max-width: 480px) {
+
+  .vinyl-sleeve-wrapper {
+    width: min(88vmin, 340px);
+    margin: 0 auto;
+    padding-right: 23rem;
+  }
+
+  .vinyl-sleeve-wrapper.is-open .vinyl-disc {
+    transform: translateX(43%) translateY(6%) rotate(28deg);
+  }
+
+  .song-overlay-item {
+    font-size: clamp(0.7rem, 2.5vw, 0.9rem);
+  }
+}
+
+
+/* =========================================================
+   SMALL TABLETS
+   iPad Mini Portrait
+   481px - 768px
+========================================================= */
+@media screen and (min-width: 481px) and (max-width: 768px) {
+
+  .vinyl-sleeve-wrapper {
+    width: min(80vmin, 400px);
+    margin: 0 auto;
+    padding-right: 25rem;
+  }
+
+  .vinyl-sleeve-wrapper.is-open .vinyl-disc {
+    transform: translateX(38%) translateY(12%) rotate(30deg);
+  }
+
+  .song-overlay-item {
+    font-size: clamp(0.7rem, 2vw, 0.9rem);
+    margin: 0.12rem 0;
+    padding: 8px 4px;
+  }
+
+  .song-overlay-title {
+    overflow-wrap: break-word;
+    text-align: left;
+  }
+}
+
+
+/* =========================================================
+   LARGE TABLETS
+   iPad Air, iPad Pro Portrait
+   769px - 1024px
+========================================================= */
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+
+  .vinyl-sleeve-wrapper {
+    width: min(70vmin, 450px);
+    margin: 0 auto;
+  }
+
+  .vinyl-sleeve-wrapper.is-open .vinyl-disc {
+    transform: translateX(42%) rotate(30deg);
+  }
+}
+
+
+/* =========================================================
+   SMALL LAPTOPS
+   Surface Laptop, MacBook Air
+   1025px - 1280px
+========================================================= */
+@media screen and (min-width: 1025px) and (max-width: 1280px) {
+
+  .vinyl-sleeve-wrapper {
+    width: min(60vmin, 500px);
+  }
+
+  .vinyl-sleeve-wrapper.is-open .vinyl-disc {
+    transform: translateX(45%) rotate(30deg);
+  }
+}
+
+
+/* =========================================================
+   DESKTOP
+   Full HD monitors
+   1281px - 1440px
+========================================================= */
+@media screen and (min-width: 1281px) and (max-width: 1440px) {
+
+  .vinyl-sleeve-wrapper.is-open .vinyl-disc {
+    transform: translateX(48%) rotate(30deg);
+  }
+}
+
+
+/* =========================================================
+   LARGE DESKTOP
+   2K / UltraWide monitors
+   1441px - 1920px
+========================================================= */
+@media screen and (min-width: 1441px) and (max-width: 1920px) {
+
+  .vinyl-sleeve-wrapper.is-open .vinyl-disc {
+    transform: translateX(52%) rotate(30deg);
+  }
+}
+
+
+/* =========================================================
+   4K MONITORS
+   1921px+
+========================================================= */
+@media screen and (min-width: 1921px) {
+
+  .vinyl-sleeve-wrapper.is-open .vinyl-disc {
+    transform: translateX(56%) rotate(30deg);
+  }
+}
+
 /*
 =============== 
 Footer
