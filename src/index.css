@@ -1619,10 +1619,11 @@ Vinyl Sleeve with Sliding Record + Song List Below
 @media screen and (min-width: 481px) and (max-width: 768px) {
   .vinyl-sleeve-wrapper {
     width: min(80vmin, 400px);
+    margin: 0 auto;
   }
 
   .vinyl-sleeve-wrapper.is-open .vinyl-disc {
-    transform: translateX(42%) rotate(30deg);
+    transform: translateX(38%) rotate(30deg);
   }
 
   .song-overlay-item {
@@ -1639,18 +1640,17 @@ Vinyl Sleeve with Sliding Record + Song List Below
 
 @media screen and (max-width: 480px) {
   .vinyl-sleeve-wrapper {
-    /* was missing — wrapper was falling back to the desktop width here */
     width: min(88vmin, 320px);
+    margin: 0 auto;
   }
 
   .vinyl-sleeve-wrapper.is-open .vinyl-disc {
-    /* was 30% — bumped up so it's actually visible on small screens */
-    transform: translateX(48%) rotate(28deg);
+    /* pulled in from 48% so the disc doesn't slide past the wrapper's
+       own centered box on narrow screens */
+    transform: translateX(40%) rotate(28deg);
   }
 
   .vinyl-sleeve-wrapper.is-open .album-sleeve {
-    /* sleeve tilt was tuned for desktop; smaller frame needs less rotation
-       or it reads as crooked rather than "opened" */
     transform: rotate(4deg);
   }
 
