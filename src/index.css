@@ -1481,6 +1481,7 @@ Vinyl Sleeve with Sliding Record + Song List Below
       hsl(0, 0%, 6%) 2px,
       hsl(0, 0%, 0%) 3px);
 }
+
 /* Sheen sweeping around as the grooves rotate */
 .vinyl-grooves::before {
   content: '';
@@ -1497,8 +1498,17 @@ Vinyl Sleeve with Sliding Record + Song List Below
       rgba(255, 255, 255, 0.08) 360deg);
   mix-blend-mode: screen;
   pointer-events: none;
+  animation: vinylShine 8s linear infinite;
 }
+@keyframes vinylShine {
+  from {
+    transform: rotate(0deg);
+  }
 
+  to {
+    transform: rotate(360deg);
+  }
+}
 .vinyl-label {
   width: 32%;
   aspect-ratio: 1 / 1;
@@ -1636,6 +1646,7 @@ Vinyl Sleeve with Sliding Record + Song List Below
     overflow-wrap: break-word;
     text-align: left;
   }
+   
 }
 
 @media screen and (max-width: 480px) {
@@ -1670,6 +1681,22 @@ Vinyl Sleeve with Sliding Record + Song List Below
     flex-shrink: 0;
     margin-left: 8px;
   }
+     .vinyl-grooves::before {
+       content: '';
+       position: absolute;
+       inset: 0;
+       border-radius: 50%;
+       background: conic-gradient(from 0deg,
+           rgba(255, 255, 255, 0.08) 0deg,
+           rgba(255, 255, 255, 0) 40deg,
+           rgba(255, 255, 255, 0) 140deg,
+           rgba(255, 255, 255, 0.05) 180deg,
+           rgba(255, 255, 255, 0) 220deg,
+           rgba(255, 255, 255, 0) 320deg,
+           rgba(255, 255, 255, 0.08) 360deg);
+       mix-blend-mode: screen;
+       pointer-events: none;
+     }
 }
 /*
 =============== 
