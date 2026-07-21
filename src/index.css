@@ -1459,13 +1459,44 @@ Vinyl Sleeve with Sliding Record + Song List Below
       hsl(0, 0%, 0%) 0px,
       hsl(0, 3%, 7%) 2px,
       hsl(0, 0%, 14%) 3px,
-      hsl(0, 0%, 2%) 4px);
+      hsl(0, 0%, 5%) 8px,
+      hsl(0, 0%, 2%) 12px);
   box-shadow: var(--dark-shadow);
   display: flex;
   align-items: center;
   justify-content: center;
   transform: translateX(0) rotate(0deg);
   transition: transform 1.5s cubic-bezier(0.22, 1, 0.36, 1);
+}
+
+.vinyl-grooves {
+  position: absolute;
+  inset: 0;
+  border-radius: 50%;
+  background:
+    repeating-radial-gradient(circle at center,
+      hsl(0, 0%, 2%) 0px,
+      hsl(0, 0%, 2%) 1px,
+      hsl(0, 0%, 22%) 1.4px,
+      hsl(0, 0%, 6%) 2px,
+      hsl(0, 0%, 0%) 3px);
+}
+/* Sheen sweeping around as the grooves rotate */
+.vinyl-grooves::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  border-radius: 50%;
+  background: conic-gradient(from 0deg,
+      rgba(255, 255, 255, 0.08) 0deg,
+      rgba(255, 255, 255, 0) 40deg,
+      rgba(255, 255, 255, 0) 140deg,
+      rgba(255, 255, 255, 0.05) 180deg,
+      rgba(255, 255, 255, 0) 220deg,
+      rgba(255, 255, 255, 0) 320deg,
+      rgba(255, 255, 255, 0.08) 360deg);
+  mix-blend-mode: screen;
+  pointer-events: none;
 }
 
 .vinyl-label {
@@ -1556,11 +1587,9 @@ Vinyl Sleeve with Sliding Record + Song List Below
 }
 
 .songs-overlay-list {
-  width: 100%;
-  max-height: 40vh;
-  overflow-y: auto;
-  scrollbar-width: none;
-  -ms-overflow-style: none;
+  list-style: none;
+  padding: 0;
+  margin: 0;
 }
 
 .songs-overlay-list::-webkit-scrollbar {
@@ -1569,10 +1598,15 @@ Vinyl Sleeve with Sliding Record + Song List Below
 
 .song-overlay-item {
   display: flex;
-  justify-content: center;
-  align-items: baseline;
-  font-size: clamp(0.9rem, 1.1vw, 2rem);
-  margin: 0.25rem 0;
+  justify-content: space-between;
+  padding: 12px 4px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.5);
+  box-shadow: 0 1px 0 rgba(255, 255, 255, 0.06);
+}
+
+.song-overlay-item:last-child {
+  border-bottom: none;
+  box-shadow: none;
 }
 
 .song-overlay-length {
@@ -1594,6 +1628,7 @@ Vinyl Sleeve with Sliding Record + Song List Below
   .song-overlay-item {
     font-size: clamp(0.7rem, 2vw, 0.9rem);
     margin: 0.12rem 0;
+    padding: 8px 4px;
   }
 
   .song-overlay-title {
@@ -1603,9 +1638,37 @@ Vinyl Sleeve with Sliding Record + Song List Below
 }
 
 @media screen and (max-width: 480px) {
+  .vinyl-sleeve-wrapper {
+    /* was missing — wrapper was falling back to the desktop width here */
+    width: min(88vmin, 320px);
+  }
+
   .vinyl-sleeve-wrapper.is-open .vinyl-disc {
     /* was 30% — bumped up so it's actually visible on small screens */
     transform: translateX(48%) rotate(28deg);
+  }
+
+  .vinyl-sleeve-wrapper.is-open .album-sleeve {
+    /* sleeve tilt was tuned for desktop; smaller frame needs less rotation
+       or it reads as crooked rather than "opened" */
+    transform: rotate(4deg);
+  }
+
+  .song-overlay-item {
+    font-size: clamp(0.65rem, 3vw, 0.8rem);
+    margin: 0.1rem 0;
+    padding: 8px 2px;
+  }
+
+  .song-overlay-title {
+    overflow-wrap: break-word;
+    text-align: left;
+  }
+
+  .song-overlay-length {
+    font-size: 0.85em;
+    flex-shrink: 0;
+    margin-left: 8px;
   }
 }
 /*
