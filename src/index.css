@@ -1639,7 +1639,7 @@ Vinyl Sleeve with Sliding Record + Song List Below
   .vinyl-sleeve-wrapper {
     width: min(92vmin, 280px);
     margin: 0 auto;
-    padding-right: 18rem;
+   
   }
 
   .vinyl-sleeve-wrapper.is-open .vinyl-disc {
@@ -1663,7 +1663,7 @@ Vinyl Sleeve with Sliding Record + Song List Below
   .vinyl-sleeve-wrapper {
     width: min(88vmin, 320px);
     margin: 0 auto;
-    padding-right: 25rem;
+  
   }
 
   .vinyl-sleeve-wrapper.is-open .vinyl-disc {
@@ -1703,7 +1703,7 @@ Vinyl Sleeve with Sliding Record + Song List Below
   .vinyl-sleeve-wrapper {
     width: min(88vmin, 340px);
     margin: 0 auto;
-    padding-right: 23rem;
+  
   }
 
   .vinyl-sleeve-wrapper.is-open .vinyl-disc {
@@ -1726,7 +1726,7 @@ Vinyl Sleeve with Sliding Record + Song List Below
   .vinyl-sleeve-wrapper {
     width: min(80vmin, 400px);
     margin: 0 auto;
-    padding-right: 25rem;
+    
   }
 
   .vinyl-sleeve-wrapper.is-open .vinyl-disc {
