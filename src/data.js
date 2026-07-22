@@ -268,6 +268,16 @@ import blacksabbath20 from './ImageDetails/blacksabbath-20.jpg'
 import bloodincantation3 from './ImageDetails/bloodincantation-3.jpg'
 import bloodincantation4 from './ImageDetails/bloodincantation-4.jpg'
 import bloodincantation5 from './ImageDetails/bloodincantation-5.jpg'
+import borknagar2 from './ImageDetails/borknagar-2.jpg'
+import borknagar3 from './ImageDetails/borknagar-3.jpg'
+import borknagar4 from './ImageDetails/borknagar-4.jpg'
+import borknagar5 from './ImageDetails/borknagar-5.jpg'
+import borknagar6 from './ImageDetails/borknagar-6.jpg'
+import borknagar7 from './ImageDetails/borknagar-7.jpg'
+import borknagar8 from './ImageDetails/borknagar-8.jpg'
+import borknagar9 from './ImageDetails/borknagar-9.jpg'
+import borknagar10 from './ImageDetails/borknagar-10.jpg'
+import borknagar11 from './ImageDetails/borknagar-11.jpg'
 import borknagar12 from './ImageDetails/borknagar-12.jpg'
 import depeche_mode1 from './ImageDetails/depechemode-1.jpg'
 import depeche_mode2 from './ImageDetails/depechemode-2.jpg'
@@ -1947,16 +1957,16 @@ export const artistBioMetal = [
 		image2: borknagarbio,
 		albums: [
 			{ id: 10070, title: 'Borknagar', cover: borknagar12, year: 1996 },
-		/*	{ id: 10071, title: 'The Olden Domain', cover: borknagar2, year: 1997 },*/
-		/*	{ id: 10072, title: 'The Archaic Course', cover: borknagar3, year: 1998 },*/
-		/*	{ id: 10073, title: 'Quintessence', cover: borknagar4, year: 2000 },*/
-		/*	{ id: 10074, title: 'Empiricism', cover: borknagar5, year: 2001 },*/
-		/*	{ id: 10075, title: 'Epic', cover: borknagar6, year: 2004 },*/
-		/*	{ id: 10076, title: 'Origin', cover: borknagar7, year: 2006 },*/
-		/*	{ id: 10077, title: 'Universal', cover: borknagar8, year: 2010 },*/
-		/*	{ id: 10078, title: 'Urd', cover: borknagar9, year: 2012 },*/
-		/*	{ id: 10079, title: 'Winter Thrice', cover: borknagar10, year: 2016 },*/
-		/*	{ id: 10080, title: 'True North', cover: borknagar11, year: 2019 },*/
+			{ id: 10071, title: 'The Olden Domain', cover: borknagar2, year: 1997 },
+			{ id: 10072, title: 'The Archaic Course', cover: borknagar3, year: 1998 },
+			{ id: 10073, title: 'Quintessence', cover: borknagar4, year: 2000 },
+			{ id: 10074, title: 'Empiricism', cover: borknagar5, year: 2001 },
+			{ id: 10075, title: 'Epic', cover: borknagar6, year: 2004 },
+			{ id: 10076, title: 'Origin', cover: borknagar7, year: 2006 },
+			{ id: 10077, title: 'Universal', cover: borknagar8, year: 2010 },
+			{ id: 10078, title: 'Urd', cover: borknagar9, year: 2012 },
+			{ id: 10079, title: 'Winter Thrice', cover: borknagar10, year: 2016 },
+			{ id: 10080, title: 'True North', cover: borknagar11, year: 2019 },
 			{ id: 10081, title: 'Fall', cover: borknagar1, year: 2024 },
 		],
 		band: 'Borknagar',
@@ -4575,7 +4585,7 @@ export const songList = [
 		],
 	},
 
-/*BORGNARAK ALBUMS LIST*/
+	/*BORGNARAK ALBUMS LIST*/
 
 	{
 		id: 10070,
@@ -4593,6 +4603,180 @@ export const songList = [
 			{ id: 8, title: 'Nord Naagauk', length: '3:06' },
 			{ id: 9, title: 'Fandens Allheim', length: '6:19' },
 			{ id: 10, title: 'Tanker Mot Tind (Gryning)', length: '2:56' },
+		],
+	},
+
+	{
+		id: 10071,
+		cover: borknagar2,
+		year: 1997,
+		album: 'The Olden Domain',
+		albumSongs: [
+			{ id: 1, title: 'The Eye of Oden', length: '6:01' },
+			{ id: 2, title: 'The Winterway', length: '7:52' },
+			{ id: 3, title: 'Om Hundrede Aar Er Alting Glemt', length: '4:12' },
+			{ id: 4, title: 'A Tale of Pagan Tongue', length: '6:13' },
+			{ id: 5, title: 'To Mount and Rove', length: '4:56' },
+			{ id: 6, title: 'Grimland Domain', length: '6:19' },
+			{ id: 7, title: 'Ascension of Our Fathers', length: '3:54' },
+			{ id: 8, title: 'The Dawn of the End', length: '5:06' },
+		],
+	},
+	{
+		id: 10072,
+		cover: borknagar3,
+		year: 1998,
+		album: 'The Archaic Course',
+		albumSongs: [
+			{ id: 1, title: 'Oceans Rise', length: '5:27' },
+			{ id: 2, title: 'Universal', length: '5:35' },
+			{ id: 3, title: 'The Witching Hour', length: '4:26' },
+			{ id: 4, title: 'The Black Token', length: '5:19' },
+			{ id: 5, title: 'Nocturnal Vision', length: '4:35' },
+			{ id: 6, title: 'Ad Noctum', length: '4:22' },
+			{ id: 7, title: 'Winter Millenium', length: '5:44' },
+			{ id: 8, title: 'Fields of Long Gone Presence / Outro', length: '2:18' },
+		],
+	},
+	{
+		id: 10073,
+		cover: borknagar4,
+		year: 2000,
+		album: 'Quintessence',
+		albumSongs: [
+			{ id: 1, title: 'Rivalry of Phantoms', length: '4:36' },
+			{ id: 2, title: 'The Presence Is Ominous', length: '4:55' },
+			{ id: 3, title: 'Ruins of the Future', length: '4:55' },
+			{ id: 4, title: 'Colossus', length: '4:27' },
+			{ id: 5, title: 'Inner Landscape', length: '2:51' },
+			{ id: 6, title: 'Invincible', length: '4:25' },
+			{ id: 7, title: 'Icon Dreams', length: '4:32' },
+			{ id: 8, title: 'Genesis Torn', length: '5:16' },
+			{ id: 9, title: 'Embers', length: '1:26' },
+			{ id: 10, title: 'Revolt', length: '6:05' },
+		],
+	},
+	{
+		id: 10074,
+		cover: borknagar5,
+		year: 2001,
+		album: 'Empiricism',
+		albumSongs: [
+			{ id: 1, title: 'The Genuine Pulse', length: '4:51' },
+			{ id: 2, title: 'Gods of My World', length: '4:25' },
+			{ id: 3, title: 'The Black Canvas', length: '5:18' },
+			{ id: 4, title: 'Matter and Motion', length: '2:30' },
+			{ id: 5, title: 'Soul Sphere', length: '6:40' },
+			{ id: 6, title: 'Inherit the Earth', length: '5:29' },
+			{ id: 7, title: 'The Stellar Dome', length: '5:36' },
+			{ id: 8, title: 'Four Element Synchronicity', length: '5:51' },
+			{ id: 9, title: 'Liberated', length: '4:51' },
+			{ id: 10, title: 'The View of Everlast', length: '4:28' },
+		],
+	},
+	{
+		id: 10075,
+		cover: borknagar6,
+		year: 2004,
+		album: 'Epic',
+		albumSongs: [
+			{ id: 1, title: 'Future Reminiscence', length: '5:26' },
+			{ id: 2, title: 'Traveller', length: '5:03' },
+			{ id: 3, title: 'Origin', length: '4:58' },
+			{ id: 4, title: 'Sealed Chambers of Electricity', length: '4:12' },
+			{ id: 5, title: 'The Weight of Wind', length: '3:58' },
+			{ id: 6, title: 'Resonance', length: '4:28' },
+			{ id: 7, title: 'Relate (Dialogue)', length: '4:28' },
+			{ id: 8, title: 'Cyclus', length: '5:25' },
+			{ id: 9, title: 'Circled', length: '4:45' },
+			{ id: 10, title: 'The Inner Ocean Hypothesis', length: '5:10' },
+			{ id: 11, title: 'Quintessence', length: '5:31' },
+			{ id: 12, title: 'The Wonder', length: '4:16' },
+		],
+	},
+	{
+		id: 10076,
+		cover: borknagar7,
+		year: 2006,
+		album: 'Origin',
+		albumSongs: [
+			{ id: 1, title: 'Earth Imagery', length: '4:52' },
+			{ id: 2, title: 'Grains', length: '3:42' },
+			{ id: 3, title: 'Oceans Rise', length: '6:05' },
+			{ id: 4, title: 'Signs', length: '1:17' },
+			{ id: 5, title: 'White', length: '4:45' },
+			{ id: 6, title: 'Cynosure', length: '2:55' },
+			{ id: 7, title: 'The Human Nature', length: '4:48' },
+			{ id: 8, title: 'Acclimation', length: '4:30' },
+			{ id: 9, title: 'The Spirit of Nature', length: '3:00' },
+		],
+	},
+	{
+		id: 10077,
+		cover: borknagar8,
+		year: 2010,
+		album: 'Universal',
+		albumSongs: [
+			{ id: 1, title: 'Havoc', length: '6:42' },
+			{ id: 2, title: 'Reason', length: '6:55' },
+			{ id: 3, title: 'The Stir of Seasons', length: '4:01' },
+			{ id: 4, title: 'For a Thousand Years to Come', length: '6:46' },
+			{ id: 5, title: 'Abrasion Tide', length: '7:14' },
+			{ id: 6, title: 'Fleshflower', length: '3:28' },
+			{ id: 7, title: 'Worldwide', length: '6:59' },
+			{ id: 8, title: 'My Domain', length: '4:49' },
+		],
+	},
+
+	{
+		id: 10078,
+		cover: borknagar9,
+		year: 2012,
+		album: 'Urd',
+		albumSongs: [
+			{ id: 1, title: 'Epochalypse', length: '6:08' },
+			{ id: 2, title: 'Roots', length: '5:55' },
+			{ id: 3, title: 'The Beauty of Dead Cities', length: '4:15' },
+			{ id: 4, title: 'The Earthling', length: '6:51' },
+			{ id: 5, title: 'The Plains of Memories', length: '4:27' },
+			{ id: 6, title: 'Mount Regency', length: '6:08' },
+			{ id: 7, title: 'Frostrite', length: '4:50' },
+			{ id: 8, title: 'The Winter Eclipse', length: '8:45' },
+			{ id: 9, title: 'In a Deeper World', length: '5:42' },
+		],
+	},
+	{
+		id: 10079,
+		cover: borknagar10,
+		year: 2016,
+		album: 'Winter Thrice',
+		albumSongs: [
+			{ id: 1, title: 'The Rhymes of the Mountain', length: '6:41' },
+			{ id: 2, title: 'Winter Thrice', length: '6:13' },
+			{ id: 3, title: 'Cold Runs the River', length: '5:52' },
+			{ id: 4, title: 'Panorama', length: '5:51' },
+			{ id: 5, title: 'When Chaos Calls', length: '7:02' },
+			{ id: 6, title: 'Erodent', length: '6:56' },
+			{ id: 7, title: 'Noctilucent', length: '3:54' },
+			{ id: 8, title: 'Terminus', length: '7:07' },
+			{ id: 9, title: 'Dominant Winds', length: '7:18' },
+		],
+	},
+	{
+		id: 10080,
+		cover: borknagar11,
+		year: 2019,
+		album: 'True North',
+		albumSongs: [
+			{ id: 1, title: 'Thunderous', length: '8:34' },
+			{ id: 2, title: 'Up North', length: '6:29' },
+			{ id: 3, title: 'The Fire That Burns', length: '6:38' },
+			{ id: 4, title: 'Lights', length: '5:04' },
+			{ id: 5, title: "Wild Father's Heart", length: '5:42' },
+			{ id: 6, title: 'Mount Rapture', length: '6:08' },
+			{ id: 7, title: 'Into the White', length: '5:57' },
+			{ id: 8, title: 'Tidal', length: '9:32' },
+			{ id: 9, title: 'Voices', length: '5:07' },
 		],
 	},
 	{

@@ -1235,27 +1235,27 @@ Collections Card 1 Section - Vinyl record cards
 
 .collection-card-1 {
   display: flex;
-  flex-direction: row;
-  align-items: flex-start;
-  flex-wrap: wrap;
-  /* allow wrapping instead of overflowing */
-  gap: 2.5rem;
+  flex-direction: column;
+  /* was row — stacks image above bio */
+  align-items: stretch;
+  flex-wrap: nowrap;
+  gap: 1.5rem;
   max-width: 800px;
   box-sizing: border-box;
-  /* padding included in max-width */
   background: var(--clr-white);
+  color: var(--clr-black);
+  /* fixed from earlier white-on-white issue */
   border-radius: 16px;
   box-shadow: 0 8px 32px hsla(0, 0%, 0%, 0.12);
   padding: 2rem;
   overflow: hidden;
-  color: var(--clr-white);
-  /* clip anything that still overflows */
 }
 
 .collection-img-1 {
-  width: 260px;
-  height: 300px;
+  width: 100%;
+  max-width: none;
   object-fit: cover;
+  object-position: center;
   border-radius: 12px;
   flex-shrink: 0;
   box-shadow: 0 4px 20px hsla(0, 0%, 0%, 0.2);
@@ -1454,14 +1454,14 @@ Vinyl Sleeve with Sliding Record + Song List Below
   inset: 0;
   z-index: 1;
   border-radius: 50%;
-  background:
-    repeating-radial-gradient(circle at center,
-      hsl(0, 0%, 0%) 0px,
-      hsl(0, 3%, 7%) 2px,
-      hsl(0, 0%, 14%) 3px,
-      hsl(0, 0%, 5%) 8px,
-      hsl(0, 0%, 2%) 12px);
   box-shadow: var(--dark-shadow);
+  background:
+      repeating-radial-gradient(circle at center,
+        hsl(0, 0%, 0%) 0px,
+        hsl(0, 3%, 7%) 2px,
+        hsl(0, 0%, 14%) 3px,
+        hsl(0, 0%, 5%) 3px,
+        hsl(0, 0%, 2%) 4px);
   display: flex;
   align-items: center;
   justify-content: center;
@@ -1480,7 +1480,7 @@ Vinyl Sleeve with Sliding Record + Song List Below
       hsl(0, 0%, 2%) 1px,
       hsl(0, 0%, 22%) 1.4px,
       hsl(0, 0%, 6%) 2px,
-      hsl(0, 0%, 0%) 3px);
+      hsl(0, 0%, 0%) 3px, );
 }
 
 /* Sheen sweeping around as the grooves rotate */
@@ -1770,7 +1770,7 @@ Vinyl Sleeve with Sliding Record + Song List Below
   }
 
   .vinyl-sleeve-wrapper.is-open .vinyl-disc {
-    transform: translateX(43%) translateY(6%) rotate(28deg);
+    transform: translateX(40%) translateY(6%) rotate(28deg);
   }
 
   .song-overlay-item {
