@@ -1473,19 +1473,28 @@ Vinyl Sleeve with Sliding Record + Song List Below
   z-index: 0;
   border-radius: 50%;
   background:
-    /* NEW: thin track-gap rings, sparse and irregular spacing */
-    repeating-radial-gradient(circle at center,
-      transparent 0px,
-      transparent 38px,
-      hsla(0, 0%, 55%, 0.35) 39px,
-      transparent 40px,
-      transparent 74px,
-      hsla(0, 0%, 55%, 0.3) 75px,
-      transparent 76px,
-      transparent 118px,
-      hsla(0, 0%, 55%, 0.25) 119px,
-      transparent 120px),
-    /* your existing groove bevel — unchanged, trailing comma removed */
+    /* track-gap rings — closest-side makes % map correctly to the visible disc edge */
+    repeating-radial-gradient(circle closest-side at center,
+      transparent 0%,
+      transparent 14%,
+      hsla(0, 0%, 55%, 0.3) 14.6%,
+      transparent 15.2%,
+      transparent 24%,
+      hsla(0, 0%, 55%, 0.32) 24.6%,
+      transparent 25.2%,
+      transparent 38%,
+      hsla(0, 0%, 55%, 0.28) 38.6%,
+      transparent 39.2%,
+      transparent 52%,
+      hsla(0, 0%, 55%, 0.3) 52.6%,
+      transparent 53.2%,
+      transparent 68%,
+      hsla(0, 0%, 55%, 0.25) 68.6%,
+      transparent 69.2%,
+      transparent 84%,
+      hsla(0, 0%, 55%, 0.22) 84.6%,
+      transparent 85.2%),
+    /* fine groove bevel — unchanged */
     repeating-radial-gradient(circle at center,
       hsl(0, 0%, 2%) 0px,
       hsl(0, 0%, 2%) 1px,
