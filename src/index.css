@@ -1467,41 +1467,19 @@ Vinyl Sleeve with Sliding Record + Song List Below
   transition: transform 1.5s cubic-bezier(0.22, 1, 0.36, 1);
 }
 
-.vinyl-grooves {
+/*.vinyl-grooves {
   position: absolute;
   inset: 0;
   z-index: 0;
   border-radius: 50%;
   background:
-    /* track-gap rings — closest-side makes % map correctly to the visible disc edge */
-    repeating-radial-gradient(circle closest-side at center,
-      transparent 0%,
-      transparent 14%,
-      hsla(0, 0%, 55%, 0.3) 14.6%,
-      transparent 15.2%,
-      transparent 24%,
-      hsla(0, 0%, 55%, 0.32) 24.6%,
-      transparent 25.2%,
-      transparent 38%,
-      hsla(0, 0%, 55%, 0.28) 38.6%,
-      transparent 39.2%,
-      transparent 52%,
-      hsla(0, 0%, 55%, 0.3) 52.6%,
-      transparent 53.2%,
-      transparent 68%,
-      hsla(0, 0%, 55%, 0.25) 68.6%,
-      transparent 69.2%,
-      transparent 84%,
-      hsla(0, 0%, 55%, 0.22) 84.6%,
-      transparent 85.2%),
-    /* fine groove bevel — unchanged */
     repeating-radial-gradient(circle at center,
       hsl(0, 0%, 2%) 0px,
       hsl(0, 0%, 2%) 1px,
-      hsl(0, 0%, 22%) 1.4px,
-      hsl(0, 0%, 6%) 2px,
+      hsl(0, 0%, 0%) 1.4px,
+      hsl(0, 0%, 0%) 2px,
       hsl(0, 0%, 0%) 3px);
-}
+}*/
 
 /* Sheen sweeping around as the grooves rotate — untouched */
 .vinyl-grooves::before {
@@ -1510,13 +1488,13 @@ Vinyl Sleeve with Sliding Record + Song List Below
   inset: 0;
   border-radius: 50%;
   background: conic-gradient(from 0deg,
-      rgba(255, 255, 255, 0.08) 0deg,
+      rgba(255, 255, 255, 0.089) 0deg,
       rgba(255, 255, 255, 0) 40deg,
       rgba(255, 255, 255, 0) 140deg,
-      rgba(255, 255, 255, 0.05) 180deg,
+      rgba(255, 255, 255, 0.089) 180deg,
       rgba(255, 255, 255, 0) 220deg,
       rgba(255, 255, 255, 0) 320deg,
-      rgba(255, 255, 255, 0.08) 360deg);
+      rgba(255, 255, 255, 0.089) 360deg);
   mix-blend-mode: screen;
   pointer-events: none;
   animation: vinylShine 8s linear infinite;
