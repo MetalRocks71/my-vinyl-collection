@@ -1,6 +1,6 @@
 import { useState } from 'react'
 import { useParams } from 'react-router-dom'
-import { songList} from '../../data'
+import { songList } from '../../data'
 
 const AlbumSongList = () => {
 	const { id } = useParams()
@@ -18,13 +18,11 @@ const AlbumSongList = () => {
 			<div className='detail-wrapper-2'>
 				<div className={`vinyl-sleeve-wrapper ${isOpen ? 'is-open' : ''}`} onClick={() => setIsOpen((prev) => !prev)}>
 					{/* The record itself — hidden behind the sleeve until opened */}
-					
-						<div className='vinyl-disc'>
-							<div className='vinyl-grooves' />
-							<div className='vinyl-label' style={{ backgroundImage: `url(${albumSongs.cover})` }}>
-								<span>{albumSongs.album}</span>
-							</div>
-						
+					<div className='vinyl-disc'>
+						<div className='vinyl-grooves' />
+						<div className='vinyl-label' style={{ backgroundImage: `url(${albumSongs.cover})` }}>
+							
+						</div>
 					</div>
 
 					{/* Album cover sleeve, sits on top */}
