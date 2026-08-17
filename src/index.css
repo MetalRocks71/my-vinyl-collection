@@ -1482,7 +1482,7 @@ Vinyl Sleeve with Sliding Record + Song List Below
       hsl(0, 0%, 0%) 3px);
 }*/
 
-/* Sheen sweeping around as the grooves rotate — untouched */
+/* Sheen sweeping around as the grooves rotate */
 .vinyl-grooves::before {
   content: '';
   position: absolute;
