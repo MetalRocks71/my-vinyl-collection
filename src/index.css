@@ -1270,7 +1270,8 @@ Collections Card 1 Section - Vinyl record cards
 
 .detail-artist-bio {
   color: var(--clr-grey-5);
-  line-height: 1.4;
+  line-height: 1.35;
+  letter-spacing: 0.5px;
   margin: 0;
 }
 
