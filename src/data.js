@@ -62,6 +62,7 @@ import gretavanfleet3 from './images/gretavanfleet-3.jpg'
 import gretavanfleet4 from './images/gretavanfleet-4.jpg'
 import gunsandroses1 from './images/gunsandroses-1.jpg'
 import iggypop1 from './images/iggypop-1.jpg'
+import immolation1 from './images/immolation-1.jpg'
 import inxs1 from './images/inxs-1.jpg'
 import ironmaiden1 from './images/ironmaiden-1.jpg'
 import ironmaiden2 from './images/ironmaiden-2.jpg'
@@ -75,6 +76,7 @@ import johnlennon1 from './images/johnlennon-1.jpg'
 import johnnycash1 from './images/johnnycash-1.jpg'
 import johnnycash2 from './images/johnnycash-2.jpg'
 import johnnycash3 from './images/johnnycash-3.jpg'
+import Kerryking1 from './images/kerryking-1.jpg'
 import killswitch1 from './images/killswitch-1.jpg'
 import kingcrimson1 from './images/kingcrimson-1.jpg'
 import lennykravitz1 from './images/lennykravitz-1.jpg'
@@ -128,6 +130,7 @@ import simpleminds2 from './images/simpleminds-2.jpg'
 import Slipknot1 from './images/slipknot-1.jpg'
 import statusquo1 from './images/statusquo-1.jpg'
 import stereophonics1 from './images/stereophonics-1.jpg'
+import suicidesilence1 from './images/suicidesilence-1.jpg'	
 import supertramp1 from './images/supertramp-1.jpg'
 import supertramp2 from './images/supertramp-2.jpg'
 import supertramp3 from './images/supertramp-3.jpg'
@@ -178,6 +181,7 @@ import georgemichaelbio from './imagesBio/georgemichaelbio.jpg'
 import gretavanfleetbio from './imagesBio/gretavanfleetbio.jpg'
 import gunsandrosesbio from './imagesBio/gunsandrosesbio.jpg'
 import iggypopbio from './imagesBio/iggypopbio.jpg'
+import immolationbio from './imagesBio/immolationbio.jpg'
 import inxsbio from './imagesBio/inxsbio.jpg'
 import ironmaidenbio from './imagesBio/ironmaidenbio.jpg'
 import janisjoplinbio from './imagesBio/janisjoplinbio.jpg'
@@ -186,6 +190,7 @@ import johnlennonbio from './imagesBio/johnlennonbio.jpg'
 import johnnycashbio from './imagesBio/johnnycashbio.jpg'
 import killswitchbio from './imagesBio/killswitchbio.jpg'
 import kingcrimsonbio from './imagesBio/kingcrimsonbio.jpg'
+import kerrykingbio from './imagesBio/kerrykingbio.jpg'
 import lennykravitzbio from './imagesBio/lennykravitzbio.jpg'
 import linkinparkbio from './imagesBio/linkinparkbio.jpg'
 import lornashorebio from './imagesBio/lornashorebio.jpg'
@@ -220,6 +225,7 @@ import simplemindsbio from './imagesBio/simplemindsbio.jpg'
 import slipknotbio from './imagesBio/slipknotbio.jpg'
 import statusquobio from './imagesBio/statusquobio.jpg'
 import stereophonicsbio from './imagesBio/stereophonicsbio.jpg'
+import suicidesilencebio from './imagesBio/suicidesilencebio.jpg'
 import supertrampbio from './imagesBio/supertrampbio.jpg'
 import systemofadownbio from './imagesBio/systemofadownbio.jpg'
 import talkingheadsbio from './imagesBio/talkingheadsbio.jpg'
@@ -808,6 +814,33 @@ export const metalcollection = [
 		band: 'While She Sleeps',
 		length: '(44:39)',
 		genre: 'MetalCore',
+	},
+	{
+		id: 42,
+		image: Kerryking1,
+		title: 'From Hell I Rise (Extended Deluxe Edition)',
+		date: 'May 17th, 2026',
+		band: 'Kerry king',
+		length: '(66:03)',
+		genre: 'Trash Metal',
+	},
+	{
+		id: 43,
+		image: suicidesilence1,
+		title: 'Remember… You must die',
+		date: 'March 13th, 2023',
+		band: 'Suicide Silence',
+		length: '(39:30)',
+		genre: 'DeathCore',
+	},
+	{
+		id: 44,
+		image: immolation1,
+		title: 'Descent',
+		date: 'April 16th, 2026',
+		band: 'Immolation',
+		length: '(44:39)',
+		genre: 'Death Metal',
 	},
 ]
 // Rock collection
@@ -2022,18 +2055,7 @@ export const artistBioMetal = [
 			'Dio died on <strong>16 May 2010</strong> at the age of 67 from stomach cancer. His legacy remains immense, and he is considered one of the most iconic and respected figures in heavy metal history.',
 		],
 	},
-	{
-		id: 10,
-		image2: ironmaidenbio,
-		albums: [],
-		band: 'Iron Maiden',
 
-		bio: [
-			"<strong>Iron Maiden</strong> are an English heavy metal band formed in Leyton, East London, in <strong>1975</strong> by bassist and primary songwriter <strong>Steve Harris</strong>. Although fluid in the early years of the band, the line-up for most of the band's history has consisted of Harris, lead vocalist <strong>Bruce Dickinson</strong>, drummer <strong>Nicko McBrain</strong>, and guitarists <strong>Dave Murray</strong>, <strong>Adrian Smith</strong>, and <strong>Janick Gers</strong>. As pioneers of the <strong>new wave of British heavy metal movement</strong>, Iron Maiden released a series of UK and US Platinum and Gold albums, including 1980's debut album, 1981's <strong>Killers</strong>, and 1982's <strong>The Number of the Beast</strong> – its first album with Dickinson, who in 1981 replaced <strong>Paul Di'Anno</strong> as lead singer. The addition of Dickinson was a turning point in their career, establishing them as one of heavy metal's most important bands. <strong>The Number of the Beast</strong> is among the most popular heavy metal albums of all time, having sold <strong>almost 20 million copies worldwide</strong>.",
-			'After some turbulence in the 1990s, the return of lead vocalist Bruce Dickinson and guitarist Adrian Smith in 1999 saw the band undergo a resurgence in popularity, with a series of new albums and highly successful tours. Their three most recent albums — <strong>The Final Frontier (2010)</strong>, <strong>The Book of Souls (2015)</strong>, and <strong>Senjutsu (2021)</strong> — have all reached number 1 in more than 25 countries. Iron Maiden have sold <strong>over 130 million copies</strong> of their albums worldwide and have obtained over 600 certifications. The band is considered to be one of the most influential and revered heavy metal bands of all time. They have received multiple industry awards, including the <strong>Grammy and Brit Awards</strong>. Iron Maiden were inducted into the <strong>Rock and Roll Hall of Fame in 2026</strong>.',
-			"The band have released 41 albums, including <strong>17 studio albums</strong>, 13 live albums, four EPs, and seven compilations. They have also released 47 singles, 20 video albums, and two video games. Iron Maiden's lyrics cover topics such as history, literature, war, mythology, dark fantasy, science fiction, society, and religion. As of October 2019, the band had played <strong>2,500 live shows</strong>. For over 40 years, the band has featured their signature mascot, <strong>'Eddie'</strong>, on the covers of almost all of their releases.",
-		],
-	},
 	{
 		id: 11,
 		image2: ironmaidenbio,
@@ -2096,6 +2118,18 @@ export const artistBioMetal = [
 	},
 	{
 		id: 16,
+		image2: ironmaidenbio,
+		albums: [],
+		band: 'Iron Maiden',
+
+		bio: [
+			"<strong>Iron Maiden</strong> are an English heavy metal band formed in Leyton, East London, in <strong>1975</strong> by bassist and primary songwriter <strong>Steve Harris</strong>. Although fluid in the early years of the band, the line-up for most of the band's history has consisted of Harris, lead vocalist <strong>Bruce Dickinson</strong>, drummer <strong>Nicko McBrain</strong>, and guitarists <strong>Dave Murray</strong>, <strong>Adrian Smith</strong>, and <strong>Janick Gers</strong>. As pioneers of the <strong>new wave of British heavy metal movement</strong>, Iron Maiden released a series of UK and US Platinum and Gold albums, including 1980's debut album, 1981's <strong>Killers</strong>, and 1982's <strong>The Number of the Beast</strong> – its first album with Dickinson, who in 1981 replaced <strong>Paul Di'Anno</strong> as lead singer. The addition of Dickinson was a turning point in their career, establishing them as one of heavy metal's most important bands. <strong>The Number of the Beast</strong> is among the most popular heavy metal albums of all time, having sold <strong>almost 20 million copies worldwide</strong>.",
+			'After some turbulence in the 1990s, the return of lead vocalist Bruce Dickinson and guitarist Adrian Smith in 1999 saw the band undergo a resurgence in popularity, with a series of new albums and highly successful tours. Their three most recent albums — <strong>The Final Frontier (2010)</strong>, <strong>The Book of Souls (2015)</strong>, and <strong>Senjutsu (2021)</strong> — have all reached number 1 in more than 25 countries. Iron Maiden have sold <strong>over 130 million copies</strong> of their albums worldwide and have obtained over 600 certifications. The band is considered to be one of the most influential and revered heavy metal bands of all time. They have received multiple industry awards, including the <strong>Grammy and Brit Awards</strong>. Iron Maiden were inducted into the <strong>Rock and Roll Hall of Fame in 2026</strong>.',
+			"The band have released 41 albums, including <strong>17 studio albums</strong>, 13 live albums, four EPs, and seven compilations. They have also released 47 singles, 20 video albums, and two video games. Iron Maiden's lyrics cover topics such as history, literature, war, mythology, dark fantasy, science fiction, society, and religion. As of October 2019, the band had played <strong>2,500 live shows</strong>. For over 40 years, the band has featured their signature mascot, <strong>'Eddie'</strong>, on the covers of almost all of their releases.",
+		],
+	},
+	{
+		id: 17,
 		image2: killswitchbio,
 		albums: [],
 		band: 'Killswitch Engage',
@@ -2106,21 +2140,6 @@ export const artistBioMetal = [
 			'Killswitch Engage achieved mainstream success with <strong>The End of Heartache (2004)</strong>, which was <strong>certified gold</strong> and earned a <strong>Grammy nomination</strong> for its title track. Their follow-up album, <strong>As Daylight Dies (2006)</strong>, became even more successful, reaching <strong>platinum status</strong> and producing the hit single "My Curse".',
 			"The band has undergone several lineup changes, particularly in the role of vocalist. <strong>Jesse Leach</strong>, the original singer, was replaced by <strong>Howard Jones (2002–2012)</strong>, during the band's peak popularity, before returning in 2012 and continuing as lead vocalist.",
 			'Killswitch Engage has released <strong>multiple studio albums</strong>, received several <strong>Grammy nominations</strong>, and won numerous awards. Their music blends elements of melodic death metal and hardcore, and they are often cited as one of the <strong>greatest and most influential metalcore bands of all time</strong>.',
-		],
-	},
-	{
-		id: 17,
-		image2: linkinparkbio,
-		albums: [],
-		band: 'Linkin Park',
-
-		bio: [
-			'<strong>Linkin Park</strong> is an American rock band formed in <strong>1996 in Agoura Hills, California</strong>. They are widely regarded as one of the most successful and influential bands of the 21st century, known for blending <strong>nu metal, alternative rock, hip hop, and electronic elements</strong> into their music.',
-			'The band achieved worldwide fame with their debut album <strong>Hybrid Theory (2000)</strong>, which became one of the <strong>best-selling albums of all time</strong>, featuring hit singles such as "In the End" and "Crawling". Their follow-up album, <strong>Meteora (2003)</strong>, continued their success and solidified their position as one of the leading bands of the 2000s.',
-			'Linkin Park was known for its distinctive dual vocal style, combining <strong>Chester Bennington’s powerful singing and screams</strong> with <strong>Mike Shinoda’s rapping and production</strong>. This combination helped define their signature sound and appeal to a wide audience.',
-			'Over time, the band evolved their musical style, experimenting with different genres on albums such as <strong>Minutes to Midnight (2007)</strong>, <strong>A Thousand Suns (2010)</strong>, and <strong>One More Light (2017)</strong>, incorporating electronic, pop, and experimental influences.',
-			'Linkin Park has sold <strong>over 100 million records worldwide</strong> and has won numerous awards, including <strong>two Grammy Awards</strong>. They are considered one of the most influential rock bands of their generation.',
-			'The band’s career was deeply affected by the <strong>death of Chester Bennington in 2017</strong>, after which Linkin Park went on hiatus. Their legacy remains significant, with a lasting impact on modern rock and alternative music.',
 		],
 	},
 	{
@@ -2140,6 +2159,21 @@ export const artistBioMetal = [
 	},
 	{
 		id: 19,
+		image2: linkinparkbio,
+		albums: [],
+		band: 'Linkin Park',
+
+		bio: [
+			'<strong>Linkin Park</strong> is an American rock band formed in <strong>1996 in Agoura Hills, California</strong>. They are widely regarded as one of the most successful and influential bands of the 21st century, known for blending <strong>nu metal, alternative rock, hip hop, and electronic elements</strong> into their music.',
+			'The band achieved worldwide fame with their debut album <strong>Hybrid Theory (2000)</strong>, which became one of the <strong>best-selling albums of all time</strong>, featuring hit singles such as "In the End" and "Crawling". Their follow-up album, <strong>Meteora (2003)</strong>, continued their success and solidified their position as one of the leading bands of the 2000s.',
+			'Linkin Park was known for its distinctive dual vocal style, combining <strong>Chester Bennington’s powerful singing and screams</strong> with <strong>Mike Shinoda’s rapping and production</strong>. This combination helped define their signature sound and appeal to a wide audience.',
+			'Over time, the band evolved their musical style, experimenting with different genres on albums such as <strong>Minutes to Midnight (2007)</strong>, <strong>A Thousand Suns (2010)</strong>, and <strong>One More Light (2017)</strong>, incorporating electronic, pop, and experimental influences.',
+			'Linkin Park has sold <strong>over 100 million records worldwide</strong> and has won numerous awards, including <strong>two Grammy Awards</strong>. They are considered one of the most influential rock bands of their generation.',
+			'The band’s career was deeply affected by the <strong>death of Chester Bennington in 2017</strong>, after which Linkin Park went on hiatus. Their legacy remains significant, with a lasting impact on modern rock and alternative music.',
+		],
+	},
+	{
+		id: 20,
 		image2: lornashorebio,
 		albums: [],
 		band: 'Lorna Shore',
@@ -2150,21 +2184,6 @@ export const artistBioMetal = [
 			'Lorna Shore reached a major breakthrough with <strong>Immortal (2020)</strong> and especially the EP <strong>...And I Return to Nothingness (2021)</strong>, featuring vocalist <strong>Will Ramos</strong>. The EP’s title track and the song "To the Hellfire" went viral for their technical intensity and extreme вокal performance.',
 			"The band's sound is characterized by <strong>blast beats, orchestral arrangements, breakdowns, and highly technical compositions</strong>, earning them recognition as one of the leading modern bands in deathcore.",
 			'Lorna Shore continued their success with <strong>Pain Remains (2022)</strong>, which further expanded their dynamic and cinematic style. They are widely regarded as one of the <strong>most influential modern deathcore bands</strong>.',
-		],
-	},
-	{
-		id: 20,
-		image2: motorheadbio,
-		albums: [],
-		band: 'Mötorhead',
-
-		bio: [
-			'<strong>Motörhead</strong> was an English rock band formed in <strong>1975 in London</strong> by bassist, singer, and songwriter <strong>Lemmy Kilmister</strong>. The band became one of the most influential groups in heavy music, blending <strong>heavy metal, hard rock, and punk</strong> into a fast and aggressive style.',
-			'Motörhead rose to prominence in the late 1970s and early 1980s with a series of successful releases, including <strong>Overkill (1979)</strong>, <strong>Bomber (1979)</strong>, and <strong>Ace of Spades (1980)</strong>, the latter becoming their most iconic album and a landmark in heavy metal history.',
-			"The band's loud, fast, and raw sound helped shape genres such as <strong>thrash metal and speed metal</strong>. Their music, combined with Lemmy’s distinctive voice and attitude, made Motörhead a defining influence on countless bands.",
-			"<strong>Lemmy Kilmister</strong> was the only constant member throughout the band's career and became a legendary figure in rock music. Motörhead maintained a consistent touring and recording presence for decades, gaining a reputation as one of the most powerful live acts.",
-			'Motörhead released <strong>22 studio albums</strong> and achieved worldwide success, winning a <strong>Grammy Award</strong> and building a loyal global fanbase. Their influence extends across multiple genres of heavy music.',
-			'The band ended following the <strong>death of Lemmy Kilmister in December 2015</strong>, shortly after his 70th birthday. Motörhead is widely regarded as one of the most iconic and influential bands in rock and metal history.',
 		],
 	},
 	{
@@ -2184,6 +2203,21 @@ export const artistBioMetal = [
 	},
 	{
 		id: 22,
+		image2: motorheadbio,
+		albums: [],
+		band: 'Mötorhead',
+
+		bio: [
+			'<strong>Motörhead</strong> was an English rock band formed in <strong>1975 in London</strong> by bassist, singer, and songwriter <strong>Lemmy Kilmister</strong>. The band became one of the most influential groups in heavy music, blending <strong>heavy metal, hard rock, and punk</strong> into a fast and aggressive style.',
+			'Motörhead rose to prominence in the late 1970s and early 1980s with a series of successful releases, including <strong>Overkill (1979)</strong>, <strong>Bomber (1979)</strong>, and <strong>Ace of Spades (1980)</strong>, the latter becoming their most iconic album and a landmark in heavy metal history.',
+			"The band's loud, fast, and raw sound helped shape genres such as <strong>thrash metal and speed metal</strong>. Their music, combined with Lemmy’s distinctive voice and attitude, made Motörhead a defining influence on countless bands.",
+			"<strong>Lemmy Kilmister</strong> was the only constant member throughout the band's career and became a legendary figure in rock music. Motörhead maintained a consistent touring and recording presence for decades, gaining a reputation as one of the most powerful live acts.",
+			'Motörhead released <strong>22 studio albums</strong> and achieved worldwide success, winning a <strong>Grammy Award</strong> and building a loyal global fanbase. Their influence extends across multiple genres of heavy music.',
+			'The band ended following the <strong>death of Lemmy Kilmister in December 2015</strong>, shortly after his 70th birthday. Motörhead is widely regarded as one of the most iconic and influential bands in rock and metal history.',
+		],
+	},
+	{
+		id: 23,
 		image2: neaerabio,
 		albums: [],
 		band: 'Neaera',
@@ -2198,7 +2232,7 @@ export const artistBioMetal = [
 		],
 	},
 	{
-		id: 23,
+		id: 24,
 		image2: neckbreakkerbio,
 		albums: [],
 		band: 'Neckbreakker',
@@ -2213,7 +2247,7 @@ export const artistBioMetal = [
 		],
 	},
 	{
-		id: 24,
+		id: 25,
 		image2: necrovationbio,
 		albums: [],
 		band: 'Necrovation',
@@ -2228,7 +2262,7 @@ export const artistBioMetal = [
 		],
 	},
 	{
-		id: 25,
+		id: 26,
 		image2: nineinchnailsbio,
 		albums: [],
 		band: 'Nine Inch Nails',
@@ -2240,20 +2274,6 @@ export const artistBioMetal = [
 			'Trent Reznor remains the creative force behind the project, often collaborating with various musicians.',
 			'The project has won <strong>multiple Grammy Awards</strong> and received critical acclaim across decades.',
 			'Nine Inch Nails is widely regarded as one of the <strong>most influential industrial music acts of all time</strong>.',
-		],
-	},
-	{
-		id: 26,
-		image2: opethbio,
-		albums: [],
-		band: 'Opeth',
-		bio: [
-			'<strong>Opeth</strong> is a Swedish progressive metal band formed in <strong>1990 in Stockholm</strong>, led by <strong>Mikael Åkerfeldt</strong>. The band is known for blending <strong>death metal and progressive rock</strong>.',
-			'They gained recognition with albums such as <strong>Blackwater Park (2001)</strong>, <strong>Still Life (1999)</strong>, and <strong>Ghost Reveries (2005)</strong>.',
-			'Their music features long compositions, acoustic passages, and contrasts between harsh and clean vocals.',
-			'Over time, Opeth evolved toward a more <strong>progressive rock-oriented sound</strong>, reducing the use of growled vocals.',
-			'The band has maintained a strong global following and critical acclaim throughout its career.',
-			'Opeth is regarded as one of the <strong>most innovative bands in progressive metal</strong>.',
 		],
 	},
 	{
@@ -2272,6 +2292,20 @@ export const artistBioMetal = [
 	},
 	{
 		id: 28,
+		image2: opethbio,
+		albums: [],
+		band: 'Opeth',
+		bio: [
+			'<strong>Opeth</strong> is a Swedish progressive metal band formed in <strong>1990 in Stockholm</strong>, led by <strong>Mikael Åkerfeldt</strong>. The band is known for blending <strong>death metal and progressive rock</strong>.',
+			'They gained recognition with albums such as <strong>Blackwater Park (2001)</strong>, <strong>Still Life (1999)</strong>, and <strong>Ghost Reveries (2005)</strong>.',
+			'Their music features long compositions, acoustic passages, and contrasts between harsh and clean vocals.',
+			'Over time, Opeth evolved toward a more <strong>progressive rock-oriented sound</strong>, reducing the use of growled vocals.',
+			'The band has maintained a strong global following and critical acclaim throughout its career.',
+			'Opeth is regarded as one of the <strong>most innovative bands in progressive metal</strong>.',
+		],
+	},
+	{
+		id: 29,
 		image2: orbitculturebio,
 		albums: [],
 		band: 'Orbit Culture',
@@ -2453,6 +2487,45 @@ export const artistBioMetal = [
 			'The band is known for its energetic live performances and strong fan connection.',
 			'They have maintained independence by releasing music through their own label.',
 			'While She Sleeps is regarded as one of the <strong>leading modern British metalcore bands</strong>.',
+		],
+	},
+	{
+		id: 42,
+		image2: kerrykingbio,
+		albums: [],
+		band: 'kerry king',
+		bio: [
+			'<strong>Kerry King</strong> is an American guitarist and songwriter, best known as the co-founder and guitarist of the thrash metal band <strong>Slayer</strong>.',
+			'He is recognized for his technical skill and innovative guitar playing style.',
+			'King has been a influential figure in the development of thrash metal.',
+			'His contributions to the genre have earned him a dedicated fanbase and critical acclaim.',
+		],
+	},
+
+	{
+		id: 43,
+		image2: suicidesilencebio,
+		albums: [],
+		band: 'suicide silence',
+		bio: [
+			'<strong>Suicide Silence</strong> is an American metalcore band formed in <strong>2007 in California</strong>. The band is known for their aggressive sound and socially conscious lyrics.',
+			'They gained recognition with albums such as <strong>Heaven and Hell (2010)</strong> and <strong>Final Solution (2013)</strong>.',
+			'Their music features a mix of heavy riffs, clean melodies, and politically charged themes.',
+			'The band is known for its intense live performances and strong fan connection.',
+			'They have maintained independence by releasing music through their own label.',
+			'While She Sleeps is regarded as one of the <strong>leading modern British metalcore bands</strong>.',
+		],
+	},
+	{
+		id: 44,
+		image2: immolationbio,
+		albums: [],
+		band: 'Immolation',
+		bio: [
+			'<strong>Immolation</strong> is an American death metal band formed in 1987 in New York City. The band is known for their aggressive and technical style, blending elements of thrash and death metal.',
+			'The group was initially formed by vocalist and guitarist <strong>Steve Williams</strong> and drummer <strong>John Zorn</strong>. They released their debut album <strong>At the Gates of the Mind</strong> in 1990, which received critical acclaim for its innovative approach to death metal.',
+			'Immolation continued to evolve their sound with subsequent releases, including <strong>Conspiracy of One</strong> (1992) and <strong>The Art of Dying</strong> (1994). Their music is characterized by complex compositions, intricate guitar work, and intense performances.',
+			'The band has been influential in the death metal scene, inspiring many musicians with their unique blend of technicality and aggression. They have released several albums throughout their career, maintaining a dedicated fanbase within the extreme metal community.',
 		],
 	},
 	``,
