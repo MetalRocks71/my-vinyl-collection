@@ -1,9 +1,10 @@
 import { useState } from 'react'
-import { useParams } from 'react-router-dom'
+import { useParams, useNavigate } from 'react-router-dom'
 import { songList } from '../../data'
 
 const AlbumSongList = () => {
 	const { id } = useParams()
+	const navigate = useNavigate()
 	const [isOpen, setIsOpen] = useState(false)
 
 	const albumSongs = songList.find((item) => item.id === Number(id))
@@ -15,14 +16,16 @@ const AlbumSongList = () => {
 			{/* Full-page blurred backdrop */}
 			<div className='page-bg-blur' style={{ backgroundImage: `url(${albumSongs.cover})` }} aria-hidden='true' />
 
+			<button className='return-btn' onClick={() => navigate(-1)}>
+				&larr; Back to Album
+			</button>
+
 			<div className='detail-wrapper-2'>
 				<div className={`vinyl-sleeve-wrapper ${isOpen ? 'is-open' : ''}`} onClick={() => setIsOpen((prev) => !prev)}>
 					{/* The record itself — hidden behind the sleeve until opened */}
 					<div className='vinyl-disc'>
 						<div className='vinyl-grooves' />
-						<div className='vinyl-label' style={{ backgroundImage: `url(${albumSongs.cover})` }}>
-							
-						</div>
+						<div className='vinyl-label' style={{ backgroundImage: `url(${albumSongs.cover})` }}></div>
 					</div>
 
 					{/* Album cover sleeve, sits on top */}
