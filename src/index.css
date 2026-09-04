@@ -1676,9 +1676,9 @@ Vinyl Sleeve with Sliding Record + Song List Below
 }
 
 /* Optional: smaller/adjusted on mobile */
-@media (max-width: 600px) {
+@media (max-width: 478px) {
   .return-btn {
-    top: 16px;
+    top: 0px;
     left: 16px;
     padding: 8px 14px;
     font-size: 0.8rem;
