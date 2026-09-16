@@ -15,6 +15,9 @@ const AlbumDetailAderito = () => {
 	return (
 		<>
 			<section className='section detail-section'>
+				<button className='return-btn' onClick={() => navigate(-1)}>
+					&larr; Back to Collection
+				</button>
 				<div className='detail-wrapper'>
 					<div className='collection-card-1'>
 						<img src={artistBio.image2} alt={artistBio.band} className='collection-img-1' />
