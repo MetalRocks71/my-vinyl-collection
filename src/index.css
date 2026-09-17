@@ -50,7 +50,7 @@ html {
 body {
   font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto,
     Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-cursor: url("./images/heavy-metal-hand.png") 0 0, crosshair !important;
+cursor: pointer;
   background: var(--clr-white);
   color: var(--clr-black-2);
   line-height: 1.5;
@@ -245,7 +245,7 @@ p {
   outline: none;
   font-size: 1.5rem;
   color: var(--clr-primary-5);
-  cursor: var(--cursor-pointer);
+ cursor: pointer;
   transition: var(--transition);
 }
 
@@ -260,7 +260,7 @@ p {
   letter-spacing: var(--spacing);
   transition: var(--transition);
   color: var(--clr-grey-1);
-  cursor: var(--cursor-pointer);
+ cursor: pointer;
   font-size: 1.2rem;
   margin-bottom: 0;
   position: relative;
@@ -365,7 +365,7 @@ p {
   right: 40px;
   background: none;
   border: none;
-  cursor: var(--cursor-pointer);
+ cursor: pointer;
   color: hsl(0, 0%, 60%);
   font-size: 14px;
   padding: 4px;
@@ -420,7 +420,7 @@ p {
   color: var(--clr-white);
   padding: 0.8rem 1.2rem;
   border-radius: 25px;
-  cursor: var(--cursor-pointer);
+ cursor: pointer;
   transition: all 0.3s ease;
   display: flex;
   align-items: center;
@@ -727,7 +727,7 @@ p {
       rgba(0, 0, 0, 0.25),
       rgba(0, 0, 0, 0.7) 50%,
       var(--clr-grey-13) 60%);
-      cursor: var(--cursor-pointer);
+     cursor: pointer;
 }
 
 .album-card:hover .album-overlay {
@@ -886,7 +886,7 @@ p {
   object-fit: cover;
   border-radius: 12px;
   box-shadow: 0 4px 20px hsla(0, 0%, 0%, 0.2);
-  cursor: var(--cursor-pointer);
+ cursor: pointer;
 }
 
 .album-title-list,
@@ -953,7 +953,7 @@ p {
     width: 100%;
     height: auto;
     display: block;
-    cursor: var(--cursor-pointer);
+   cursor: pointer;
   }
 }
 
@@ -982,7 +982,7 @@ p {
   width: min(90vmin, 700px);
   aspect-ratio: 1 / 1;
   margin: 0 auto;
-  cursor: var(--cursor-pointer);
+ cursor: pointer;
 }
 
 .vinyl-disc {
@@ -1163,7 +1163,7 @@ p {
   font-size: 0.9rem;
   font-weight: 500;
   letter-spacing: 0.02em;
-  cursor: var(--cursor-pointer);
+ cursor: pointer;
   transition: background 0.25s ease, transform 0.2s ease, border-color 0.25s ease;
 }
 
@@ -1419,7 +1419,7 @@ footer>div {
   display: block;
   padding: 0.75rem 2rem;
   font-size: 1rem;
-  cursor: var(--cursor-pointer);
+ cursor: pointer;
   background: var(--clr-primary-5);
   color: var(--clr-white);
   border: none;
