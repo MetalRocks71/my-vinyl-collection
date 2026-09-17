@@ -1008,7 +1008,7 @@ p {
   pointer-events: none;
   animation: vinylShine 8s linear infinite;
 }
-
+/*keyframes for the vinyl shine effect*/
 @keyframes vinylShine {
   from {
     transform: rotate(0deg);
