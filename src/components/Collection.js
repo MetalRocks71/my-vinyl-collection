@@ -2,7 +2,7 @@ import { useState, useEffect, useRef } from 'react'
 import Title from './Title'
 import { metalcollection } from '../data'
 import GlowAlbumCard from './GlowAlbumCard'
-import { useLocation } from 'react-router-dom'
+import { useLocation} from 'react-router-dom'
 
 //search query with open collection sectioni
 const Collection = ({ searchQuery }) => {
@@ -72,6 +72,7 @@ const Collection = ({ searchQuery }) => {
 				<button className='category-btn' onClick={toggle}>
 					Metal and Subgenres ({sortedCollection.length}){searchQuery && ` (${sortedCollection.length} results)`}
 				</button>
+
 				{shouldOpen && (
 					<div className='section-center featured-center'>
 						{sortedCollection.length > 0 ? (
