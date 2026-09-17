@@ -34,6 +34,7 @@
   --dark-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
   --text-color: var(--clr-black);
   --bg-color: var(--clr-white);
+  --cursor-pointer: url('./cursor-pointer.svg') 32 32, pointer;
 }
 
 * {
@@ -146,7 +147,7 @@ p {
   transition: var(--transition);
   font-size: 0.875rem;
   border: 2px solid transparent;
-  cursor: pointer;
+  cursor: var(--cursor-pointer);
   box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
 }
 
@@ -232,7 +233,7 @@ p {
   outline: none;
   font-size: 1.5rem;
   color: var(--clr-primary-5);
-  cursor: pointer;
+  cursor: var(--cursor-pointer);
   transition: var(--transition);
 }
 
@@ -247,7 +248,7 @@ p {
   letter-spacing: var(--spacing);
   transition: var(--transition);
   color: var(--clr-grey-1);
-  cursor: pointer;
+  cursor: var(--cursor-pointer);
   font-size: 1.2rem;
   margin-bottom: 0;
   position: relative;
@@ -352,7 +353,7 @@ p {
   right: 40px;
   background: none;
   border: none;
-  cursor: pointer;
+  cursor: var(--cursor-pointer);
   color: hsl(0, 0%, 60%);
   font-size: 14px;
   padding: 4px;
@@ -407,7 +408,7 @@ p {
   color: var(--clr-white);
   padding: 0.8rem 1.2rem;
   border-radius: 25px;
-  cursor: pointer;
+  cursor: var(--cursor-pointer);
   transition: all 0.3s ease;
   display: flex;
   align-items: center;
@@ -714,7 +715,7 @@ p {
       rgba(0, 0, 0, 0.25),
       rgba(0, 0, 0, 0.7) 50%,
       var(--clr-grey-13) 60%);
-      cursor: pointer;
+      cursor: var(--cursor-pointer);
 }
 
 .album-card:hover .album-overlay {
@@ -873,7 +874,7 @@ p {
   object-fit: cover;
   border-radius: 12px;
   box-shadow: 0 4px 20px hsla(0, 0%, 0%, 0.2);
-  cursor: pointer;
+  cursor: var(--cursor-pointer);
 }
 
 .album-title-list,
@@ -940,7 +941,7 @@ p {
     width: 100%;
     height: auto;
     display: block;
-    cursor: pointer;
+    cursor: var(--cursor-pointer);
   }
 }
 
@@ -969,7 +970,7 @@ p {
   width: min(90vmin, 700px);
   aspect-ratio: 1 / 1;
   margin: 0 auto;
-  cursor: pointer;
+  cursor: var(--cursor-pointer);
 }
 
 .vinyl-disc {
@@ -1150,7 +1151,7 @@ p {
   font-size: 0.9rem;
   font-weight: 500;
   letter-spacing: 0.02em;
-  cursor: pointer;
+  cursor: var(--cursor-pointer);
   transition: background 0.25s ease, transform 0.2s ease, border-color 0.25s ease;
 }
 
@@ -1406,7 +1407,7 @@ footer>div {
   display: block;
   padding: 0.75rem 2rem;
   font-size: 1rem;
-  cursor: pointer;
+  cursor: var(--cursor-pointer);
   background: var(--clr-primary-5);
   color: var(--clr-white);
   border: none;
