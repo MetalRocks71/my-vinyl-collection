@@ -59,6 +59,10 @@ const AderitoPereira = ({ searchQuery }) => {
   const location = useLocation()
 
   useEffect(() => {
+    if (location.hash === '#aderitopereira') {
+      setOpen(true)
+    }
+
     if (location && location.hash) {
       const el = document.querySelector(location.hash)
       if (el) el.scrollIntoView({ behavior: 'smooth' })

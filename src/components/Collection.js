@@ -52,9 +52,13 @@ const Collection = ({ searchQuery }) => {
 	// Auto-open when there's a search query
 	const shouldOpen = open || searchQuery
 
-	  const location = useLocation()
+		const location = useLocation()
 
 		useEffect(() => {
+			if (location.hash === '#metalcollection') {
+				setOpen(true)
+			}
+
 			if (location && location.hash) {
 				const el = document.querySelector(location.hash)
 				if (el) el.scrollIntoView({ behavior: 'smooth' })

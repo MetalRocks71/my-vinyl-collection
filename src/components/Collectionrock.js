@@ -56,6 +56,10 @@ const Collectionrock = ({ searchQuery }) => {
 	  const location = useLocation()
 
 		useEffect(() => {
+			if (location.hash === '#rockcollection') {
+				setOpen(true)
+			}
+
 			if (location && location.hash) {
 				const el = document.querySelector(location.hash)
 				if (el) el.scrollIntoView({ behavior: 'smooth' })
