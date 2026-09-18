@@ -589,7 +589,7 @@ cursor: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" wid
   transition: var(--transition);
   backdrop-filter: blur(10px);
   box-shadow: 0 8px 32px hsla(0, 0%, 0%, 0.1);
-  margin-bottom: 2rem;
+  margin-bottom: 2%;
   margin-right: 0.7rem;
   border-radius: 16px;
   overflow: hidden;
@@ -797,6 +797,7 @@ cursor: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" wid
   align-items: stretch;
   flex-wrap: nowrap;
   gap: 1.5rem;
+  margin-top: 3.5rem;
   max-width: 800px;
   box-sizing: border-box;
   background: var(--clr-white);
@@ -863,6 +864,7 @@ cursor: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" wid
 .artist-albums-list {
   flex: 1;
   min-width: 0;
+  margin-top: 2.82rem;
   color: var(--clr-white);
   position: relative;
 }
@@ -939,6 +941,7 @@ cursor: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" wid
   .artist-albums-list {
     width: 100%;
     padding: 0 1rem;
+    margin-top: 2.84em;
   }
 
   .albums-grid {
