@@ -399,6 +399,15 @@ export const metalcollection = [
 		length: '(44:39)',
 		genre: 'Death Metal',
 	},
+	{
+		id: 45,
+		image: images.korn1,
+		title: 'Follow the Leader',
+		date: 'August 18th, 1998',
+		band: 'Korn',
+		length: '(67:13)',
+		genre: 'Nu Metal',
+	},
 ]
 // Rock collection
 export const rockcollection = [
@@ -1139,6 +1148,24 @@ export const rockcollection = [
 		band: 'Various artist',
 		length: '(41:22)',
 		genre: 'Various',
+	},
+	{
+		id: 282,
+		image: images.selig1,
+		title: 'Selig - Die besten 1984-2014',
+		date: 'May 22nd, 2020',
+		band: 'Selig',
+		length: '(51:20)',
+		genre: 'Deutsch Pop Rock',
+	},
+	{
+		id: 283,
+		image: images.davidbowie1,
+		title: 'David Bowie Narrates Prokofiev(s) Peter and the Wolf',
+		date: 'May 2nd, 1978',
+		band: 'David Bowie',
+		length: '(67:42)',
+		genre: 'Classical Music, Rock',
 	},
 ]
 // Aderito Pereira collection
