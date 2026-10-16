@@ -1,9 +1,13 @@
-import { useRef, useEffect } from 'react'
+import { useRef } from 'react'
 import { useNavigate } from 'react-router-dom'
+
+const TOUCH_TAP_SLOP = 12
 
 const GlowAlbumCard = ({ id, image, title, band, date, length, genre, detailPath = 'album' }) => {
 	const cardRef = useRef(null)
 	const coverRef = useRef(null)
+	const touchStartRef = useRef(null)
+	const touchMovedRef = useRef(false)
 	const navigate = useNavigate()
 
 	const updatePosition = (clientX, clientY) => {
@@ -51,14 +55,6 @@ const GlowAlbumCard = ({ id, image, title, band, date, length, genre, detailPath
 		card.classList.remove('active')
 	}
 
-	useEffect(() => {
-		const card = cardRef.current
-		if (!card) return
-
-		card.addEventListener('touchmove', handleTouchMove, { passive: false })
-		return () => card.removeEventListener('touchmove', handleTouchMove)
-	},)
-
 	const handleMouseMove = (e) => {
 		updatePosition(e.clientX, e.clientY)
 	}
@@ -69,23 +65,37 @@ const GlowAlbumCard = ({ id, image, title, band, date, length, genre, detailPath
 	}
 
 	const handleTouchStart = (e) => {
-		e.preventDefault()
 		const touch = e.touches[0]
+		touchStartRef.current = { x: touch.clientX, y: touch.clientY }
+		touchMovedRef.current = false
 		updatePosition(touch.clientX, touch.clientY)
 		cardRef.current.classList.add('active')
 	}
 
 	const handleTouchMove = (e) => {
-		e.preventDefault()
+		if (!touchStartRef.current || touchMovedRef.current) return
+
 		const touch = e.touches[0]
+		const deltaX = touch.clientX - touchStartRef.current.x
+		const deltaY = touch.clientY - touchStartRef.current.y
+		if (Math.hypot(deltaX, deltaY) > TOUCH_TAP_SLOP) {
+			touchMovedRef.current = true
+			resetCard()
+			return
+		}
+
 		updatePosition(touch.clientX, touch.clientY)
 	}
 
 	const handleTouchEnd = (e) => {
-		e.preventDefault()
 		resetCard()
 
 		const touch = e.changedTouches[0]
+		const start = touchStartRef.current
+		const isTap =
+			start &&
+			!touchMovedRef.current &&
+			Math.hypot(touch.clientX - start.x, touch.clientY - start.y) <= TOUCH_TAP_SLOP
 		const rect = cardRef.current.getBoundingClientRect()
 		const stillInside =
 			touch.clientX >= rect.left &&
@@ -93,13 +103,18 @@ const GlowAlbumCard = ({ id, image, title, band, date, length, genre, detailPath
 			touch.clientY >= rect.top &&
 			touch.clientY <= rect.bottom
 
-		if (stillInside) {
+		touchStartRef.current = null
+		touchMovedRef.current = false
+
+		if (isTap && stillInside) {
 			navigate(`/${detailPath}/${id}`)
 		}
 	}
 
 	const handleTouchCancel = () => {
 		resetCard()
+		touchStartRef.current = null
+		touchMovedRef.current = false
 	}
 
 	return (
