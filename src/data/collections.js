@@ -408,6 +408,15 @@ export const metalcollection = [
 		length: '(67:13)',
 		genre: 'Nu Metal',
 	},
+	{
+		id: 46,
+		image: images.blacksabbath21,
+		title: 'Live Evil',
+		date: 'December 1st, 1982',
+		band: 'Black Sabbath',
+		length: '(83:18)',
+		genre: 'Doom Metal',
+	},
 ]
 // Rock collection
 export const rockcollection = [
@@ -1166,6 +1175,33 @@ export const rockcollection = [
 		band: 'David Bowie',
 		length: '(67:42)',
 		genre: 'Classical Music, Rock',
+	},
+	{
+		id: 284,
+		image: images.placebo1,
+		title: '30th Anniversary',
+		date: 'June 19th, 2026',
+		band: 'Placebo',
+		length: '(76:16)',
+		genre: 'Rock',
+	},
+		{
+		id: 285,
+		image: images.redhotchilipeppers1,
+		title: 'Greatest Hits',
+		date: 'November 18th, 2003',
+		band: 'Red Hot Chili Peppers',
+		length: '(66:49)',
+		genre: 'Rock',
+	},
+		{
+		id: 286,
+		image: images.tracychapman1,
+		title: 'Tracy Chapman',
+		date: 'January 01st, 1988',
+		band: 'Tracy Chapman',
+		length: '(36:09)',
+		genre: 'Rock',
 	},
 ]
 // Aderito Pereira collection
