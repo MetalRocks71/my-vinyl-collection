@@ -400,7 +400,7 @@ export const metalcollection = [
 		genre: 'Death Metal',
 	},
 	{
-		id: 45,
+		id: 46,
 		image: images.korn1,
 		title: 'Follow the Leader',
 		date: 'August 18th, 1998',
@@ -409,8 +409,8 @@ export const metalcollection = [
 		genre: 'Nu Metal',
 	},
 	{
-		id: 46,
-		image: images.blacksabbath21,
+		id: 45,
+		image: images.blacksabbath2,
 		title: 'Live Evil',
 		date: 'December 1st, 1982',
 		band: 'Black Sabbath',
