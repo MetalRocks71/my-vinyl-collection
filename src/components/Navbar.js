@@ -3,10 +3,12 @@
 // useState: manages local UI state (menu open, navbar visibility, search input)
 // useEffect: runs the scroll listener after render
 // useRef: holds a direct reference to the search input DOM node
-import { pageLinks } from '../data'
+import { aderitopereira, metalcollection, pageLinks, rockcollection } from '../data'
 import { useState, useEffect, useRef } from 'react'
 
 const Navbar = ({ onSearch }) => {
+	const totalVinyls = metalcollection.length + rockcollection.length + aderitopereira.length
+
 	// ─── State ───────────────────────────────────────────────────────────────
 	const [showLinks, setShowLinks] = useState(false) // burger menu open/closed
 	const [showNavbar, setShowNavbar] = useState(true) // navbar visible/hidden on scroll
@@ -98,6 +100,9 @@ const Navbar = ({ onSearch }) => {
 						<button type='button' className='nav-toggle' onClick={() => setShowLinks(!showLinks)}>
 							<i className='fas fa-bars'></i>
 						</button>
+						<span className='nav-collection-count' aria-live='polite'>
+							{totalVinyls} vinyls
+						</span>
 					</div>
 
 					{/* ── Navigation links ────────────────────────────────────────────
