@@ -417,6 +417,24 @@ export const metalcollection = [
 		length: '(83:18)',
 		genre: 'Doom Metal',
 	},
+	{
+		id: 46,
+		image: images.unanimated1,
+		title: 'Victory in blood',
+		date: 'January 12th, 2022',
+		band: 'Unanimated',
+		length: '(47:13)',
+		genre: 'Melodic Death/Black Metal',
+	},
+	{
+		id: 47,
+		image: images.converge1,
+		title: 'Bloodmoon:I',
+		date: 'November 21st, 2021',
+		band: 'Converge/Chelsea Wolfe',
+		length: '(58:47)',
+		genre: 'Melodic Death/Dark sound',
+	},
 ]
 // Rock collection
 export const rockcollection = [
@@ -598,6 +616,15 @@ export const rockcollection = [
 		date: 'October 19th, 2018',
 		band: 'Greta Van Fleet',
 		length: '(49:34)',
+		genre: 'Rock',
+	},
+	{
+		id: 287,
+		image: images.gretavanfleet5,
+		title: 'Palace for the people',
+		date: 'October 9th, 2026',
+		band: 'Greta Van Fleet',
+		length: '(58:21)',
 		genre: 'Rock',
 	},
 	{
@@ -1200,6 +1227,15 @@ export const rockcollection = [
 		title: 'Tracy Chapman',
 		date: 'January 01st, 1988',
 		band: 'Tracy Chapman',
+		length: '(36:09)',
+		genre: 'Rock',
+	},
+		{
+		id: 287,
+		image: images.rush1,
+		title: '212 liquid vinyl special edition',
+		date: 'October 2nd, 2026',
+		band: 'Rush',
 		length: '(36:09)',
 		genre: 'Rock',
 	},

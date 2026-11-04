@@ -865,6 +865,14 @@ export const artistBioRock = [
 		],
 	},
 	{
+		id: 287,
+		image2: images.gretavanfleetbio,
+		albums: [],
+		bio: [
+			'<strong>Greta Van Fleet</strong> is an American rock band formed in <strong>Michigan</strong>, known for their retro-inspired sound that draws heavily from classic rock of the <strong>1970s</strong>. The band features brothers <strong>Josh Kiszka</strong>, <strong>Jake Kiszka</strong>, and <strong>Sam Kiszka</strong>, along with drummer <strong>Danny Wagner</strong>. They gained attention with their EPs and debut album <strong>Anthem of the Peaceful Army</strong>, which showcased high-pitched vocals, bluesy guitar riffs, and a vintage production style. Critics and fans often compare their sound to early <strong>Led Zeppelin</strong>, sparking both praise and debate. Despite the comparisons, they have built a dedicated following and continue to refine their style on subsequent releases. <strong>Their most important fact is that they brought a classic <strong>1970s hard rock sound</strong> back into mainstream conversation for a new generation.</strong>',
+		],
+	},
+	{
 		id: 220,
 		image2: images.gunsandrosesbio,
 		albums: [],
