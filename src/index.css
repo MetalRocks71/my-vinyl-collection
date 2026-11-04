@@ -251,8 +251,24 @@ p {
   font-size: 0.9rem;
   font-weight: 600;
   white-space: nowrap;
+  margin-left: 20rem ;
+}
+/* Tablet */
+@media (max-width: 992px) {
+  .nav-collection-count {
+    margin-left: 10rem;
+  }
 }
 
+/* Mobile */
+@media (max-width: 768px) {
+  .nav-collection-count {
+    margin-left: 0;
+    font-size: 0.8rem;
+    padding: 0.35rem 0.7rem;
+    margin-top: 2rem;
+  }
+}
 .nav-toggle {
   background: transparent;
   border: none;
