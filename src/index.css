@@ -241,6 +241,18 @@ p {
   align-items: center;
 }
 
+.nav-collection-count {
+  display: inline-flex;
+  align-items: center;
+  padding: 0.4rem 0.8rem;
+  border-radius: 999px;
+  background: var(--clr-primary-5);
+  color: var(--clr-white);
+  font-size: 0.9rem;
+  font-weight: 600;
+  white-space: nowrap;
+}
+
 .nav-toggle {
   background: transparent;
   border: none;
