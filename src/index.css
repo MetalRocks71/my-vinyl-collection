@@ -261,7 +261,7 @@ p {
 
 @media (max-width: 768px) {
   .nav-collection-count {
-    top: 30px;
+    top: -35px;
     font-size: 0.8rem;
     padding: 0.3rem 0.6rem;
     margin-top: 0.5rem;
