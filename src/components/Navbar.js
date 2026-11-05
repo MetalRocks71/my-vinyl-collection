@@ -100,9 +100,6 @@ const Navbar = ({ onSearch }) => {
 						<button type='button' className='nav-toggle' onClick={() => setShowLinks(!showLinks)}>
 							<i className='fas fa-bars'></i>
 						</button>
-						<span className='nav-collection-count' aria-live='polite'>
-							{totalVinyls} vinyls
-						</span>
 					</div>
 
 					{/* ── Navigation links ────────────────────────────────────────────
@@ -124,6 +121,9 @@ const Navbar = ({ onSearch }) => {
               The clear button only renders when searchQuery is not empty. */}
 					<div className='nav-search'>
 						<div className='search-container'>
+							<span className='nav-collection-count' aria-live='polite'>
+								{totalVinyls} vinyls
+							</span>
 							<input
 								ref={inputRef}
 								type='text'
