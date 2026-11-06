@@ -100,9 +100,7 @@ const Navbar = ({ onSearch }) => {
 						<button type='button' className='nav-toggle' onClick={() => setShowLinks(!showLinks)}>
 							<i className='fas fa-bars'></i>
 						</button>
-						<span className='nav-collection-count' aria-live='polite'>
-							{totalVinyls} vinyls
-						</span>
+
 					</div>
 
 					{/* ── Navigation links ────────────────────────────────────────────
