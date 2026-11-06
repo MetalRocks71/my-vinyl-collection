@@ -124,6 +124,9 @@ const Navbar = ({ onSearch }) => {
               The clear button only renders when searchQuery is not empty. */}
 					<div className='nav-search'>
 						<div className='search-container'>
+							<span className='nav-collection-count' aria-live='polite'>
+								{totalVinyls} vinyls
+							</span>
 							<input
 								ref={inputRef}
 								type='text'
