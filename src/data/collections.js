@@ -264,6 +264,7 @@ export const metalcollection = [
 		length: '(51:12)',
 		genre: 'Death Metal',
 	},
+
 	{
 		id: 30,
 		image: images.palefaceswiss1,
@@ -434,6 +435,51 @@ export const metalcollection = [
 		band: 'Converge/Chelsea Wolfe',
 		length: '(58:47)',
 		genre: 'Melodic Death/Dark sound',
+	},
+		{
+		id: 48,
+		image: images.orbitculture3,
+		title: 'Death above life - booklet edition with 40 pages',
+		date: 'October 09th, 2026',
+		band: 'Orbit Culture',
+		length: '(74:44)',
+		genre: 'Death Metal',
+	},
+		{
+		id: 49,
+		image: images.staticabyss1,
+		title: 'Aborted from reality',
+		date: 'June 30th, 2023',
+		band: 'static abyss',
+		length: '(39:40)',
+		genre: 'Death/doom metal',
+	},
+		{
+		id: 50,
+		image: images.hellripper1,
+		title: 'Coronach',
+		date: 'March 27th, 2026',
+		band: 'Hellripper',
+		length: '(44:08)',
+		genre: 'Black/Speed Metal',
+	},
+		{
+		id: 51,
+		image: images.evoken1,
+		title: 'Mendacium',
+		date: 'October 17th, 2025',
+		band: 'Evoken',
+		length: '(62:42)',
+		genre: 'Black/ Doom Metal',
+	},
+		{
+		id: 52,
+		image: images.malevolentcreation1,
+		title: 'Retrospective 1990-1999',
+		date: 'May 16th, 2004',
+		band: 'Malevolent Creation',
+		length: '(78:32)',
+		genre: 'Death Metal',
 	},
 ]
 // Rock collection
@@ -1238,6 +1284,15 @@ export const rockcollection = [
 		band: 'Rush',
 		length: '(36:09)',
 		genre: 'Rock',
+	},
+		{
+		id: 288,
+		image: images.tearsforfears1,
+		title: 'The seeds of love - deluxe edition',
+		date: 'October 16th, 2026',
+		band: 'Tears for Fears',
+		length: '(127:00)',
+		genre: 'Rock-Pop',
 	},
 ]
 // Aderito Pereira collection
